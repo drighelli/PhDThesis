@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Wang2009d}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Zhong}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gerstein}{G.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Snyder}{S.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Animals,Base Sequence,Chromosome Mapping,Exons,Gene Expression
+  Profiling,Gene Expression Profiling: methods,Genetic,Humans,Models,Molecular
+  Sequence Data,RNA,RNA: analysis,RNA: methods,Sequence
+  Analysis,Transcription,next generation sequencing,ngs,rna-seq}
+  \strng{namehash}{WZ+1}
+  \strng{fullhash}{WZGMSM1}
+  \field{abstract}{%
+  RNA-Seq is a recently developed approach to transcriptome profiling that uses
+  deep-sequencing technologies. Studies using this method have already altered
+  our view of the extent and complexity of eukaryotic transcriptomes. RNA-Seq
+  also provides a far more precise measurement of levels of transcripts and
+  their isoforms than other methods. This article describes the RNA-Seq
+  approach, the challenges associated with its application, and the advances
+  made so far in characterizing several eukaryote transcriptomes.%
+  }
+  \verb{doi}
+  \verb 10.1038/nrg2484
+  \endverb
+  \verb{eprint}
+  \verb NIHMS150003
+  \endverb
+  \field{isbn}{1471-0064 (Electronic)$\backslash$r1471-0056 (Linking)}
+  \field{issn}{1471-0064}
+  \field{number}{1}
+  \field{pages}{57\bibrangedash 63}
+  \field{title}{{RNA-Seq: a revolutionary tool for transcriptomics.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/19015660
+  \endverb
+  \field{volume}{10}
+  \verb{file}
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Wang, Gerstein, Snyder - 2009 - RNA-Seq a revolutionary tool for trans
+  \verb criptomics.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature reviews. Genetics}
+  \field{eprinttype}{arXiv}
+  \field{year}{2009}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

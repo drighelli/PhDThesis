@@ -1,0 +1,348 @@
+\documentclass[b5paper,oneside,british,intoc,bibliograph=totoc,index=totoc,BCOR10mm,twoside,openright]{book}
+\usepackage[LGR,T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{inputenc}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setcounter{tocdepth}{3}
+\usepackage{babel}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{csquotes}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage[toc,page]{appendix}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+
+\setstretch{1.2}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{
+ pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+
+
+\newcommand*\LyXThinSpace{\,\hspace{0pt}}
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+\DeclareRobustCommand{\greektext}{%
+  \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
+\ProvideTextCommand{\~}{LGR}[1]{\char126#1}
+
+\providecommand{\tabularnewline}{\\}
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\usepackage{amsthm,amsmath}
+%\RequirePackage{hyperref}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{colortbl}
+\usepackage{url}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+
+\usepackage[a4,cam,center]{crop}
+
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{hellgelb}{rgb}{1,1,0.9}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\lstset{%
+float=hbp,%
+identifierstyle=\color{colIdentifier}, %
+keywordstyle=\color{colKeys}, %
+stringstyle=\color{colString}, %
+commentstyle=\color{colComments}, %
+columns=flexible, %
+tabsize=2, %
+frame=single, %
+extendedchars=true, %
+showspaces=false, %
+showstringspaces=false, %
+numbers=left, %
+numberstyle={\tiny\ttfamily}, %
+stepnumber=5, %
+breaklines=true, %
+backgroundcolor=\color{hellgelb}, %
+breakautoindent=true, %
+basicstyle={\small\ttfamily},%
+language=C,%
+captionpos=b%
+}
+
+
+\usepackage{fancyheadings}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]%
+{\markboth{\uppercase{\thechapter.\ #1}}{}}
+\renewcommand{\sectionmark}[1]%
+{\markright{\uppercase{\thesection.\ #1}}}
+
+\newcommand{\helv}{%
+\fontfamily{phv}\fontseries{b}\fontsize{9}{11}\selectfont}
+\lhead[\helv \thepage]{\helv \rightmark}
+\rhead[\helv \leftmark]{\helv \thepage}
+\cfoot{}
+
+% non voglio sottosezioni e paragrafi nella table of content
+\renewcommand\l@paragraph[2]{}
+\renewcommand\l@subsubsection[2]{}
+
+\usepackage[backend=bibtex8,style=nature]{biblatex}
+\addbibresource{bibs/PhDThesisBib.bib}
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+
+
+% limits underneath
+\DeclareMathOperator*{\argminA}{arg\,min} % Jan Hlavacek
+\DeclareMathOperator*{\argminB}{argmin}   % Jan Hlavacek
+\DeclareMathOperator*{\argminC}{\arg\min}   % rbp
+
+\newcommand{\argminD}{\arg\!\min} % AlfC
+
+\newcommand{\argminE}{\mathop{\mathrm{argmin}}}          % ASdeL
+\newcommand{\argminF}{\mathop{\mathrm{argmin}}\limits}   % ASdeL
+
+% limits on side
+\DeclareMathOperator{\argminG}{arg\,min} % Jan Hlavacek
+\DeclareMathOperator{\argminH}{argmin}   % Jan Hlavacek
+\newcommand{\argminI}{\mathop{\mathrm{argmin}}\nolimits} % ASdeL
+
+\newcommand{\cs}[1]{\texttt{\symbol{`\\}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%y
+
+\usepackage[Lenny]{fncychap/fncychap}
+\setcounter{tocdepth}{6}
+
+\makeatother
+
+\usepackage{listings}
+\lstset{breaklines=true,
+fontadjust=true,
+frame=lines,
+language=R,
+tabsize=2}
+
+%\startlocaldefs
+\algnewcommand\algorithmicinput{\textbf{INPUT:}}
+\algnewcommand\INPUT{\item[\algorithmicinput]}
+\algnewcommand\algorithmicoutput{\textbf{OUTPUT:}}
+\algnewcommand\OUTPUT{\item[\algorithmicoutput]}
+%\endlocaldefs
+
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+UNIVERSIT\'A DEGLI STUDI DI SALERNO
+\par\end{center}
+
+\begin{center}
+DOTTORATO IN MANAGEMENT \& INFORMATION TECHNOLOGY
+\par\end{center}
+
+\bigskip{}
+
+\begin{center}
+\includegraphics[scale=0.2]{img/logoUnisa}
+\par\end{center}
+
+\bigskip{}
+
+\begin{center}
+CURRICULUM: INFORMATION SECURITY \& INNOVATION SYSTEMS
+\par\end{center}
+
+\begin{center}
+COORDINATORE: Ch.mo. Prof. Antonelli Valerio
+\par\end{center}
+
+\begin{center}
+Ciclo XVII N.S.
+\par\end{center}
+
+\vspace{1.5cm}
+
+\begin{center}
+Novel tools for reproducible 
+
+Next Generation Sequencing data analysis and integration 
+\par\end{center}
+
+\vspace{1.5cm}
+
+\textbf{\large{}Relatori}\hfill{}\textbf{\large{}Candidato}{\large \par}
+
+Ch.mo. Prof. Tagliaferri Roberto\hfill{}Righelli Dario
+
+Ch.mo. Prof. Angelini Claudia\hfill{}Matr. 8800800010
+
+\vspace{1.5cm}
+
+\begin{center}
+ANNO ACCADEMICO 2017/2018
+\par\end{center}
+
+\cleardoublepage
+
+\begin{quotation}
+\begin{flushright}
+\textit{
+How to reach a goal? \\
+Without haste but without rest\\
+Goethe}
+\par\end{flushright}
+\end{quotation}
+
+
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+Add acknowledgements here
+%\include{acknowledgements}
+
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{Abstract}
+
+Write your abstract here
+\include{abstract}
+
+\hypersetup{hidelinks} % to hide suares around links
+
+\pagestyle{plain}\tableofcontents
+
+\cleardoublepage{}
+\pagestyle{fancy}
+
+
+%\include{original_articles}
+\newpage
+\chapter{Introduction}
+\input{sections/introduction.tex}
+
+\section{Biological Background}
+\input{sections/bio_background.tex}
+
+\section{Sequencing Techniques}
+\input{sections/general_seqs.tex}
+
+\subsection{RNA-Seq}
+\input{sections/rnaseq.tex}
+
+\subsection{ChIP-Seq}
+\input{sections/chipseq.tex}
+
+\subsection{Atac-Seq}
+\input{sections/atacseq.tex}
+
+\subsection{Other Sequencing Tecniques}
+\input{sections/otherseqs.tex}
+
+\section{Data Analysis}
+\input{sections/dataanal.tex}
+
+\subsection{RNA-Seq Methods}
+\input{sections/rnaanal.tex}
+
+\subsection{ChIP-Seq Methods}
+\input{sections/chipanal.tex}
+
+\subsection{Atac-Seq Methods}
+\input{sections/atacanal.tex}
+
+\section{Integration}
+\input{sections/integration.tex}
+
+\subsection{Low Level Integration}
+\input{sections/lowlevintegr.tex}
+
+\subsection{High Level Integration}
+\input{sections/highlevintegr.tex}
+
+\section{Reproducible Computational Research}
+\input{sections/reprcompres.tex}
+
+\chapter{Methods}
+\input{sections/methods.tex}
+
+\section{TiCoRSe - Time Course RNA-Seq data analysis}
+\input{sections/ticorsemethods.tex}
+
+\section{DEScan2 - Differential Enriched Scan 2}
+\input{sections/descanmethods.tex}
+
+\section{IntegrHO - Integration of High-Throughtput Omics data}
+\input{sections/integrhomethods.tex}
+
+\chapter{Results}
+\section{TiCoRSe - Time Course RNA-Seq data analysis}
+\section{DEScan2 - Differential Enriched Scan 2}
+\section{IntegrHO - Integration of High-Throughtput Omics data}
+
+\chapter{Future Works}
+
+\chapter{Conclusions}
+
+\begin{appendices}
+\include{appendixA}
+%\include{appendixB}
+%\include{appendixC}
+\end{appendices}
+
+%\include{introduction}
+%\include{aim_of_the_study}
+%\include{MVDA}
+%\include{INSIdEnano}
+%\include{discussion}
+%\include{conclusion}
+
+%\begin{appendices}
+%\include{appendixA}
+%\include{appendixB}
+%\include{appendixC}
+%\end{appendices}
+
+\printbibliography[heading=bibnumbered]
+
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+%\listoffigures
+%\listoftables
+
+\end{document}
