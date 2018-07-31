@@ -16,62 +16,260 @@
   {}
 \endgroup
 
-\entry{Wang2009d}{article}{}
-  \name{author}{3}{}{%
+\entry{Ihaka1996}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Wang}{W.}%
-     {Zhong}{Z.}%
+     {Ihaka}{I.}%
+     {Ross}{R.}%
      {}{}%
      {}{}}%
     {{}%
-     {Gerstein}{G.}%
-     {Mark}{M.}%
+     {Gentleman}{G.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Computer language,Statistical computing}
+  \strng{namehash}{IRGR1}
+  \strng{fullhash}{IRGR1}
+  \field{abstract}{%
+  In this article we discuss our experience designing and implementing a
+  statistical computing language. In developing this new language, we sought to
+  combine what we felt were useful features from two existing computer
+  languages. We feel that the new lan- guage provides advantages in the areas
+  of portability, computational efficiency, memory management, and scoping.%
+  }
+  \verb{doi}
+  \verb 10.1080/10618600.1996.10474713
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1011.1669v3
+  \endverb
+  \field{isbn}{10618600}
+  \field{issn}{15372715}
+  \field{title}{{R: A Language for Data Analysis and Graphics}}
+  \field{journaltitle}{Journal of Computational and Graphical Statistics}
+  \field{eprinttype}{arXiv}
+  \field{year}{1996}
+\endentry
+
+\entry{Gentleman2004}{article}{}
+  \name{author}{25}{}{%
+    {{}%
+     {Gentleman}{G.}%
+     {RC}{R.}%
      {}{}%
      {}{}}%
     {{}%
-     {Snyder}{S.}%
+     {Carey}{C.}%
+     {VJ}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bates}{B.}%
+     {DM}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bolstad}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dettling}{D.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dudoit}{D.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellis}{E.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gautier}{G.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ge}{G.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gentry}{G.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hornik}{H.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hothorn}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huber}{H.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iacus}{I.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Irizarry}{I.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leisch}{L.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maechler}{M.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rossini}{R.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sawitzki}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smyth}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tierney}{T.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {JYH}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GR+1}
+  \strng{fullhash}{GRCVBDBBDMDSEBGLGYGJHKHTHWISIRLFLCMMRASGSCSGTLYJZJ1}
+  \field{abstract}{%
+  The Bioconductor project is an initiative for the collaborative creation of
+  extensible software for computational biology and bioinformatics. The goals
+  of the project include: fostering collaborative development and widespread
+  use of innovative software, reducing barriers to entry into interdisciplinary
+  scientific research, and promoting the achievement of remote reproducibility
+  of research results. We describe details of our aims and methods, identify
+  current challenges, compare Bioconductor to other open bioinformatics
+  projects, and provide working examples.%
+  }
+  \verb{doi}
+  \verb 10.1186/gb-2004-5-10-r80
+  \endverb
+  \field{isbn}{1465-6914 (Electronic)$\backslash$n1465-6906 (Linking)}
+  \field{issn}{1465-6914}
+  \field{title}{{Bioconductor: open software development for computational
+  biology and bioinformatics.}}
+  \field{journaltitle}{Genome Biology}
+  \field{year}{2004}
+\endentry
+
+\entry{Lawrence2013}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Lawrence}{L.}%
      {Michael}{M.}%
      {}{}%
      {}{}}%
+    {{}%
+     {Huber}{H.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pag{\`{e}}s}{P.}%
+     {Herv{\'{e}}}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aboyoun}{A.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carlson}{C.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gentleman}{G.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Martin~T.}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carey}{C.}%
+     {Vincent~J.}{V.~J.}%
+     {}{}%
+     {}{}}%
   }
-  \keyw{Animals,Base Sequence,Chromosome Mapping,Exons,Gene Expression
-  Profiling,Gene Expression Profiling: methods,Genetic,Humans,Models,Molecular
-  Sequence Data,RNA,RNA: analysis,RNA: methods,Sequence
-  Analysis,Transcription,next generation sequencing,ngs,rna-seq}
-  \strng{namehash}{WZ+1}
-  \strng{fullhash}{WZGMSM1}
-  \field{abstract}{%
-  RNA-Seq is a recently developed approach to transcriptome profiling that uses
-  deep-sequencing technologies. Studies using this method have already altered
-  our view of the extent and complexity of eukaryotic transcriptomes. RNA-Seq
-  also provides a far more precise measurement of levels of transcripts and
-  their isoforms than other methods. This article describes the RNA-Seq
-  approach, the challenges associated with its application, and the advances
-  made so far in characterizing several eukaryote transcriptomes.%
+  \name{editor}{1}{}{%
+    {{}%
+     {Prlic}{P.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
   }
+  \strng{namehash}{LM+1}
+  \strng{fullhash}{LMHWPHAPCMGRMMTCVJ1}
   \verb{doi}
-  \verb 10.1038/nrg2484
+  \verb 10.1371/journal.pcbi.1003118
   \endverb
-  \verb{eprint}
-  \verb NIHMS150003
-  \endverb
-  \field{isbn}{1471-0064 (Electronic)$\backslash$r1471-0056 (Linking)}
-  \field{issn}{1471-0064}
-  \field{number}{1}
-  \field{pages}{57\bibrangedash 63}
-  \field{title}{{RNA-Seq: a revolutionary tool for transcriptomics.}}
+  \field{issn}{1553-7358}
+  \field{number}{8}
+  \field{pages}{e1003118}
+  \field{title}{{Software for Computing and Annotating Genomic Ranges}}
   \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/19015660
+  \verb http://dx.plos.org/10.1371/journal.pcbi.1003118
   \endverb
-  \field{volume}{10}
-  \verb{file}
-  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
-  \verb /Wang, Gerstein, Snyder - 2009 - RNA-Seq a revolutionary tool for trans
-  \verb criptomics.pdf:pdf
-  \endverb
-  \field{journaltitle}{Nature reviews. Genetics}
-  \field{eprinttype}{arXiv}
-  \field{year}{2009}
+  \field{volume}{9}
+  \field{journaltitle}{PLoS Computational Biology}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \lossort
