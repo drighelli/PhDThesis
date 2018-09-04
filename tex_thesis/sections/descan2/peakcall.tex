@@ -1,1 +1,15 @@
-However, the package can work with any external peak caller returning results in terms of bed files, indeed the package provides additional functionalities to load bed files of peaks and handle them as GenomicRanges \cite{Lawrence2013} structures.
+The Peak Caller takes as input a set of alignment files in BAM \cite{Li2009} or BED format together with several additional parameters, useful for the peak detection setup.
+
+The alignement data are stored as GenomicRangesList \cite{Lawrence2013}, where each element represents a file. 
+In order to facilitate the parallelization of the computations over the chromosomes, the list is re-arranged as a list of GenomicRangesList, with a chromosome for each element.
+Moreover, each element of the GenomicRangesList represents a file containing just the GenomicRanges of the specific chromosome.
+
+On this data structure the algorithm firstly divides each chromosome as bins of user-defined length and then computes the coverage of the reads on the bins with a moving scan window.
+
+In order to be able to catch also spread peaks we compute the coverage also using windows of two different lengths.
+
+Once the coverages are ready the method computes a score for each detected region, applying a poisson likelihood estimation.
+
+[PUT THE POISSON DISTRIBUTION AND THE LIKELIHOOD EXPLAINING THE METHOD]
+
+
