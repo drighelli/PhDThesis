@@ -31,13 +31,13 @@
 \contentsline {section}{\numberline {4.2}Methods}{26}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{26}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{26}{subsection.4.2.2}
-\contentsline {subsubsection}{Low Level Itegration}{26}{section*.6}
-\contentsline {subsubsection}{High Level Itegration}{26}{section*.7}
+\contentsline {subsubsection}{Low Level Itegration}{26}{section*.7}
+\contentsline {subsubsection}{High Level Itegration}{26}{section*.8}
 \contentsline {section}{\numberline {4.3}Implementation Aspects}{26}{section.4.3}
 \contentsline {section}{\numberline {4.4}Reproducible Computational Research}{26}{section.4.4}
 \contentsline {section}{\numberline {4.5}Results}{26}{section.4.5}
 \contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{27}{chapter.5}
-\contentsline {chapter}{Appendices}{29}{section*.8}
+\contentsline {chapter}{Appendices}{29}{section*.9}
 \contentsline {section}{\numberline {.1}R Language}{31}{section.a..1}
 \contentsline {section}{\numberline {.2}R Markdown Language}{31}{section.a..2}
 \contentsline {chapter}{\numberline {6}Bibliography}{33}{chapter.6}

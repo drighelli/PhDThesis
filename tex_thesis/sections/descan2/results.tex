@@ -39,11 +39,15 @@ Highlighting a proportional inversion between the number of the peaks and the nu
 \centering
 \end{figure}
 
+The filtered-in regions can be processed by DEScan2 in order to obtain a count matrix with samples on the columns and peaks on the rows.
+This type of data structure is very versatile, because it enables to perform several operations, like the differential enrichment of the regions (DER) and, when possible, the integration with other kind of omics, as RNA-Seq.
+
+In order to preserve the information associated to the peaks, DEScan2 produces as output a \textit{SummarizedExperiment} \ref{fig:countsdescan} data structure, which enables to retrieve the count matrix with \textit{assays} method, and to access the peaks information in \textit{GenomicRanges} format with the \textit{rowRanges} method.
 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio]{img/descan2/counts.png}
-\caption[DEScan2 counts illustration]{An illustration of the counts data structure produced by DEScan2.}
+\caption[DEScan2 counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by DEScan2.}
 \label{fig:countsdescan}
 \centering
 \end{figure}
@@ -52,6 +56,10 @@ Highlighting a proportional inversion between the number of the peaks and the nu
 
 
 
-
-
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/normalizations.png}
+\caption[Normalizations applied to detected regions]{The figure shows the effects of different normalizations on the epigenomic detected regions.}
+\label{fig:normalizationsdescan}
+\centering
+\end{figure}
