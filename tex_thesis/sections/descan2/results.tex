@@ -7,7 +7,7 @@ Of this samples we chose to compare the differences at the first two stages, tim
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/dataset.png}
-\caption{An illustration of our extraction of the \cite{Su2017} dataset.}
+\caption[DEScan2 dataset illustration]{An illustration of our extraction of the \cite{Su2017} dataset.}
 \label{fig:atacdataset}
 \centering
 \end{figure}
@@ -21,7 +21,37 @@ Lower part of figure \ref{fig:peaksdescan} shows the detected and validated regi
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/peaks.png}
-\caption{A comparison of DEScan2 detected peaks with validated peaks in article \cite{Su2017}.}
+\caption[DEScan2 peaks detection]{A comparison of DEScan2 detected peaks with validated peaks in article \cite{Su2017}.}
 \label{fig:peaksdescan}
 \centering
 \end{figure}
+
+While it is very important to detect good peaks with a peak caller, it seems to be more relevant to detect reliable regions. Indeed, during the filtering step, the number of peaks depends not only by the peak score, but also by the number of replicates designed in the experiment.
+The figure \ref{fig:filteringdescan} puts in relation these two relevant information. 
+On the x-axis is represented the number of replicates, while on the y-axis the number of peaks is traced, and each line represents a different threshold for the score of the peaks, showing that higher is the threshold on the scores and the number of the replicates, lower is the number of the detected peaks.
+Highlighting a proportional inversion between the number of the peaks and the number of the samples combined with the score of the detected regions.
+
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/filtering.png}
+\caption[DEScan2 filtering step]{Filtering the detected regions with different thresholds on peak scores.}
+\label{fig:filteringdescan}
+\centering
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio]{img/descan2/counts.png}
+\caption[DEScan2 counts illustration]{An illustration of the counts data structure produced by DEScan2.}
+\label{fig:countsdescan}
+\centering
+\end{figure}
+
+
+
+
+
+
+
+

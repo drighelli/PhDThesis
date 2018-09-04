@@ -26,20 +26,20 @@
 \contentsline {subsection}{\numberline {3.2.3}Peak Counts}{19}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Additional Features}{19}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Case Study}{20}{section.3.3}
-\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{24}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{24}{subsection.4.2.2}
-\contentsline {subsubsection}{Low Level Itegration}{24}{section*.4}
-\contentsline {subsubsection}{High Level Itegration}{24}{section*.5}
-\contentsline {section}{\numberline {4.3}Implementation Aspects}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Reproducible Computational Research}{24}{section.4.4}
-\contentsline {section}{\numberline {4.5}Results}{24}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{25}{chapter.5}
-\contentsline {chapter}{Appendices}{27}{section*.6}
-\contentsline {section}{\numberline {.1}R Language}{29}{section.a..1}
-\contentsline {section}{\numberline {.2}R Markdown Language}{29}{section.a..2}
-\contentsline {chapter}{\numberline {6}Bibliography}{31}{chapter.6}
-\contentsline {chapter}{List of Figures}{33}{chapter.6}
-\contentsline {chapter}{List of Tables}{35}{chapter.6}
+\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{26}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{26}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{26}{subsection.4.2.2}
+\contentsline {subsubsection}{Low Level Itegration}{26}{section*.6}
+\contentsline {subsubsection}{High Level Itegration}{26}{section*.7}
+\contentsline {section}{\numberline {4.3}Implementation Aspects}{26}{section.4.3}
+\contentsline {section}{\numberline {4.4}Reproducible Computational Research}{26}{section.4.4}
+\contentsline {section}{\numberline {4.5}Results}{26}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{27}{chapter.5}
+\contentsline {chapter}{Appendices}{29}{section*.8}
+\contentsline {section}{\numberline {.1}R Language}{31}{section.a..1}
+\contentsline {section}{\numberline {.2}R Markdown Language}{31}{section.a..2}
+\contentsline {chapter}{\numberline {6}Bibliography}{33}{chapter.6}
+\contentsline {chapter}{List of Figures}{35}{chapter.6}
+\contentsline {chapter}{List of Tables}{37}{chapter.6}
