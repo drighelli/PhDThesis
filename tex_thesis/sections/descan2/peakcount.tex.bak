@@ -1,0 +1,9 @@
+The counting step is designed to take a \textit{GenomicRanges} data structure as input, where additional informations for the score and the number of samples for each peak are stored.
+Moreover, it requires also the path of the BAM/BED files within the reads to count for each peak in the \textit{GenomicRanges}.
+
+This step counts the number of reads present for each region in each sample.
+Indeed, it produces as result a matrix of counts where on the reads there are the regions and on the columns the samples.
+
+In order to keep trace of all the information associated to the regions, it produces a \textit{SummarizedExperiment} \cite{SummExp} data structure, which gives the possibility to access the \textit{GenomicRanges} data structure associated to the peaks with the \textit{rowRanges} method and to access to the count matrix with the \textit{assays} method.
+
+The choice to produce a count matrix is dictated by the versatility of this data structure, useful not only for the differential enrichment of the regions between multiple conditions, but also for integrationg this -omic type with other -omics.

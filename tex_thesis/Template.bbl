@@ -944,6 +944,230 @@
   \field{year}{2013}
 \endentry
 
+\entry{Risso2014}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Risso}{R.}%
+     {Davide}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ngai}{N.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Speed}{S.}%
+     {Terence~P.}{T.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dudoit}{D.}%
+     {Sandrine}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RD+1}
+  \strng{fullhash}{RDNJSTPDS1}
+  \field{abstract}{%
+  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
+  accurate inference of expression levels. Here, we show that usual
+  normalization approaches mostly account for sequencing depth and fail to
+  correct for library preparation and other more complex unwanted technical
+  effects. We evaluate the performance of the External RNA Control Consortium
+  (ERCC) spike-in controls and investigate the possibility of using them
+  directly for normalization. We show that the spike-ins are not reliable
+  enough to be used in standard global-scaling or regression-based
+  normalization procedures. We propose a normalization strategy, called remove
+  unwanted variation (RUV), that adjusts for nuisance technical effects by
+  performing factor analysis on suitable sets of control genes (e.g., ERCC
+  spike-ins) or samples (e.g., replicate libraries). Our approach leads to more
+  accurate estimates of expression fold-changes and tests of differential
+  expression compared to state-of-the-art normalization methods. In particular,
+  RUV promises to be valuable for large collaborative projects involving
+  multiple laboratories, technicians, and/or sequencing platforms.%
+  }
+  \verb{doi}
+  \verb 10.1038/nbt.2931
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1011.1669v3
+  \endverb
+  \field{isbn}{1087-0156}
+  \field{issn}{15461696}
+  \field{title}{{Normalization of RNA-seq data using factor analysis of control
+  genes or samples}}
+  \field{journaltitle}{Nature Biotechnology}
+  \field{eprinttype}{arXiv}
+  \field{year}{2014}
+\endentry
+
+\entry{Robinson2010}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Robinson}{R.}%
+     {Mark~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oshlack}{O.}%
+     {Alicia}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RMDOA1}
+  \strng{fullhash}{RMDOA1}
+  \field{abstract}{%
+  The fine detail provided by sequencing-based transcriptome surveys suggests
+  that RNA-seq is likely to become the platform of choice for interrogating
+  steady state RNA. In order to discover biologically important changes in
+  expression, we show that normalization continues to be an essential step in
+  the analysis. We outline a simple and effective method for performing
+  normalization and show dramatically improved results for inferring
+  differential expression in simulated and publicly available data sets.%
+  }
+  \verb{doi}
+  \verb 10.1186/gb-2010-11-3-r25
+  \endverb
+  \verb{eprint}
+  \verb PMC2864565
+  \endverb
+  \field{isbn}{1465-6906}
+  \field{issn}{14747596}
+  \field{title}{{A scaling normalization method for differential expression
+  analysis of RNA-seq data}}
+  \field{journaltitle}{Genome Biology}
+  \field{eprinttype}{arXiv}
+  \field{year}{2010}
+\endentry
+
+\entry{Dillies2013}{article}{}
+  \name{author}{19}{}{%
+    {{}%
+     {Dillies}{D.}%
+     {Marie~Agn{\`{e}}s}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rau}{R.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aubert}{A.}%
+     {Julie}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hennequet-Antier}{H.-A.}%
+     {Christelle}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jeanmougin}{J.}%
+     {Marine}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Servant}{S.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keime}{K.}%
+     {C{\'{e}}line}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marot}{M.}%
+     {Nicolas~Servant}{N.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castel}{C.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Estelle}{E.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guernec}{G.}%
+     {Gregory}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jagla}{J.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jouneau}{J.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lalo{\"{e}}}{L.}%
+     {Denis}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Le Gall}}{L.}%
+     {Caroline}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scha{\"{e}}ffer}{S.}%
+     {Brigitte}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Le Crom}}{L.}%
+     {St{\'{e}}phane}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guedj}{G.}%
+     {Micka{\"{e}}l}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jaffr{\'{e}}zic}{J.}%
+     {Florence}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Differential analysis,High-throughput sequencing,Normalization,RNA-seq}
+  \strng{namehash}{DMA+1}
+  \strng{fullhash}{DMARAAJHACJMSNKCMNSCDEJGGJBJLLDLCSBLSGMJF1}
+  \field{abstract}{%
+  During the last 3 years, a number of approaches for the normalization of RNA
+  sequencing data have emerged in the literature, differing both in the type of
+  bias adjustment and in the statistical strategy adopted. However, as data
+  continue to accumulate, there has been no clear consensus on the appropriate
+  normalization method to be used or the impact of a chosen method on the
+  downstream analysis. In this work, we focus on a comprehensive comparison of
+  seven recently proposed normalization methods for the differential analysis
+  of RNA-seq data, with an emphasis on the use of varied real and simulated
+  datasets involving different species and experimental designs to represent
+  data characteristics commonly observed in practice. Based on this comparison
+  study, we propose practical recommendations on the appropriate normalization
+  method to be used and its impact on the differential analysis of RNA-seq
+  data.%
+  }
+  \verb{doi}
+  \verb 10.1093/bib/bbs046
+  \endverb
+  \field{isbn}{1477-4054 (Electronic)$\backslash$r1467-5463 (Linking)}
+  \field{issn}{14675463}
+  \field{title}{{A comprehensive evaluation of normalization methods for
+  Illumina high-throughput RNA sequencing data analysis}}
+  \field{journaltitle}{Briefings in Bioinformatics}
+  \field{year}{2013}
+\endentry
+
 \lossort
 \endlossort
 
