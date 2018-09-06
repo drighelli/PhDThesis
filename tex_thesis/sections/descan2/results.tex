@@ -64,7 +64,6 @@ When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themself seem
 
 Even if these normalization methods show good performances with this type of epignomic data, our investigations suggest that for sure more testing is required, but maybe an ad-hoc normalization method for these data has to be developed.
 
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/normalizations.png}
@@ -72,3 +71,16 @@ Even if these normalization methods show good performances with this type of epi
 \label{fig:normalizationsdescan}
 \centering
 \end{figure}
+
+To estimate the DERs any of the RNA-Seq methods can be applied, as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
+
+In this case, we decided to use edgeR package, because of its flexibility of usage and the possibility to better tune the design of the experiment.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/DE_peaks.png}
+\caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant DERs, while the red ones represent the significant DERs.}
+\label{fig:depeaksdescan}
+\centering
+\end{figure}
+

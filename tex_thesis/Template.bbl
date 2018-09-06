@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,73 +16,88 @@
   {}
 \endgroup
 
-\entry{Koberstein2018}{article}{}
-  \name{author}{12}{}{%
-    {{}%
-     {Koberstein}{K.}%
-     {John~N.}{J.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Poplawski}{P.}%
-     {Shane~G.}{S.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wimmer}{W.}%
-     {Mathieu~E.}{M.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Porcari}{P.}%
-     {Giulia}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kao}{K.}%
-     {Charlly}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gomes}{G.}%
-     {Bruce}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Risso}{R.}%
-     {Davide}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hakonarson}{H.}%
-     {Hakon}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zhang}{Z.}%
-     {Nancy~R.}{N.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schultz}{S.}%
-     {Robert~T.}{R.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Abel}{A.}%
-     {Ted}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Peixoto}{P.}%
-     {Lucia}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{KJN+1}
-  \strng{fullhash}{KJNPSGWMEPGKCGBRDHHZNRSRTATPL1}
-  \field{abstract}{%
-  Autism spectrum disorder (ASD) is a prevalent neurodevelopmental disorder
+\sortlist[entry]{none/global/}
+  \entry{Koberstein2018}{article}{}
+    \name{author}{12}{}{%
+      {{hash=KJN}{%
+         family={Koberstein},
+         familyi={K\bibinitperiod},
+         given={John\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=PSG}{%
+         family={Poplawski},
+         familyi={P\bibinitperiod},
+         given={Shane\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WME}{%
+         family={Wimmer},
+         familyi={W\bibinitperiod},
+         given={Mathieu\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Porcari},
+         familyi={P\bibinitperiod},
+         given={Giulia},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kao},
+         familyi={K\bibinitperiod},
+         given={Charlly},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={Bruce},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Risso},
+         familyi={R\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hakonarson},
+         familyi={H\bibinitperiod},
+         given={Hakon},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZNR}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Nancy\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SRT}{%
+         family={Schultz},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima T.},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Abel},
+         familyi={A\bibinitperiod},
+         given={Ted},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Peixoto},
+         familyi={P\bibinitperiod},
+         given={Lucia},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJN+1}
+    \strng{fullhash}{KJNPSGWMEPGKCGBRDHHZNRSRTATPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Autism spectrum disorder (ASD) is a prevalent neurodevelopmental disorder
   that is associated with genetic risk factors. Most human disease-associated
   single-nucleotide polymorphisms (SNPs) are not located in genes but rather
   are in regulatory regions that control gene expression. The function of
@@ -105,187 +120,218 @@
   support the idea that learning recapitulates development at the epigenetic
   level and demonstrate that behaviorally induced epigenetic changes in mice
   can highlight regulatory regions relevant to brain disorders in patients.%
-  }
-  \verb{doi}
-  \verb 10.1126/scisignal.aan6500
-  \endverb
-  \field{isbn}{1937-9145}
-  \field{issn}{19379145}
-  \field{title}{{Learning-dependent chromatin remodeling highlights noncoding
+    }
+    \verb{doi}
+    \verb 10.1126/scisignal.aan6500
+    \endverb
+    \field{isbn}{1937-9145}
+    \field{issn}{19379145}
+    \field{title}{{Learning-dependent chromatin remodeling highlights noncoding
   regulatory regions linked to autism}}
-  \field{journaltitle}{Science Signaling}
-  \field{year}{2018}
-\endentry
+    \field{journaltitle}{Science Signaling}
+    \field{year}{2018}
+  \endentry
 
-\entry{Ihaka1996}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Ihaka}{I.}%
-     {Ross}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gentleman}{G.}%
-     {Robert}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Computer language,Statistical computing}
-  \strng{namehash}{IRGR1}
-  \strng{fullhash}{IRGR1}
-  \field{abstract}{%
-  In this article we discuss our experience designing and implementing a
+  \entry{Ihaka1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=IR}{%
+         family={Ihaka},
+         familyi={I\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gentleman},
+         familyi={G\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer language,Statistical computing}
+    \strng{namehash}{IRGR1}
+    \strng{fullhash}{IRGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this article we discuss our experience designing and implementing a
   statistical computing language. In developing this new language, we sought to
   combine what we felt were useful features from two existing computer
   languages. We feel that the new lan- guage provides advantages in the areas
   of portability, computational efficiency, memory management, and scoping.%
-  }
-  \verb{doi}
-  \verb 10.1080/10618600.1996.10474713
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1011.1669v3
-  \endverb
-  \field{isbn}{10618600}
-  \field{issn}{15372715}
-  \field{title}{{R: A Language for Data Analysis and Graphics}}
-  \field{journaltitle}{Journal of Computational and Graphical Statistics}
-  \field{eprinttype}{arXiv}
-  \field{year}{1996}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1080/10618600.1996.10474713
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{10618600}
+    \field{issn}{15372715}
+    \field{title}{{R: A Language for Data Analysis and Graphics}}
+    \field{journaltitle}{Journal of Computational and Graphical Statistics}
+    \field{eprinttype}{arXiv}
+    \field{year}{1996}
+  \endentry
 
-\entry{Gentleman2004}{article}{}
-  \name{author}{25}{}{%
-    {{}%
-     {Gentleman}{G.}%
-     {RC}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Carey}{C.}%
-     {VJ}{V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bates}{B.}%
-     {DM}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bolstad}{B.}%
-     {B}{B}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dettling}{D.}%
-     {M}{M}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dudoit}{D.}%
-     {S}{S}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ellis}{E.}%
-     {B}{B}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gautier}{G.}%
-     {L}{L}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ge}{G.}%
-     {Y}{Y}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gentry}{G.}%
-     {J}{J}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hornik}{H.}%
-     {K}{K}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hothorn}{H.}%
-     {T}{T}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Huber}{H.}%
-     {W}{W}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Iacus}{I.}%
-     {S}{S}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Irizarry}{I.}%
-     {R}{R}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Leisch}{L.}%
-     {F}{F}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Li}{L.}%
-     {C}{C}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Maechler}{M.}%
-     {M}{M}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rossini}{R.}%
-     {AJ}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sawitzki}{S.}%
-     {G}{G}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Smith}{S.}%
-     {C}{C}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Smyth}{S.}%
-     {G}{G}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Tierney}{T.}%
-     {L}{L}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Yang}{Y.}%
-     {JYH}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zhang}{Z.}%
-     {J}{J}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GR+1}
-  \strng{fullhash}{GRCVBDBBDMDSEBGLGYGJHKHTHWISIRLFLCMMRASGSCSGTLYJZJ1}
-  \field{abstract}{%
-  The Bioconductor project is an initiative for the collaborative creation of
+  \entry{Gentleman2004}{article}{}
+    \name{author}{25}{}{%
+      {{hash=GR}{%
+         family={Gentleman},
+         familyi={G\bibinitperiod},
+         given={RC},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Carey},
+         familyi={C\bibinitperiod},
+         given={VJ},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={DM},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bolstad},
+         familyi={B\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=DM}{%
+         family={Dettling},
+         familyi={D\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=DS}{%
+         family={Dudoit},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=EB}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=GL}{%
+         family={Gautier},
+         familyi={G\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=GY}{%
+         family={Ge},
+         familyi={G\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=GJ}{%
+         family={Gentry},
+         familyi={G\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=HK}{%
+         family={Hornik},
+         familyi={H\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=HT}{%
+         family={Hothorn},
+         familyi={H\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=HW}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=IS}{%
+         family={Iacus},
+         familyi={I\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=IR}{%
+         family={Irizarry},
+         familyi={I\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=LF}{%
+         family={Leisch},
+         familyi={L\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=MM}{%
+         family={Maechler},
+         familyi={M\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=RA}{%
+         family={Rossini},
+         familyi={R\bibinitperiod},
+         given={AJ},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sawitzki},
+         familyi={S\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=SC}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=SG}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=TL}{%
+         family={Tierney},
+         familyi={T\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=YJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={JYH},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GRCVBDBBDMDSEBGLGYGJHKHTHWISIRLFLCMMRASGSCSGTLYJZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Bioconductor project is an initiative for the collaborative creation of
   extensible software for computational biology and bioinformatics. The goals
   of the project include: fostering collaborative development and widespread
   use of innovative software, reducing barriers to entry into interdisciplinary
@@ -293,70 +339,81 @@
   of research results. We describe details of our aims and methods, identify
   current challenges, compare Bioconductor to other open bioinformatics
   projects, and provide working examples.%
-  }
-  \verb{doi}
-  \verb 10.1186/gb-2004-5-10-r80
-  \endverb
-  \field{isbn}{1465-6914 (Electronic)$\backslash$n1465-6906 (Linking)}
-  \field{issn}{1465-6914}
-  \field{title}{{Bioconductor: open software development for computational
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2004-5-10-r80
+    \endverb
+    \field{isbn}{1465-6914 (Electronic)$\backslash$n1465-6906 (Linking)}
+    \field{issn}{1465-6914}
+    \field{title}{{Bioconductor: open software development for computational
   biology and bioinformatics.}}
-  \field{journaltitle}{Genome Biology}
-  \field{year}{2004}
-\endentry
+    \field{journaltitle}{Genome Biology}
+    \field{year}{2004}
+  \endentry
 
-\entry{Li2009}{article}{}
-  \name{author}{9}{}{%
-    {{}%
-     {Li}{L.}%
-     {Heng}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Handsaker}{H.}%
-     {Bob}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wysoker}{W.}%
-     {Alec}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fennell}{F.}%
-     {Tim}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ruan}{R.}%
-     {Jue}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Homer}{H.}%
-     {Nils}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Marth}{M.}%
-     {Gabor}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Abecasis}{A.}%
-     {Goncalo}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Durbin}{D.}%
-     {Richard}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LH+1}
-  \strng{fullhash}{LHHBWAFTRJHNMGAGDR1}
-  \field{abstract}{%
-  SUMMARY: The Sequence Alignment/Map (SAM) format is a generic alignment
+  \entry{Li2009}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Handsaker},
+         familyi={H\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wysoker},
+         familyi={W\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fennell},
+         familyi={F\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Ruan},
+         familyi={R\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Homer},
+         familyi={H\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Marth},
+         familyi={M\bibinitperiod},
+         given={Gabor},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Abecasis},
+         familyi={A\bibinitperiod},
+         given={Goncalo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Durbin},
+         familyi={D\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LH+1}
+    \strng{fullhash}{LHHBWAFTRJHNMGAGDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    SUMMARY: The Sequence Alignment/Map (SAM) format is a generic alignment
   format for storing read alignments against reference sequences, supporting
   short and long reads (up to 128 Mbp) produced by different sequencing
   platforms. It is flexible in style, compact in size, efficient in random
@@ -365,210 +422,243 @@
   alignments in the SAM format, such as indexing, variant caller and alignment
   viewer, and thus provides universal tools for processing read alignments.
   AVAILABILITY: http://samtools.sourceforge.net.%
-  }
-  \verb{doi}
-  \verb 10.1093/bioinformatics/btp352
-  \endverb
-  \verb{eprint}
-  \verb 1006.1266v2
-  \endverb
-  \field{isbn}{1367-4803$\backslash$r1460-2059}
-  \field{issn}{13674803}
-  \field{title}{{The Sequence Alignment/Map format and SAMtools}}
-  \field{journaltitle}{Bioinformatics}
-  \field{eprinttype}{arXiv}
-  \field{year}{2009}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btp352
+    \endverb
+    \verb{eprint}
+    \verb 1006.1266v2
+    \endverb
+    \field{isbn}{1367-4803$\backslash$r1460-2059}
+    \field{issn}{13674803}
+    \field{title}{{The Sequence Alignment/Map format and SAMtools}}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2009}
+  \endentry
 
-\entry{Lawrence2013}{article}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Lawrence}{L.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Huber}{H.}%
-     {Wolfgang}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pag{\`{e}}s}{P.}%
-     {Herv{\'{e}}}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Aboyoun}{A.}%
-     {Patrick}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Carlson}{C.}%
-     {Marc}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gentleman}{G.}%
-     {Robert}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Morgan}{M.}%
-     {Martin~T.}{M.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Carey}{C.}%
-     {Vincent~J.}{V.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{1}{}{%
-    {{}%
-     {Prlic}{P.}%
-     {Andreas}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LM+1}
-  \strng{fullhash}{LMHWPHAPCMGRMMTCVJ1}
-  \verb{doi}
-  \verb 10.1371/journal.pcbi.1003118
-  \endverb
-  \field{issn}{1553-7358}
-  \field{number}{8}
-  \field{pages}{e1003118}
-  \field{title}{{Software for Computing and Annotating Genomic Ranges}}
-  \verb{url}
-  \verb http://dx.plos.org/10.1371/journal.pcbi.1003118
-  \endverb
-  \field{volume}{9}
-  \field{journaltitle}{PLoS Computational Biology}
-  \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
-\endentry
+  \entry{Lawrence2013}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LM}{%
+         family={Lawrence},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pag{\`{e}}s},
+         familyi={P\bibinitperiod},
+         given={Herv{\'{e}}},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Aboyoun},
+         familyi={A\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carlson},
+         familyi={C\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gentleman},
+         familyi={G\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MMT}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Martin\bibnamedelima T.},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=CVJ}{%
+         family={Carey},
+         familyi={C\bibinitperiod},
+         given={Vincent\bibnamedelima J.},
+         giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=PA}{%
+         family={Prlic},
+         familyi={P\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM+1}
+    \strng{fullhash}{LMHWPHAPCMGRMMTCVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1371/journal.pcbi.1003118
+    \endverb
+    \field{issn}{1553-7358}
+    \field{number}{8}
+    \field{pages}{e1003118}
+    \field{title}{{Software for Computing and Annotating Genomic Ranges}}
+    \verb{url}
+    \verb http://dx.plos.org/10.1371/journal.pcbi.1003118
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{PLoS Computational Biology}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\entry{Zhang2008}{article}{}
-  \name{author}{11}{}{%
-    {{}%
-     {Zhang}{Z.}%
-     {Yong}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Tao}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Meyer}{M.}%
-     {Clifford~A.}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Eeckhoute}{E.}%
-     {J{\'{e}}r{\^{o}}me}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Johnson}{J.}%
-     {David~S.}{D.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bernstein}{B.}%
-     {Bradley~E.}{B.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Nussbaum}{N.}%
-     {Chad}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Myers}{M.}%
-     {Richard~M.}{R.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Brown}{B.}%
-     {Myles}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Li}{L.}%
-     {Wei}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shirley}{S.}%
-     {X.~Shirley}{X.~S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ZY+1}
-  \strng{fullhash}{ZYLTMCAEJJDSBBENCMRMBMLWSXS1}
-  \field{abstract}{%
-  We present Model-based Analysis of ChIP-Seq data, MACS, which analyzes data
+  \entry{Zhang2008}{article}{}
+    \name{author}{11}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Clifford\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Eeckhoute},
+         familyi={E\bibinitperiod},
+         given={J{\'{e}}r{\^{o}}me},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JDS}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BBE}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Bradley\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NC}{%
+         family={Nussbaum},
+         familyi={N\bibinitperiod},
+         given={Chad},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={Myers},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Myles},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SXS}{%
+         family={Shirley},
+         familyi={S\bibinitperiod},
+         given={X.\bibnamedelima Shirley},
+         giveni={X\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZY+1}
+    \strng{fullhash}{ZYLTMCAEJJDSBBENCMRMBMLWSXS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present Model-based Analysis of ChIP-Seq data, MACS, which analyzes data
   generated by short read sequencers such as Solexa's Genome Analyzer. MACS
   empirically models the shift size of ChIP-Seq tags, and uses it to improve
   the spatial resolution of predicted binding sites. MACS also uses a dynamic
   Poisson distribution to effectively capture local biases in the genome,
   allowing for more robust predictions. MACS compares favorably to existing
   ChIP-Seq peak-finding algorithms, and is freely available.%
-  }
-  \verb{doi}
-  \verb 10.1186/gb-2008-9-9-r137
-  \endverb
-  \field{isbn}{1474-760X}
-  \field{issn}{14747596}
-  \field{title}{{Model-based analysis of ChIP-Seq (MACS)}}
-  \field{journaltitle}{Genome Biology}
-  \field{year}{2008}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2008-9-9-r137
+    \endverb
+    \field{isbn}{1474-760X}
+    \field{issn}{14747596}
+    \field{title}{{Model-based analysis of ChIP-Seq (MACS)}}
+    \field{journaltitle}{Genome Biology}
+    \field{year}{2008}
+  \endentry
 
-\entry{Zhu2010}{article}{}
-  \name{author}{7}{}{%
-    {{}%
-     {Zhu}{Z.}%
-     {Lihua~J.}{L.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gazin}{G.}%
-     {Claude}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lawson}{L.}%
-     {Nathan~D.}{N.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pag{\`{e}}s}{P.}%
-     {Herv{\'{e}}}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lin}{L.}%
-     {Simon~M.}{S.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lapointe}{L.}%
-     {David~S.}{D.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Green}{G.}%
-     {Michael~R.}{M.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ZLJ+1}
-  \strng{fullhash}{ZLJGCLNDPHLSMLDSGMR1}
-  \field{abstract}{%
-  BACKGROUND Chromatin immunoprecipitation (ChIP) followed by high-throughput
+  \entry{Zhu2010}{article}{}
+    \name{author}{7}{}{%
+      {{hash=ZLJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Lihua\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gazin},
+         familyi={G\bibinitperiod},
+         given={Claude},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LND}{%
+         family={Lawson},
+         familyi={L\bibinitperiod},
+         given={Nathan\bibnamedelima D.},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pag{\`{e}}s},
+         familyi={P\bibinitperiod},
+         given={Herv{\'{e}}},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LSM}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Simon\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LDS}{%
+         family={Lapointe},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GMR}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZLJ+1}
+    \strng{fullhash}{ZLJGCLNDPHLSMLDSGMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND Chromatin immunoprecipitation (ChIP) followed by high-throughput
   sequencing (ChIP-seq) or ChIP followed by genome tiling array analysis
   (ChIP-chip) have become standard technologies for genome-wide identification
   of DNA-binding protein target sites. A number of algorithms have been
@@ -599,121 +689,138 @@
   literature, or existing annotation packages, such as GenomicFeatures and
   BSgenome, provides flexibility. Tight integration to the biomaRt package
   enables up-to-date annotation retrieval from the BioMart database.%
-  }
-  \verb{doi}
-  \verb 10.1186/1471-2105-11-237
-  \endverb
-  \field{isbn}{1471-2105}
-  \field{issn}{14712105}
-  \field{title}{{ChIPpeakAnno: A Bioconductor package to annotate ChIP-seq and
-  ChIP-chip data}}
-  \field{journaltitle}{BMC Bioinformatics}
-  \field{year}{2010}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1186/1471-2105-11-237
+    \endverb
+    \field{isbn}{1471-2105}
+    \field{issn}{14712105}
+    \field{title}{{ChIPpeakAnno: A Bioconductor package to annotate ChIP-seq
+  and ChIP-chip data}}
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{year}{2010}
+  \endentry
 
-\entry{SummExp}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Morgan M, Obenchain V, Hester J}}{M.}%
-     {Pag{\`{e}}s~H}{P.~H.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MPH1}
-  \strng{fullhash}{MPH1}
-  \field{abstract}{%
-  The SummarizedExperiment container contains one or more assays, each
+  \entry{SummExp}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MPH}{%
+         family={{Morgan M, Obenchain V, Hester J}},
+         familyi={M\bibinitperiod},
+         given={Pag{\`{e}}s\bibnamedelima H},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MPH1}
+    \strng{fullhash}{MPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The SummarizedExperiment container contains one or more assays, each
   represented by a matrix-like object of numeric or other mode. The rows
   typically represent genomic ranges of interest and the columns represent
   samples.%
-  }
-  \verb{doi}
-  \verb https://doi.org/doi:10.18129/B9.bioc.SummarizedExperiment
-  \endverb
-  \field{title}{{SummarizedExperiment: SummarizedExperiment container}}
-  \field{year}{2018}
-\endentry
+    }
+    \verb{doi}
+    \verb https://doi.org/doi:10.18129/B9.bioc.SummarizedExperiment
+    \endverb
+    \field{title}{{SummarizedExperiment: SummarizedExperiment container}}
+    \field{year}{2018}
+  \endentry
 
-\entry{Su2017}{article}{}
-  \name{author}{9}{}{%
-    {{}%
-     {Su}{S.}%
-     {Yijing}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shin}{S.}%
-     {Jaehoon}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zhong}{Z.}%
-     {Chun}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wang}{W.}%
-     {Sabrina}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Roychowdhury}{R.}%
-     {Prith}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lim}{L.}%
-     {Jongseuk}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kim}{K.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ming}{M.}%
-     {Guo~Li}{G.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Song}{S.}%
-     {Hongjun}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SY+1}
-  \strng{fullhash}{SYSJZCWSRPLJKDMGLSH1}
-  \field{abstract}{%
-  Su et al. investigated the chromatin accessibility status of neurons in the
+  \entry{Su2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=SY}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yijing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Jaehoon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Chun},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Sabrina},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Roychowdhury},
+         familyi={R\bibinitperiod},
+         given={Prith},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Jongseuk},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MGL}{%
+         family={Ming},
+         familyi={M\bibinitperiod},
+         given={Guo\bibnamedelima Li},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Hongjun},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYSJZCWSRPLJKDMGLSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Su et al. investigated the chromatin accessibility status of neurons in the
   adult mouse dentate gyrus at different timepoints after activation at the
   genome-wide level. Their study provides a potential mechanism by which
   neuronal activity may reshape the epigenetic landscape, thereby dynamically
   changing transcriptome and neuronal properties over time.%
-  }
-  \verb{doi}
-  \verb 10.1038/nn.4494
-  \endverb
-  \field{isbn}{1097-6256}
-  \field{issn}{15461726}
-  \field{title}{{Neuronal activity modifies the chromatin accessibility
+    }
+    \verb{doi}
+    \verb 10.1038/nn.4494
+    \endverb
+    \field{isbn}{1097-6256}
+    \field{issn}{15461726}
+    \field{title}{{Neuronal activity modifies the chromatin accessibility
   landscape in the adult brain}}
-  \field{journaltitle}{Nature Neuroscience}
-  \field{year}{2017}
-\endentry
+    \field{journaltitle}{Nature Neuroscience}
+    \field{year}{2017}
+  \endentry
 
-\entry{Edgar2002}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Edgar}{E.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ER1}
-  \strng{fullhash}{ER1}
-  \field{abstract}{%
-  The Gene Expression Omnibus (GEO) project was initiated in response to the
+  \entry{Edgar2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ER}{%
+         family={Edgar},
+         familyi={E\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ER1}
+    \strng{fullhash}{ER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Gene Expression Omnibus (GEO) project was initiated in response to the
   growing demand for a public repository for high-throughput gene expression
   data. GEO provides a flexible and open design that facilitates submission,
   storage and retrieval of heterogeneous data sets from high-throughput gene
@@ -730,110 +837,129 @@
   into the meaningful data sets which make up an experiment. The GEO repository
   is publicly accessible through the World Wide Web at
   http://www.ncbi.nlm.nih.gov/geo.%
-  }
-  \verb{doi}
-  \verb 10.1093/nar/30.1.207
-  \endverb
-  \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
-  \field{issn}{13624962}
-  \field{title}{{Gene Expression Omnibus: NCBI gene expression and
+    }
+    \verb{doi}
+    \verb 10.1093/nar/30.1.207
+    \endverb
+    \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
+    \field{issn}{13624962}
+    \field{title}{{Gene Expression Omnibus: NCBI gene expression and
   hybridization array data repository}}
-  \field{journaltitle}{Nucleic Acids Research}
-  \field{year}{2002}
-\endentry
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2002}
+  \endentry
 
-\entry{Barrett2013}{article}{}
-  \name{author}{17}{}{%
-    {{}%
-     {Barrett}{B.}%
-     {Tanya}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wilhite}{W.}%
-     {Stephen~E.}{S.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ledoux}{L.}%
-     {Pierre}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Evangelista}{E.}%
-     {Carlos}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kim}{K.}%
-     {Irene~F.}{I.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Tomashevsky}{T.}%
-     {Maxim}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Marshall}{M.}%
-     {Kimberly~A.}{K.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Phillippy}{P.}%
-     {Katherine~H.}{K.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sherman}{S.}%
-     {Patti~M.}{P.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Holko}{H.}%
-     {Michelle}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Yefanov}{Y.}%
-     {Andrey}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lee}{L.}%
-     {Hyeseung}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zhang}{Z.}%
-     {Naigong}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Robertson}{R.}%
-     {Cynthia~L.}{C.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Serova}{S.}%
-     {Nadezhda}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Davis}{D.}%
-     {Sean}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Soboleva}{S.}%
-     {Alexandra}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BT+1}
-  \strng{fullhash}{BTWSELPECKIFTMMKAPKHSPMHMYALHZNRCLSNDSSA1}
-  \field{abstract}{%
-  The Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo/) is an
+  \entry{Barrett2013}{article}{}
+    \name{author}{17}{}{%
+      {{hash=BT}{%
+         family={Barrett},
+         familyi={B\bibinitperiod},
+         given={Tanya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WSE}{%
+         family={Wilhite},
+         familyi={W\bibinitperiod},
+         given={Stephen\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Ledoux},
+         familyi={L\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Evangelista},
+         familyi={E\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KIF}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Irene\bibnamedelima F.},
+         giveni={I\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tomashevsky},
+         familyi={T\bibinitperiod},
+         given={Maxim},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={Kimberly\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PKH}{%
+         family={Phillippy},
+         familyi={P\bibinitperiod},
+         given={Katherine\bibnamedelima H.},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SPM}{%
+         family={Sherman},
+         familyi={S\bibinitperiod},
+         given={Patti\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Holko},
+         familyi={H\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YA}{%
+         family={Yefanov},
+         familyi={Y\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Hyeseung},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZN}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Naigong},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RCL}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={Cynthia\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Serova},
+         familyi={S\bibinitperiod},
+         given={Nadezhda},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Soboleva},
+         familyi={S\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BT+1}
+    \strng{fullhash}{BTWSELPECKIFTMMKAPKHSPMHMYALHZNRCLSNDSSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo/) is an
   international public repository for high-throughput microarray and
   next-generation sequence functional genomic data sets submitted by the
   research community. The resource supports archiving of raw data, processed
@@ -843,69 +969,81 @@
   visualize data. This article reports current status and recent database
   developments, including the release of GEO2R, an R-based web application that
   helps users analyse GEO data.%
-  }
-  \verb{doi}
-  \verb 10.1093/nar/gks1193
-  \endverb
-  \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
-  \field{issn}{03051048}
-  \field{title}{{NCBI GEO: Archive for functional genomics data sets - Update}}
-  \field{journaltitle}{Nucleic Acids Research}
-  \field{year}{2013}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gks1193
+    \endverb
+    \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
+    \field{issn}{03051048}
+    \field{title}{{NCBI GEO: Archive for functional genomics data sets -
+  Update}}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2013}
+  \endentry
 
-\entry{Dobin2013}{article}{}
-  \name{author}{9}{}{%
-    {{}%
-     {Dobin}{D.}%
-     {Alexander}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Davis}{D.}%
-     {Carrie~A.}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schlesinger}{S.}%
-     {Felix}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Drenkow}{D.}%
-     {Jorg}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zaleski}{Z.}%
-     {Chris}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jha}{J.}%
-     {Sonali}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Batut}{B.}%
-     {Philippe}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Chaisson}{C.}%
-     {Mark}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gingeras}{G.}%
-     {Thomas~R.}{T.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{DA+1}
-  \strng{fullhash}{DADCASFDJZCJSBPCMGTR1}
-  \field{abstract}{%
-  MOTIVATION: Accurate alignment of high-throughput RNA-seq data is a
+  \entry{Dobin2013}{article}{}
+    \name{author}{9}{}{%
+      {{hash=DA}{%
+         family={Dobin},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DCA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Carrie\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Schlesinger},
+         familyi={S\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Drenkow},
+         familyi={D\bibinitperiod},
+         given={Jorg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zaleski},
+         familyi={Z\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jha},
+         familyi={J\bibinitperiod},
+         given={Sonali},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Batut},
+         familyi={B\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Chaisson},
+         familyi={C\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Gingeras},
+         familyi={G\bibinitperiod},
+         given={Thomas\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADCASFDJZCJSBPCMGTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    MOTIVATION: Accurate alignment of high-throughput RNA-seq data is a
   challenging and yet unsolved problem because of the non-contiguous transcript
   structure, relatively short read lengths and constantly increasing throughput
   of the sequencing technologies. Currently available RNA-seq aligners suffer
@@ -929,49 +1067,55 @@
   implemented as a standalone C++ code. STAR is free open source software
   distributed under GPLv3 license and can be downloaded from
   http://code.google.com/p/rna-star/.%
-  }
-  \verb{doi}
-  \verb 10.1093/bioinformatics/bts635
-  \endverb
-  \verb{eprint}
-  \verb 1201.0052
-  \endverb
-  \field{isbn}{1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)}
-  \field{issn}{13674803}
-  \field{title}{{STAR: Ultrafast universal RNA-seq aligner}}
-  \field{journaltitle}{Bioinformatics}
-  \field{eprinttype}{arXiv}
-  \field{year}{2013}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bts635
+    \endverb
+    \verb{eprint}
+    \verb 1201.0052
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{title}{{STAR: Ultrafast universal RNA-seq aligner}}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
 
-\entry{Risso2014}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Risso}{R.}%
-     {Davide}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ngai}{N.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Speed}{S.}%
-     {Terence~P.}{T.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dudoit}{D.}%
-     {Sandrine}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RD+1}
-  \strng{fullhash}{RDNJSTPDS1}
-  \field{abstract}{%
-  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
-  accurate inference of expression levels. Here, we show that usual
+  \entry{Risso2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RD}{%
+         family={Risso},
+         familyi={R\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ngai},
+         familyi={N\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=STP}{%
+         family={Speed},
+         familyi={S\bibinitperiod},
+         given={Terence\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dudoit},
+         familyi={D\bibinitperiod},
+         given={Sandrine},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RD+1}
+    \strng{fullhash}{RDNJSTPDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Normalization of RNA-sequencing (RNA-seq) data has proven essential to
+  ensure accurate inference of expression levels. Here, we show that usual
   normalization approaches mostly account for sequencing depth and fail to
   correct for library preparation and other more complex unwanted technical
   effects. We evaluate the performance of the External RNA Control Consortium
@@ -986,189 +1130,455 @@
   expression compared to state-of-the-art normalization methods. In particular,
   RUV promises to be valuable for large collaborative projects involving
   multiple laboratories, technicians, and/or sequencing platforms.%
-  }
-  \verb{doi}
-  \verb 10.1038/nbt.2931
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1011.1669v3
-  \endverb
-  \field{isbn}{1087-0156}
-  \field{issn}{15461696}
-  \field{title}{{Normalization of RNA-seq data using factor analysis of control
-  genes or samples}}
-  \field{journaltitle}{Nature Biotechnology}
-  \field{eprinttype}{arXiv}
-  \field{year}{2014}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1038/nbt.2931
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1087-0156}
+    \field{issn}{15461696}
+    \field{title}{{Normalization of RNA-seq data using factor analysis of
+  control genes or samples}}
+    \field{journaltitle}{Nature Biotechnology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2014}
+  \endentry
 
-\entry{Robinson2010}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Robinson}{R.}%
-     {Mark~D.}{M.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Oshlack}{O.}%
-     {Alicia}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RMDOA1}
-  \strng{fullhash}{RMDOA1}
-  \field{abstract}{%
-  The fine detail provided by sequencing-based transcriptome surveys suggests
+  \entry{Robinson2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RMD}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Mark\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Oshlack},
+         familyi={O\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMDOA1}
+    \strng{fullhash}{RMDOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The fine detail provided by sequencing-based transcriptome surveys suggests
   that RNA-seq is likely to become the platform of choice for interrogating
   steady state RNA. In order to discover biologically important changes in
   expression, we show that normalization continues to be an essential step in
   the analysis. We outline a simple and effective method for performing
   normalization and show dramatically improved results for inferring
   differential expression in simulated and publicly available data sets.%
-  }
-  \verb{doi}
-  \verb 10.1186/gb-2010-11-3-r25
-  \endverb
-  \verb{eprint}
-  \verb PMC2864565
-  \endverb
-  \field{isbn}{1465-6906}
-  \field{issn}{14747596}
-  \field{title}{{A scaling normalization method for differential expression
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2010-11-3-r25
+    \endverb
+    \verb{eprint}
+    \verb PMC2864565
+    \endverb
+    \field{isbn}{1465-6906}
+    \field{issn}{14747596}
+    \field{title}{{A scaling normalization method for differential expression
   analysis of RNA-seq data}}
-  \field{journaltitle}{Genome Biology}
-  \field{eprinttype}{arXiv}
-  \field{year}{2010}
-\endentry
+    \field{journaltitle}{Genome Biology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
+  \endentry
 
-\entry{Dillies2013}{article}{}
-  \name{author}{19}{}{%
-    {{}%
-     {Dillies}{D.}%
-     {Marie~Agn{\`{e}}s}{M.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rau}{R.}%
-     {Andrea}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Aubert}{A.}%
-     {Julie}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hennequet-Antier}{H.-A.}%
-     {Christelle}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jeanmougin}{J.}%
-     {Marine}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Servant}{S.}%
-     {Nicolas}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Keime}{K.}%
-     {C{\'{e}}line}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Marot}{M.}%
-     {Nicolas~Servant}{N.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Castel}{C.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Estelle}{E.}%
-     {Jordi}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Guernec}{G.}%
-     {Gregory}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jagla}{J.}%
-     {Bernd}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jouneau}{J.}%
-     {Luc}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lalo{\"{e}}}{L.}%
-     {Denis}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Le Gall}}{L.}%
-     {Caroline}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Scha{\"{e}}ffer}{S.}%
-     {Brigitte}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Le Crom}}{L.}%
-     {St{\'{e}}phane}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Guedj}{G.}%
-     {Micka{\"{e}}l}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jaffr{\'{e}}zic}{J.}%
-     {Florence}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Differential analysis,High-throughput sequencing,Normalization,RNA-seq}
-  \strng{namehash}{DMA+1}
-  \strng{fullhash}{DMARAAJHACJMSNKCMNSCDEJGGJBJLLDLCSBLSGMJF1}
-  \field{abstract}{%
-  During the last 3 years, a number of approaches for the normalization of RNA
-  sequencing data have emerged in the literature, differing both in the type of
-  bias adjustment and in the statistical strategy adopted. However, as data
-  continue to accumulate, there has been no clear consensus on the appropriate
-  normalization method to be used or the impact of a chosen method on the
-  downstream analysis. In this work, we focus on a comprehensive comparison of
-  seven recently proposed normalization methods for the differential analysis
-  of RNA-seq data, with an emphasis on the use of varied real and simulated
-  datasets involving different species and experimental designs to represent
-  data characteristics commonly observed in practice. Based on this comparison
-  study, we propose practical recommendations on the appropriate normalization
-  method to be used and its impact on the differential analysis of RNA-seq
-  data.%
-  }
-  \verb{doi}
-  \verb 10.1093/bib/bbs046
-  \endverb
-  \field{isbn}{1477-4054 (Electronic)$\backslash$r1467-5463 (Linking)}
-  \field{issn}{14675463}
-  \field{title}{{A comprehensive evaluation of normalization methods for
+  \entry{Dillies2013}{article}{}
+    \name{author}{19}{}{%
+      {{hash=DMA}{%
+         family={Dillies},
+         familyi={D\bibinitperiod},
+         given={Marie\bibnamedelima Agn{\`{e}}s},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rau},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Aubert},
+         familyi={A\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HAC}{%
+         family={Hennequet-Antier},
+         familyi={H\bibinitperiod-A\bibinitperiod},
+         given={Christelle},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jeanmougin},
+         familyi={J\bibinitperiod},
+         given={Marine},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Servant},
+         familyi={S\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Keime},
+         familyi={K\bibinitperiod},
+         given={C{\'{e}}line},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MNS}{%
+         family={Marot},
+         familyi={M\bibinitperiod},
+         given={Nicolas\bibnamedelima Servant},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Castel},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Estelle},
+         familyi={E\bibinitperiod},
+         given={Jordi},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guernec},
+         familyi={G\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=JB}{%
+         family={Jagla},
+         familyi={J\bibinitperiod},
+         given={Bernd},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jouneau},
+         familyi={J\bibinitperiod},
+         given={Luc},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lalo{\"{e}}},
+         familyi={L\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={{Le Gall}},
+         familyi={L\bibinitperiod},
+         given={Caroline},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Scha{\"{e}}ffer},
+         familyi={S\bibinitperiod},
+         given={Brigitte},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={{Le Crom}},
+         familyi={L\bibinitperiod},
+         given={St{\'{e}}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guedj},
+         familyi={G\bibinitperiod},
+         given={Micka{\"{e}}l},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jaffr{\'{e}}zic},
+         familyi={J\bibinitperiod},
+         given={Florence},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Differential analysis,High-throughput
+  sequencing,Normalization,RNA-seq}
+    \strng{namehash}{DMA+1}
+    \strng{fullhash}{DMARAAJHACJMSNKCMNSCDEJGGJBJLLDLCSBLSGMJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    During the last 3 years, a number of approaches for the normalization of
+  RNA sequencing data have emerged in the literature, differing both in the
+  type of bias adjustment and in the statistical strategy adopted. However, as
+  data continue to accumulate, there has been no clear consensus on the
+  appropriate normalization method to be used or the impact of a chosen method
+  on the downstream analysis. In this work, we focus on a comprehensive
+  comparison of seven recently proposed normalization methods for the
+  differential analysis of RNA-seq data, with an emphasis on the use of varied
+  real and simulated datasets involving different species and experimental
+  designs to represent data characteristics commonly observed in practice.
+  Based on this comparison study, we propose practical recommendations on the
+  appropriate normalization method to be used and its impact on the
+  differential analysis of RNA-seq data.%
+    }
+    \verb{doi}
+    \verb 10.1093/bib/bbs046
+    \endverb
+    \field{isbn}{1477-4054 (Electronic)$\backslash$r1467-5463 (Linking)}
+    \field{issn}{14675463}
+    \field{title}{{A comprehensive evaluation of normalization methods for
   Illumina high-throughput RNA sequencing data analysis}}
-  \field{journaltitle}{Briefings in Bioinformatics}
-  \field{year}{2013}
-\endentry
+    \field{journaltitle}{Briefings in Bioinformatics}
+    \field{year}{2013}
+  \endentry
 
-\lossort
-\endlossort
+  \entry{Robinson2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RMD}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={M\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MDJ}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={D\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SGK}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={G\bibnamedelima K},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMD+1}
+    \strng{fullhash}{RMDMDJSGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    ... edgeR is a Bioconductor software package for examining differential
+  expression of replicated count data . An overdispersed Poisson model is used
+  to account for both biological and technical variability. ...%
+    }
+    \field{issn}{{\textless}null{\textgreater}}
+    \field{number}{1}
+    \field{pages}{139\bibrangedash 140}
+    \field{title}{{edgeR: a Bioconductor package for differential expression
+  analysis of digital gene expression data}}
+    \verb{url}
+    \verb http://bioinformatics.oxfordjournals.org/cgi/doi/10.1093/bioinformati
+    \verb cs/btp616{\%}5Cnpapers2://publication/doi/10.1093/bioinformatics/btp6
+    \verb 16
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{Bioinformatics (Oxford, England)}
+    \field{year}{2009}
+  \endentry
 
+  \entry{McCarthy2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MDJ}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={Davis\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yunshun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SGK}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={Gordon\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDJ+1}
+    \strng{fullhash}{MDJCYSGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A flexible statistical framework is developed for the analysis of read
+  counts from RNA-Seq gene expression studies. It provides the ability to
+  analyse complex experiments involving multiple treatment conditions and
+  blocking variables while still taking full account of biological variation.
+  Biological variation between RNA samples is estimated separately from the
+  technical variation associated with sequencing technologies. Novel empirical
+  Bayes methods allow each gene to have its own specific variability, even when
+  there are relatively few biological replicates from which to estimate such
+  variability. The pipeline is implemented in the edgeR package of the
+  Bioconductor project. A case study analysis of carcinoma data demonstrates
+  the ability of generalized linear model methods (GLMs) to detect differential
+  expression in a paired design, and even to detect tumour-specific expression
+  changes. The case study demonstrates the need to allow for gene-specific
+  variability, rather than assuming a common dispersion across genes or a fixed
+  relationship between abundance and variability. Genewise dispersions
+  de-prioritize genes with inconsistent results and allow the main analysis to
+  focus on changes that are consistent between biological replicates. Parallel
+  computational approaches are developed to make non-linear model fitting
+  faster and more reliable, making the application of GLMs to genomic data more
+  convenient and practical. Simulations demonstrate the ability of adjusted
+  profile likelihood estimators to return accurate estimators of biological
+  variability in complex situations. When variation is gene-specific, empirical
+  Bayes estimators provide an advantageous compromise between the extremes of
+  assuming common dispersion or separate genewise dispersion. The methods
+  developed here can also be applied to count data arising from DNA-Seq
+  applications, including ChIP-Seq for epigenetic marks and DNA methylation
+  analyses.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gks042
+    \endverb
+    \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
+    \field{issn}{03051048}
+    \field{number}{10}
+    \field{pages}{4288\bibrangedash 4297}
+    \field{title}{{Differential expression analysis of multifactor RNA-Seq
+  experiments with respect to biological variation}}
+    \field{volume}{40}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Tarazona2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=TS}{%
+         family={Tarazona},
+         familyi={T\bibinitperiod},
+         given={Sonia},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Garc{\'{i}}a},
+         familyi={G\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Ferrer},
+         familyi={F\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dopazo},
+         familyi={D\bibinitperiod},
+         given={Joaqu{\'{i}}n},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Conesa},
+         familyi={C\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{COST,RNA-seq,differential expression,next generation
+  sequencing,non-parametric approach}
+    \strng{namehash}{TS+1}
+    \strng{fullhash}{TSGFFADJCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    http://bioinfo.cipf.es/aconesa Introduction Next Generation Sequencing
+  (NGS) technologies have brought a revolution to research in genome and genome
+  regulation. One of the most breaking applications of NGS is in transcriptome
+  analysis. RNA-seq has revealed exciting new data on gene models, alternative
+  splicing and extra-genic expression. Also RNA-seq permits the quantification
+  of gene expression across a large dynamic range and with more reproducibility
+  than microarrays. Several methods for the assessment of differential
+  expression from count data have been proposed but biases associated to
+  transcript length and transcript frequency distributions have been reported.
+  It is still not clear how much sequencing reads should be generated in a
+  RNA-seq experiment to obtain reliable results and what's exactly being
+  detected. In general we observed that many RNA-seq datasets have not reached
+  saturation for detection of expressed genes and that the relative proportion
+  of different transcript biotypes changes with increasing sequencing depth. In
+  this work we investigate the effect that library size has on the assessment
+  of differential expression on different aspects of the selected genes. We
+  show that current statistical methods suffer from a strong dependency of
+  their significant calls on the number of mapped reads considered and proposed
+  a novel differential expression methodology – NOISeq1- that is robust to
+  the amount of reads. Results NOISeq is a non-parametric approach for the
+  differential expression analysis of RNseq-data. NOISeq creates a null or
+  noise distribution of count changes by comparing the number of reads of each
+  gene in samples within the same condition. This reference distribution is
+  then used to assess whether the change in count number between two conditions
+  for a given gene is likely to be part of the noise or represents a true
+  differential expression. Two variants of the method are implemented:
+  NOISeq-real uses replicates, when available, to compute the noise
+  distribution and, NOISeq-sim simulates them in absence of replication. We
+  compared our method with edgeR2, DESeq3, baySeq4 and Fisher Exact Test (FET)
+  using three different experimental datasets. Results are presented for MAQC
+  experiment where the transcriptome of brain and Universal Human Reference
+  (HUR) samples were sequenced at about 45 million Solexa reads each. We first
+  determined that although protein-coding gene is the most abundant transcript
+  type within differential expression calls for all methodologies, other RNA
+  types, such as processed-transcript, pseudogenes and lincRNAs are readily
+  detected. NOISeq dected comparatively more protein-coding genes than other
+  methods that called significant a considerable number of non-coding and small
+  RNA transcripts. Additionally, all comparing methods except FET greatly
+  increased the number of detected (non-coding) genes as sequencing depth
+  raised while NOISeq showed a constant pattern. Also these other methods tend
+  to select shorter genes and smaller fold change differences with the
+  increasing amounts of reads. In general, parametric approaches selected much
+  more genes than NOISeq, specially at high sequencing depth rates. When
+  analyzing the functional content of these genes by functional enrichment
+  analysis, we observed that the pool of genes detected both by NOISeq and the
+  parametric methods where highly enriched in functional categories, while
+  genes selected only by parametric methods did not. To check whether this
+  differences were indicative of different false calls between methods, we used
+  the RT-PCR data available at the MAQC project that contains 330 true positive
+  and 83 true negative differentially expressed genes. Performance plots
+  indicate that edgeR, DESeq, baySeq strongly increased the number of false
+  calls with sequencing depth, while NOISeq was constant and low. On the
+  contrary true discoveries were slightly better for these methods, presumably
+  consequence of their large number of selected genes. FET showed in low false
+  and true discovery rates, due to its general lower detection power.
+  Conclusions We showed that most current RNA-seq statistical analysis methods
+  fail to control the number of false discoveries as the size of the sequenced
+  library increases. These false positive are mainly short, non- coding genes
+  and/or genes with small fold changes. NOISeq, but adopting an empirical
+  approach to model the null distribution of differential expression captures
+  better the shape of noise in RNA-seq data, resulting in a sequencing-depth
+  robust method for differential expression analysis. References 1. Tarazona
+  S., Garcia-Alcalde F., Ferrer A., Dopazo J., Conesa, A. Differential
+  expression in RNA-seq:a matter of depth. Genome Research, Sep 2011,
+  doi:10.1101/gr.124321.11. 2. Robinson, MD, McCarthy, DJ, and Smyth, GK. 2010.
+  edgeR: a Bioconductor package for differential expression analysis of digital
+  gene expression data. Bioinformatics 26(1):139,140. 3. Anders, S and Huber,
+  W. 2010. Differential expression analysis for sequence count data. Genome
+  Biology 11(10):R106. 4. Hardcastle, T and Kelly, K. 2010. baySeq: Empirical
+  Bayesian methods for identifying differential expression in sequence count
+  data. BMC Bioinformatics 11(1):422+. Relevant Web sites 5.
+  http://bioinfo.cipf.es/noiseq%
+    }
+    \verb{doi}
+    \verb 10.14806/ej.17.B.265
+    \endverb
+    \field{isbn}{1023-4144}
+    \field{issn}{2226-6089}
+    \field{number}{B}
+    \field{pages}{18}
+    \field{title}{{NOIseq: a RNA-seq differential expression method robust for
+  sequencing depth biases}}
+    \verb{url}
+    \verb http://journal.embnet.org/index.php/embnetjournal/article/view/265
+    \endverb
+    \field{volume}{17}
+    \field{journaltitle}{EMBnet.journal}
+    \field{year}{2012}
+  \endentry
+\endsortlist
 \endinput
