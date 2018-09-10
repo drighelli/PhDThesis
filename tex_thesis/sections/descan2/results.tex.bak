@@ -42,7 +42,7 @@ Highlighting a proportional inversion between the number of the peaks and the co
 The filtered-in regions can be processed by DEScan2 in order to obtain a count matrix with samples on the columns and peaks on the rows.
 This type of data structure is very versatile, because it enables to perform several operations, like the differential enrichment of regions (DERs) and, if possible, the integration with other kind of omics, as RNA-Seq.
 
-In order to preserve the information associated to the peaks, DEScan2 produces as output a \textit{SummarizedExperiment} \ref{fig:countsdescan} data structure, which enables to retrieve the count matrix with \lstinline{assays} method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline{rowRanges} method.
+In order to preserve the information associated to the peaks, DEScan2 produces as output a \textit{SummarizedExperiment} (figure \ref{fig:countsdescan}) data structure, which enables to retrieve the count matrix with \lstinline{assays} method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline{rowRanges} method.
 
 \begin{figure}[H]
 \centering
@@ -72,9 +72,9 @@ Even if these normalization methods show good performances with this type of epi
 \centering
 \end{figure}
 
-To estimate the DERs any of the RNA-Seq methods can be applied, as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
+To estimate the DERs any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
 
-In this case, we decided to use edgeR package, because of its flexibility of usage and the possibility to better tune the design of the experiment.
+In this case, we decided to use \textit{edgeR} package, because of its usage flexibility and the possibility to better tune the design of the experiment.
 
 \begin{figure}[H]
 \centering

@@ -74,8 +74,14 @@ Even if these normalization methods show good performances with this type of epi
 
 To estimate the DERs any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
 
-In this case, we decided to use \textit{edgeR} package, because of its usage flexibility and the possibility to better tune the design of the experiment.
+In this case, decided to use \textit{edgeR} package, because of its wide range ofavailable  statistical methods and the possibility to better tune the design of the experiment. 
+Indeed, in our case, we used the RUV-Seq normalized counts with \lstinline{k} parameter set to 4. 
+We modeled the design with the \lstinline{model.matrix} function, adding to our model not only the experimental conditions, but also the RUV-Seq estimated weights.
+Then we used the resulting design to estimate the dispersion and to fit a Quasi-Likelihood test, as defined in edgeR.
 
+The figure \ref{fig:depeaksdescan} shows a volcano plot of DERs between E0 and E1 conditions.
+Red dots highlights the regions with a False Discovery Rate (FDR) lower than 0.05, while blue dots highlight not significant regions.
+ 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/DE_peaks.png}
@@ -83,4 +89,28 @@ In this case, we decided to use \textit{edgeR} package, because of its usage fle
 \label{fig:depeaksdescan}
 \centering
 \end{figure}
+
+Next task is to integrate the obtained results with other omic data types, as RNA-Seq. 
+Because of the low number of the samples, the easiest way to integrate the data is to annotate the DERs with differentially expressed genes resulting from the analysis of RNA-Seq.
+
+For the Differential expression of the RNA-Seq data we firstly quantified the signal with featureCounts methods available in the Subread Bioconductor package. (cite)
+Then we filtered lowly expressed genes with the \textit{proportion}  as implemented in NOISeq package, and applied the noiseq method.
+We selected the significant DE genes with a probability higher than 0.95, and used these genes to annotate the peaks with annotatePeakInBatch method of ChIPpeakAnno.
+Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with a gene annotated with a distance lower than 10000bp from the TSS of the gene.
+Realizing the plot with the plotly library it's possible to enhance the names of the genes with a tip window.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
+\caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant DERs, while the red ones represent the significant DERs. Green circles highlights the peaks with a Differential Enriched gene annotated.}
+\label{fig:depeakdegenessdescan}
+\centering
+\end{figure}
+
+
+
+
+
+
+
 
