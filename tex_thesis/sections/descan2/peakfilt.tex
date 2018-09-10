@@ -1,14 +1,14 @@
 
-In order to detect the most possible "true peaks", we deisgned a filtering step based on two different threshold.
+In order to filter out false positives peaks, we designed a filtering method (\lstinline{finalRegions}) based on two different thresholds.
 A first threshold on the peaks score and a second threshold on the number of samples.
 
 The filtering step is designed to take as input a list of peaks as GenomicRangesList, where each element represents a chromosome.
-This is the data structure produced by the peak caller, but, we developed a method to load peaks produced also by other software like MACS \cite{Zhang2008}, as described in section \ref{sec:descan2addfeat}.
+This is the data structure produced by the peak caller, but, we also developed a method to load peaks produced also by other software like MACS \cite{Zhang2008}, as described in section \ref{sec:descan2addfeat}.
 
-The filtering step on the peaks score just filters out the peaks with a score lower than the user-defined threshold value.
+Firstly, using the threshold on the peak's score (\lstinline{zThreshold} parameter), the method filters out the peaks with a score lower than the user-defined threshold value.
 
-While the filtering step on the samples, firstly extends a window in both directions of the detected region, then computes the overlaps between the samples using the \textit{findOverlapsOfPeaks} method (with \textit{connectedPeaks} parameter as \textit{merge}), defined in the ChIPpeakAnno \cite{Zhu2010} R package.
+Then it extends a 200bp window in both directions of the detected region, computing the overlaps between the samples using the \lstinline{findOverlapsOfPeaks} method (with \lstinline{connectedPeaks} parameter set as \lstinline{merge}), defined by the ChIPpeakAnno \cite{Zhu2010} Bioconductor package.
 
-Basing on this idea, the filtering step is developed to filter out those peaks not present in at least a user-defined number of samples. In the light of this, the user can decide the minimum number of samples where each peak has to be detected. A further threshold can be used over
-the peak score.
+Based on this idea, the filtering step is developed to filter out those peaks not present in at least a user-defined (\lstinline{minCarriers} parameter) number of samples. In the light of this, the user can decide the minimum number of samples where each peak has to be detected.
+We suggest to set the threshold as a mutiple of the number of replicates of the conditions.
 

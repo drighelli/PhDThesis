@@ -19,7 +19,9 @@
 \usepackage[toc,page]{appendix}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
-
+\usepackage{listings}
+\usepackage{acronym}
+%\include{acronym.tex}
 
 \setstretch{1.2}
 \usepackage[unicode=true,pdfusetitle,
@@ -242,7 +244,7 @@ Write your abstract here
 \cleardoublepage{}
 \pagestyle{fancy}
 
-
+\include{acronym.tex}
 %\include{original_articles}
 \newpage
 \chapter{Introduction}
@@ -330,8 +332,12 @@ Write your abstract here
 %\include{appendixB}
 %\include{appendixC}
 %\end{appendices}
+%\makeglossaries
+
 
 \printbibliography[heading=bibnumbered]
+\cleardoublepage
+
 
 \cleardoublepage
 % \phantomsection
