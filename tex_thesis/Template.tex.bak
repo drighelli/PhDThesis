@@ -20,7 +20,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{listings}
-\usepackage{acronym}
+
 %\include{acronym.tex}
 
 \setstretch{1.2}
@@ -156,7 +156,9 @@ tabsize=2}
 \algnewcommand\algorithmicoutput{\textbf{OUTPUT:}}
 \algnewcommand\OUTPUT{\item[\algorithmicoutput]}
 %\endlocaldefs
-
+\usepackage{glossaries}
+\makeglossaries
+\loadglsentries{acronyms.tex}
 
 \begin{document}
 \pagestyle{empty}
@@ -308,7 +310,7 @@ Write your abstract here
 \section{Implementation Aspects}
 \section{Reproducible Computational Research}
 \section{Results}
-
+\gls{foo}
 \chapter{Conclusions \& Future Works}
 
 
@@ -338,6 +340,7 @@ Write your abstract here
 \printbibliography[heading=bibnumbered]
 \cleardoublepage
 
+\printglossaries
 
 \cleardoublepage
 % \phantomsection

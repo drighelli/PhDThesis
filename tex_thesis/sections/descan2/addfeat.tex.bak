@@ -16,4 +16,4 @@ Taken as input a GenomicRangesList organized by samples, this method returns a l
 Other useful utilities are \lstinline{keepRelevantChrs}, that takes a GenomicRangesList and a list of chromosomes and return only the interested chromosomes.
 \lstinline{saveGRangesAsTsv} that saves a tab separated value file starting from a GenomicRanges.
 \lstinline{saveGRangesAsBed} that save a standard BED file format starting from a GenomicRanges data structure.
-\lstinline{setGRangesGenomeInfo} which sets a specific genomeIn
+\lstinline{setGRangesGenomeInfo} which, starting from a genome code, sets a specific \textit{genomeInfo} to a \textit{GenomicRanges} object.
