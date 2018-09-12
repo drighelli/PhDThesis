@@ -1,9 +1,9 @@
 \textbf{Few words on epigenomic data}
 
-We illustrate the performances of DEScan2 using a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using Atac-Seq and RNA-Seq technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
+We illustrate the performances of \gls{descan} using a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using Atac-Seq and RNA-Seq technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
 
 This dataset is organized in 62 samples of Atac-Seq and RNA-Seq, extracted at different time points, with four replicates at each time point.
-We chose to compare the differences btween the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a possible Atac-Sec workflow for Differential Enrichment, and how to integrate this data type with RNA-Seq. A general illustration of our dataset is represented in \ref{fig:atacdataset}.
+We chose to compare the differences btween the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a possible Atac-Sec workflow for Differential Enrichment, and how to integrate this data type with RNA-Seq. A general illustration of our dataset is represented in figure \ref{fig:atacdataset}.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/dataset.png}
@@ -12,17 +12,26 @@ We chose to compare the differences btween the first two stages, time 0 (E0) and
 \centering
 \end{figure}
 
-We downloaded the data from \textit{GEO} database \cite{Edgar2002, Barrett2013} with accession number GSE82015\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82015}} and mapped raw data using \textit{STAR} \cite{Dobin2013} with default parameter on Mus Musculus Genome ver.10 (mm10).
+We downloaded the data from \gls{geo} database \cite{Edgar2002, Barrett2013} with accession number GSE82015\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82015}} and mapped raw data using \textit{STAR} \cite{Dobin2013} with default parameter on \gls{mm10}.
 
 In order to detect the open chromatin regions we run our peak caller, cutting the genome in bins of 50bp and using running windows of minimum 50bp and maximum 1000bp. In such a way we are able to detect not just broad peak, but also smaller peaks.
 
-To be confident with our results we compared the DEScan2 detected peaks with the same validated regions (Arc and Gabrr1) in the original work \cite{Su2017}.
-The lower part of figure \ref{fig:peaksdescan} shows the detected and validated regions (in blue and red) resulting differentially enriched between the E0 (in pink) and E1 (in green) conditions, while the upper part shows DEScan2 peaks (in blue), highlighting a capability to catch not only the same regions of the published ones, but also (gold circles) to be more careful in the smaller peaks detection.
+To be confident with our results we compared the \gls{descan} detected peaks with the same validated regions (Arc and Gabrr1) in the original work \cite{Su2017}.
+The lower part of figure \ref{fig:peaksdescan} shows the detected and validated regions (in blue and red) resulting differentially enriched between the E0 (in pink) and E1 (in green) conditions, while the upper part shows \gls{descan} peaks (in blue), highlighting a capability to catch not only the same regions of the published ones, but also (gold circles) to be more careful in the smaller peaks detection.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/peaks.png}
-\caption[DEScan2 peaks detection]{A comparison of DEScan2 detected peaks with validated peaks in article \cite{Su2017}.}
+\caption[\gls{descan} peaks detection]{A comparison of \gls{descan} detected peaks with validated peaks in article \cite{Su2017}.}
 \label{fig:peaksdescan}
+\centering
+\end{figure}
+
+Moreover, we run \textit{MACS2} on the same samples, and (as shown in figure \ref{fig:des2m2peaks}) \gls{descan} seems able to catch much more peaks than \textit{MACS2} for each sample.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/d2m2_peaks_number.png}
+\caption[\gls{descan} and \texit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
+\label{fig:des2m2peaks}
 \centering
 \end{figure}
 
@@ -34,32 +43,40 @@ Highlighting a proportional inversion between the number of the peaks and the co
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/filtering.png}
-\caption[DEScan2 filtering step]{Filtering the detected regions with different thresholds on peak scores.}
+\caption[\gls{descan} filtering step]{Filtering the detected regions with different thresholds on peak scores.}
 \label{fig:filteringdescan}
 \centering
 \end{figure}
 
-The filtered-in regions can be processed by DEScan2 in order to obtain a count matrix with samples on the columns and peaks on the rows.
-This type of data structure is very versatile, because it enables to perform several operations, like the differential enrichment of regions (DERs) and, if possible, the integration with other kind of omics, as RNA-Seq.
 
-In order to preserve the information associated to the peaks, DEScan2 produces as output a \textit{SummarizedExperiment} (figure \ref{fig:countsdescan}) data structure, which enables to retrieve the count matrix with \lstinline{assays} method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline{rowRanges} method. %{
+\begin{figure}[H]
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/filtering_m2_d2.png}
+\caption[\gls{descan} and \textit{MACS2} filtering comparison]{Filtering the detected regions with different thresholds on peak scores between \textit{MACS2} and \gls{descan}.}
+\label{fig:filteringdescanmacs2}
+\centering
+\end{figure}
+
+The filtered-in regions can be processed by \gls{descan} in order to obtain a count matrix with samples on the columns and peaks on the rows.
+This type of data structure is very versatile, because it enables to perform several operations, like the \glspl{der} and, if possible, the integration with other kind of omics, as RNA-Seq.
+
+In order to preserve the information associated to the peaks, \gls{descan} produces as output a \textit{SummarizedExperiment} (figure \ref{fig:countsdescan}) data structure, which enables to retrieve the count matrix with \lstinline{assays} method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline{rowRanges} method. %{
 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio]{img/descan2/counts.png}
-\caption[DEScan2 counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by DEScan2.}
+\caption[\gls{descan} counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by \gls{descan}.}
 \label{fig:countsdescan}
 \centering
 \end{figure}
 
-Before to proceed to detect DERs, it is a good standard to normalize the data, also because without any kind of normalization we are not able to detect any DERs.
+Before to proceed to detect \glspl{der}, it is a good standard to normalize the data, also because without any kind of normalization we are not able to detect any \gls{der}.
 The nature of the data, in count format, makes it possible to apply several well known RNA-Seq normalizations techniques, as \textit{TMM}, \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-Seq}, etc \cite{Risso2014, Robinson2010, Dillies2013}.
 
-While the \textit{TMM} and \textit{upper-quartile} normalizations modify the data in a way that makes it impossible to detect DERs, other kind of normalizations and combinantions of them give good results.
+While the \textit{TMM} and \textit{upper-quartile} normalizations modify the data in a way that makes it impossible to detect \glspl{der}, other kind of normalizations and combinantions of them give good results.
 
-The figure \ref{fig:normalizationsdescan} sintetizes this concept very well, highlighting a relation between the number of DERs and the minumum number of samples used for filtering the data during the DEScan2 filtering step.
+The figure \ref{fig:normalizationsdescan} sintetizes this concept very well, highlighting a relation between the number of \glspl{der} and the minumum number of samples used for filtering the data during the \gls{descan} filtering step.
 
-The plot shows that \textit{upper-quantile}, even if combined with \textit{RUV-Seq} normalization, is not able to linearly detect a good amount of DERs, while \textit{full-quantile}, when combined with \textit{RUV-Seq} seems to affect the data in a way that overdetect the number of DERs. 
+The plot shows that \textit{upper-quantile}, even if combined with \textit{RUV-Seq} normalization, is not able to linearly detect a good amount of \glspl{der}, while \textit{full-quantile}, when combined with \textit{RUV-Seq} seems to affect the data in a way that overdetect the number of \glspl{der}. 
 When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themself seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
 
 Even if these normalization methods show good performances with this type of epignomic data, our investigations suggest that more testing is required, but maybe an ad-hoc normalization method for these data has to be developed.
@@ -72,25 +89,25 @@ Even if these normalization methods show good performances with this type of epi
 \centering
 \end{figure}
 
-To estimate the DERs, any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
+To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
 
 In this case, we decided to use \textit{edgeR} package, because of its wide range of  available statistical approaches and the possibility to better tune the design of the experiment. 
 Indeed, because we used the RUV-Seq normalized counts with \lstinline{k} parameter set to 4, we modeled the experimental design with the \lstinline{model.matrix} function, adding to our model not only the experimental conditions, but also the RUV-Seq estimated weights.
 Then we used the resulted design to estimate the dispersion and fit a Quasi-Likelihood test, as defined in edgeR.
 
-The figure \ref{fig:depeaksdescan} shows a volcano plot of DERs between E0 and E1 conditions.
+The figure \ref{fig:depeaksdescan} shows a volcano plot of \glspl{der} between E0 and E1 conditions.
 Red dots highlights the regions with a False Discovery Rate (FDR) lower than 0.05, while blue dots highlight not significant regions.
  
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/DE_peaks.png}
-\caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant DERs, while the red ones represent the significant DERs.}
+\caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}.}
 \label{fig:depeaksdescan}
 \centering
 \end{figure}
 
 Next task is to integrate the obtained results with other omic data types, as RNA-Seq. 
-Because of the low number of the samples, the easiest way to integrate the data is to annotate the DERs with differentially expressed genes resulting from the analysis of RNA-Seq.
+Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with differentially expressed genes resulting from the analysis of RNA-Seq.
 
 For the Differential expression of the RNA-Seq data we firstly quantified the signal with \lstinline{featureCounts} methods available in the \textit{Rsubread} \cite{Liao2013} Bioconductor package.
 Then we filtered lowly expressed genes with the \textit{proportion} test  as implemented in \textit{NOISeq} package, and applied the \lstinline{noiseq} method for differential expression.%{
@@ -98,12 +115,12 @@ Then we filtered lowly expressed genes with the \textit{proportion} test  as imp
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
-\caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant DERs, while the red ones represent the significant DERs. Green circles highlights the peaks with a Differential Enriched gene annotated.}
+\caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of \glspl{der}. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}. Green circles highlights the peaks with a \gls{deg} annotated.}
 \label{fig:depeakdegenessdescan}
 \centering
 \end{figure}
 
-We selected the significant DE genes with a probability higher than 0.95, and used these genes to annotate the peaks with \lstinline{annotatePeakInBatch} method of ChIPpeakAnno.
+We selected the significant \glspl{deg} with a probability higher than 0.95, and used these genes to annotate the peaks with \lstinline{annotatePeakInBatch} method of ChIPpeakAnno.
 Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene TSS.
 Realizing the plot with the \textit{plotly} library it's possible to enhance the names of the genes with a tip window.
 

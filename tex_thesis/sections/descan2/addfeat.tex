@@ -1,12 +1,12 @@
 The package offers additional features for loading data (i.e. peaks) resulting from other sources, and for manipulating \textit{GenomicRanges} data structure.
 
 The method \lstinline{readFilesAsGRangesList} takes as input a directory with BAM or BED data, to load in \textit{GenomicRangesList} format.
-This data structure is useful to store genomic information, as peaks or mapped reads, produced by other software like MACS2 or STAR and, in case of peaks, it is necessary during the DEScan2 filtering step.
+This data structure is useful to store genomic information, as peaks or mapped reads, produced by other software like \textit{MACS2} or \textit{STAR} and, in case of peaks, it is necessary during the \gls{descan} filtering step.
 Additionally to \lstinline{fileType} (BAM, BED, BED.zip) parameter specification it requires the genome code to use during the file processing.
 Moreover, when the input files represent peaks the \lstinline{arePeaks} flag needs to be set to \lstinline{TRUE}.
-In such a way the DEScan2 package can work also with data coming from other sources, preferred by the user.
+In such a way the \gls{descan} package can work also with data coming from other sources, preferred by the user.
 
-Furthermore, DEScan2 provides several functionalities for GenomicRanges data structure
+Furthermore, \gls{descan} provides several functionalities for GenomicRanges data structure
 handling. One over the others (\lstinline{fromSamplesToChrsGRangesList}) gives the possibility to split a GenomicRangesList by the chromosomes. 
 This procedure could be useful for parallelizing the computations on the chromosomes, assigning a single chromosome to a single computing unit.
 Taken as input a GenomicRangesList organized by samples, this method returns a list of chromosomes, where each element has a GenomicRangesList of samples, containing only the regions associated to the single chromosome.

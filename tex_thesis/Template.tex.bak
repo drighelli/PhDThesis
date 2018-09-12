@@ -156,7 +156,7 @@ tabsize=2}
 \algnewcommand\algorithmicoutput{\textbf{OUTPUT:}}
 \algnewcommand\OUTPUT{\item[\algorithmicoutput]}
 %\endlocaldefs
-\usepackage{glossaries}
+\usepackage[acronym, nomain]{glossaries}
 \makeglossaries
 \loadglsentries{acronyms.tex}
 
@@ -274,7 +274,7 @@ Write your abstract here
 \subsection{Additional Features}
 \section{Results}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{DEScan2 - Differential Enriched Scan 2} \label{sec:descan2cap}
 \input{sections/descan2/general.tex}
 
@@ -310,7 +310,6 @@ Write your abstract here
 \section{Implementation Aspects}
 \section{Reproducible Computational Research}
 \section{Results}
-\gls{foo}
 \chapter{Conclusions \& Future Works}
 
 

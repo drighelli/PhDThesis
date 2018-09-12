@@ -8,7 +8,7 @@ On this data structure the algorithm firstly divides each chromosome as bins of 
 In order to be able to catch small and spread peaks the algorithm computes the coverage also using windows of two different lengths, that can be defined with \lstinline{minCompWinWidth} and \lstinline{maxCompWinWidth} (defaults are 5000 and 10000) parameters.
 %\textit{\textbf{for real this part is to construct a sort of background of the signal, to compare the smaller windows to - ask to davide?}}
 
-The so produced coverages are useful to compute a score for each detected region, applying a Maximum Likelihood Estimation (MLE) on the coverages between the sliding windows, assuming a Poisson distribution.
+The so produced coverages are useful to compute a score for each detected region, applying a \gls{mle} on the coverages between the sliding windows, assuming a Poisson distribution.
 
 [PUT THE POISSON DISTRIBUTION AND THE LIKELIHOOD]
 
