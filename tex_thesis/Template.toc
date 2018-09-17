@@ -20,26 +20,26 @@
 \contentsline {section}{\numberline {2.3}Results}{13}{section.2.3}
 \contentsline {chapter}{\numberline {3}DEScan2 - Differential Enriched Scan 2}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{18}{section.3.2}
+\contentsline {section}{\numberline {3.2}Methods}{17}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Peak Caller}{18}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{19}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Peak Counts}{20}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{18}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{19}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Additional Features}{20}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Case Study}{21}{section.3.3}
-\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{34}{subsection.4.2.2}
-\contentsline {subsubsection}{Low Level Itegration}{34}{section*.11}
-\contentsline {subsubsection}{High Level Itegration}{34}{section*.12}
-\contentsline {section}{\numberline {4.3}Implementation Aspects}{34}{section.4.3}
-\contentsline {section}{\numberline {4.4}Reproducible Computational Research}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Results}{34}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{35}{chapter.5}
-\contentsline {chapter}{Appendices}{37}{section*.13}
-\contentsline {section}{\numberline {.1}R Language}{39}{section.a..1}
-\contentsline {section}{\numberline {.2}R Markdown Language}{39}{section.a..2}
-\contentsline {chapter}{\numberline {6}Bibliography}{41}{chapter.6}
+\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{32}{subsection.4.2.2}
+\contentsline {subsubsection}{Low Level Itegration}{32}{section*.11}
+\contentsline {subsubsection}{High Level Itegration}{32}{section*.12}
+\contentsline {section}{\numberline {4.3}Implementation Aspects}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Reproducible Computational Research}{32}{section.4.4}
+\contentsline {section}{\numberline {4.5}Results}{32}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{33}{chapter.5}
+\contentsline {chapter}{Appendices}{35}{section*.13}
+\contentsline {section}{\numberline {.1}R Language}{37}{section.a..1}
+\contentsline {section}{\numberline {.2}R Markdown Language}{37}{section.a..2}
+\contentsline {chapter}{\numberline {6}Bibliography}{39}{chapter.6}
 \contentsline {chapter}{List of Figures}{45}{section*.14}
 \contentsline {chapter}{List of Tables}{47}{section*.14}

@@ -1,9 +1,9 @@
-The counting step (\lstinline{countFinalRegions} method) is designed to take a \textit{GenomicRanges} data structure as input, where for each peak additional features, as the score and the number of samples, are saved.
-Moreover, it requires also the path of the BAM/BED files where the reads are stored, in order to quantify the peaks given as input.
+The counting step (\lstinline{countFinalRegions} method) is designed to take a \textit{GenomicRanges} data structure as input, where for each peak additional attributes, as the score and the number of samples, are saved.
+Moreover, to quantify the peaks given as input, it requires also the path of the BAM/BED files where the reads are stored.
 
 For each region the method counts the number of reads present in each sample.
-In so doing, it produces as result a matrix of the counts, where the rows and the columns represent, respectively, the regions and the samples.
+In so doing, it produces as result a matrix of the counts, where the rows and the columns, respectively, represent the regions and the samples.
 
-In order to keep trace of all information associated to the regions, it produces a \textit{SummarizedExperiment} \cite{SummExp} data structure, giving the possibility to retrieve the \textit{GenomicRanges} peaks associated data structure and the count matrix, respectively, with \lstinline{rowRanges} and \lstinline{assays} method.
+In order to keep trace of all information associated to the regions, it produces a \textit{SummarizedExperiment} \cite{SummExp} data structure, giving the possibility to retrieve the \textit{GenomicRanges} of associated peaks and the count matrix, respectively, using \lstinline{rowRanges} and \lstinline{assays} method.
 
-The choice to produce a count matrix is guided by the versatility of this data structure, useful not only for the differential enrichment of the regions between multiple conditions, but also for integrating the epigenomic data with other -omics.
+The choice to produce a count matrix is guided by the versatility of this data structure, useful not only for the differential enrichment of the regions between multiple conditions, but also for integrating the epigenomic data with other -omics, as RNA-Seq.
