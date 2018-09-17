@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  12 SEP 2018 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  17 SEP 2018 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1070,56 +1070,35 @@ File: biblatex_legacy.def
 \c@biburllcpenalty=\count373
 \c@smartand=\count374
 )
-Package biblatex Info: Trying to load bibliography style 'nature'...
-Package biblatex Info: ... file 'nature.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'agsm'...
+Package biblatex Info: ... file 'agsm.bbx' not found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-nature/nature.bbx
-File: nature.bbx 2016/03/13 v1.2g biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
+! Package biblatex Error: Style 'agsm' not found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10458 \RequireBibliographyStyle{\blx@bbxfile}
+                                               
+The bibliography style 'agsm' could not be found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count375
-\c@bbx:relatedtotal=\count376
-))))
-Package biblatex Info: Trying to load citation style 'nature'...
-Package biblatex Info: ... file 'nature.cbx' found.
+Package biblatex Info: Trying to load citation style 'agsm'...
+Package biblatex Info: ... file 'agsm.cbx' not found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-nature/nature.cbx
-File: nature.cbx 2016/03/13 v1.2g biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.cbx' found.
+! Package biblatex Error: Style 'agsm' not found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count377
-\c@cbx@tempcntb=\count378
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-))
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10459 \RequireCitationStyle{\blx@cbxfile}
+                                           
+The citation style 'agsm' could not be found.
+
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
@@ -1158,7 +1137,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count379
+\XKV@depth=\count375
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -1177,7 +1156,7 @@ Package: datatool-base 2016/01/18 v2.25 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count380
+\c@su@anzahl=\count376
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/01/18 v2.25 (NLCT)
@@ -1188,19 +1167,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count381
+\actioncount=\count377
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count382
-\FP@xia=\count383
-\FP@xib=\count384
-\FP@xfa=\count385
-\FP@xfb=\count386
-\FP@rega=\count387
-\FP@regb=\count388
-\FP@regs=\count389
-\FP@times=\count390
+\FP@xs=\count378
+\FP@xia=\count379
+\FP@xib=\count380
+\FP@xfa=\count381
+\FP@xfb=\count382
+\FP@rega=\count383
+\FP@regb=\count384
+\FP@regs=\count385
+\FP@times=\count386
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1219,7 +1198,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count391
+\FPseed=\count387
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1231,14 +1210,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks40
-\@dtl@tmpcount=\count392
+\@dtl@tmpcount=\count388
 \dtl@tmplength=\skip95
-\dtl@sortresult=\count393
-\@dtl@numgrpsepcount=\count394
-\@dtl@datatype=\count395
-\dtl@codeA=\count396
-\dtl@codeB=\count397
-\@dtl@foreach@level=\count398
+\dtl@sortresult=\count389
+\@dtl@numgrpsepcount=\count390
+\@dtl@datatype=\count391
+\dtl@codeA=\count392
+\dtl@codeB=\count393
+\@dtl@foreach@level=\count394
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
@@ -1251,7 +1230,7 @@ Package: tracklang 2015/03/23 v1.2 (NLCT) Track Languages
 ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count399
+\gls@level=\count395
 \@gls@tmpb=\toks41
 \gls@tmplen=\skip96
 \glskeylisttok=\toks42
@@ -1274,16 +1253,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip99
 \LTpre=\skip100
 \LTpost=\skip101
-\LTchunksize=\count400
+\LTchunksize=\count396
 \LTcapwidth=\dimen186
 \LT@head=\box81
 \LT@firsthead=\box82
 \LT@foot=\box83
 \LT@lastfoot=\box84
-\LT@cols=\count401
-\LT@rows=\count402
-\c@LT@tables=\count403
-\c@LT@chunks=\count404
+\LT@cols=\count397
+\LT@rows=\count398
+\c@LT@tables=\count399
+\c@LT@chunks=\count400
 \LT@p@ftn=\toks46
 )
 \glsdescwidth=\skip102
@@ -1294,7 +1273,7 @@ Package: glossary-super 2016/01/24 v4.21 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count405
+\c@tracingst=\count401
 \ST@wd=\dimen187
 \ST@rightskip=\skip104
 \ST@leftskip=\skip105
@@ -1319,7 +1298,7 @@ Package: glossary-tree 2016/01/24 v4.21 (NLCT)
 \glo@acronym@file=\write5
 \openout5 = `Template.acn'.
 
-Package glossaries Info: Writing glossary file Template.acn on input line 160.
+Package glossaries Info: Writing glossary file Template.acn on input line 162.
 
 (./acronyms.tex)
 Package csquotes Info: Checking for multilingual support...
@@ -1344,51 +1323,51 @@ LaTeX Warning: Unused global option(s):
 (./Template.aux (./abstract.aux) (./acronym.tex.aux))
 \openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 163.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 165.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 163.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count406
+\scratchcounter=\count402
 \scratchdimen=\dimen198
 \scratchbox=\box86
-\nofMPsegments=\count407
-\nofMParguments=\count408
+\nofMPsegments=\count403
+\nofMParguments=\count404
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count409
+\MPscratchCnt=\count405
 \MPscratchDim=\dimen199
-\MPnumerator=\count410
-\makeMPintoPDFobject=\count411
+\MPnumerator=\count406
+\makeMPintoPDFobject=\count407
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1416,10 +1395,10 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count412
+\c@lstlisting=\count408
 \AtBeginShipoutBox=\box87
 Package atbegshi Info: Package `crop' patched.
-Package hyperref Info: Link coloring OFF on input line 163.
+Package hyperref Info: Link coloring OFF on input line 165.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1427,11 +1406,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count413
+\c@section@level=\count409
 )
-LaTeX Info: Redefining \ref on input line 163.
-LaTeX Info: Redefining \pageref on input line 163.
-LaTeX Info: Redefining \nameref on input line 163.
+LaTeX Info: Redefining \ref on input line 165.
+LaTeX Info: Redefining \pageref on input line 165.
+LaTeX Info: Redefining \nameref on input line 165.
 
 (./Template.out) (./Template.out)
 \@outlinefile=\write6
@@ -1445,9 +1424,9 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-Package crop Info: requested driver: `' on input line 163.
-Package crop Info: detected driver: `pdftex' on input line 163.
-Package crop Info: using `pdftex' graphics driver on input line 163.
+Package crop Info: requested driver: `' on input line 165.
+Package crop Info: detected driver: `pdftex' on input line 165.
+Package crop Info: using `pdftex' graphics driver on input line 165.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -1464,19 +1443,19 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 163.
-Package biblatex Info: Reference segment=0 on input line 163.
-\c__siunitx_mathsf_int=\count414
-LaTeX Font Info:    Try loading font information for U+zavm on input line 163.
+Package biblatex Info: Reference section=0 on input line 165.
+Package biblatex Info: Reference segment=0 on input line 165.
+\c__siunitx_mathsf_int=\count410
+LaTeX Font Info:    Try loading font information for U+zavm on input line 165.
  (/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
-\c__siunitx_mathtt_int=\count415
+\c__siunitx_mathtt_int=\count411
 
 <img/logoUnisa.png, id=170, 441.65pt x 441.65pt>
 File: img/logoUnisa.png Graphic file (type png)
  <use img/logoUnisa.png>
-Package pdftex.def Info: img/logoUnisa.png used on input line 177.
+Package pdftex.def Info: img/logoUnisa.png used on input line 179.
 (pdftex.def)             Requested size: 88.32843pt x 88.32843pt.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1509,12 +1488,12 @@ No file abstract.tex.
 
 No file acronym.tex.tex.
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 252.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 254.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 252.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 254.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1528,7 +1507,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 267.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 269.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ) [12
@@ -1539,55 +1518,283 @@ Chapter 2.
 
 ]
 Chapter 3.
-(./sections/descan2/general.tex) (./sections/descan2/intro.tex
-<img/descan2/flow.png, id=287, 550.055pt x 572.1375pt>
+(./sections/descan2/general.tex
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 Some studies \cite
+                      {Koberstein2018, Auerbach2009} demonstrated the import...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 Starting from a set of already published \cite
+                                                  {Koberstein2018} scripts, ...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+) (./sections/descan2/intro.tex
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 The \gls{descan} is an R \cite
+                                  {Ihaka1996} tool developed for detecting o...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+ [15]
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...s been implemented using Bioconductor \cite
+                                                  {Gentleman2004} data struc...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+<img/descan2/flow.png, id=289, 550.055pt x 572.1375pt>
 File: img/descan2/flow.png Graphic file (type png)
 
 <use img/descan2/flow.png>
 Package pdftex.def Info: img/descan2/flow.png used on input line 7.
 (pdftex.def)             Requested size: 345.00893pt x 358.85965pt.
- [15] [16 <./img/descan2/flow.png>])
-(./sections/descan2/methods.tex) (./sections/descan2/peakcall.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17 <./img/descan2/flow.png>]) (./sections/descan2/methods.tex)
+(./sections/descan2/peakcall.tex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [17])
-(./sections/descan2/peakfilt.tex) (./sections/descan2/peakcount.tex [18])
-(./sections/descan2/addfeat.tex [19])
-Overfull \hbox (35.88663pt too wide) in paragraph at lines 16--298
+)
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...s input a set of alignment files (BAM \cite
+                                                  {Li2009} or BED format) wi...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... data are stored as GenomicRangesList \cite
+                                                  {Lawrence2013}, where each...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+[18]) (./sections/descan2/peakfilt.tex
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...uced also by other software like MACS \cite
+                                                  {Zhang2008}, as described ...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...merge}), defined by the ChIPpeakAnno \cite
+                                                  {Zhu2010} Bioconductor pac...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+) (./sections/descan2/peakcount.tex [19]
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...duces a \textit{SummarizedExperiment} \cite
+                                                  {SummExp} data structure, ...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+) (./sections/descan2/addfeat.tex [20])
+Overfull \hbox (35.88663pt too wide) in paragraph at lines 16--300
 \T1/cmr/m/n/10 and a list of chro-mo-somes and re-turn only the in-ter-ested ch
 ro-mo-somes. [][]
  []
 
 
-Overfull \hbox (27.65253pt too wide) in paragraph at lines 16--298
+Overfull \hbox (27.65253pt too wide) in paragraph at lines 16--300
 [][][][] \T1/cmr/m/n/10 that saves a tab sep-ar-ated value file start-ing from 
 a Ge-n-omic-Ranges. [][]
  []
 
 (./sections/descan2/results.tex
-<img/descan2/dataset.png, id=351, 716.4366pt x 334.851pt>
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ances of \gls{descan} using a dataset \cite
+                                                  {Su2017} that describes in...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+<img/descan2/dataset.png, id=336, 716.4366pt x 334.851pt>
 File: img/descan2/dataset.png Graphic file (type png)
 
 <use img/descan2/dataset.png>
 Package pdftex.def Info: img/descan2/dataset.png used on input line 9.
 (pdftex.def)             Requested size: 345.01166pt x 161.25291pt.
 
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ... extraction of the \cite{Su2017} dataset.}
+                                                  
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ... extraction of the \cite{Su2017} dataset.}
+                                                  
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-<img/descan2/peaks.png, id=371, 680.3016pt x 262.581pt>
+ [21]
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...ded the data from \gls{geo} database \cite
+                                                  {Edgar2002, Barrett2013} w...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ... mapped raw data using \textit{STAR} \cite
+                                                  {Dobin2013} with default p...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...Arc and Gabrr1) in the original work \cite
+                                                  {Su2017}.
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+<img/descan2/peaks.png, id=349, 680.3016pt x 262.581pt>
 File: img/descan2/peaks.png Graphic file (type png)
 
 <use img/descan2/peaks.png>
 Package pdftex.def Info: img/descan2/peaks.png used on input line 23.
 (pdftex.def)             Requested size: 345.00806pt x 133.16528pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./img/descan2/dataset.png>]
-<img/descan2/d2m2_peaks_number.png, id=393, 1262.7175pt x 1003.75pt>
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...validated peaks in article \cite{Su2017}.}
+                                                  
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...validated peaks in article \cite{Su2017}.}
+                                                  
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+Underfull \vbox (badness 7273) has occurred while \output is active []
+
+ [22 <./img/descan2/dataset.png>]
+<img/descan2/d2m2_peaks_number.png, id=367, 1262.7175pt x 1003.75pt>
 File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
 
 <use img/descan2/d2m2_peaks_number.png>
@@ -1595,29 +1802,17 @@ Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 3
 2.
 (pdftex.def)             Requested size: 345.00372pt x 274.24779pt.
 
-! Undefined control sequence.
-<argument> ...norespaces \gls {descan} and \texit 
-                                                  {MACS2} peaks detection}}{...
-l.33 ...ted peaks for each sample in the dataset.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./img/descan2/peaks.png>]
-<img/descan2/filtering.png, id=403, 478.4274pt x 291.0072pt>
+ [23 <./img/descan2/peaks.png>]
+<img/descan2/filtering.png, id=377, 478.4274pt x 291.0072pt>
 File: img/descan2/filtering.png Graphic file (type png)
 
 <use img/descan2/filtering.png>
 Package pdftex.def Info: img/descan2/filtering.png used on input line 45.
 (pdftex.def)             Requested size: 345.00768pt x 209.8536pt.
- [23 <./img/descan2/d2m2_peaks_number.png>]
-<img/descan2/filtering_m2_d2.png, id=411, 2569.6pt x 1419.3025pt>
+ [24 <./img/descan2/d2m2_peaks_number.png>]
+<img/descan2/filtering_m2_d2.png, id=385, 2569.6pt x 1419.3025pt>
 File: img/descan2/filtering_m2_d2.png Graphic file (type png)
 
 <use img/descan2/filtering_m2_d2.png>
@@ -1627,8 +1822,8 @@ Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 53.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./img/descan2/filtering.png>]
-<img/descan2/counts.png, id=423, 286.671pt x 211.5102pt>
+ [25 <./img/descan2/filtering.png>]
+<img/descan2/counts.png, id=398, 286.671pt x 211.5102pt>
 File: img/descan2/counts.png Graphic file (type png)
 
 <use img/descan2/counts.png>
@@ -1637,15 +1832,43 @@ Package pdftex.def Info: img/descan2/counts.png used on input line 66.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./img/descan2/filtering_m2_d2.png>] [26 <./img/descan2/counts.png>]
-<img/descan2/normalizations.png, id=452, 398.4486pt x 291.0072pt>
+ [26 <./img/descan2/filtering_m2_d2.png>]
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ull-quantile}, \textit{RUV-Seq}, etc \cite
+                                                  {Risso2014, Robinson2010, ...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+[27 <./img/descan2/counts.png>]
+<img/descan2/normalizations.png, id=423, 398.4486pt x 291.0072pt>
 File: img/descan2/normalizations.png Graphic file (type png)
 
 <use img/descan2/normalizations.png>
 Package pdftex.def Info: img/descan2/normalizations.png used on input line 86.
 (pdftex.def)             Requested size: 345.00592pt x 251.9753pt.
- [27 <./img/descan2/normalizations.png>]
-<img/descan2/DE_peaks.png, id=466, 986.18437pt x 858.20625pt>
+
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...\textit{edgeR}, \textit{NOISeq}, etc \cite
+                                                  {Robinson2009, McCarthy201...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+[28 <./img/descan2/normalizations.png>]
+<img/descan2/DE_peaks.png, id=432, 986.18437pt x 858.20625pt>
 File: img/descan2/DE_peaks.png Graphic file (type png)
 
 <use img/descan2/DE_peaks.png>
@@ -1654,8 +1877,22 @@ Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 103.
 
 Underfull \vbox (badness 2717) has occurred while \output is active []
 
- [28 <./img/descan2/DE_peaks.png (PNG copy)>]
-<img/descan2/Annotated_depeaks_degenes.png, id=478, 1380.15625pt x 1208.515pt>
+ [29 <./img/descan2/DE_peaks.png (PNG copy)>]
+
+! Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ... available in the \textit{Rsubread} \cite
+                                                  {Liao2013} Bioconductor pa...
+
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+<img/descan2/Annotated_depeaks_degenes.png, id=443, 1380.15625pt x 1208.515pt>
 File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
 
 <use img/descan2/Annotated_depeaks_degenes.png>
@@ -1666,41 +1903,257 @@ t line 117.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [29] [30 <./img/descan2/Annotated_depeaks_degenes.png>]
+) [30] [31 <./img/descan2/Annotated_depeaks_degenes.png>] [32
+
+]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
-
-]
-[32]
+ [33]
+[34]
 Chapter 5.
-[33
+[35
 
-] [34
+] [36
 
-] [35
+] [37
 
-] [36] [37] [38
+] [38] [39] [40
 
 ]
 Chapter 6.
 
-Overfull \hbox (5.56445pt too wide) in paragraph at lines 339--339
-\T1/cmr/m/n/10 ChIP-seq and ChIP-chip data. \T1/cmr/m/it/10 BMC Bioin-form-at-i
-cs. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14712105. doi:[]$\T1/cmtt/m/n/10 10 .
- []
+! Package biblatex Error: No driver found.
 
-[39]
-Overfull \hbox (5.59947pt too wide) in paragraph at lines 339--339
-\T1/cmr/m/n/10 en-tial ex-pres-sion ana-lysis of RNA-seq data. \T1/cmr/m/it/10 
-Gen-ome Bio-logy. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14747596.
- []
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
 
-[40] [41] [42
 
-] (./Template.acr) [43
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+[41]
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+
+! Package biblatex Error: No driver found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \printbibliography[heading=bibnumbered]
+                                             
+I can't find a driver for the entry type 'article'
+and there is no fallback driver either.
+
+[42] (./Template.acr) [43
+
 
 
 ] [44
@@ -1713,72 +2166,56 @@ Gen-ome Bio-logy. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14747596.
 
 ] [46
 
-]
-(./Template.lot)
+] (./Template.lot)
 \tf@lot=\write9
 \openout9 = `Template.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
- [47
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+
+[47
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./Template.aux (./abstract.aux) (./acronym.tex.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `Template.out' has not changed.
 (rerunfilecheck)             Checksum: 30E8BD69B9D1182D5501F907CAC85D09;6100.
 Package logreq Info: Writing requests to 'Template.run.xml'.
 \openout1 = `Template.run.xml'.
 
  )
-(\end occurred when \iftrue on line 163 was incomplete) 
+(\end occurred when \iftrue on line 165 was incomplete) 
 Here is how much of TeX's memory you used:
- 34602 strings out of 494835
- 597212 string characters out of 6178235
- 916877 words of memory out of 5000000
- 37236 multiletter control sequences out of 15000+600000
- 29677 words of font info for 65 fonts, out of 8000000 for 9000
+ 34404 strings out of 494835
+ 592838 string characters out of 6178235
+ 903973 words of memory out of 5000000
+ 37059 multiletter control sequences out of 15000+600000
+ 27862 words of font info for 62 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 46i,11n,77p,10381b,2445s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): n
-ame{glo:deg} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:mm10} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:geo} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:mle} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:der} has been referenced but does not exist, re
-placed by a fixed one
-
- </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/dar
-io/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/dario/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/dario/.texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecti0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ectt0800.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-rm0600.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600p
-k> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/d
-ario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/dario/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/dario/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecbl1000.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/base/8r.enc} </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
-600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </ho
-me/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/dario/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/dario/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/dario/.texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/latxfont/lcircle1.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
-r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Template.pdf (47 pages, 5857562 bytes).
+ 46i,12n,77p,10381b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/dario/.texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/dario/.texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecti0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ectt0800.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+0600.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk>
+ </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/dar
+io/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/dario/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk>{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/base/8r.enc} </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1440.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.60
+0pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home
+/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/dario/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/dario/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b>
+Output written on Template.pdf (47 pages, 5831730 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 626 compressed objects within 7 object streams
+ 1127 PDF objects out of 1200 (max. 8388607)
+ 582 compressed objects within 6 object streams
  123 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)
 

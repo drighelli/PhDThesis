@@ -117,6 +117,84 @@
   \field{year}{2018}
 \endentry
 
+\entry{Auerbach2009}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Auerbach}{A.}%
+     {R.~K.}{R.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Euskirchen}{E.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rozowsky}{R.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lamarre-Vincent}{L.-V.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moqtaderi}{M.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lefrancois}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Struhl}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gerstein}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Snyder}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ARK+1}
+  \strng{fullhash}{ARKEGRJLVNMZLPSKGMSM1}
+  \field{abstract}{%
+  Disruptions in local chromatin structure often indicate features of
+  biological interest such as regulatory regions. We find that sonication of
+  cross-linked chromatin, when combined with a size-selection step and
+  massively parallel short-read sequencing, can be used as a method (Sono-Seq)
+  to map locations of high chromatin accessibility in promoter regions.
+  Sono-Seq sites frequently correspond to actively transcribed promoter
+  regions, as evidenced by their co-association with RNA Polymerase II ChIP
+  regions, transcription start sites, histone H3 lysine 4 trimethylation
+  (H3K4me3) marks, and CpG islands; signals over other sites, such as those
+  bound by the CTCF insulator, are also observed. The pattern of breakage by
+  Sono-Seq overlaps with, but is distinct from, that observed for FAIRE and
+  DNase I hypersensitive sites. Our results demonstrate that Sono-Seq can be a
+  useful and simple method by which to map many local alterations in chromatin
+  structure. Furthermore, our results provide insights into the mapping of
+  binding sites by using ChIP–Seq experiments and the value of reference
+  samples that should be used in such experiments.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0905443106
+  \endverb
+  \field{isbn}{1091-6490 (Electronic)$\backslash$n0027-8424 (Linking)}
+  \field{issn}{0027-8424}
+  \field{title}{{Mapping accessible chromatin regions using Sono-Seq}}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2009}
+\endentry
+
 \entry{Ihaka1996}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -942,64 +1020,6 @@
   \field{journaltitle}{Bioinformatics}
   \field{eprinttype}{arXiv}
   \field{year}{2013}
-\endentry
-
-\entry{Risso2014}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Risso}{R.}%
-     {Davide}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ngai}{N.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Speed}{S.}%
-     {Terence~P.}{T.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dudoit}{D.}%
-     {Sandrine}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RD+1}
-  \strng{fullhash}{RDNJSTPDS1}
-  \field{abstract}{%
-  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
-  accurate inference of expression levels. Here, we show that usual
-  normalization approaches mostly account for sequencing depth and fail to
-  correct for library preparation and other more complex unwanted technical
-  effects. We evaluate the performance of the External RNA Control Consortium
-  (ERCC) spike-in controls and investigate the possibility of using them
-  directly for normalization. We show that the spike-ins are not reliable
-  enough to be used in standard global-scaling or regression-based
-  normalization procedures. We propose a normalization strategy, called remove
-  unwanted variation (RUV), that adjusts for nuisance technical effects by
-  performing factor analysis on suitable sets of control genes (e.g., ERCC
-  spike-ins) or samples (e.g., replicate libraries). Our approach leads to more
-  accurate estimates of expression fold-changes and tests of differential
-  expression compared to state-of-the-art normalization methods. In particular,
-  RUV promises to be valuable for large collaborative projects involving
-  multiple laboratories, technicians, and/or sequencing platforms.%
-  }
-  \verb{doi}
-  \verb 10.1038/nbt.2931
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1011.1669v3
-  \endverb
-  \field{isbn}{1087-0156}
-  \field{issn}{15461696}
-  \field{title}{{Normalization of RNA-seq data using factor analysis of control
-  genes or samples}}
-  \field{journaltitle}{Nature Biotechnology}
-  \field{eprinttype}{arXiv}
-  \field{year}{2014}
 \endentry
 
 \entry{Robinson2010}{article}{}

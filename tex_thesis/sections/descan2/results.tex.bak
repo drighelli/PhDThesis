@@ -30,7 +30,7 @@ Moreover, we run \textit{MACS2} on the same samples, and (as shown in figure \re
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/d2m2_peaks_number.png}
-\caption[\gls{descan} and \texit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
+\caption[The \gls{descan} and \textit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
 \label{fig:des2m2peaks}
 \centering
 \end{figure}
