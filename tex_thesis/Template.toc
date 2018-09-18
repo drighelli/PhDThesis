@@ -31,15 +31,15 @@
 \contentsline {section}{\numberline {4.2}Methods}{32}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Single Omic Approach}{32}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Multi Omic Approach}{32}{subsection.4.2.2}
-\contentsline {subsubsection}{Low Level Itegration}{32}{section*.11}
-\contentsline {subsubsection}{High Level Itegration}{32}{section*.12}
+\contentsline {subsubsection}{Low Level Itegration}{32}{section*.10}
+\contentsline {subsubsection}{High Level Itegration}{32}{section*.11}
 \contentsline {section}{\numberline {4.3}Implementation Aspects}{32}{section.4.3}
 \contentsline {section}{\numberline {4.4}Reproducible Computational Research}{32}{section.4.4}
 \contentsline {section}{\numberline {4.5}Results}{32}{section.4.5}
 \contentsline {chapter}{\numberline {5}Conclusions \& Future Works}{33}{chapter.5}
-\contentsline {chapter}{Appendices}{35}{section*.13}
+\contentsline {chapter}{Appendices}{35}{section*.12}
 \contentsline {section}{\numberline {.1}R Language}{37}{section.a..1}
 \contentsline {section}{\numberline {.2}R Markdown Language}{37}{section.a..2}
 \contentsline {chapter}{\numberline {6}Bibliography}{39}{chapter.6}
-\contentsline {chapter}{List of Figures}{45}{section*.14}
-\contentsline {chapter}{List of Tables}{47}{section*.14}
+\contentsline {chapter}{List of Figures}{45}{section*.13}
+\contentsline {chapter}{List of Tables}{47}{section*.13}

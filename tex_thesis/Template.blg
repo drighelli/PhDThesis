@@ -1,12 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Template.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acronym.tex.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -16,53 +15,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Template-blx.bib
 Database file #2: bibs/PhDThesisBib.bib
 Warning--I didn't find a database entry for "Risso2014"
 Biblatex version: 3.3
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 20 entries,
-            6256 wiz_defined-function locations,
-            1362 strings with 36742 characters,
-and the built_in function-call counts, 218069 in all, are:
-= -- 18183
-> -- 2534
-< -- 323
-+ -- 7296
-- -- 1200
-* -- 17037
-:= -- 27373
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 23 entries,
+            6047 wiz_defined-function locations,
+            1344 strings with 39940 characters,
+and the built_in function-call counts, 81859 in all, are:
+= -- 2553
+> -- 2792
+< -- 375
++ -- 1061
+- -- 1290
+* -- 8356
+:= -- 5331
 add.period$ -- 0
-call.type$ -- 20
+call.type$ -- 23
 change.case$ -- 0
-chr.to.int$ -- 31
-cite$ -- 38
-duplicate$ -- 24072
-empty$ -- 18369
-format.name$ -- 2440
-if$ -- 40953
+chr.to.int$ -- 35
+cite$ -- 44
+duplicate$ -- 10047
+empty$ -- 8589
+format.name$ -- 2773
+if$ -- 16963
 int.to.chr$ -- 0
-int.to.str$ -- 39
+int.to.str$ -- 47
 missing$ -- 0
-newline$ -- 1370
-num.names$ -- 724
-pop$ -- 7884
+newline$ -- 1257
+num.names$ -- 844
+pop$ -- 7556
 preamble$ -- 1
-purify$ -- 465
+purify$ -- 338
 quote$ -- 0
-skip$ -- 3317
+skip$ -- 4254
 stack$ -- 0
-substring$ -- 34099
-swap$ -- 4286
-text.length$ -- 511
+substring$ -- 662
+swap$ -- 3586
+text.length$ -- 569
 text.prefix$ -- 20
 top$ -- 1
-type$ -- 668
+type$ -- 862
 warning$ -- 0
-while$ -- 3464
+while$ -- 397
 width$ -- 0
-write$ -- 1351
+write$ -- 1233
 (There was 1 warning)

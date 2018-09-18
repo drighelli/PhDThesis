@@ -292,7 +292,7 @@ Write your abstract here
 \subsection{Peak Filtering and Alignment} \label{sec:descan2filtering}
 \input{sections/descan2/peakfilt.tex}
 
-\subsection{Peak Counts} \label{sec:descan2peakcounts}
+\subsection{Counting Peaks} \label{sec:descan2peakcounts}
 \input{sections/descan2/peakcount.tex}
 
 \subsection{Additional Features} \label{sec:descan2addfeat}
