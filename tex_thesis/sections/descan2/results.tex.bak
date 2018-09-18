@@ -112,7 +112,7 @@ Then we used the resulted design to estimate the dispersion and fit a Quasi-Like
 The figure \ref{fig:depeaksdescan} shows a volcano plot of \glspl{der} between E0 and E1 conditions.
 Red dots highlights the regions with a \gls{fdr}\cite{Benjamini1995} lower than 0.05, while blue dots highlight not significant regions.
  
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/DE_peaks.png}
 \caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}.}
@@ -126,7 +126,7 @@ Because of the low number of the samples, the easiest way to integrate the data 
 For the differential expression of the RNA-Seq data we firstly quantified the signal with \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} Bioconductor package.
 Then we filtered lowly expressed genes with the \textit{proportion} test  as implemented in \textit{NOISeq} package, and applied the \lstinline!noiseq! method for differential expression.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
 \caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of \glspl{der}. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}. Green circles highlights the peaks with a \gls{deg} annotated.}
@@ -135,10 +135,12 @@ Then we filtered lowly expressed genes with the \textit{proportion} test  as imp
 \end{figure}
 
 We used the resulting significant \glspl{deg} (probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.
-Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}.
+Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}, producing a total of 430 annotated peaks.
 Realizing the plot with the \textit{plotly} library it is possible to enhance the names of the genes with a tip message.
 
-Then we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015}
+Then we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
+
+\textbf{Insert tables for the functional results, but discuss before with Lucia or Valerio.}
 
 
 

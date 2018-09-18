@@ -8,9 +8,19 @@ For each element of this data structure the algorithm firstly divides each chrom
 In order to be able to catch small and spread peaks the algorithm computes the coverage also using windows of two different lengths, that can be defined with \lstinline{minCompWinWidth} and \lstinline{maxCompWinWidth} (defaults values are 5000bp and 10000bp) parameters, computing a matrix of \textit{n} bins and \textit{p} windows.
 %\textit{\textbf{for real this part is to construct a sort of background of the signal, to compare the smaller windows to - ask to davide?}}
 
-The coverages matrix is useful to merge contigous regions and to compute a score for each of them, applying a \gls{mle}, assuming a Poisson distribution.
+The coverages matrix is useful to merge contigous regions and to compute a score for each of them, applying a \gls{mle}, assuming a Poisson distribution of the coverages across the windows.
 
-[PUT THE POISSON DISTRIBUTION AND THE LIKELIHOOD]
+Formalizing: assuming that each window is distributed as a Poisson random variable, we assume to observe the \textit{n} coverages as an IID sequence $X_n$. Thus, the probability mass function is described as:
+
+\[ p(x_i) = \frac{\lambda^{x_i}}{{x_i!}} exp(-\lambda)\]
+
+Where the coverage nature of the data support the Poisson distribution as the set of non-negative integer number and where $\lambda$ is the Poisson parameter to derive with a \gls{mle}, described as the estimator:
+
+\[\lambda_n=\frac{1}{n}\sum_{i=1}^{n}x_i\]
+
+Which corresponds to the sample mean of the \textit{n} observations in the sample.
+
+
 
 [describe output as tsv]
 
