@@ -6,4 +6,11 @@ It demonstrated to be able to catch not only spread signal, but also small regio
 
 parlare del filtering
 
-dire che si piazza ne
+dire che si inserisce nella fase iniziale di una possibile pipeline per l'analisi e l'integrazione di questo tipo di dato.
+
+usa strutture dati di bioconductor come SE che si stanno esponendo per essere uno standard nel panorama bioinformatico
+
+
+inoltre in futuro:
+check if other distributions fit better the signal.
+improve the filtering/aligning of the peaks step con tecniche più probabilistiche.

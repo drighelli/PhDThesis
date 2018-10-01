@@ -72,7 +72,7 @@ This type of data structure is very versatile, because it enables to perform sev
 In order to preserve the information associated to the peaks, \gls{descan} produces as output a \textit{SummarizedExperiment} (figure \ref{fig:countsdescan}) data structure, which enables to retrieve the count matrix with \lstinline!assays! method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline!rowRanges! method.
 
 Before to proceed to detect \glspl{der}, it is a good standard to normalize the data, also because without any kind of normalization we are not able to detect any \gls{der}.
-The nature of the data, in count format, makes it possible to apply several well known RNA-Seq normalizations techniques, such as \textit{TMM}, \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-Seq}, etc \cite{Risso2014, Robinson2010, Dillies2013}.
+The nature of the data, in count format, makes it possible to apply several well known RNA-Seq normalizations techniques, such as \textit{TMM}, \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-Seq}, etc \cite{Risso2014h, Robinson2010, Dillies2013}.
 To do that, we fixed the peaks's score threshold to 10, in order to have as much signal as possible.
 
 While the \textit{TMM} and \textit{upper-quartile} normalizations modify the data in a way that makes it impossible to detect \glspl{der}, other kind of normalizations and combinantions of them give good results.
@@ -86,7 +86,7 @@ When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themself seem
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/normalizations_nullds_vs_fullds.png}
+\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/normalizations_null_full.png}
 \caption[Normalizations applied to detected regions]{The figure shows the effects of different normalizations on the epigenomic differentially enriched regions.}
 \label{fig:normalizationsnullfull}
 \centering

@@ -1022,6 +1022,72 @@
   \field{year}{2013}
 \endentry
 
+\entry{Risso2014h}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Risso}{R.}%
+     {Davide}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ngai}{N.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Speed}{S.}%
+     {Terence~P}{T.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dudoit}{D.}%
+     {Sandrine}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{next generation sequencing,ngs,normalization,rna-seq}
+  \strng{namehash}{RD+1}
+  \strng{fullhash}{RDNJSTPDS1}
+  \field{abstract}{%
+  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
+  accurate inference of expression levels. Here, we show that usual
+  normalization approaches mostly account for sequencing depth and fail to
+  correct for library preparation and other more complex unwanted technical
+  effects. We evaluate the performance of the External RNA Control Consortium
+  (ERCC) spike-in controls and investigate the possibility of using them
+  directly for normalization. We show that the spike-ins are not reliable
+  enough to be used in standard global-scaling or regression-based
+  normalization procedures. We propose a normalization strategy, called remove
+  unwanted variation (RUV), that adjusts for nuisance technical effects by
+  performing factor analysis on suitable sets of control genes (e.g., ERCC
+  spike-ins) or samples (e.g., replicate libraries). Our approach leads to more
+  accurate estimates of expression fold-changes and tests of differential
+  expression compared to state-of-the-art normalization methods. In particular,
+  RUV promises to be valuable for large collaborative projects involving
+  multiple laboratories, technicians, and/or sequencing platforms.%
+  }
+  \verb{doi}
+  \verb 10.1038/nbt.2931
+  \endverb
+  \field{isbn}{1087-0156 1546-1696}
+  \field{issn}{1087-0156}
+  \field{number}{9}
+  \field{pages}{896\bibrangedash 902}
+  \field{title}{{Normalization of RNA-seq data using factor analysis of control
+  genes or samples (RUVSeq)}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/nbt.2931
+  \endverb
+  \field{volume}{32}
+  \verb{file}
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Risso et al. - 2014 - Normalization of RNA-seq data using factor analy
+  \verb sis of control genes or samples (RUVSeq).pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature Biotechnology}
+  \field{year}{2014}
+\endentry
+
 \entry{Robinson2010}{article}{}
   \name{author}{2}{}{%
     {{}%
