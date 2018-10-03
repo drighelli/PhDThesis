@@ -63,7 +63,7 @@ This type of data structure is very versatile, because it enables to perform sev
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio]{img/descan2/counts.png}
+\includegraphics[scale=.5]{img/descan2/counts.png}
 \caption[\gls{descan} counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by \gls{descan}.}
 \label{fig:countsdescan}
 \centering

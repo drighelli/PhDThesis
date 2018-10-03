@@ -1,0 +1,27 @@
+motivations
+RNA-Seq is one of the most widely used technology to study genome-wide gene expression to better understand a wide range of scientific and complex questions, such as cell response to stress conditions or drug treatments, changes during cell development and gene association to the etiology and progression of several diseases, including cancer.
+RNA-Seq experiments are useful not only for monitoring gene expression in a particular condition (i.e., steady-state) but also to investigate the evolution of gene expression along the time (i.e. time course), collecting samples at several time points with the aim of constructing the temporal profile of each gene, comparing the difference among two or more conditions during the time evolution and reconstructing the gene regulatory mechanisms. The RNA-Seq Time Course analysis is not only less developed but also more complex due to the heterogeneity of the experimental design.
+
+TiCoRSe
+In order to facilitate the analysis to the final user, giving him/her the possibility to deeper investigate the TC data, we are implementing TiCoRSe, a tool fully devoted to the Time Course RNA-Seq data analysis. TiCoRSe is a (work-in-progress) software written in R with aid of Shiny libraries, combining the power of the R statistical instrument with the flexibility of HTML5/javascript, offered by Shiny. TiCoRse is aimed to give even to non-expert users an easy-to-use advanced analysis instrument for handling RNA-Seq TC data by means of a simple point-and-click approach. In the current version we developed a specific pipeline to analyse RNA-Seq TC data offering features to inspect data, to normalize them, to capture differential expression of genes at static time point and overall time points, supporting different experimental designs. Furthermore, it is possible to compare the results of different analysis and to investigate the most influenced biological functions (i.e., Gene Ontology terms and Pathways). Overall, TiCoRse gives the possibility to analyse data using different R packages, to compare the results in order to choose the best combination of tools for the user specific problem. Therefore, TiCoRse offers a vast amount of exploratory and diagnostic interactive plots to explore data not just at pre-processing but also during the post-processing phase. Moreover, TiCoRse supports a set of Reproducible Research functionalities to trace all the analysis steps selected by the user, generating a final report with both executed analysis code chunks and their produced results. Furthermore, TiCoRse has been provided also of a caching system providing, for each analysis step, a caching database file within all the input and output processed data, useful, not only to speed up computations, but also to share data and results through the Internet.
+
+Design File based
+TiCoRSe analysis is totally based on a design file, which describes the experimental design. Depending on the biological question asked, a design file structured with sample names, associated times and conditions will be used in each software routine to perform analysis steps and plots.
+
+Differential Expression Analysis
+TiCoRSe gives the possibility to analyse data at static time point with DeSeq2 and NOISeq methods, while for the time course it gives the possibility to analyse data with DeSeq2 and (next)maSigPro, in order to perform an analysis depending on the biological question asked.
+
+Reproducible computational research
+We implemented in all our tools a dedicated layer to record a human-readable report whithin all actions and steps performed during the analysis of a dataset. It combines R markdown scripts to create an HTML report within all code chunks executed during the analysis, and caching to store all the input/output data used during the analysis. The combined output can be used as supplementary material of a publication, helping a third-party user to easily reproduce the entire analysis.
+
+Normalization and Batch effect
+In order to normalize data, TiCoRSe offers not just a vast amount of normalization functions (Upper Quartile, TMM, etc.), but also a method useful to remove the batch effect from data.
+TiCoRSe gives the possibility to apply RUV-Seq functions, in easy and fast way, also if the user doesn’t have a list of negative control genes.
+
+time course plot 
+TiCoRSe produces several functionalities aimed to time course analysis. In particular, the sotware can produce Heatmaps, boxplots and Kegg-maps designed for the time-course experiments. In such a way it is possible to compare the data expression at each time-point and condition.
+Moreover, it gives the possibility to plot graphics showing the trend of a gene in different conditions
+
+interactive graphics
+TiCoRSe offers a vast amount of exploratory and diagnostic graphics to best check the data quality, both at pre-processing and post-processing phases.
+It gives the possibility to generate also interactive plots, providing additional information when the user interact them by mouse.
