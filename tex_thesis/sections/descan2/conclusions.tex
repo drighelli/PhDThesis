@@ -2,15 +2,9 @@
 
 In the lack of methodologies for open chromatin region detection and analysis, we developed a novel approach which, compared with very well known tools as \textit{MACS2}, seems to be competitive in the detection of the signal, and, because it's newly born, aims to be more poweful and attractive in this field.
 
-It demonstrated to be able to catch not only spread signal, but also small regions across the samples. 
+We demonstrated to be able to catch not only spread signal, but also small regions across the samples. 
+And with our filtering/aligning step we  demonstrated to be able to keep relevant signl producing data structures as \textit{SummarizedExperiment} which are candidates to become standards in the biological data analysis.
+With our 3-steps analysis we puts our tool at the top of a pipeline for open chromatin regions data analysis, proposing also a possible candidate for a standard analysis of this data type.
 
-parlare del filtering
+In the next future we plan to check if other distributions, as \textit{Negative Binomial}, fits better this data kind and to improve our filtering/aligning step with additional probabilistic methodology.
 
-dire che si inserisce nella fase iniziale di una possibile pipeline per l'analisi e l'integrazione di questo tipo di dato.
-
-usa strutture dati di bioconductor come SE che si stanno esponendo per essere uno standard nel panorama bioinformatico
-
-
-inoltre in futuro:
-check if other distributions fit better the signal.
-improve the filtering/aligning of the peaks step con tecniche più probabilistiche.
