@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{21}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Additional Features}{22}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Case Study}{23}{section.3.3}
-\contentsline {section}{\numberline {3.4}Conclusions and Future Works}{33}{section.3.4}
+\contentsline {section}{\numberline {3.4}Conclusions and Future Works}{32}{section.3.4}
 \contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{36}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{36}{section.4.2}

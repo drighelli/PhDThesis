@@ -65,7 +65,7 @@ This type of data structure is very versatile, because it enables to perform sev
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=.5]{img/descan2/counts.png}
+\includegraphics[scale=.7]{img/descan2/counts.png}
 \caption[\gls{descan} counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by \gls{descan}.}
 \label{fig:countsdescan}
 \centering
@@ -128,9 +128,9 @@ Red dots highlights the regions with a \gls{fdr}\cite{Benjamini1995} lower than 
 \end{figure}
 
 Next task is to integrate the obtained results with other omic data types, as RNA-Seq. 
-Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \gls{deg} resulting from the analysis of RNA-Seq.
+Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \glspl{deg} resulting from the analysis of RNA-Seq.
 
-For the differential expression of the RNA-Seq data we firstly quantified the signal with \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} Bioconductor package.
+For the differential expression of the RNA-Seq data we firstly quantified the signal with \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
 Then we filtered lowly expressed genes with the \textit{proportion} test  as implemented in \textit{NOISeq} package, and applied the \lstinline!noiseq! method for differential expression.
 
 \begin{figure}[H]
@@ -141,13 +141,13 @@ Then we filtered lowly expressed genes with the \textit{proportion} test  as imp
 \centering
 \end{figure}
 
-We used the resulting significant \glspl{deg} (probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.
+We used the resulting significant \glspl{deg} (with posterior probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.
 Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}, producing a total of 430 annotated peaks.
-Realizing the plot with the \textit{plotly} library it is possible to enhance the names of the genes with a tip message.
+Realizing the plot with \textit{ggplot2} combined with \textit{plotly} library it is possible to enhance the names of the genes with a tooltip.
 
 Then we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
 
-\textbf{Insert tables for the functional results, but discuss before with Lucia or Valerio.}
+\textbf{Insert tables for the functional results, to discuss with Davide/Lucia}
 
 
 
