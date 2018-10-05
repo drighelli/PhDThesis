@@ -1,0 +1,14 @@
+Low expressed genes in \textit{RNA-Seq} data, always affect the detection of \glspl{deg} \cite{Sha2015} influencing final results.
+
+In order to addres this task, \gls{tic} offers multiple statistical methods for low counts filtering low expressed genes.
+There are two main functions which enables to filter out unwanted genes. 
+We implemened the \lstinline!filterLowCounts! methods which is partly based on the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package. 
+We gives the possibility to apply four different filtering methods, the \gls{cpm}, the {proportion} and the \textit{Wilcoxon} tests and an our-defined method names \textit{quantile}.
+
+The \gls{cpm} filters out all those genes with a mean expression between the samples less than the \lstinline!cpm! parameter threshold and, at the same time, a \gls{cov} higher that the \lstinline!cv.percentage! parameter in all the samples.
+
+The \textit{Proportion} test performs the homonym test on the counts, filtering out all the features with a relative expression equal to $cpm/10^6$.
+
+While, the \textit{Wilcoxon} test filters out all those genes with a median equal to $0$.
+
+Finally the quantile method enables to filter out all those genes which express a mean counts between all the samples higher that the \lstinline!quantile.threshold! argument.
