@@ -281,6 +281,12 @@ Write your abstract here
 \subsection{Filtering low counts} \label{sec:ticorserfiltering}
 \input{sections/ticorser/filtering.tex}
 
+\subsection{Data Normalization} \label{sec:ticorsernormalization}
+\input{sections/ticorser/normalization.tex}
+
+\subsection{Additional Features} \label{sec:ticorseraddfeat}
+\input{sections/ticorser/addfeat.tex}
+
 \subsection{Time Course Methods} \label{sec:ticorsemethods}
 \input{sections/ticorser/methods.tex}
 

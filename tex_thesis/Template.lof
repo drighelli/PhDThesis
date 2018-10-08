@@ -3,17 +3,17 @@
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{15}{figure.caption.1}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{21}{figure.caption.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{19}{figure.caption.2}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{24}{figure.caption.3}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{25}{figure.caption.4}
-\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{26}{figure.caption.5}
-\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{27}{figure.caption.6}
-\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{28}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to detected regions}}{29}{figure.caption.8}
-\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Differential Enrichment Regions Volcano}}{30}{figure.caption.9}
-\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{31}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{25}{figure.caption.6}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{30}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{31}{figure.caption.8}
+\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{32}{figure.caption.9}
+\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{33}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{34}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to detected regions}}{35}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Differential Enrichment Regions Volcano}}{36}{figure.caption.13}
+\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{37}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

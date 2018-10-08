@@ -16,6 +16,315 @@
   {}
 \endgroup
 
+\entry{Sha2015}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Sha}{S.}%
+     {Ying}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Phan}{P.}%
+     {John~H.}{J.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {May~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SY+1}
+  \strng{fullhash}{SYPJHWMD1}
+  \field{abstract}{%
+  We compare methods for filtering RNA-seq lowexpression genes and investigate
+  the effect of filtering on detection of differentially expressed genes
+  (DEGs). Although RNA-seq technology has improved the dynamic range of gene
+  expression quantification, low-expression genes may be indistinguishable from
+  sampling noise. The presence of noisy, low-expression genes can decrease the
+  sensitivity of detecting DEGs. Thus, identification and filtering of these
+  low-expression genes may improve DEG detection sensitivity. Using the SEQC
+  benchmark dataset, we investigate the effect of different filtering methods
+  on DEG detection sensitivity. Moreover, we investigate the effect of RNA-seq
+  pipelines on optimal filtering thresholds. Results indicate that the
+  filtering threshold that maximizes the total number of DEGs closely
+  corresponds to the threshold that maximizes DEG detection sensitivity.
+  Transcriptome reference annotation, expression quantification method, and DEG
+  detection method are statistically significant RNA-seq pipeline factors that
+  affect the optimal filtering threshold.%
+  }
+  \field{booktitle}{Proceedings of the Annual International Conference of the
+  IEEE Engineering in Medicine and Biology Society, EMBS}
+  \verb{doi}
+  \verb 10.1109/EMBC.2015.7319872
+  \endverb
+  \verb{eprint}
+  \verb 15334406
+  \endverb
+  \field{isbn}{9781424492718}
+  \field{issn}{1557170X}
+  \field{title}{{Effect of low-expression gene filtering on detection of
+  differentially expressed genes in RNA-seq data}}
+  \field{eprinttype}{arXiv}
+  \field{year}{2015}
+\endentry
+
+\entry{Tarazona2012}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Tarazona}{T.}%
+     {Sonia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Garc{\'{i}}a}{G.}%
+     {Fernando}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferrer}{F.}%
+     {Alberto}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dopazo}{D.}%
+     {Joaqu{\'{i}}n}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conesa}{C.}%
+     {Ana}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{COST,RNA-seq,differential expression,next generation
+  sequencing,non-parametric approach}
+  \strng{namehash}{TS+1}
+  \strng{fullhash}{TSGFFADJCA1}
+  \field{abstract}{%
+  http://bioinfo.cipf.es/aconesa Introduction Next Generation Sequencing (NGS)
+  technologies have brought a revolution to research in genome and genome
+  regulation. One of the most breaking applications of NGS is in transcriptome
+  analysis. RNA-seq has revealed exciting new data on gene models, alternative
+  splicing and extra-genic expression. Also RNA-seq permits the quantification
+  of gene expression across a large dynamic range and with more reproducibility
+  than microarrays. Several methods for the assessment of differential
+  expression from count data have been proposed but biases associated to
+  transcript length and transcript frequency distributions have been reported.
+  It is still not clear how much sequencing reads should be generated in a
+  RNA-seq experiment to obtain reliable results and what's exactly being
+  detected. In general we observed that many RNA-seq datasets have not reached
+  saturation for detection of expressed genes and that the relative proportion
+  of different transcript biotypes changes with increasing sequencing depth. In
+  this work we investigate the effect that library size has on the assessment
+  of differential expression on different aspects of the selected genes. We
+  show that current statistical methods suffer from a strong dependency of
+  their significant calls on the number of mapped reads considered and proposed
+  a novel differential expression methodology – NOISeq1- that is robust to
+  the amount of reads. Results NOISeq is a non-parametric approach for the
+  differential expression analysis of RNseq-data. NOISeq creates a null or
+  noise distribution of count changes by comparing the number of reads of each
+  gene in samples within the same condition. This reference distribution is
+  then used to assess whether the change in count number between two conditions
+  for a given gene is likely to be part of the noise or represents a true
+  differential expression. Two variants of the method are implemented:
+  NOISeq-real uses replicates, when available, to compute the noise
+  distribution and, NOISeq-sim simulates them in absence of replication. We
+  compared our method with edgeR2, DESeq3, baySeq4 and Fisher Exact Test (FET)
+  using three different experimental datasets. Results are presented for MAQC
+  experiment where the transcriptome of brain and Universal Human Reference
+  (HUR) samples were sequenced at about 45 million Solexa reads each. We first
+  determined that although protein-coding gene is the most abundant transcript
+  type within differential expression calls for all methodologies, other RNA
+  types, such as processed-transcript, pseudogenes and lincRNAs are readily
+  detected. NOISeq dected comparatively more protein-coding genes than other
+  methods that called significant a considerable number of non-coding and small
+  RNA transcripts. Additionally, all comparing methods except FET greatly
+  increased the number of detected (non-coding) genes as sequencing depth
+  raised while NOISeq showed a constant pattern. Also these other methods tend
+  to select shorter genes and smaller fold change differences with the
+  increasing amounts of reads. In general, parametric approaches selected much
+  more genes than NOISeq, specially at high sequencing depth rates. When
+  analyzing the functional content of these genes by functional enrichment
+  analysis, we observed that the pool of genes detected both by NOISeq and the
+  parametric methods where highly enriched in functional categories, while
+  genes selected only by parametric methods did not. To check whether this
+  differences were indicative of different false calls between methods, we used
+  the RT-PCR data available at the MAQC project that contains 330 true positive
+  and 83 true negative differentially expressed genes. Performance plots
+  indicate that edgeR, DESeq, baySeq strongly increased the number of false
+  calls with sequencing depth, while NOISeq was constant and low. On the
+  contrary true discoveries were slightly better for these methods, presumably
+  consequence of their large number of selected genes. FET showed in low false
+  and true discovery rates, due to its general lower detection power.
+  Conclusions We showed that most current RNA-seq statistical analysis methods
+  fail to control the number of false discoveries as the size of the sequenced
+  library increases. These false positive are mainly short, non- coding genes
+  and/or genes with small fold changes. NOISeq, but adopting an empirical
+  approach to model the null distribution of differential expression captures
+  better the shape of noise in RNA-seq data, resulting in a sequencing-depth
+  robust method for differential expression analysis. References 1. Tarazona
+  S., Garcia-Alcalde F., Ferrer A., Dopazo J., Conesa, A. Differential
+  expression in RNA-seq:a matter of depth. Genome Research, Sep 2011,
+  doi:10.1101/gr.124321.11. 2. Robinson, MD, McCarthy, DJ, and Smyth, GK. 2010.
+  edgeR: a Bioconductor package for differential expression analysis of digital
+  gene expression data. Bioinformatics 26(1):139,140. 3. Anders, S and Huber,
+  W. 2010. Differential expression analysis for sequence count data. Genome
+  Biology 11(10):R106. 4. Hardcastle, T and Kelly, K. 2010. baySeq: Empirical
+  Bayesian methods for identifying differential expression in sequence count
+  data. BMC Bioinformatics 11(1):422+. Relevant Web sites 5.
+  http://bioinfo.cipf.es/noiseq%
+  }
+  \verb{doi}
+  \verb 10.14806/ej.17.B.265
+  \endverb
+  \field{isbn}{1023-4144}
+  \field{issn}{2226-6089}
+  \field{number}{B}
+  \field{pages}{18}
+  \field{title}{{NOIseq: a RNA-seq differential expression method robust for
+  sequencing depth biases}}
+  \verb{url}
+  \verb http://journal.embnet.org/index.php/embnetjournal/article/view/265
+  \endverb
+  \field{volume}{17}
+  \field{journaltitle}{EMBnet.journal}
+  \field{year}{2012}
+\endentry
+
+\entry{Risso2014h}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Risso}{R.}%
+     {Davide}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ngai}{N.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Speed}{S.}%
+     {Terence~P}{T.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dudoit}{D.}%
+     {Sandrine}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{next generation sequencing,ngs,normalization,rna-seq}
+  \strng{namehash}{RD+1}
+  \strng{fullhash}{RDNJSTPDS1}
+  \field{abstract}{%
+  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
+  accurate inference of expression levels. Here, we show that usual
+  normalization approaches mostly account for sequencing depth and fail to
+  correct for library preparation and other more complex unwanted technical
+  effects. We evaluate the performance of the External RNA Control Consortium
+  (ERCC) spike-in controls and investigate the possibility of using them
+  directly for normalization. We show that the spike-ins are not reliable
+  enough to be used in standard global-scaling or regression-based
+  normalization procedures. We propose a normalization strategy, called remove
+  unwanted variation (RUV), that adjusts for nuisance technical effects by
+  performing factor analysis on suitable sets of control genes (e.g., ERCC
+  spike-ins) or samples (e.g., replicate libraries). Our approach leads to more
+  accurate estimates of expression fold-changes and tests of differential
+  expression compared to state-of-the-art normalization methods. In particular,
+  RUV promises to be valuable for large collaborative projects involving
+  multiple laboratories, technicians, and/or sequencing platforms.%
+  }
+  \verb{doi}
+  \verb 10.1038/nbt.2931
+  \endverb
+  \field{isbn}{1087-0156 1546-1696}
+  \field{issn}{1087-0156}
+  \field{number}{9}
+  \field{pages}{896\bibrangedash 902}
+  \field{title}{{Normalization of RNA-seq data using factor analysis of control
+  genes or samples (RUVSeq)}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/nbt.2931
+  \endverb
+  \field{volume}{32}
+  \verb{file}
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Risso et al. - 2014 - Normalization of RNA-seq data using factor analy
+  \verb sis of control genes or samples (RUVSeq).pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature Biotechnology}
+  \field{year}{2014}
+\endentry
+
+\entry{Liao2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Liao}{L.}%
+     {Yang}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smyth}{S.}%
+     {Gordon~K.}{G.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shi}{S.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LY+1}
+  \strng{fullhash}{LYSGKSW1}
+  \field{abstract}{%
+  Read alignment is an ongoing challenge for the analysis of data from
+  sequencing technologies. This article proposes an elegantly simple multi-seed
+  strategy, called seed-and-vote, for mapping reads to a reference genome. The
+  new strategy chooses the mapped genomic location for the read directly from
+  the seeds. It uses a relatively large number of short seeds (called subreads)
+  extracted from each read and allows all the seeds to vote on the optimal
+  location. When the read length is {\textless}160 bp, overlapping subreads are
+  used. More conventional alignment algorithms are then used to fill in
+  detailed mismatch and indel information between the subreads that make up the
+  winning voting block. The strategy is fast because the overall genomic
+  location has already been chosen before the detailed alignment is done. It is
+  sensitive because no individual subread is required to map exactly, nor are
+  individual subreads constrained to map close by other subreads. It is
+  accurate because the final location must be supported by several different
+  subreads. The strategy extends easily to find exon junctions, by locating
+  reads that contain sets of subreads mapping to different exons of the same
+  gene. It scales up efficiently for longer reads.%
+  }
+  \verb{doi}
+  \verb 10.1093/nar/gkt214
+  \endverb
+  \field{isbn}{1362-4962 (Electronic)$\backslash$n0305-1048 (Linking)}
+  \field{issn}{03051048}
+  \field{title}{{The Subread aligner: Fast, accurate and scalable read mapping
+  by seed-and-vote}}
+  \field{journaltitle}{Nucleic Acids Research}
+  \field{year}{2013}
+\endentry
+
+\entry{Carlson2018}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carlson}{C.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CM1}
+  \strng{fullhash}{CM1}
+  \verb{doi}
+  \verb https://doi.org/doi:10.18129/B9.bioc.org.Mm.eg.db
+  \endverb
+  \field{title}{{org.Mm.eg.db: Genome wide annotation for Mouse.}}
+  \field{year}{2018}
+\endentry
+
 \entry{Koberstein2018}{article}{}
   \name{author}{12}{}{%
     {{}%
@@ -760,7 +1069,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{SY+1}
+  \strng{namehash}{SY+2}
   \strng{fullhash}{SYSJZCWSRPLJKDMGLSH1}
   \field{abstract}{%
   Su et al. investigated the chromatin accessibility status of neurons in the
@@ -1020,72 +1329,6 @@
   \field{journaltitle}{Bioinformatics}
   \field{eprinttype}{arXiv}
   \field{year}{2013}
-\endentry
-
-\entry{Risso2014h}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Risso}{R.}%
-     {Davide}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ngai}{N.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Speed}{S.}%
-     {Terence~P}{T.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dudoit}{D.}%
-     {Sandrine}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{next generation sequencing,ngs,normalization,rna-seq}
-  \strng{namehash}{RD+1}
-  \strng{fullhash}{RDNJSTPDS1}
-  \field{abstract}{%
-  Normalization of RNA-sequencing (RNA-seq) data has proven essential to ensure
-  accurate inference of expression levels. Here, we show that usual
-  normalization approaches mostly account for sequencing depth and fail to
-  correct for library preparation and other more complex unwanted technical
-  effects. We evaluate the performance of the External RNA Control Consortium
-  (ERCC) spike-in controls and investigate the possibility of using them
-  directly for normalization. We show that the spike-ins are not reliable
-  enough to be used in standard global-scaling or regression-based
-  normalization procedures. We propose a normalization strategy, called remove
-  unwanted variation (RUV), that adjusts for nuisance technical effects by
-  performing factor analysis on suitable sets of control genes (e.g., ERCC
-  spike-ins) or samples (e.g., replicate libraries). Our approach leads to more
-  accurate estimates of expression fold-changes and tests of differential
-  expression compared to state-of-the-art normalization methods. In particular,
-  RUV promises to be valuable for large collaborative projects involving
-  multiple laboratories, technicians, and/or sequencing platforms.%
-  }
-  \verb{doi}
-  \verb 10.1038/nbt.2931
-  \endverb
-  \field{isbn}{1087-0156 1546-1696}
-  \field{issn}{1087-0156}
-  \field{number}{9}
-  \field{pages}{896\bibrangedash 902}
-  \field{title}{{Normalization of RNA-seq data using factor analysis of control
-  genes or samples (RUVSeq)}}
-  \verb{url}
-  \verb http://dx.doi.org/10.1038/nbt.2931
-  \endverb
-  \field{volume}{32}
-  \verb{file}
-  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
-  \verb /Risso et al. - 2014 - Normalization of RNA-seq data using factor analy
-  \verb sis of control genes or samples (RUVSeq).pdf:pdf
-  \endverb
-  \field{journaltitle}{Nature Biotechnology}
-  \field{year}{2014}
 \endentry
 
 \entry{Robinson2010}{article}{}
@@ -1356,129 +1599,6 @@
   \field{year}{2012}
 \endentry
 
-\entry{Tarazona2012}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Tarazona}{T.}%
-     {Sonia}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Garc{\'{i}}a}{G.}%
-     {Fernando}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ferrer}{F.}%
-     {Alberto}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dopazo}{D.}%
-     {Joaqu{\'{i}}n}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Conesa}{C.}%
-     {Ana}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{COST,RNA-seq,differential expression,next generation
-  sequencing,non-parametric approach}
-  \strng{namehash}{TS+1}
-  \strng{fullhash}{TSGFFADJCA1}
-  \field{abstract}{%
-  http://bioinfo.cipf.es/aconesa Introduction Next Generation Sequencing (NGS)
-  technologies have brought a revolution to research in genome and genome
-  regulation. One of the most breaking applications of NGS is in transcriptome
-  analysis. RNA-seq has revealed exciting new data on gene models, alternative
-  splicing and extra-genic expression. Also RNA-seq permits the quantification
-  of gene expression across a large dynamic range and with more reproducibility
-  than microarrays. Several methods for the assessment of differential
-  expression from count data have been proposed but biases associated to
-  transcript length and transcript frequency distributions have been reported.
-  It is still not clear how much sequencing reads should be generated in a
-  RNA-seq experiment to obtain reliable results and what's exactly being
-  detected. In general we observed that many RNA-seq datasets have not reached
-  saturation for detection of expressed genes and that the relative proportion
-  of different transcript biotypes changes with increasing sequencing depth. In
-  this work we investigate the effect that library size has on the assessment
-  of differential expression on different aspects of the selected genes. We
-  show that current statistical methods suffer from a strong dependency of
-  their significant calls on the number of mapped reads considered and proposed
-  a novel differential expression methodology – NOISeq1- that is robust to
-  the amount of reads. Results NOISeq is a non-parametric approach for the
-  differential expression analysis of RNseq-data. NOISeq creates a null or
-  noise distribution of count changes by comparing the number of reads of each
-  gene in samples within the same condition. This reference distribution is
-  then used to assess whether the change in count number between two conditions
-  for a given gene is likely to be part of the noise or represents a true
-  differential expression. Two variants of the method are implemented:
-  NOISeq-real uses replicates, when available, to compute the noise
-  distribution and, NOISeq-sim simulates them in absence of replication. We
-  compared our method with edgeR2, DESeq3, baySeq4 and Fisher Exact Test (FET)
-  using three different experimental datasets. Results are presented for MAQC
-  experiment where the transcriptome of brain and Universal Human Reference
-  (HUR) samples were sequenced at about 45 million Solexa reads each. We first
-  determined that although protein-coding gene is the most abundant transcript
-  type within differential expression calls for all methodologies, other RNA
-  types, such as processed-transcript, pseudogenes and lincRNAs are readily
-  detected. NOISeq dected comparatively more protein-coding genes than other
-  methods that called significant a considerable number of non-coding and small
-  RNA transcripts. Additionally, all comparing methods except FET greatly
-  increased the number of detected (non-coding) genes as sequencing depth
-  raised while NOISeq showed a constant pattern. Also these other methods tend
-  to select shorter genes and smaller fold change differences with the
-  increasing amounts of reads. In general, parametric approaches selected much
-  more genes than NOISeq, specially at high sequencing depth rates. When
-  analyzing the functional content of these genes by functional enrichment
-  analysis, we observed that the pool of genes detected both by NOISeq and the
-  parametric methods where highly enriched in functional categories, while
-  genes selected only by parametric methods did not. To check whether this
-  differences were indicative of different false calls between methods, we used
-  the RT-PCR data available at the MAQC project that contains 330 true positive
-  and 83 true negative differentially expressed genes. Performance plots
-  indicate that edgeR, DESeq, baySeq strongly increased the number of false
-  calls with sequencing depth, while NOISeq was constant and low. On the
-  contrary true discoveries were slightly better for these methods, presumably
-  consequence of their large number of selected genes. FET showed in low false
-  and true discovery rates, due to its general lower detection power.
-  Conclusions We showed that most current RNA-seq statistical analysis methods
-  fail to control the number of false discoveries as the size of the sequenced
-  library increases. These false positive are mainly short, non- coding genes
-  and/or genes with small fold changes. NOISeq, but adopting an empirical
-  approach to model the null distribution of differential expression captures
-  better the shape of noise in RNA-seq data, resulting in a sequencing-depth
-  robust method for differential expression analysis. References 1. Tarazona
-  S., Garcia-Alcalde F., Ferrer A., Dopazo J., Conesa, A. Differential
-  expression in RNA-seq:a matter of depth. Genome Research, Sep 2011,
-  doi:10.1101/gr.124321.11. 2. Robinson, MD, McCarthy, DJ, and Smyth, GK. 2010.
-  edgeR: a Bioconductor package for differential expression analysis of digital
-  gene expression data. Bioinformatics 26(1):139,140. 3. Anders, S and Huber,
-  W. 2010. Differential expression analysis for sequence count data. Genome
-  Biology 11(10):R106. 4. Hardcastle, T and Kelly, K. 2010. baySeq: Empirical
-  Bayesian methods for identifying differential expression in sequence count
-  data. BMC Bioinformatics 11(1):422+. Relevant Web sites 5.
-  http://bioinfo.cipf.es/noiseq%
-  }
-  \verb{doi}
-  \verb 10.14806/ej.17.B.265
-  \endverb
-  \field{isbn}{1023-4144}
-  \field{issn}{2226-6089}
-  \field{number}{B}
-  \field{pages}{18}
-  \field{title}{{NOIseq: a RNA-seq differential expression method robust for
-  sequencing depth biases}}
-  \verb{url}
-  \verb http://journal.embnet.org/index.php/embnetjournal/article/view/265
-  \endverb
-  \field{volume}{17}
-  \field{journaltitle}{EMBnet.journal}
-  \field{year}{2012}
-\endentry
-
 \entry{Benjamini1995}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1525,56 +1645,6 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{0035-9246}
   \field{year}{1995}
-\endentry
-
-\entry{Liao2013}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Liao}{L.}%
-     {Yang}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Smyth}{S.}%
-     {Gordon~K.}{G.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shi}{S.}%
-     {Wei}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LY+1}
-  \strng{fullhash}{LYSGKSW1}
-  \field{abstract}{%
-  Read alignment is an ongoing challenge for the analysis of data from
-  sequencing technologies. This article proposes an elegantly simple multi-seed
-  strategy, called seed-and-vote, for mapping reads to a reference genome. The
-  new strategy chooses the mapped genomic location for the read directly from
-  the seeds. It uses a relatively large number of short seeds (called subreads)
-  extracted from each read and allows all the seeds to vote on the optimal
-  location. When the read length is {\textless}160 bp, overlapping subreads are
-  used. More conventional alignment algorithms are then used to fill in
-  detailed mismatch and indel information between the subreads that make up the
-  winning voting block. The strategy is fast because the overall genomic
-  location has already been chosen before the detailed alignment is done. It is
-  sensitive because no individual subread is required to map exactly, nor are
-  individual subreads constrained to map close by other subreads. It is
-  accurate because the final location must be supported by several different
-  subreads. The strategy extends easily to find exon junctions, by locating
-  reads that contain sets of subreads mapping to different exons of the same
-  gene. It scales up efficiently for longer reads.%
-  }
-  \verb{doi}
-  \verb 10.1093/nar/gkt214
-  \endverb
-  \field{isbn}{1362-4962 (Electronic)$\backslash$n0305-1048 (Linking)}
-  \field{issn}{03051048}
-  \field{title}{{The Subread aligner: Fast, accurate and scalable read mapping
-  by seed-and-vote}}
-  \field{journaltitle}{Nucleic Acids Research}
-  \field{year}{2013}
 \endentry
 
 \entry{GeneOntologyConsortium2004}{article}{}
