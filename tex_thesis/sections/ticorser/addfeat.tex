@@ -21,7 +21,7 @@ Indeed, it is very common the need to convert \glspl{deg} list from a specific i
 We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! which convert a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor packages for \textit{Human, Mouse} and \textit{Rat}.
 Additionally, it's possible to easily attach the resulting list to a \textit{dataframe}, by using the \lstinline!attachGeneColumnToDf! function, which takes care of adding a new column within the mapped identifiers in the right places of the original \textit{dataframe}.
 
-\subsubsection*{Input/Output File}
+\subsubsection*{Input/Output File Handling}
 
 To speed up the reading and writing of input/output files, \gls{tic} offers two main functions, \lstinline!readDataFrameFromTSV! and \lstinline!writeDataFrameAsTSV!.
 
@@ -31,5 +31,24 @@ While in the second case the function requires the \lstinline!data.frame.to.save
 Also in this case it is possible to set the classical parameters as \lstinline!col.names! and \lstinline!row.names!.
 
 Moreover, we implemented a method for creating a folder path in a recursive way.
-COMPLETARE
-Of course if a user need to create a single path by itself can simply create it using the \lstinline!dir.create! R function.
+The \lstinline!updateFolderPath! method takes as input a starting path and a list of strings. 
+It is useful when using a recursive function call or an automated nested function call process.
+Of course if a user need to create a single path by itself, he/she can simply create it using the \lstinline!dir.create! R base function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
