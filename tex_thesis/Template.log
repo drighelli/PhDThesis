@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.25)  11 OCT 2018 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.25)  12 OCT 2018 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -229,6 +229,16 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip57
 \dth@everypar=\toks28
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -502,8 +512,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 32.
-Package hyperref Info: Option `plainpages' set `false' on input line 32.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 33.
+Package hyperref Info: Option `plainpages' set `false' on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -1125,7 +1135,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
-\symextraup=\mathgroup4
+\symextraup=\mathgroup6
 
 (./fncychap/fncychap.sty
 
@@ -1321,7 +1331,7 @@ Package: glossary-tree 2016/01/24 v4.21 (NLCT)
 \glo@acronym@file=\write5
 \openout5 = `Template.acn'.
 
-Package glossaries Info: Writing glossary file Template.acn on input line 162.
+Package glossaries Info: Writing glossary file Template.acn on input line 163.
 
 (./acronyms.tex)
 Package csquotes Info: Checking for multilingual support...
@@ -1346,38 +1356,38 @@ LaTeX Warning: Unused global option(s):
 (./Template.aux (./abstract.aux) (./acronym.tex.aux))
 \openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 165.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 166.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 166.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 166.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1421,7 +1431,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count412
 \AtBeginShipoutBox=\box87
 Package atbegshi Info: Package `crop' patched.
-Package hyperref Info: Link coloring OFF on input line 165.
+Package hyperref Info: Link coloring OFF on input line 166.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1431,9 +1441,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count413
 )
-LaTeX Info: Redefining \ref on input line 165.
-LaTeX Info: Redefining \pageref on input line 165.
-LaTeX Info: Redefining \nameref on input line 165.
+LaTeX Info: Redefining \ref on input line 166.
+LaTeX Info: Redefining \pageref on input line 166.
+LaTeX Info: Redefining \nameref on input line 166.
 
 (./Template.out) (./Template.out)
 \@outlinefile=\write6
@@ -1447,9 +1457,9 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-Package crop Info: requested driver: `' on input line 165.
-Package crop Info: detected driver: `pdftex' on input line 165.
-Package crop Info: using `pdftex' graphics driver on input line 165.
+Package crop Info: requested driver: `' on input line 166.
+Package crop Info: detected driver: `pdftex' on input line 166.
+Package crop Info: using `pdftex' graphics driver on input line 166.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -1466,19 +1476,29 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 165.
-Package biblatex Info: Reference segment=0 on input line 165.
+Package biblatex Info: Reference section=0 on input line 166.
+Package biblatex Info: Reference segment=0 on input line 166.
 \c__siunitx_mathsf_int=\count414
-LaTeX Font Info:    Try loading font information for U+zavm on input line 165.
- (/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 166.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 166.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+zavm on input line 166.
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
 \c__siunitx_mathtt_int=\count415
 
-<img/logoUnisa.png, id=182, 441.65pt x 441.65pt>
+<img/logoUnisa.png, id=227, 441.65pt x 441.65pt>
 File: img/logoUnisa.png Graphic file (type png)
  <use img/logoUnisa.png>
-Package pdftex.def Info: img/logoUnisa.png used on input line 179.
+Package pdftex.def Info: img/logoUnisa.png used on input line 180.
 (pdftex.def)             Requested size: 88.32843pt x 88.32843pt.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1513,12 +1533,12 @@ No file abstract.tex.
 
 No file acronym.tex.tex.
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 254.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 255.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 254.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 255.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1531,7 +1551,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 270.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 271.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ) [14
@@ -1540,228 +1560,247 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 270.
+(hyperref)                removing `\newline' on input line 271.
 
 (./sections/ticorser/general.tex) (./sections/ticorser/intro.tex) [15]
-(./sections/ticorser/intromethods.tex) (./sections/ticorser/filtering.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
+(./sections/ticorser/intromethods.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-))
-(./sections/ticorser/normalization.tex
+)
+Overfull \hbox (1.7122pt too wide) in paragraph at lines 9--11
+\T1/cmr/m/it/10 BAM \T1/cmr/m/n/10 files. It en-ables RNA ex-pres-sion quan-ti-
+fic-a-tion with [][][][][][] method
+ []
+
+<img/ticorser/main_flow.pdf, id=357, 601.28638pt x 678.37442pt>
+File: img/ticorser/main_flow.pdf Graphic file (type pdf)
+
+<use img/ticorser/main_flow.pdf>
+Package pdftex.def Info: img/ticorser/main_flow.pdf used on input line 15.
+(pdftex.def)             Requested size: 344.9938pt x 389.22382pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 20.86551pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[16] [17 <./img/ticorser/main_flow.pdf>]) (./sections/ticorser/filtering.tex)
+(./sections/ticorser/normalization.tex [18]
 Overfull \hbox (0.69702pt too wide) in paragraph at lines 8--12
 []\T1/cmr/m/n/10 Moreover, it is pos-sible to ap-ply a batch ef-fect re-moval n
 or-mal-iz-a-tion method,
  []
 
-) (./sections/ticorser/addfeat.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
+) (./sections/ticorser/demethods.tex [19] [20])
+(./sections/ticorser/addfeat.tex [21]
 Overfull \hbox (36.93637pt too wide) in paragraph at lines 19--23
 \T1/cmr/m/n/10 iden-ti-fier to an-other. We de-veloped [][][][][][] and [][]
  []
 
-[18]) (./sections/ticorser/methods.tex [19]
-<img/ticorser/main_flow.pdf, id=371, 601.28638pt x 678.37442pt>
-File: img/ticorser/main_flow.pdf Graphic file (type pdf)
+) (./sections/ticorser/results.tex) (./sections/ticorser/conclusions.tex)
+Underfull \vbox (badness 1292) has occurred while \output is active []
 
-<use img/ticorser/main_flow.pdf>
-Package pdftex.def Info: img/ticorser/main_flow.pdf used on input line 17.
-(pdftex.def)             Requested size: 344.9938pt x 389.22382pt.
+ [22]
+[23] [24
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20])
-(./sections/ticorser/results.tex) (./sections/ticorser/conclusions.tex)
-[21 <./img/ticorser/main_flow.pdf>] [22]
+]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 300.
+(hyperref)                removing `\newline' on input line 301.
 
-(./sections/descan2/general.tex) [23
-
-] (./sections/descan2/intro.tex)
+(./sections/descan2/general.tex) [25] (./sections/descan2/intro.tex)
 (./sections/descan2/methods.tex
-<img/descan2/flow.png, id=420, 550.055pt x 572.1375pt>
+<img/descan2/flow.png, id=490, 550.055pt x 572.1375pt>
 File: img/descan2/flow.png Graphic file (type png)
 
 <use img/descan2/flow.png>
 Package pdftex.def Info: img/descan2/flow.png used on input line 8.
 (pdftex.def)             Requested size: 345.00893pt x 358.85965pt.
-) [24] (./sections/descan2/peakcall.tex [25 <./img/descan2/flow.png>] [26]) (./
+) [26] (./sections/descan2/peakcall.tex [27 <./img/descan2/flow.png>] [28]) (./
 sections/descan2/peakfilt.tex)
-(./sections/descan2/peakcount.tex [27]) (./sections/descan2/addfeat.tex
-[28]) (./sections/descan2/results.tex
-<img/descan2/dataset.png, id=479, 716.4366pt x 334.851pt>
+(./sections/descan2/peakcount.tex [29]) (./sections/descan2/addfeat.tex
+[30]) (./sections/descan2/results.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+<img/descan2/dataset.png, id=546, 716.4366pt x 334.851pt>
 File: img/descan2/dataset.png Graphic file (type png)
 
 <use img/descan2/dataset.png>
 Package pdftex.def Info: img/descan2/dataset.png used on input line 11.
 (pdftex.def)             Requested size: 345.01166pt x 161.25291pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4556) has occurred while \output is active []
 
- [29]
-<img/descan2/d2m2_peaks_number.png, id=498, 1262.7175pt x 1003.75pt>
+ [31]
+<img/descan2/d2m2_peaks_number.png, id=566, 1262.7175pt x 1003.75pt>
 File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
 
 <use img/descan2/d2m2_peaks_number.png>
 Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 2
-4.
+6.
 (pdftex.def)             Requested size: 345.00372pt x 274.24779pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./img/descan2/dataset.png>] <img/descan2/peaks.png, id=522, 680.3016pt x 
+ [32 <./img/descan2/dataset.png>] <img/descan2/peaks.png, id=590, 680.3016pt x 
 262.581pt>
 File: img/descan2/peaks.png Graphic file (type png)
 
 <use img/descan2/peaks.png>
-Package pdftex.def Info: img/descan2/peaks.png used on input line 34.
+Package pdftex.def Info: img/descan2/peaks.png used on input line 36.
 (pdftex.def)             Requested size: 345.00806pt x 133.16528pt.
- [31 <./img/descan2/d2m2_peaks_number.png>]
-<img/descan2/filtering_m2_d2.png, id=540, 2569.6pt x 1419.3025pt>
+ [33 <./img/descan2/d2m2_peaks_number.png>]
+<img/descan2/filtering_m2_d2.png, id=607, 2569.6pt x 1419.3025pt>
 File: img/descan2/filtering_m2_d2.png Graphic file (type png)
 
 <use img/descan2/filtering_m2_d2.png>
-Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 52.
+Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 56.
 
 (pdftex.def)             Requested size: 344.99901pt x 190.55804pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./img/descan2/peaks.png>] <img/descan2/counts.png, id=555, 286.671pt x 21
+ [34 <./img/descan2/peaks.png>] <img/descan2/counts.png, id=623, 286.671pt x 21
 1.5102pt>
 File: img/descan2/counts.png Graphic file (type png)
 
 <use img/descan2/counts.png>
-Package pdftex.def Info: img/descan2/counts.png used on input line 68.
+Package pdftex.def Info: img/descan2/counts.png used on input line 74.
 (pdftex.def)             Requested size: 200.66832pt x 148.05612pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./img/descan2/filtering_m2_d2.png>] [34 <./img/descan2/counts.png>]
-<img/descan2/normalizations_null_full.png, id=586, 2567.5925pt x 1421.31pt>
+ [35 <./img/descan2/filtering_m2_d2.png>] [36 <./img/descan2/counts.png>]
+<img/descan2/normalizations_null_full.png, id=654, 2567.5925pt x 1421.31pt>
 File: img/descan2/normalizations_null_full.png Graphic file (type png)
 
 <use img/descan2/normalizations_null_full.png>
 Package pdftex.def Info: img/descan2/normalizations_null_full.png used on input
- line 91.
+ line 100.
 (pdftex.def)             Requested size: 344.96455pt x 190.9577pt.
- [35 <./img/descan2/normalizations_null_full.png>]
-<img/descan2/DE_peaks.png, id=598, 986.18437pt x 858.20625pt>
+ [37 <./img/descan2/normalizations_null_full.png>]
+<img/descan2/DE_peaks.png, id=667, 986.18437pt x 858.20625pt>
 File: img/descan2/DE_peaks.png Graphic file (type png)
 
 <use img/descan2/DE_peaks.png>
-Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 117.
+Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 127.
 (pdftex.def)             Requested size: 345.00417pt x 300.23264pt.
- [36 <./img/descan2/DE_peaks.png (PNG copy)>]
-<img/descan2/Annotated_depeaks_degenes.png, id=612, 1380.15625pt x 1208.515pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<img/descan2/Annotated_depeaks_degenes.png, id=679, 1380.15625pt x 1208.515pt>
 File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
 
 <use img/descan2/Annotated_depeaks_degenes.png>
 Package pdftex.def Info: img/descan2/Annotated_depeaks_degenes.png used on inpu
-t line 130.
+t line 139.
 (pdftex.def)             Requested size: 344.9961pt x 302.09113pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./img/descan2/Annotated_depeaks_degenes.png>]) (./sections/descan2/conclu
-sions.tex
-[38]) [39] [40
-
-]
+ [39 <./img/descan2/DE_peaks.png (PNG copy)>] [40 <./img/descan2/Annotated_depe
+aks_degenes.png>]) (./sections/descan2/conclusions.tex [41]) [42]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-[42]
-Chapter 5.
-[43
+ [43
 
-] [44
+]
+[44]
+Chapter 5.
+[45
+
+] [46
 
 ]
 Chapter 6.
-[45] [46
+[47] [48
 
-] [47
+] [49
 
-] [48] [49] [50
+] [50] [51] [52
 
 ]
 Chapter 7.
 
-Overfull \hbox (25.02959pt too wide) in paragraph at lines 366--366
+Overfull \hbox (8.83928pt too wide) in paragraph at lines 367--367
+[]\T1/cmr/m/n/10 Nueda, M. J., Tarazona, S. & Con-esa, A. Next maSigPro: Up-dat
+-ing maSigPro
+ []
+
+
+Overfull \hbox (14.97775pt too wide) in paragraph at lines 367--367
+\T1/cmr/m/n/10 biocon-ductor pack-age for RNA-seq time series. \T1/cmr/m/it/10 
+Bioin-form-at-ics. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14602059.
+ []
+
+[53]
+Overfull \hbox (25.02959pt too wide) in paragraph at lines 367--367
 []\T1/cmr/m/n/10 Carlson, M. \T1/cmr/m/it/10 org.Mm.eg.db: Gen-ome wide an-nota
 -tion for Mouse. \T1/cmr/m/n/10 2018. doi:[]$\T1/cmtt/m/n/10 https :
  []
 
-[51]
-Overfull \hbox (5.56445pt too wide) in paragraph at lines 366--366
+
+Overfull \hbox (5.56445pt too wide) in paragraph at lines 367--367
 \T1/cmr/m/n/10 ChIP-seq and ChIP-chip data. \T1/cmr/m/it/10 BMC Bioin-form-at-i
 cs. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14712105. doi:[]$\T1/cmtt/m/n/10 10 .
  []
 
-[52]
-Overfull \hbox (5.59947pt too wide) in paragraph at lines 366--366
+[54]
+Overfull \hbox (5.59947pt too wide) in paragraph at lines 367--367
 \T1/cmr/m/n/10 en-tial ex-pres-sion ana-lysis of RNA-seq data. \T1/cmr/m/it/10 
 Gen-ome Bio-logy. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14747596.
  []
 
-[53] [54
-
-] (./Template.acr) [55
+[55] [56] (./Template.acr) [57
 
 
-] [56
+
+] [58
 
 ] (./Template.lof)
 \tf@lof=\write8
 \openout8 = `Template.lof'.
 
- [57
+ [59
 
-] [58
+] [60
 
 ] (./Template.lot)
 \tf@lot=\write9
 \openout9 = `Template.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
- [59
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
+ [61
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  (./Template.aux (./abstract.aux) (./acronym.tex.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 384.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
 Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: 03F0CCC20CD82D95A84519FD179708D2;6771.
+(rerunfilecheck)             Checksum: CD797F76CE7054EEEB0B5F3161A5955E;9041.
 Package logreq Info: Writing requests to 'Template.run.xml'.
 \openout1 = `Template.run.xml'.
 
  )
-(\end occurred when \iftrue on line 165 was incomplete) 
+(\end occurred when \iftrue on line 166 was incomplete) 
 Here is how much of TeX's memory you used:
- 35045 strings out of 494835
- 604150 string characters out of 6178235
- 925154 words of memory out of 5000000
- 37615 multiletter control sequences out of 15000+600000
- 28848 words of font info for 64 fonts, out of 8000000 for 9000
+ 35425 strings out of 494835
+ 608581 string characters out of 6178235
+ 927273 words of memory out of 5000000
+ 37957 multiletter control sequences out of 15000+600000
+ 31621 words of font info for 75 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 46i,12n,77p,10381b,2439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,77p,10381b,2561s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): n
 ame{glo:go} has been referenced but does not exist, replaced by a fixed one
 
@@ -1771,10 +1810,13 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:tsv} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{glo:tc} has been referenced but does not exist, rep
-laced by a fixed one
-
 pdfTeX warning (dest): name{glo:gtf} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:glm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:lrt} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{glo:cov} has been referenced but does not exist, re
@@ -1782,6 +1824,9 @@ placed by a fixed one
 
 pdfTeX warning (dest): name{glo:cpm} has been referenced but does not exist, re
 placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tc} has been referenced but does not exist, rep
+laced by a fixed one
 
 pdfTeX warning (dest): name{glo:tic} has been referenced but does not exist, re
 placed by a fixed one
@@ -1793,29 +1838,30 @@ ar/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/dario/.texmf-var/fonts/pk
 appen/ec/ecti0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 tt0800.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600p
 k> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/d
-ario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/dario/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/dario/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ectt0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/base/8r.enc} </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
-600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </ho
-me/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/dario/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/dario/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/dario/.texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb>
-Output written on Template.pdf (59 pages, 7405721 bytes).
+ario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/dario/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/dario/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ectt0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
+r.enc} </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </ho
+me/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/dario/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/dario/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/dario/.texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecbx1200.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb>
+Output written on Template.pdf (61 pages, 7423420 bytes).
 PDF statistics:
- 1511 PDF objects out of 1728 (max. 8388607)
- 813 compressed objects within 9 object streams
- 159 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1618 PDF objects out of 1728 (max. 8388607)
+ 888 compressed objects within 9 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 

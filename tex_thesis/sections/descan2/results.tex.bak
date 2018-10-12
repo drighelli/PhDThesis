@@ -1,6 +1,6 @@
+\subsubsection{Data Description and Preprocessing}
 Atac-Seq is an emerging evoluted technique which enables to investigate the open chromatin regions at whole genome level.
 It has been demonstrated the adequacy of this technology in the regulation of mouse brain activity under different conditions.
-
 
 To illustrate the performances of \gls{descan} we chose a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using Atac-Seq and RNA-Seq technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
 
@@ -15,6 +15,8 @@ We chose to compare the differences btween the first two stages, time 0 (E0) and
 \end{figure}
 
 We downloaded the data from \gls{geo} database \cite{Edgar2002, Barrett2013} with accession number GSE82015\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82015}} and mapped raw data using \textit{STAR} \cite{Dobin2013} with default parameter on \gls{mm10}.
+
+\subsubsection{Peaks Detection}
 
 In order to detect open chromatin regions we run our peak caller, cutting the genome in bins of 50bp and using running windows of minimum 50bp and maximum 1000bp. In such a way we are able to detect not just broad peaks, but also smaller peaks.
 
@@ -36,6 +38,8 @@ The lower part of figure \ref{fig:peaksdescan} shows the detected and validated 
 \label{fig:peaksdescan}
 \centering
 \end{figure}
+
+\subsubsection{Removing Unwanted Peaks}
 
 While it is very important to detect good peaks with a peak caller, it seems to be more relevant to detect reliable regions. Indeed, during the filtering/aligning step, the number of peaks depends not only by the peak score, but also by the number of replicates designed in the experiment.
 The figure \ref{fig:filteringdescanmacs2} puts in relation these two relevant information for both MACS2 and \gls{descan}. 
@@ -60,6 +64,7 @@ Moreover, comparing left and right panels, we notice the high difference in pool
 Using the \textit{MACS2} peaks the pooling highly reduce the number of detected peaks, even using a low threshold as 5 on the score, showing that there are many peaks with a score lower than 5.
 While in the \gls{descan} case the curves representing the threshold equal to 5 and the threshold equal to 10 totally overlap, highlighting that the \gls{descan} peak caller produces scores higher than 10.
 
+\subsubsection{Quantifying Peaks}
 Afterwards, the filtered-in regions can be processed by \gls{descan} in order to obtain a count matrix with samples on the columns and peaks on the rows.
 This type of data structure is very versatile, because it enables to perform several operations, like the \glspl{der} and the integration with other kind of omics, as RNA-Seq.
 
@@ -73,6 +78,7 @@ This type of data structure is very versatile, because it enables to perform sev
 
 In order to preserve the information associated to the peaks, \gls{descan} produces as output a \textit{SummarizedExperiment} (figure \ref{fig:countsdescan}) data structure, which enables to retrieve the count matrix with \lstinline!assays! method, and to access the peaks information in \textit{GenomicRanges} format with the \lstinline!rowRanges! method.
 
+\subsubsection{Peaks Detection}
 Before to proceed to detect \glspl{der}, it is a good standard to normalize the data, also because without any kind of normalization we are not able to detect any \gls{der}.
 The nature of the data, in count format, makes it possible to apply several well known RNA-Seq normalizations techniques, such as \textit{TMM}, \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-Seq}, etc \cite{Risso2014h, Robinson2010, Dillies2013}.
 In this case, we fixed the peaks's score threshold to 10, in order to have as much signal as possible.

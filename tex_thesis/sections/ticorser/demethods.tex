@@ -1,3 +1,41 @@
 \gls{tic} offers four different ways for analyzing time course RNA-Seq data.
 
+
+Depending on the biological question under investigation we designed four different ways of interrogate the data in a time-course experiment.
+
+To do so, we took advantage of \textit{DESeq2}\cite{Love2014} and \textit{MASigPro}\cite{Nueda2014} R/Bioconductor packages.
+
 Moreover, it offers three different ways for analyzing different biological conditions in a single time point.
+
+\subsubsection{Time-Course DE Method 1 - \textit{LRT\_TC}}
+The first method (\textit{LRT\_TC}) uses a \gls{lrt} to compare two different models in order to extract all those \glspl{deg} that invert their expression expression between the conditions across all the time points.
+
+Exploiting the \gls{lrt}, as implemented in \textit{DESeq2} R/Biocnductor package, we compare two different formulas.
+The first one defines the \textit{full} model where we put together the timepoints, the conditions and an interaction term between these two variables, while the second one is a reduced model where the interaction term is removed:
+
+\[LRT \sim \frac{times+conditions+times:conditions}{times+conditions}\]
+
+
+\subsubsection{Time-Course DE Method 2 - \textit{LRT\_T}}
+The underlying idea of the second method is the same of the first one, where the difference, here, is to remove in the \textit{reduced} formula, not only the interaction term, but also the \textit{conditions} variable.
+In such a way we are able to extract all those \glspl{deg} that have different expression profiles between the conditions across all the time points.
+
+The first formula here defines the same \textit{full} model of the first method, while the second one is the reduced model where only the times appear:
+
+\[LRT \sim \frac{times+conditions+times:conditions}{times}\]
+
+
+\subsubsection{Time-Course DE Method 3 - \textit{LRT\_NOInteraction}}
+Using always the \textit{DESeq2} \gls{lrt} we defined a third method for the 
+identification of \glspl{deg} that have different expression between the conditions across all the time points, but that maintain the same profile in both conditions.
+
+Here the \textit{full} model defines the time points and the conditions variables without taking into account the interaction term, while the second the \textit{reduced} model presents only the time point variable:
+
+\[LRT \sim \frac{times+conditions}{times}\]
+
+
+\subsubsection{Time-Course DE Method 4 - \textit{nextMASigPro}}
+
+The fourth method takes advantage of the \gls{glm} with Negative Binomial distribution as defined in the \textit{maSigPro} R/Bioconductor package.
+This method, unlike the previous ones, allows to detect all the \glspl{deg} showing any kind of differences between the conditions across all the time points.
+Indeed, as suggested by the \textit{maSigPro} authors is a good norm to cluster the genes to better understand which is their singular behaviour.

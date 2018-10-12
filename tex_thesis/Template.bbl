@@ -258,6 +258,100 @@
   \field{year}{2014}
 \endentry
 
+\entry{Love2014}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Love}{L.}%
+     {Michael~I.}{M.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huber}{H.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anders}{A.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LMI+1}
+  \strng{fullhash}{LMIHWAS1}
+  \field{abstract}{%
+  In comparative high-throughput sequencing assays, a fundamental task is the
+  analysis of count data, such as read counts per gene in RNA-seq, for evidence
+  of systematic changes across experimental conditions. Small replicate
+  numbers, discreteness, large dynamic range and the presence of outliers
+  require a suitable statistical approach. We present DESeq2, a method for
+  differential analysis of count data, using shrinkage estimation for
+  dispersions and fold changes to improve stability and interpretability of
+  estimates. This enables a more quantitative analysis focused on the strength
+  rather than the mere presence of differential expression. The DESeq2 package
+  is available at $\backslash$n
+  http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html$\backslash$n
+  $\backslash$n .%
+  }
+  \verb{doi}
+  \verb 10.1186/s13059-014-0550-8
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1303.3997v2
+  \endverb
+  \field{isbn}{1465-6906}
+  \field{issn}{1474760X}
+  \field{title}{{Moderated estimation of fold change and dispersion for RNA-seq
+  data with DESeq2}}
+  \field{journaltitle}{Genome Biology}
+  \field{eprinttype}{arXiv}
+  \field{year}{2014}
+\endentry
+
+\entry{Nueda2014}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Nueda}{N.}%
+     {Mar{\'{i}}a~Jos{\'{e}}}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tarazona}{T.}%
+     {Sonia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conesa}{C.}%
+     {Ana}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NMJ+1}
+  \strng{fullhash}{NMJTSCA1}
+  \field{abstract}{%
+  MOTIVATION The widespread adoption of RNA-seq to quantitatively measure gene
+  expression has increased the scope of sequencing experimental designs to
+  include time-course experiments. maSigPro is an R package specifically suited
+  for the analysis of time-course gene expression data, which was developed
+  originally for microarrays and hence was limited in its application to count
+  data. RESULTS We have updated maSigPro to support RNA-seq time series
+  analysis by introducing generalized linear models in the algorithm to support
+  the modeling of count data while maintaining the traditional functionalities
+  of the package. We show a good performance of the maSigPro-GLM method in
+  several simulated time-course scenarios and in a real experimental dataset.
+  AVAILABILITY AND IMPLEMENTATION The package is freely available under the
+  LGPL license from the Bioconductor Web site (http://bioconductor.org).%
+  }
+  \verb{doi}
+  \verb 10.1093/bioinformatics/btu333
+  \endverb
+  \field{isbn}{1367-4803}
+  \field{issn}{14602059}
+  \field{title}{{Next maSigPro: Updating maSigPro bioconductor package for
+  RNA-seq time series}}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2014}
+\endentry
+
 \entry{Liao2013}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1493,6 +1587,11 @@
   \field{issn}{14675463}
   \field{title}{{A comprehensive evaluation of normalization methods for
   Illumina high-throughput RNA sequencing data analysis}}
+  \verb{file}
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Dillies et al. - 2013 - A comprehensive evaluation of normalization me
+  \verb thods for Illumina high-throughput RNA sequencing data analysis.pdf:pdf
+  \endverb
   \field{journaltitle}{Briefings in Bioinformatics}
   \field{year}{2013}
 \endentry
