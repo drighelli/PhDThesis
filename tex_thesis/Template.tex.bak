@@ -199,7 +199,7 @@ Ciclo XVII N.S.
 \begin{center}
 Novel tools for reproducible 
 
-Next Generation Sequencing data analysis 
+Next Generation Sequencing data analysis and integration
 \par\end{center}
 
 \vspace{1.5cm}
@@ -329,17 +329,28 @@ Write your abstract here
 \input{sections/descan2/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{IntegrHO - Integration of High-Throughtput Omics data}
-\section{Introduction}
-\section{Methods}
-\subsection{Single Omic Approach}
-\subsection{Multi Omic Approach}
-\subsubsection{Low Level Itegration}
-\subsubsection{High Level Itegration}
-\section{Implementation Aspects}
-\section{Reproducible Computational Research}
-\section{Results}
-\chapter{Conclusions \& Future Works}
+\chapter{IntegrHO - Integration of High-Throughtput Omics data} \label{sec:integrhocap}
+\input{sections/integrho/general.tex}
+\section{Introduction} \label{sec:integrhointro}
+\input{sections/integrho/intro.tex}
+\section{Methods}  \label{sec:integrhometh}
+\input{sections/integrho/methods.tex}
+\subsection{Single Omic Approach}  \label{sec:integrhosingleomic}
+\input{sections/integrho/singleomic.tex}
+\subsection{Multi Omic Approach}  \label{sec:integrhomultiomic}
+\input{sections/integrho/multiomic.tex}
+\subsubsection{Low Level Itegration} \label{sec:integrholowlev}
+\input{sections/integrho/lowlev.tex}
+\subsubsection{High Level Itegration} \label{sec:integrhohighlev}
+\input{sections/integrho/highlev.tex}
+\section{Implementation Aspects} \label{sec:integrhoimpl}
+\input{sections/integrho/implementation.tex}
+\section{Reproducible Computational Research} \label{sec:integrhorr}
+\input{sections/integrho/reprres.tex}
+\section{Results} \label{sec:integrhoresults}
+\input{sections/integrho/results.tex}
+\chapter{Conclusions \& Future Works} \label{sec:integrhofuture}
+\input{sections/integrho/conclusions.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Reproducible Computational Research}
