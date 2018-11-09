@@ -1,6 +1,8 @@
-The most difficult part when using a \gls{gui} is to trace the flow of run functionalities during the execution.
-To face this need we equipped \gls{igro} of a \gls{rr} hidden layer able to trace all the run functionalities by the user.
+The most difficult part when using a \gls{gui} is to trace the executed functionalities during the analysis.
+To face this need we equipped \gls{igro} of a \gls{rr} hidden layer able to trace all the code executed by the user.
+
 In combination with a system of \gls{cdf}, it stores the code chunks and the input/output data of each analysis step into an \gls{rmd} file.
 
 Because of the need of adding personal comments to each analysis step or to delete portions of the analysis, we built a specific interface enabling the user to edit the automatically produced \gls{rmd} file and to compile it on the fly.
 
+The enriched output report can be produced in \gls{html} or \gls{pdf} formats, in order to be easily attached as supplementary material of a published article, facilitating the reproducibility of the analysis to a third party user.
