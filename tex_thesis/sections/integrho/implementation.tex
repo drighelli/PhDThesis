@@ -31,9 +31,9 @@ For \textit{ChIP-Seq} we constructed specific interfaces for peak calling, annot
 For the peak calling, because of the lack of specific methods starting from BAM files, we implemented interfaces for the DEScan2 and the \textit{csaw}\cite{Lun2015} peak callers. The first one born for broad peaks identification and the second one for both broad and narrow peaks quantification.
 For the annotation we chose the \textit{ChIPpeakAnno} and the \textit{ChIPseeker} R/Bioconductor, which produces similar output formats starting from peaks. While for the detection of \glspl{der} we used the same methods as for \textit{RNA-Seq}.
 
-For \textit{ATAC-Seq} we used mostly the same methods implemented for the \textit{ChIP-Seq}, but designing specific interfaces for the filtering/alignment and the counting matrix as implemented in the DEScan2 package (see \ref{sec:descan2cap} for further details).
+For \textit{ATAC-Seq} we used mostly the same methods implemented for the \textit{ChIP-Seq}, but designing specific interfaces for the filtering/alignment and the counting matrix as implemented in the DEScan2 package (see chapter \ref{sec:descan2cap} for further details).
 
 To provide an integration of these -omics, we dedicated an entire section to this aspect, with functionalities for the annotation of \glspl{der} with \glspl{deg} using \textit{ChIPpeakAnno} and to use this information to investigate the functional response by enriching for Gene Ontology or for Pathways.
 These last two aspects implemented with aid of \textit{g:Profiler} \cite{Reimand2016} and \textit{graphite} \cite{Sales2012a} R/Bioconductor packages.
 
-
+Moreover, to work with high-dimentional data sets, we are working on the implementation of methods like mixOmics, which gives a graphical response of the samples or the features, using two different methods diablo and mint.
