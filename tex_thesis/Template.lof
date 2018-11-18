@@ -3,25 +3,26 @@
 \select@language {british}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.2.1}{\ignorespaces RNA-Seq experiment}}{12}{figure.caption.1}
-\contentsline {figure}{\numberline {1.2.2}{\ignorespaces RNA-Seq analysis}}{14}{figure.caption.2}
+\contentsline {figure}{\numberline {1.2.2}{\ignorespaces RNA-Seq analysis}}{15}{figure.caption.2}
+\contentsline {figure}{\numberline {1.2.3}{\ignorespaces ATAC-seq experiment}}{16}{figure.caption.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{17}{figure.caption.3}
-\contentsline {figure}{\numberline {2.2.2}{\ignorespaces ticorser boxplot}}{23}{figure.caption.10}
-\contentsline {figure}{\numberline {2.2.3}{\ignorespaces ticorser pca}}{25}{figure.caption.11}
-\contentsline {figure}{\numberline {2.2.4}{\ignorespaces ticorser volcano}}{27}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser MAplot}}{28}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser gene profile}}{29}{figure.caption.16}
-\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser keggmap}}{30}{figure.caption.18}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{19}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces ticorser boxplot}}{25}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2.3}{\ignorespaces ticorser pca}}{27}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2.4}{\ignorespaces ticorser volcano}}{29}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser MAplot}}{30}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser gene profile}}{31}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser keggmap}}{32}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{40}{figure.caption.25}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{41}{figure.caption.27}
-\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{42}{figure.caption.28}
-\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{43}{figure.caption.30}
-\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{44}{figure.caption.32}
-\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to detected regions}}{45}{figure.caption.34}
-\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Differential Enrichment Regions Volcano}}{47}{figure.caption.36}
-\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{48}{figure.caption.37}
-\contentsline {figure}{\numberline {3.5.1}{\ignorespaces integrho main interface}}{51}{figure.caption.39}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{44}{figure.caption.29}
+\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{45}{figure.caption.31}
+\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{46}{figure.caption.33}
+\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to detected regions}}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Differential Enrichment Regions Volcano}}{49}{figure.caption.37}
+\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{50}{figure.caption.38}
+\contentsline {figure}{\numberline {3.5.1}{\ignorespaces integrho main interface}}{53}{figure.caption.40}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

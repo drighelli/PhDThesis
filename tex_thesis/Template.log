@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  18 NOV 2018 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  18 NOV 2018 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1596,14 +1596,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 29.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) [12 <./img/intro/rna-seq.png>]) (./sections/intro/atac.tex) [13] [14 <./img/i
-ntro/rna-seqan.png>]
+) [12 <./img/intro/rna-seq.png>]) (./sections/intro/atac.tex
+<img/intro/atac.png, id=343, 476.78125pt x 227.85126pt>
+File: img/intro/atac.png Graphic file (type png)
+
+<use img/intro/atac.png>
+Package pdftex.def Info: img/intro/atac.png used on input line 7.
+(pdftex.def)             Requested size: 345.02098pt x 164.88371pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]) [14] [15 <./img/intro/rna-seqan.png>] [16 <./img/intro/atac.png>]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 272.
 
-(./sections/ticorser/general.tex) (./sections/ticorser/intro.tex) [15
+(./sections/ticorser/general.tex) (./sections/ticorser/intro.tex) [17
 
 ]
 (./sections/ticorser/intromethods.tex
@@ -1617,7 +1627,7 @@ Overfull \hbox (1.7122pt too wide) in paragraph at lines 9--11
 fic-a-tion with [][][][][][] method
  []
 
-<img/ticorser/main_flow.pdf, id=365, 601.28638pt x 678.37442pt>
+<img/ticorser/main_flow.pdf, id=390, 601.28638pt x 678.37442pt>
 File: img/ticorser/main_flow.pdf Graphic file (type pdf)
 
 <use img/ticorser/main_flow.pdf>
@@ -1633,23 +1643,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] [17 <./img/ticorser/main_flow.pdf>]) (./sections/ticorser/filtering.tex)
-(./sections/ticorser/normalization.tex [18]
+[18] [19 <./img/ticorser/main_flow.pdf>]) (./sections/ticorser/filtering.tex)
+(./sections/ticorser/normalization.tex [20]
 Overfull \hbox (0.69702pt too wide) in paragraph at lines 8--12
 []\T1/cmr/m/n/10 Moreover, it is pos-sible to ap-ply a batch ef-fect re-moval n
 or-mal-iz-a-tion method,
  []
 
 ) (./sections/ticorser/demethods.tex
-Overfull \hbox (3.61365pt too wide) in paragraph at lines 8--9
-\T1/cmr/m/n/10 [[]11[]] R/-Biocon-ductor pack-ages, \T1/cmr/m/it/10 DESeq2\T1/c
-mr/m/n/10 [[]12[]];\T1/cmr/m/it/10 MASigPro\T1/cmr/m/n/10 [[]13[]]; \T1/cmr/m/i
-t/10 edgeR\T1/cmr/m/n/10 [[]14[]]; \T1/cmr/m/it/10 NOISeq\T1/cmr/m/n/10 [[]9[]]
-. 
+Overfull \hbox (8.61243pt too wide) in paragraph at lines 8--9
+\T1/cmr/m/n/10 [[]14[]] R/-Biocon-ductor pack-ages, \T1/cmr/m/it/10 DESeq2\T1/c
+mr/m/n/10 [[]15[]];\T1/cmr/m/it/10 MASigPro\T1/cmr/m/n/10 [[]16[]]; \T1/cmr/m/i
+t/10 edgeR\T1/cmr/m/n/10 [[]17[]]; \T1/cmr/m/it/10 NOISeq\T1/cmr/m/n/10 [[]12[]
+]. 
  []
 
-[19] [20]) (./sections/ticorser/plots.tex [21]
-<img/ticorser/boxplot_example.png, id=454, 1187.43625pt x 1154.3125pt>
+[21] [22]) (./sections/ticorser/plots.tex [23]
+<img/ticorser/boxplot_example.png, id=479, 1187.43625pt x 1154.3125pt>
 File: img/ticorser/boxplot_example.png Graphic file (type png)
 
 <use img/ticorser/boxplot_example.png>
@@ -1659,11 +1669,11 @@ Package pdftex.def Info: img/ticorser/boxplot_example.png used on input line 17
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [24]
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
- [23 <./img/ticorser/boxplot_example.png>]
-<img/ticorser/pca_example.png, id=471, 1205.50375pt x 1210.5225pt>
+ [25 <./img/ticorser/boxplot_example.png>]
+<img/ticorser/pca_example.png, id=498, 1205.50375pt x 1210.5225pt>
 File: img/ticorser/pca_example.png Graphic file (type png)
 
 <use img/ticorser/pca_example.png>
@@ -1672,11 +1682,11 @@ Package pdftex.def Info: img/ticorser/pca_example.png used on input line 32.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./img/ticorser/pca_example.png>]
-<img/ticorser/volcano_example.png, id=488, 884.30376pt x 894.34125pt>
+ [27 <./img/ticorser/pca_example.png>]
+<img/ticorser/volcano_example.png, id=513, 884.30376pt x 894.34125pt>
 File: img/ticorser/volcano_example.png Graphic file (type png)
 
 <use img/ticorser/volcano_example.png>
@@ -1686,10 +1696,10 @@ Package pdftex.def Info: img/ticorser/volcano_example.png used on input line 47
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [28]
 Underfull \vbox (badness 1810) has occurred while \output is active []
 
- [27 <./img/ticorser/volcano_example.png>]
+ [29 <./img/ticorser/volcano_example.png>]
 File: img/ticorser/volcano_example.png Graphic file (type png)
  <use img/ticorser/volcano_example.png>
 Package pdftex.def Info: img/ticorser/volcano_example.png used on input line 59
@@ -1704,8 +1714,8 @@ Overfull \hbox (10.37155pt too wide) in paragraph at lines 67--69
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-<img/ticorser/gene_trend.png, id=508, 382.42876pt x 271.76532pt>
+ [30]
+<img/ticorser/gene_trend.png, id=533, 382.42876pt x 271.76532pt>
 File: img/ticorser/gene_trend.png Graphic file (type png)
 
 <use img/ticorser/gene_trend.png>
@@ -1714,12 +1724,12 @@ Package pdftex.def Info: img/ticorser/gene_trend.png used on input line 71.
 
 Overfull \hbox (10.01367pt too wide) in paragraph at lines 78--80
 [][]\T1/cmr/m/it/10 ticorser[] \T1/cmr/m/n/10 of-fers the pos-sib-il-ity to plo
-t \T1/cmr/m/it/10 keggmaps\T1/cmr/m/n/10 [[]15[]] tak-ing into ac-count the $\O
+t \T1/cmr/m/it/10 keggmaps\T1/cmr/m/n/10 [[]18[]] tak-ing into ac-count the $\O
 ML/cmm/m/it/10 log[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 FC\OT1/cmr/m/n/10 )$
  []
 
-[29 <./img/ticorser/gene_trend.png (PNG copy)>]
-<img/ticorser/keggmap_example.png, id=519, 1428.33624pt x 981.6675pt>
+[31 <./img/ticorser/gene_trend.png (PNG copy)>]
+<img/ticorser/keggmap_example.png, id=545, 1428.33624pt x 981.6675pt>
 File: img/ticorser/keggmap_example.png Graphic file (type png)
 
 <use img/ticorser/keggmap_example.png>
@@ -1727,23 +1737,23 @@ Package pdftex.def Info: img/ticorser/keggmap_example.png used on input line 82
 .
 (pdftex.def)             Requested size: 344.98717pt x 237.1029pt.
 ) (./sections/ticorser/addfeat.tex
-[30 <./img/ticorser/keggmap_example.png>]
+[32 <./img/ticorser/keggmap_example.png>]
 Overfull \hbox (36.93637pt too wide) in paragraph at lines 19--23
 \T1/cmr/m/n/10 iden-ti-fier to an-other. We de-veloped [][][][][][] and [][]
  []
 
-[31]) (./sections/ticorser/results.tex) (./sections/ticorser/conclusions.tex)
-[32]
+[33]) (./sections/ticorser/results.tex) (./sections/ticorser/conclusions.tex)
+[34]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 305.
 
-(./sections/descan2/general.tex) (./sections/descan2/intro.tex [33
+(./sections/descan2/general.tex) (./sections/descan2/intro.tex [35
 
 ])
 (./sections/descan2/methods.tex
-<img/descan2/flow.png, id=569, 550.055pt x 572.1375pt>
+<img/descan2/flow.png, id=594, 550.055pt x 572.1375pt>
 File: img/descan2/flow.png Graphic file (type png)
 
 <use img/descan2/flow.png>
@@ -1752,15 +1762,15 @@ Package pdftex.def Info: img/descan2/flow.png used on input line 8.
 )
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
- [34]
-(./sections/descan2/peakcall.tex [35 <./img/descan2/flow.png>] [36])
-(./sections/descan2/peakfilt.tex) (./sections/descan2/peakcount.tex [37])
-(./sections/descan2/addfeat.tex [38]) (./sections/descan2/results.tex
+ [36]
+(./sections/descan2/peakcall.tex [37 <./img/descan2/flow.png>] [38])
+(./sections/descan2/peakfilt.tex) (./sections/descan2/peakcount.tex [39])
+(./sections/descan2/addfeat.tex [40]) (./sections/descan2/results.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-<img/descan2/dataset.png, id=626, 716.4366pt x 334.851pt>
+<img/descan2/dataset.png, id=651, 716.4366pt x 334.851pt>
 File: img/descan2/dataset.png Graphic file (type png)
 
 <use img/descan2/dataset.png>
@@ -1769,8 +1779,8 @@ Package pdftex.def Info: img/descan2/dataset.png used on input line 11.
 
 Underfull \vbox (badness 4556) has occurred while \output is active []
 
- [39]
-<img/descan2/d2m2_peaks_number.png, id=645, 1262.7175pt x 1003.75pt>
+ [41]
+<img/descan2/d2m2_peaks_number.png, id=670, 1262.7175pt x 1003.75pt>
 File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
 
 <use img/descan2/d2m2_peaks_number.png>
@@ -1780,15 +1790,15 @@ Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./img/descan2/dataset.png>] <img/descan2/peaks.png, id=669, 680.3016pt x 
+ [42 <./img/descan2/dataset.png>] <img/descan2/peaks.png, id=694, 680.3016pt x 
 262.581pt>
 File: img/descan2/peaks.png Graphic file (type png)
 
 <use img/descan2/peaks.png>
 Package pdftex.def Info: img/descan2/peaks.png used on input line 36.
 (pdftex.def)             Requested size: 345.00806pt x 133.16528pt.
- [41 <./img/descan2/d2m2_peaks_number.png>]
-<img/descan2/filtering_m2_d2.png, id=685, 2569.6pt x 1419.3025pt>
+ [43 <./img/descan2/d2m2_peaks_number.png>]
+<img/descan2/filtering_m2_d2.png, id=711, 2569.6pt x 1419.3025pt>
 File: img/descan2/filtering_m2_d2.png Graphic file (type png)
 
 <use img/descan2/filtering_m2_d2.png>
@@ -1798,23 +1808,23 @@ Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 56.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./img/descan2/peaks.png>] <img/descan2/counts.png, id=700, 286.671pt x 21
+ [44 <./img/descan2/peaks.png>] <img/descan2/counts.png, id=726, 286.671pt x 21
 1.5102pt>
 File: img/descan2/counts.png Graphic file (type png)
 
 <use img/descan2/counts.png>
 Package pdftex.def Info: img/descan2/counts.png used on input line 74.
 (pdftex.def)             Requested size: 200.66832pt x 148.05612pt.
- [43 <./img/descan2/filtering_m2_d2.png>] [44 <./img/descan2/counts.png>]
-<img/descan2/normalizations_null_full.png, id=732, 2567.5925pt x 1421.31pt>
+ [45 <./img/descan2/filtering_m2_d2.png>] [46 <./img/descan2/counts.png>]
+<img/descan2/normalizations_null_full.png, id=757, 2567.5925pt x 1421.31pt>
 File: img/descan2/normalizations_null_full.png Graphic file (type png)
 
 <use img/descan2/normalizations_null_full.png>
 Package pdftex.def Info: img/descan2/normalizations_null_full.png used on input
  line 100.
 (pdftex.def)             Requested size: 344.96455pt x 190.9577pt.
- [45 <./img/descan2/normalizations_null_full.png>]
-<img/descan2/DE_peaks.png, id=744, 986.18437pt x 858.20625pt>
+ [47 <./img/descan2/normalizations_null_full.png>]
+<img/descan2/DE_peaks.png, id=770, 986.18437pt x 858.20625pt>
 File: img/descan2/DE_peaks.png Graphic file (type png)
 
 <use img/descan2/DE_peaks.png>
@@ -1823,8 +1833,8 @@ Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 127.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
-<img/descan2/Annotated_depeaks_degenes.png, id=756, 1380.15625pt x 1208.515pt>
+ [48]
+<img/descan2/Annotated_depeaks_degenes.png, id=781, 1380.15625pt x 1208.515pt>
 File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
 
 <use img/descan2/Annotated_depeaks_degenes.png>
@@ -1834,10 +1844,10 @@ t line 139.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./img/descan2/DE_peaks.png (PNG copy)>] [48 <./img/descan2/Annotated_depe
-aks_degenes.png>]) (./sections/descan2/conclusions.tex [49])
+ [49 <./img/descan2/DE_peaks.png (PNG copy)>] [50 <./img/descan2/Annotated_depe
+aks_degenes.png>]) (./sections/descan2/conclusions.tex [51])
 (./sections/integrho/implementation.tex
-<img/integrho/general_description.png, id=808, 454.8192pt x 342.078pt>
+<img/integrho/general_description.png, id=831, 454.8192pt x 342.078pt>
 File: img/integrho/general_description.png Graphic file (type png)
 
 <use img/integrho/general_description.png>
@@ -1845,23 +1855,23 @@ Package pdftex.def Info: img/integrho/general_description.png used on input lin
 e 14.
 (pdftex.def)             Requested size: 344.99994pt x 259.48088pt.
 
-Underfull \vbox (badness 3078) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-[51 <./img/integrho/general_description.png>]) (./sections/integrho/reprres.tex
-[52]) [53] [54
+ [52]
+[53 <./img/integrho/general_description.png>]) (./sections/integrho/reprres.tex
+[54]) [55] [56
 
 ]
 Chapter 4.
-[55] [56
+[57] [58
 
-] [57
+] [59
 
-] [58] [59] [60
+] [60] [61] [62
 
 ]
 Chapter 5.
-[61]
+[63]
 Overfull \hbox (8.83487pt too wide) in paragraph at lines 382--382
 []\T1/cmr/m/n/10 Nueda, M. J., Tarazona, S. & Con-esa, A. Next maSigPro: Up-dat
 -ing maSigPro
@@ -1873,43 +1883,43 @@ Overfull \hbox (14.97775pt too wide) in paragraph at lines 382--382
 Bioin-form-at-ics. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14602059.
  []
 
-
+[64]
 Overfull \hbox (25.02959pt too wide) in paragraph at lines 382--382
 []\T1/cmr/m/n/10 Carlson, M. \T1/cmr/m/it/10 org.Mm.eg.db: Gen-ome wide an-nota
 -tion for Mouse. \T1/cmr/m/n/10 2018. doi:[]$\T1/cmtt/m/n/10 https :
  []
 
-[62]
+[65]
 Overfull \hbox (5.56445pt too wide) in paragraph at lines 382--382
 \T1/cmr/m/n/10 ChIP-seq and ChIP-chip data. \T1/cmr/m/it/10 BMC Bioin-form-at-i
 cs. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14712105. doi:[]$\T1/cmtt/m/n/10 10 .
  []
 
-[63]
+
 Overfull \hbox (5.59947pt too wide) in paragraph at lines 382--382
 \T1/cmr/m/n/10 en-tial ex-pres-sion ana-lysis of RNA-seq data. \T1/cmr/m/it/10 
 Gen-ome Bio-logy. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14747596.
  []
 
-[64] [65] [66
+[66] [67] [68
 
-] (./Template.acr [67
+] (./Template.acr [69
 
 
-]) [68] (./Template.lof)
+]) [70] (./Template.lof [71
+
+
+])
 \tf@lof=\write9
 \openout9 = `Template.lof'.
 
- [69
-
-
-] [70]
+ [72]
 (./Template.lot)
 \tf@lot=\write10
 \openout10 = `Template.lot'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
- [71
+ [73
 
 
 ]
@@ -1918,53 +1928,56 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: C8AB51CE5AB60762A55312CE5302D4EB;8455.
+(rerunfilecheck)             Checksum: 7823CA0227FB94152C7592552A5F8F55;8456.
 Package logreq Info: Writing requests to 'Template.run.xml'.
 \openout1 = `Template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39396 strings out of 492995
- 700965 string characters out of 6132703
- 1109298 words of memory out of 5000000
- 42111 multiletter control sequences out of 15000+600000
+ 39444 strings out of 492995
+ 701822 string characters out of 6132703
+ 1109521 words of memory out of 5000000
+ 42152 multiletter control sequences out of 15000+600000
  31621 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,77p,10381b,2819s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/cm-super/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sftt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helv
-etic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uh
-vr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Template.pdf (71 pages, 9093069 bytes).
+pdfTeX warning (dest): name{glo:dna} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sftt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvet
+ic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr
+8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Template.pdf (73 pages, 9188340 bytes).
 PDF statistics:
- 1217 PDF objects out of 1440 (max. 8388607)
- 1041 compressed objects within 11 object streams
- 213 named destinations out of 1000 (max. 500000)
- 520 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 1066 compressed objects within 11 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 
