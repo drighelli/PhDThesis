@@ -17,6 +17,387 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{Thermes2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TC}{%
+         family={Thermes},
+         familyi={T\bibinitperiod},
+         given={Claude},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{ChIP-seq,DNA-seq,NGS library preparation,Next-generation sequencing
+  (NGS),RNA-seq,genomics}
+    \strng{namehash}{TC1}
+    \strng{fullhash}{TC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Ten years ago next-generation sequencing (NGS) technologies appeared on the
+  market. During the past decade, tremendous progress has been made in terms of
+  speed, read length, and throughput, along with a sharp reduction in per-base
+  cost. Together, these advances democratized NGS and paved the way for the
+  development of a large number of novel NGS applications in basic science as
+  well as in translational research areas such as clinical diagnostics,
+  agrigenomics, and forensic science. Here we provide an overview of the
+  evolution of NGS and discuss the most significant improvements in sequencing
+  technologies and library preparation protocols. We also explore the current
+  landscape of NGS applications and provide a perspective for future
+  developments.%
+    }
+    \field{booktitle}{Trends in genetics : TIG}
+    \verb{doi}
+    \verb 10.1016/j.tig.2014.07.001
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1312.0570v2
+    \endverb
+    \field{isbn}{01689525}
+    \field{issn}{01689525}
+    \field{number}{9}
+    \field{pages}{418\bibrangedash 426}
+    \field{title}{{Ten years of next-generation sequencing technology}}
+    \field{volume}{30}
+    \field{eprinttype}{arXiv}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Wang2009}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gerstein},
+         familyi={G\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WZ+1}
+    \strng{fullhash}{WZGMSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    RNA-Seq is a recently developed approach to transcriptome profiling that
+  uses deep-sequencing technologies. Studies using this method have already
+  altered our view of the extent and complexity of eukaryotic transcriptomes.
+  RNA-Seq also provides a far more precise measurement of levels of transcripts
+  and their isoforms than other methods. This article describes the RNA-Seq
+  approach, the challenges associated with its application, and the advances
+  made so far in characterizing several eukaryote transcriptomes.%
+    }
+    \field{booktitle}{Nature Reviews Genetics}
+    \verb{doi}
+    \verb 10.1038/nrg2484
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1471-0064 (Electronic)$\backslash$r1471-0056 (Linking)}
+    \field{issn}{14710056}
+    \field{number}{1}
+    \field{pages}{57\bibrangedash 63}
+    \field{title}{{RNA-Seq: A revolutionary tool for transcriptomics}}
+    \field{volume}{10}
+    \field{eprinttype}{arXiv}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Costa2010}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=CV}{%
+         family={Costa},
+         familyi={C\bibinitperiod},
+         given={Valerio},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Angelini},
+         familyi={A\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={{De Feis}},
+         familyi={D\bibinitperiod},
+         given={Italia},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Ciccodicola},
+         familyi={C\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVACDICA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {\textless}p{\textgreater}In recent years, the introduction of massively
+  parallel sequencing platforms for Next Generation Sequencing (NGS) protocols,
+  able to simultaneously sequence hundred thousand DNA fragments, dramatically
+  changed the landscape of the genetics studies. RNA-Seq for transcriptome
+  studies, Chip-Seq for DNA-proteins interaction, CNV-Seq for large genome
+  nucleotide variations are only some of the intriguing new applications
+  supported by these innovative platforms. Among them RNA-Seq is perhaps the
+  most complex NGS application. Expression levels of specific genes,
+  differential splicing, allele-specific expression of transcripts can be
+  accurately determined by RNA-Seq experiments to address many
+  biological-related issues. All these attributes are not readily achievable
+  from previously widespread hybridization-based or tag sequence-based
+  approaches. However, the unprecedented level of sensitivity and the large
+  amount of available data produced by NGS platforms provide clear advantages
+  as well as new challenges and issues. This technology brings the great power
+  to make several new biological observations and discoveries, it also requires
+  a considerable effort in the development of new bioinformatics tools to deal
+  with these massive data files. The paper aims to give a survey of the RNA-Seq
+  methodology, particularly focusing on the challenges that this application
+  presents both from a biological and a bioinformatics point of
+  view.{\textless}/p{\textgreater}%
+    }
+    \field{booktitle}{Journal of Biomedicine and Biotechnology}
+    \verb{doi}
+    \verb 10.1155/2010/853916
+    \endverb
+    \field{isbn}{1110-7251 (Electronic)$\backslash$r1110-7243 (Linking)}
+    \field{issn}{11107243}
+    \field{title}{{Uncovering the complexity of transcriptomes with RNA-Seq}}
+    \field{volume}{2010}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ozsolak2011}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=OF}{%
+         family={Ozsolak},
+         familyi={O\bibinitperiod},
+         given={Fatih},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MPM}{%
+         family={Milos},
+         familyi={M\bibinitperiod},
+         given={Patrice\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OFMPM1}
+    \strng{fullhash}{OFMPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In the few years since its initial application, massively parallel cDNA
+  sequencing, or RNA-seq, has allowed many advances in the characterization and
+  quantification of transcriptomes. Recently, several developments in RNA-seq
+  methods have provided an even more complete characterization of RNA
+  transcripts. These developments include improvements in transcription start
+  site mapping, strand-specific measurements, gene fusion detection, small RNA
+  characterization and detection of alternative splicing events. Ongoing
+  developments promise further advances in the application of RNA-seq,
+  particularly direct RNA sequencing and approaches that allow RNA
+  quantification from very small amounts of cellular materials.%
+    }
+    \field{booktitle}{Nature Reviews Genetics}
+    \verb{doi}
+    \verb 10.1038/nrg2934
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1471-0064; 1471-0056}
+    \field{issn}{14710056}
+    \field{number}{2}
+    \field{pages}{87\bibrangedash 98}
+    \field{title}{{RNA sequencing: Advances, challenges and opportunities}}
+    \field{volume}{12}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Costa2013}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=CV}{%
+         family={Costa},
+         familyi={C\bibinitperiod},
+         given={Valerio},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Aprile},
+         familyi={A\bibinitperiod},
+         given={Marianna},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Esposito},
+         familyi={E\bibinitperiod},
+         given={Roberta},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Ciccodicola},
+         familyi={C\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{RNA-Seq,epigenetics,noncoding RNA}
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVAMERCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The availability of the human genome sequence has allowed identification of
+  disease-causing mutations in many Mendelian disorders, and detection of
+  significant associations of nucleotide polymorphisms to complex diseases and
+  traits. Despite these progresses, finding the causative variations for most
+  of the common diseases remains a complex task. Several studies have shown
+  gene expression analyses provide a quite unbiased way to investigate complex
+  traits and common disorders' pathogenesis. Therefore, whole-transcriptome
+  analysis is increasingly acquiring a key role in the knowledge of mechanisms
+  responsible for complex diseases. Hybridization-and tag-based technologies
+  have elucidated the involvement of multiple genes and pathways in
+  pathological conditions, providing insights into the expression of thousand
+  of coding and noncoding RNAs, such as microRNAs. However, the introduction of
+  Next-Generation Sequencing, particularly of RNA-Seq, has overcome some
+  drawbacks of previously used technologies. Identifying, in a single
+  experiment, potentially novel genes/exons and splice isoforms, RNA editing,
+  fusion transcripts and allele-specific expression are some of its advantages.
+  RNA-Seq has been fruitfully applied to study cancer and host-pathogens
+  interactions, and it is taking first steps for studying neurodegenerative
+  diseases (ND) as well as neuropsychiatric diseases. In addition, it is
+  emerging as a very powerful tool to study quantitative trait loci associated
+  with gene expression in complex diseases. This paper provides an overview on
+  gene expression profiling of complex diseases, with emphasis on RNA-Seq, its
+  advantages over conventional technologies for studying cancer and ND, and for
+  linking nucleotide variations to gene expression changes, also discussing its
+  limitations.%
+    }
+    \field{booktitle}{European Journal of Human Genetics}
+    \verb{doi}
+    \verb 10.1038/ejhg.2012.129
+    \endverb
+    \field{isbn}{1476-5438 (Electronic)$\backslash$n1018-4813 (Linking)}
+    \field{issn}{10184813}
+    \field{number}{2}
+    \field{pages}{134\bibrangedash 142}
+    \field{title}{{RNA-Seq and human complex diseases: Recent accomplishments
+  and future perspectives}}
+    \field{volume}{21}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Pepke2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PS}{%
+         family={Pepke},
+         familyi={P\bibinitperiod},
+         given={Shirley},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wold},
+         familyi={W\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mortazavi},
+         familyi={M\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSWBMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Genome-wide measurements of protein-DNA interactions and transcriptomes are
+  increasingly done by deep DNA sequencing methods (ChIP-seq and RNA-seq). The
+  power and richness of these counting-based measurements comes at the cost of
+  routinely handling tens to hundreds of millions of reads. Whereas early
+  adopters necessarily developed their own custom computer code to analyze the
+  first ChIP-seq and RNA-seq datasets, a new generation of more sophisticated
+  algorithms and software tools are emerging to assist in the analysis phase of
+  these projects. Here we describe the multilayered analyses of ChIP-seq and
+  RNA-seq datasets, discuss the software packages currently available to
+  perform tasks at each layer and describe some upcoming challenges and
+  features for future analysis tools. We also discuss how software choices and
+  uses are affected by specific aspects of the underlying biology and data
+  structure, including genome size, positional clustering of transcription
+  factor binding sites, transcript discovery and expression quantification.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.1371
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1548-7091}
+    \field{issn}{15487105}
+    \field{number}{11S}
+    \field{pages}{S22}
+    \field{title}{{Computation for chip-seq and rna-seq studies}}
+    \field{volume}{6}
+    \field{journaltitle}{Nature Methods}
+    \field{eprinttype}{arXiv}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Oshlack2010}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=OA}{%
+         family={Oshlack},
+         familyi={O\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RMD}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Mark\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=YMD}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Matthew\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OA+1}
+    \strng{fullhash}{OARMDYMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Many methods and tools are available for preprocessing high-throughput RNA
+  sequencing data and detecting differential expression.%
+    }
+    \field{booktitle}{Genome Biology}
+    \verb{doi}
+    \verb 10.1186/gb-2010-11-12-220
+    \endverb
+    \field{isbn}{1465-6906}
+    \field{issn}{14747596}
+    \field{number}{12}
+    \field{title}{{From RNA-seq reads to differential expression results}}
+    \field{volume}{11}
+    \field{year}{2010}
+  \endentry
+
   \entry{Sha2015}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=SY}{%
