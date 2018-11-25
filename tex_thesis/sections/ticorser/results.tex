@@ -1,0 +1,71 @@
+We selected for the testing of our package a not yet published dataset for traumatic \gls{sci}, which still is a neurological condition occurring mainly at the thoracic and cervical levels.
+The dataset is constituted of a total of 62 samples of \textit{RNA-seq}, divided in groups of two different tissues, and four time points.
+Because the dataset is not yet accessible, the genes and the samples have been masked during the analysis and no further details will be provided, but we only use it as illustrative example.
+
+\subsubsection{Features quantification}
+\gls{tic} gives the possibility to quantify the gene expression by using the \lstinline!featureCounts! method of the \lstinline!rsubread! R/Bioconductor package, by using the \lstinline!countBamFiltesFeatureCounts! method with the path of the \textit{BAM} files and a \gls{gtf}\footnote{https://www.ensembl.org/info/website/upload/gff.html} file within the desired annotation features.
+It's really important the choice of the \gls{gtf} file, in terms of version and release, because it affects the further analysis, that's why we suggest to always use the \gls{gtf} associated to latest version of the genome for the specie under investigation.
+
+After the gene quantification, the method produces a count matrix with the features (genes) on the rows and the samples on the columns. 
+Each cell of the matrix is an integer value indicating the amount of reads quantified for the feature on the row in the column sample. 
+
+\subsubsection{The design matrix}
+From this point afterwards, \gls{tic} requires a design file illustrating their characteristics of each sample, in order to speed up the computations and the interactions with the user.
+In particular, the design matrix must have a column specifying the sample names, which have to be equal to the column names in the matrix of counts.
+Table \ref{tab:ticorserdesmat} shows an example of a typical design matrix useful to work with \gls{tic} package.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccc}
+\hline\hline
+Samples & Times & Conditions & Tissue \\
+\hline
+s01\_t01\_t1 & 01h & treated1 & tissue1 \\
+s02\_t01\_t1 & 01h & treated1 & tissue1 \\
+s03\_t01\_t1 & 01h & treated1 & tissue1 \\
+s01\_t01\_u1 & 01h & untreated1 & tissue1 \\
+s02\_t01\_u1 & 01h & untreated1 & tissue1 \\
+s03\_t01\_u1 & 01h & untreated1 & tissue1 \\
+s01\_t02\_t1 & 02h & treated1 & tissue1 \\
+s02\_t02\_t1 & 02h & treated1 & tissue1 \\
+s03\_t02\_t1 & 02h & treated1 & tissue1 \\
+s01\_t02\_u1 & 02h & untreated1 & tissue1 \\
+s02\_t02\_u1 & 02h & untreated1 & tissue1 \\
+s03\_t02\_u1 & 02h & untreated1 & tissue1 \\
+s01\_t01\_t2 & 01h & treated2 & tissue2 \\
+s02\_t01\_t2 & 01h & treated2 & tissue2 \\
+s03\_t01\_t2 & 01h & treated2 & tissue2 \\
+s01\_t01\_u2 & 01h & untreated2 & tissue2 \\
+s02\_t01\_u2 & 01h & untreated2 & tissue2 \\
+s03\_t01\_u2 & 01h & untreated2 & tissue2 \\
+s01\_t02\_t2 & 02h & treated2 & tissue2 \\
+s02\_t02\_t2 & 02h & treated2 & tissue2 \\
+s03\_t02\_t2 & 02h & treated2 & tissue2 \\
+s01\_t02\_u2 & 02h & untreated2 & tissue2 \\
+s02\_t02\_u2 & 02h & untreated2 & tissue2 \\
+s03\_t02\_u2 & 02h & untreated2 & tissue2 \\
+\hline
+\end{tabular}
+\caption[\gls{tic} Design Matrix example]{An example of design matrix required for the right working of \gls{tic} package.}
+\label{tab:ticorserdesmat}
+\end{table}
+
+\subsubsection{Normalization \& Filtering}
+A so obtained count matrix could reflect the effects of one or more bias due to experimental passages during the library preparation or to different sequencing batches. (need reference)
+In order to account for this, is a good practice to normalize data, a step which affects the \glspl{deg} detection\cite{Peixoto2015, Soneson2013d, Bullard2010}.
+Before normalizing, it might also be useful to filter out low expressed features, since less significant and may lead to biased results introducing unwanted noise in the analysis. 
+
+\gls{tic} offers 
+
+
+
+
+
+
+
+
+
+
+
+
+

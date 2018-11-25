@@ -1,5 +1,5 @@
-\gls{tic} is an R package for complete and fast analysis of this data type, it helps the analysis of time course RNA-Seq data, offering a vast amount of hypothesis tests, setup for differential expression between two or more conditions.
-With the help of edgeR, DESeq2 and nextMASigPro the tool offers the possiblity to setup the experiment and to obtain differential expression between the experimental biological conditions.
-The software is developed to assist the user to perform an entire analysis pipeline, starting from the counting step, to the functional enrichment analysis, passing through the normalization, filtering and Differential expression analysis.
+\gls{tic} is an R package for complete and fast analysis of \textit{RNA-seq} data type, it helps the analysis of time course \textit{RNA-seq} data, offering a vast amount of hypothesis tests setup for differential expression between two or more conditions.
+With the help of \textit{edgeR}, \textit{DESeq2} and \textit{nextMASigPro} the tool offers the possiblity to setup the experiment and to obtain differential expression between the experimental biological conditions.
+The software is developed to assist the user to perform an entire analysis pipeline, starting from the quantification step, to the functional enrichment analysis, passing through the normalization, filtering and differential expression analysis.
 
 For each step, it offers the possiblity of several interactive plots and also graphics as KEGG-maps and heatmaps.

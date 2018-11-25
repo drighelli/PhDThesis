@@ -1228,6 +1228,233 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Peixoto2015}{article}{}
+    \name{author}{7}{}{%
+      {{hash=PL}{%
+         family={Peixoto},
+         familyi={P\bibinitperiod},
+         given={Lucia},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Risso},
+         familyi={R\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PSG}{%
+         family={Poplawski},
+         familyi={P\bibinitperiod},
+         given={Shane\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WME}{%
+         family={Wimmer},
+         familyi={W\bibinitperiod},
+         given={Mathieu\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=STP}{%
+         family={Speed},
+         familyi={S\bibinitperiod},
+         given={Terence\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=WMA}{%
+         family={Wood},
+         familyi={W\bibinitperiod},
+         given={Marcelo\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Abel},
+         familyi={A\bibinitperiod},
+         given={Ted},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PL+1}
+    \strng{fullhash}{PLRDPSGWMESTPWMAAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The sequencing of the full transcriptome (RNA-seq) has become the preferred
+  choice for the measurement of genome-wide gene expression. Despite its
+  widespread use, challenges remain in RNA-seq data analysis. One
+  often-overlooked aspect is normalization. Despite the fact that a variety of
+  factors or ‘batch effects' can contribute unwanted variation to the data,
+  commonly used RNA-seq normalization methods only correct for sequencing
+  depth. The study of gene expression is particularly problematic when it is
+  influenced simultaneously by a variety of biological factors in addition to
+  the one of interest. Using examples from experimental neuroscience, we show
+  that batch effects can dominate the signal of interest; and that the choice
+  of normalization method affects the power and reproducibility of the results.
+  While commonly used global normalization methods are not able to adequately
+  normalize the data, more recently developed RNA-seq normalization can. We
+  focus on one particular method, RUVSeq and show that it is able to increase
+  power and biological insight of the results. Finally, we provide a tutorial
+  outlining the implementation of RUVSeq normalization that is applicable to a
+  broad range of studies as well as meta-analysis of publicly available data.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkv736
+    \endverb
+    \field{isbn}{0305-1048}
+    \field{issn}{13624962}
+    \field{title}{{Survey and Summary: How data analysis affects power,
+  reproducibility and biological insight of RNA-seq studies in complex
+  datasets}}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Soneson2013d}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SC}{%
+         family={Soneson},
+         familyi={S\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Delorenzi},
+         familyi={D\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BMC Bioinformatics}%
+    }
+    \keyw{Animals,DNA, Complementary,DNA, Complementary: genetics,Gene
+  Expression Profiling,Gene Expression Profiling:
+  methods,Genome,Genomics,Genomics: methods,Mice,Mice, Inbred C57BL,Mice,
+  Inbred DBA,RNA, Messenger,RNA, Messenger: metabolism,Sequence Analysis,
+  RNA,Software,differential expression,next generation sequencing,ngs,rna-seq}
+    \strng{namehash}{SCDM1}
+    \strng{fullhash}{SCDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND: Finding genes that are differentially expressed between
+  conditions is an integral part of understanding the molecular basis of
+  phenotypic variation. In the past decades, DNA microarrays have been used
+  extensively to quantify the abundance of mRNA corresponding to different
+  genes, and more recently high-throughput sequencing of cDNA (RNA-seq) has
+  emerged as a powerful competitor. As the cost of sequencing decreases, it is
+  conceivable that the use of RNA-seq for differential expression analysis will
+  increase rapidly. To exploit the possibilities and address the challenges
+  posed by this relatively new type of data, a number of software packages have
+  been developed especially for differential expression analysis of RNA-seq
+  data.$\backslash$n$\backslash$nRESULTS: We conducted an extensive comparison
+  of eleven methods for differential expression analysis of RNA-seq data. All
+  methods are freely available within the R framework and take as input a
+  matrix of counts, i.e. the number of reads mapping to each genomic feature of
+  interest in each of a number of samples. We evaluate the methods based on
+  both simulated data and real RNA-seq
+  data.$\backslash$n$\backslash$nCONCLUSIONS: Very small sample sizes, which
+  are still common in RNA-seq experiments, impose problems for all evaluated
+  methods and any results obtained under such conditions should be interpreted
+  with caution. For larger sample sizes, the methods combining a
+  variance-stabilizing transformation with the 'limma' method for differential
+  expression analysis perform well under many different conditions, as does the
+  nonparametric SAMseq method.%
+    }
+    \verb{doi}
+    \verb 10.1186/1471-2105-14-91
+    \endverb
+    \field{isbn}{10.1186/1471-2105-14-91}
+    \field{issn}{1471-2105}
+    \field{number}{1}
+    \field{pages}{91}
+    \field{title}{{A comparison of methods for differential expression analysis
+  of RNA-seq data.}}
+    \verb{url}
+    \verb http://www.biomedcentral.com/1471-2105/14/91
+    \endverb
+    \field{volume}{14}
+    \verb{file}
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Soneson, Delorenzi - 2013 - A comparison of methods for differentia
+    \verb l expression analysis of RNA-seq data.pdf:pdf
+    \endverb
+    \field{journaltitle}{BMC bioinformatics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Bullard2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BJH}{%
+         family={Bullard},
+         familyi={B\bibinitperiod},
+         given={James\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Purdom},
+         familyi={P\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HKD}{%
+         family={Hansen},
+         familyi={H\bibinitperiod},
+         given={Kasper\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dudoit},
+         familyi={D\bibinitperiod},
+         given={Sandrine},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJH+1}
+    \strng{fullhash}{BJHPEHKDDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND: High-throughput sequencing technologies, such as the Illumina
+  Genome Analyzer, are powerful new tools for investigating a wide range of
+  biological and medical questions. Statistical and computational methods are
+  key for drawing meaningful and accurate conclusions from the massive and
+  complex datasets generated by the sequencers. We provide a detailed
+  evaluation of statistical methods for normalization and differential
+  expression (DE) analysis of Illumina transcriptome sequencing (mRNA-Seq)
+  data. RESULTS: We compare statistical methods for detecting genes that are
+  significantly DE between two types of biological samples and find that there
+  are substantial differences in how the test statistics handle low-count
+  genes. We evaluate how DE results are affected by features of the sequencing
+  platform, such as, varying gene lengths, base-calling calibration method
+  (with and without phi X control lane), and flow-cell/library preparation
+  effects. We investigate the impact of the read count normalization method on
+  DE results and show that the standard approach of scaling by total lane
+  counts (e.g., RPKM) can bias estimates of DE. We propose more general
+  quantile-based normalization procedures and demonstrate an improvement in DE
+  detection. CONCLUSIONS: Our results have significant practical and
+  methodological implications for the design and analysis of mRNA-Seq
+  experiments. They highlight the importance of appropriate statistical methods
+  for normalization and DE inference, to account for features of the sequencing
+  platform that could impact the accuracy of results. They also reveal the need
+  for further research in the development of statistical and computational
+  methods for mRNA-Seq.%
+    }
+    \verb{doi}
+    \verb 10.1186/1471-2105-11-94
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1471-2105 (Electronic){\$}\backslash{\$}r1471-2105 (Linking)}
+    \field{issn}{14712105}
+    \field{title}{{Evaluation of statistical methods for normalization and
+  differential expression in mRNA-Seq experiments}}
+    \field{volume}{11}
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
+  \endentry
+
   \entry{Koberstein2018}{article}{}
     \name{author}{12}{}{%
       {{hash=KJN}{%
@@ -2380,49 +2607,6 @@
     \field{journaltitle}{Bioinformatics}
     \field{eprinttype}{arXiv}
     \field{year}{2013}
-  \endentry
-
-  \entry{Robinson2010}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RMD}{%
-         family={Robinson},
-         familyi={R\bibinitperiod},
-         given={Mark\bibnamedelima D.},
-         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=OA}{%
-         family={Oshlack},
-         familyi={O\bibinitperiod},
-         given={Alicia},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RMDOA1}
-    \strng{fullhash}{RMDOA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The fine detail provided by sequencing-based transcriptome surveys suggests
-  that RNA-seq is likely to become the platform of choice for interrogating
-  steady state RNA. In order to discover biologically important changes in
-  expression, we show that normalization continues to be an essential step in
-  the analysis. We outline a simple and effective method for performing
-  normalization and show dramatically improved results for inferring
-  differential expression in simulated and publicly available data sets.%
-    }
-    \verb{doi}
-    \verb 10.1186/gb-2010-11-3-r25
-    \endverb
-    \verb{eprint}
-    \verb PMC2864565
-    \endverb
-    \field{isbn}{1465-6906}
-    \field{issn}{14747596}
-    \field{title}{{A scaling normalization method for differential expression
-  analysis of RNA-seq data}}
-    \field{journaltitle}{Genome Biology}
-    \field{eprinttype}{arXiv}
-    \field{year}{2010}
   \endentry
 
   \entry{Dillies2013}{article}{}
