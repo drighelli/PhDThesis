@@ -330,7 +330,7 @@ Write your abstract here
 \input{sections/descan2/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\chapter{IntegrHO - Integration of High-Throughtput Omics data} \label{sec:integrhocap}
+\chapter{IntegrHO - Integration of High-Throughtput Omics data} \label{sec:integrhocap}
 %\input{sections/integrho/general.tex}
 %\section{Introduction} \label{sec:integrhointro}
 %\input{sections/integrho/intro.tex}

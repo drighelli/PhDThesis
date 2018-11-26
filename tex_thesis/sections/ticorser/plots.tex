@@ -21,12 +21,11 @@ The upper and lower part of the segments represent the minimum and maximum value
 \end{figure}
  
 
-Due to the very high dimensionality of RNA-Seq data, it is widely considered common sense to apply the \gls{pca} dimensionality reduction technique, which allows to visualize the data limiting their representation to 2 or 3 dimensions.
+Due to the very high dimensionality of RNA-Seq data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique, which allows to visualize the data limiting their representation to 2 or 3 dimensions.
 There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!plotPCA! function, by using the \lstinline!prcomp! from the \textit{stats} package.
 The user needs just to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
-In such a way, the function will compute and plot the pca, colouring the samples according to the groups identified in the chosen column.
-Moreover, by setting to \lstinline!TRUE! the \lstinline!ellipses! argument, the function will plot also the ellipses surrounding each samples group.
-
+In such a way, the function will compute and plot the \gls{pca}, coloring the samples according to the groups identified in the chosen column.
+Moreover, by setting to \lstinline!TRUE! the \lstinline!ellipses! argument, the function will plot also the ellipses surrounding each sample group.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/pca_example.png}
