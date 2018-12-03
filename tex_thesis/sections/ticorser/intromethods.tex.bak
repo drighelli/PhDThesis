@@ -7,7 +7,7 @@ Overall, \gls{tic} offers the possibility to analyze data using different R/Bioc
 
 Starting the analysis of time course \textit{RNA-seq} data from \textit{BAM} files, \gls{tic} enables \gls{rna} expression quantification through \lstinline!featureCounts! method \cite{Liao2014} producing a count matrix of features per samples, which enables the \glspl{deg} detection with hypothesis statistical methods.
 
-As figure \ref{fig:ticorserflow} shows, this is a \textit{design file based} tool, where a file that describes all the samples by several variables chaperons the counts matrix through all the analysis, simplifying, in such a way, the user interaction with all the available instruments.
+As figure \ref{fig:ticorserflow} shows, this is a \textit{design file based} tool, where a file, that describes all the samples by several variables, chaperons the counts matrix through all the analysis, simplifying, in such a way, the user interaction with all the available instruments.
 
 \begin{figure}[H]
 \centering
