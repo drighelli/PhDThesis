@@ -1,6 +1,12 @@
+\glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{mRNA?\glossentry{mrna}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{cDNA?\glossentry{cdna}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{UTR?\glossentry{utr}|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{18}
@@ -8,8 +14,8 @@
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{CPM?\glossentry{cpm}|setentrycounter[]{page}\glsnumberformat}{20}
@@ -23,13 +29,13 @@
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{25}
-\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{25}
-\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{27}
@@ -37,6 +43,7 @@
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{33}
@@ -48,7 +55,7 @@
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{36}

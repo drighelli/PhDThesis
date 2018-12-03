@@ -1,0 +1,26 @@
+The chromatin packaging of the genome plays a fundamental role in gene regulation of eukaryotic individuals.
+To study this aspect of the \gls{dna} several technologies have been developed, such as \textit{FAIRE-seq} \cite{Giresi2007}, \textit{DNase-seq} \cite{Winter2013} and \textit{ATAC-seq} \cite{Buenrostro2013}, etc.
+
+\textit{ATAC-seq} among the others is having a growing interest and diffusion in the last years, because it offers comparable results to the DNASE-seq with less biological material and less library preparation time.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm,keepaspectratio]{img/intro/atac.png}
+\caption[ATAC-seq experiment]{Representation of ATAC-seq library preparation. \cite{Buenrostro2013}}
+\label{fig:atacseqexp}
+\end{figure}
+
+The library preparation adopts a hyperactive Tn5 transposase, modified with adaptors for high-throughput  \gls{dna} sequencing, which is able to fragment and tag a genome simultaneously.
+The technology exploit the Tn5 capability of integrating itself into active regulatory elements.
+
+After Tn5 tagmentation, the resulting segments can be amplified and sequenced, producing sequences to map on a reference genome.
+There is no standard analysis reached for the ATAC-seq analysis, but, inspired by the \textit{ChIP-seq} analysis, the resulting reads, typically, are processed with tools (peak callers) for quantifying their amplification, which produces for each detected open chromatin region a feature, the peak (generally with an associated score). 
+
+Depending on the used tool, the peaks can be represented in different data structures, but their representation is given by the genomic coordinates; chromosome, starting and ending point of the region, the strand of the DNA on which the region lies, and additional attributes such as a score, a number of samples on which the regions has been detected, etc.
+
+To obtain a first level of integration, the peaks can be annotated with other relevant features of the genome, such as the \gls{tss} of the genes, \gls{utr}, promoters, exons, introns, etc.  
+Then, the annotated genes can be used to enrich for GO terms or pathways, reaching a second level of integration.
+
+
+
+
