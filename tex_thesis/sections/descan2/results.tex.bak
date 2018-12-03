@@ -43,8 +43,9 @@ The lower part of figure \ref{fig:peaksdescan} shows the detected and validated 
 
 \subsubsection{Removing Unwanted Peaks}
 
-While it is very important to detect good peaks with a peak caller, it seems to be more relevant to detect reproducible regions. Indeed, during the filtering/aligning step, the number of peaks depends not only by the peak score, but also by the number of replicates designed in the experiment.
-The figure \ref{fig:filteringdescanmacs2} puts in relation these two relevant information for both MACS2 and \gls{descan}. 
+While it is very important to detect good peaks with a peak caller, it seems to be more relevant to detect reproducible regions. 
+Indeed, during the filtering/aligning step, the number of peaks depends not only by the peak score, but also by the number of replicates designed in the experiment.
+The figure \ref{fig:filteringdescanmacs2} puts in relation these two relevant information for both \textit{MACS2} and \gls{descan}. 
 On the x-axis is represented the number of replicates, while on the y-axis is traced the number of peaks, and each curve represents a different threshold on the peaks score, showing that the higher are the thresholds on the scores and the number of replicates, the lower is the number of the detected peaks.
 Highlighting a inverse relationship between the number of the peaks and the combination of the number of samples and the detected regions score.
 %\begin{figure}[H]
@@ -66,7 +67,7 @@ Moreover, comparing left and right panels, we notice the high difference in pool
 Using \textit{MACS2} peaks the pooling highly reduces the number of detected peaks, even using threshold as low as 5 on the score, showing that there are many peaks with a score lower than 5.
 While in the \gls{descan} case the curves representing the threshold equal to 5 and the threshold equal to 10 totally overlap, highlighting that the \gls{descan} peak caller produces scores higher than 10.
 
-\textbf{MAGARI QUESTO CONFRONTO è DA EVITARE NON FILTRANDO CON IL NOSTRO METODO I PICCHI DI MACS2, NON SO!}
+%\textbf{MAGARI QUESTO CONFRONTO è DA EVITARE NON FILTRANDO CON IL NOSTRO METODO I PICCHI DI MACS2, NON SO!}
 
 \subsubsection{Quantifying Peaks}
 

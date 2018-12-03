@@ -1,25 +1,26 @@
 \gls{tic} offers four different ways for analyzing time course RNA-Seq data.
 
-Depending on the biological question under investigation we designed four different ways of interrogate the data in a time-course experiment.
+Depending on the biological question under investigation we designed three different ways of interrogate the data in a time-course experiment.
 
-Moreover, \gls{tic} offers three different ways for analyzing different 
-biological conditions in a single time point.
+Moreover, \gls{tic} offers three different ways for analyzing different biological conditions in a single time point.
 
 To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages, \textit{DESeq2}\cite{Love2014};\textit{MASigPro}\cite{Nueda2014}; \textit{edgeR}\cite{Robinson2009}; \textit{NOISeq}\cite{Tarazona2012}.
 
 In the following sections we firstly present the Time-Course methods and then the methods for single time point gene differentiation.
 
-\subsubsection{Time-Course DE Method 1 - \textit{LRT\_TC}}
-The first method (\textit{LRT\_TC}) uses a \gls{lrt} to compare two different models in order to extract all those \glspl{deg} that invert their expression expression between the conditions across all the time points.
+\subsubsection{Time-Course DE Method 1 - \textit{LRT-TC}}
+The first method (\textit{LRT-TC}) uses a \gls{lrt} to compare two different models in order to extract all those \glspl{deg} that invert their expression expression between the conditions across all the time points.
 
 Exploiting the \gls{lrt}, as implemented in \textit{DESeq2} R/Biocnductor package, we compare two different formulas.
 The first one defines the \textit{full} model where we put together the timepoints, the conditions and an interaction term between these two variables, while the second one is a reduced model where the interaction term is removed:
 
+In so doing we are able to catch all the genes inverting their expression across the conditions along the time-course experiment. 
+
 \[LRT \sim \frac{times+conditions+times:conditions}{times+conditions}\]
 
 
-\subsubsection{Time-Course DE Method 2 - \textit{LRT\_T}}
-The underlying idea of the second method is the same of the first one, where the difference, here, is to remove in the \textit{reduced} formula, not only the interaction term, but also the \textit{conditions} variable.
+\subsubsection{Time-Course DE Method 2 - \textit{LRT-T}}
+The underlying idea of the second method is the same of the first one, where the difference, here, is to remove from the \textit{reduced} formula, not only the interaction term, but also the \textit{conditions} variable.
 In such a way we are able to extract all those \glspl{deg} that have different expression profiles between the conditions across all the time points.
 
 The first formula here defines the same \textit{full} model of the first method, while the second one is the reduced model where only the times appear:
@@ -36,23 +37,25 @@ Here the \textit{full} model defines the time points and the conditions variable
 \[LRT \sim \frac{times+conditions}{times}\]
 
 
-\subsubsection{Time-Course DE Method 4 - \textit{nextMASigPro}}
-
-The fourth method takes advantage of the \gls{glm} with Negative Binomial distribution as defined in the \textit{maSigPro} R/Bioconductor package.
-This method, unlike the previous ones, allows to detect all the \glspl{deg} showing any kind of differences between the conditions across all the time points.
-Indeed, as suggested by the \textit{maSigPro} authors is a good norm to cluster the genes to better understand which is their singular behaviour.
+%\subsubsection{Time-Course DE Method 4 - \textit{nextMASigPro}}
+%
+%The fourth method takes advantage of the \gls{glm} with Negative Binomial distribution as defined in the \textit{maSigPro} R/Bioconductor package.
+%This method, unlike the previous ones, allows to detect all the \glspl{deg} showing any kind of differences between the conditions across all the time points.
+%Indeed, as suggested by the \textit{maSigPro} authors is a good norm to cluster the genes to better understand which is their singular behaviour.
 
 
 \subsubsection{Single DE Methods}
 
-Our package offers a way to analyze the differences between the conditions at single time point, offering three different methodologies.
+To account for fixed time point experiment we implemented functionalities for helping also the exporation of this aspect, using three different methodologies.
+ 
+%Our package offers a way to analyze the differences between the conditions at single time point, offering three different methodologies.
 
 By using the \lstinline!differentiateConditions! function, it is possible to choose between the \textit{edgeR}, \textit{DESeq2}, \textit{NOISeq} and \textit{NOISeqBio}.
 
 In case of \textit{edgeR} we decided to use the \textit{Quasi-Likelihood} method for the differential expression.
 While when using \textit{DESeq2} for this specific case we choose the \textit{Wald} test, as suggested by the authors.
 
-The \textit{NOISeq} package offers the possibility to discriminate between \textit{biological} and \textit{technical} replicates, applying a posterior probability in both cases. 
+The \textit{NOISeq} package offers the possibility to discriminate between \textit{biological} and \textit{technical} replicates, computing a posterior probability in both cases. 
 
 
 

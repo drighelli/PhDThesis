@@ -82,8 +82,8 @@ The first panel shows the row counts with low expressed genes, while the other b
 \end{figure}
 
 Figure \ref{fig:ticorsernormalizingbox} perfectly shows the different effects of different normalization types on the count data.  
-In fact we can see that while the \textit{Upper quartile} aligns all the samples on third percentile, but leaving the medians not aligned, the \textit{Full quantile} totally aligns the samples, not only on the third percentile, but also the medians are aligned as such as the all the upper outliers.
-At the same time, the \textit{TMM} aligns the samples, but in a not so stringent manner, leaving well interpreting and leaving the variability of each sample.
+In fact we can see that while \textit{Upper quartile} aligns all the samples on third percentile leaving the medians not aligned, the \textit{Full quantile} totally aligns the samples, not only on the third percentile, but also the medians as such as the all the upper distributed outliers.
+At the same time, the \textit{TMM} aligns the samples, but in a not so stringent manner, well interpreting and leaving the variability of each sample.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/normalizing/pca/all_pca.pdf}
@@ -94,9 +94,10 @@ The first panel shows the clustering of row samples, while the other boxes shows
 \end{figure}
 
 As already mentioned a boxplot data inspection could not be enough to discriminate between the normalization methods. 
-Indeed, looking at the normalized data, as figure \ref{fig:ticorsernormalizingpca} shows, the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate the treated and the untreated samples, but still preserving some variability inside each group.
-While the \textit{Full quantile}, even if it is able to help discriminating the treated and untreated groups, it smashes too much the variability inside the untreated samples.
-
+Indeed, looking at \textit{PCAs} of normalized counts (figure \ref{fig:ticorsernormalizingpca}) the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate the treated and the untreated samples, but still preserving some variability inside each group.
+While the \textit{Full quantile}, even if it is able to help discriminating the treated and untreated groups, it smashes too much the variability inside the untreated samples.\begin{equation}
+•
+\end{equation}
 
 
 \subsubsection{Differential Expression}
@@ -128,7 +129,6 @@ It is relevant to see that, when applying the \textit{Wald Test} on the results 
 TC & 825 & 454 & 371 && 7066 & 3606 & 3460 \\
 T & 8812 & 4672 & 4140 && 7066 & 3606 & 3460 \\
 No-Int & 9560 & 4893 & 4667 && 9567 & 4900 & 4667 \\
-
 \end{tabular}
 \caption[\gls{tic} DE methods results]{}
 \label{tab:ticorserderesults}
@@ -140,19 +140,93 @@ It is also possible to inspect the \textit{DE} results by plotting a \textit{Vol
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/volcma.pdf}
 \caption[ticorser Volcano-MA plots]{}
-\label{fig:ticorserfiltering}
+\label{fig:ticorservolcma}
 \centering
 \end{figure}
 
-In order to better compare the results coming from different analysis and methodologies approaches we can use one of the VENN diagrams available in \gls{tic}, which while intersecting the results, saves all the gene lists coming from the intersections and also from exclusions.
+In order to better compare the results coming from different analysis and methodologies approaches we can use one of the VENN diagrams available in \gls{tic}, which, while intersecting the results, saves all the gene lists coming from the intersections and also from exclusions.
+Moreover, by setting the \lstinline!enrich.lists.flag! to \lstinline!TRUE!, the methods automatically starts functional enrichment for both pathways (on Reactome and KEGG databases) and Gene Ontology (on Biological Process, Cellular Components and Molecular Function), storing all the results in the \lstinline!output.folder! specified (we remind to next section for further details on Functional Enrichment Analysis).
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/venn3.pdf}
 \caption[ticorser venn diagram]{}
-\label{fig:ticorserfiltering}
+\label{fig:ticorservenn}
 \centering
 \end{figure}
 
+Depending on the biological question under investigation, it can be useful to identify the unique genes for each method used in the time course differential expresison analysis, or the genes coming from their intersections.
+
+To look at the gene expression, \gls{tic} has a specific function to explore the trend of a specific gene across the time points between the two conditions. 
+By the usage of the \lstinline!PlotCountsAlongTimes! and by specifying the name of a gene that is present in the count matrix, we are able to explore its behaviour.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/trends/trends.pdf}
+\caption[ticorser genes trends]{}
+\label{fig:ticorsertrends}
+\centering
+\end{figure}
+
+For example looking at figure \ref{fig:ticorsertrends} we identified three different genes, one for each DE method, that show different trends over time points in conditions.
+The first one, is a gene detected by the \lstinline!DeSeqTime_TC! method, showing a complete inversion of the expression between the conditions during the time course experiment, otherwhise, the second gene, detected with \lstinline!DeSeqTime_T! method, in the right upper corner shows a difference between the conditions that remains uninvariate across the experiment.
+Finally, using the \lstinline!DeSeqTime_NoInteraction! method, we detected a gene with a \"strange\" behaviour, which is very oscillating across the time points and the conditions. 
+
+Once inspected the results for the time course experiment analysis, an investigator could be interested in exploring the data on singular time points, here we report an analysis example on the first time point.
+
+For the singular time point analysis we can choose between three different methodologies, two present in the \textit{NOISeq} package (accessible through the \lstinline!ApplyNoiseq! function), while the third one is the \textit{Wald test} present in the \textit{DESeq2} package.
+It is a good practice to use more than one method, while working with transcriptomic data in order to be more confident on the final results.
+Table \ref{tab:ticorserderesultstp} illustrates differences between the methods used for \glspl{deg} detection.
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{r c c c}
+%\cline{2-4}\cline{6-8}
+%\cline{2-4}\cline{6-8}
+\multicolumn{1}{r}{} & \multicolumn{3}{c}{Genes} \\
+\cline{2-4}
+\multicolumn{1}{r}{} & Total & UP & DOWN \\
+\cline{2-4}
+DESeq2 & 5239 & 2684 & 2555 \\
+NOISeq & 24 & 24 & 0 \\
+NOISeqBio & 6315 & 3053 & 3262 \\
+\end{tabular}
+\caption[\gls{tic} Single Time Points DE methods results]{}
+\label{tab:ticorserderesultstp}
+\end{table}
+
+Figure \ref{fig:ticorsertpvenn} shows differences in the detection of \glspl{deg} using the three different methods.
+In particular, \lstinline!NOISeqBio! is really useful when working with biological replicates (like in this case), indeed it is able to detect much more \glspl{deg} than the other methods. 
+Indeed, when using \lstinline!NOISeq! on the same data, the \glspl{deg} are only 24, while \textit{DESeq2} is able to detect quite the same amount of genes.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
+\caption[ticorser venn diagram single time point]{}
+\label{fig:ticorsertpvenn}
+\centering
+\end{figure}
+
+It is also possible to use a singular function, \lstinline!PerformDEAnalysis!, for applying the preferred method in the differential expression phase. 
+The tool automatically stores the results in the \lstinline!output.folder! creating an articulate, but intuitive, folder tree with all the results and the plots (Volcano and MA Plots), and performing functional enrichment analysis on the computed results, simply by setting the \lstinline!enrich.results.flag! to \lstinline!TRUE!.
+
+\subsubsection{Functional Enrichment Analysis}
+
+For the Functional Analysis \gls{tic} has a set of functions helping to perform it with \textit{GProfiler} and \textit{ClusterProfiler} tools.
+
+In order to perform pathway analysis with \textit{GProfiler} we used \lstinline!enrichPathwayGProfiler! function, twice, one for the \textit{Reactome} database and one for the \textit{KEGG} database enrichment.
+Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on KEGG database, but is able to produce a graphical representation of the network of the pathways. (see figure \ref{fig:ticorserpathmap})
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
+\caption[ticorser venn diagram single time point]{\textbf{CHANGE THE FIGURE WITH PATHWAY NETWORK}}
+\label{fig:ticorserpathmat}
+\centering
+\end{figure}
+
+On the other hand, to perform a Gene Ontology functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
+Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results, but also a tree for the Gene Ontology terms significative in our dataset. (see figure \textbf{ADD FIGURE})
+
+Finally, if we have identified a specific KEGG pathway which is of our interest, we can plot a \textit{KEGG map} representation with \lstinline!PlotKeggMapTimeCoursePathview!, which takes as input a dataframe of expression values of the relevant genes for the pathway interested.
+In such a way a keggmap with the expression values for each time point for those genes will be visualized.
 
 
 

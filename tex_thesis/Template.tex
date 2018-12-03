@@ -21,7 +21,13 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{listings}
+\usepackage[multiple]{footmisc}
+%\usepackage{xcolor}
 
+
+ 
+ 
+ 
 %\include{acronym.tex}
 
 \setstretch{1.2}
@@ -269,7 +275,7 @@ Write your abstract here
 
 %%%%%%%%%%%%%%%%%
 
-\chapter{Time Course RNA-Seq analyzer \newline ticorser} \label{sec:ticorsecap}
+\chapter{Time Course RNA-Seq analyzer \newline \textbf{ticorser}} \label{sec:ticorsercap}
 \input{sections/ticorser/general.tex}
 
 \section{Introduction} \label{sec:ticorseintro}
@@ -354,11 +360,18 @@ Write your abstract here
 %\input{sections/integrho/conclusions.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Reproducible Computational Research}
+\chapter{Easy Reporting: a reproducible computational research R6 Class}
+\input{sections/rr/introchap.tex}
+\section{Introduction} 
+\input{sections/rr/intro.tex}
+\section{Methods}
+\input{sections/rr/methods.tex}
+\section{Future Works}
+\input{sections/rr/future.tex}
 
 \begin{appendices}
-\section{R Language}
-\section{R Markdown Language}
+\section{R Language} \label{sec:rlang}
+\section{R Markdown Language} \label{sec:rmarkdown}
 %\include{appendixA}
 %\include{appendixB}
 %\include{appendixC}

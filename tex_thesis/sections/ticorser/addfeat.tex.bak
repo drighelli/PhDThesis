@@ -2,10 +2,11 @@
 
 \subsubsection*{Gene quantification}
 
-One feature is aimed to give the possibility to quantify the gene expression starting from samples mapping files. 
-To provide this functionality we builded up the \lstinline!countBamFilesFeatureCounts! function with the aim to guide and facilitate this operation to the user.
-It is based on the \lstinline!featureCounts! method of the \textit{Rsubread} R/Bioconductor package \cite{Liao2013} hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
-The user can give as input a list of BAM files and a \gls{gtf} file, choosing  the \lstinline!gtf.attr.type! and \lstinline!gtf.feat.type! to quantify the samples expression on its needs.
+A fundamental aspect during \textit{RNA-Seq} analysis is the quantification of the features (genes).
+To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from samples mapping files, using the \lstinline!countBamFilesFeatureCounts! function with the aim to guide and facilitate this operation to the user.
+
+The feature is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
+The user can give as input a list of \textit{BAM} files and a \gls{gtf} file, choosing  the \lstinline!gtf.attr.type! and \lstinline!gtf.feat.type! to quantify the samples expression on its needs.
 
 \subsubsection*{Results Comparison}
 

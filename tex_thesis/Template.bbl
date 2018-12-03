@@ -789,9 +789,9 @@
   \endverb
   \field{volume}{32}
   \verb{file}
-  \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloaded/
-  \verb Risso et al. - 2014 - Normalization of RNA-seq data using factor analys
-  \verb is of control genes or samples (RUVSeq).pdf:pdf
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Risso et al. - 2014 - Normalization of RNA-seq data using factor analy
+  \verb sis of control genes or samples (RUVSeq).pdf:pdf
   \endverb
   \field{journaltitle}{Nature Biotechnology}
   \field{year}{2014}
@@ -1250,9 +1250,9 @@
   \endverb
   \field{volume}{14}
   \verb{file}
-  \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloaded/
-  \verb Soneson, Delorenzi - 2013 - A comparison of methods for differential ex
-  \verb pression analysis of RNA-seq data.pdf:pdf
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Soneson, Delorenzi - 2013 - A comparison of methods for differential e
+  \verb xpression analysis of RNA-seq data.pdf:pdf
   \endverb
   \field{journaltitle}{BMC bioinformatics}
   \field{year}{2013}
@@ -2455,10 +2455,9 @@
   \field{title}{{A comprehensive evaluation of normalization methods for
   Illumina high-throughput RNA sequencing data analysis}}
   \verb{file}
-  \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloaded/
-  \verb Dillies et al. - 2013 - A comprehensive evaluation of normalization met
-  \verb hods for Illumina high-throughput RNA sequencing data analysis(2).pdf:p
-  \verb df
+  \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded
+  \verb /Dillies et al. - 2013 - A comprehensive evaluation of normalization me
+  \verb thods for Illumina high-throughput RNA sequencing data analysis.pdf:pdf
   \endverb
   \field{journaltitle}{Briefings in Bioinformatics}
   \field{year}{2013}

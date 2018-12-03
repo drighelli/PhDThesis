@@ -7,29 +7,33 @@
 \contentsline {figure}{\numberline {1.2.3}{\ignorespaces ATAC-seq experiment}}{16}{figure.caption.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{19}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2.2}{\ignorespaces ticorser boxplot}}{25}{figure.caption.11}
-\contentsline {figure}{\numberline {2.2.3}{\ignorespaces ticorser pca}}{27}{figure.caption.12}
-\contentsline {figure}{\numberline {2.2.4}{\ignorespaces ticorser volcano}}{29}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser MAplot}}{30}{figure.caption.15}
-\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser gene profile}}{31}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser keggmap}}{32}{figure.caption.19}
-\contentsline {figure}{\numberline {2.4.1}{\ignorespaces ticorser filtering methods}}{37}{figure.caption.28}
-\contentsline {figure}{\numberline {2.4.2}{\ignorespaces ticorser normalizing methods}}{39}{figure.caption.29}
-\contentsline {figure}{\numberline {2.4.3}{\ignorespaces ticorser normalizing methods}}{40}{figure.caption.30}
-\contentsline {figure}{\numberline {2.4.4}{\ignorespaces ticorser Volcano-MA plots}}{43}{figure.caption.33}
-\contentsline {figure}{\numberline {2.4.5}{\ignorespaces ticorser venn diagram}}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces ticorser boxplot}}{25}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2.3}{\ignorespaces ticorser pca}}{27}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2.4}{\ignorespaces ticorser volcano}}{29}{figure.caption.13}
+\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser MAplot}}{30}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser gene profile}}{31}{figure.caption.16}
+\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser keggmap}}{32}{figure.caption.18}
+\contentsline {figure}{\numberline {2.4.1}{\ignorespaces ticorser filtering methods}}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {2.4.2}{\ignorespaces ticorser normalizing methods}}{39}{figure.caption.28}
+\contentsline {figure}{\numberline {2.4.3}{\ignorespaces ticorser normalizing methods}}{40}{figure.caption.29}
+\contentsline {figure}{\numberline {2.4.4}{\ignorespaces ticorser Volcano-MA plots}}{42}{figure.caption.32}
+\contentsline {figure}{\numberline {2.4.5}{\ignorespaces ticorser venn diagram}}{43}{figure.caption.33}
+\contentsline {figure}{\numberline {2.4.6}{\ignorespaces ticorser genes trends}}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {2.4.7}{\ignorespaces ticorser venn diagram single time point}}{46}{figure.caption.36}
+\contentsline {figure}{\numberline {2.4.8}{\ignorespaces ticorser venn diagram single time point}}{48}{figure.caption.38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{53}{figure.caption.39}
-\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{54}{figure.caption.40}
-\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{55}{figure.caption.42}
-\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{56}{figure.caption.44}
-\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{58}{figure.caption.46}
-\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{59}{figure.caption.47}
-\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{61}{figure.caption.49}
-\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{53}{figure.caption.39}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{58}{figure.caption.41}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{59}{figure.caption.43}
+\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{60}{figure.caption.44}
+\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{61}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{62}{figure.caption.48}
+\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{64}{figure.caption.50}
+\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{65}{figure.caption.51}
+\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{67}{figure.caption.53}
+\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{68}{figure.caption.54}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1.1}{\ignorespaces integrho main interface}}{66}{figure.caption.52}
+\contentsline {figure}{\numberline {4.1.1}{\ignorespaces integrho main interface}}{72}{figure.caption.56}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.2.1}{\ignorespaces knitr options}}{78}{figure.caption.58}
 \addvspace {10\p@ }
