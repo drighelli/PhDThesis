@@ -1,28 +1,28 @@
-\gls{tic} offers multiple additional features to help the user during the differential enrichment analysis of time-course RNA-Seq data.
+\gls{tic} offers multiple additional features to help the user during the differential enrichment analysis of time-course \textit{RNA-seq} data.
 
-\subsubsection*{Gene quantification}
+\subsubsection{Gene quantification}
 
-A fundamental aspect during \textit{RNA-Seq} analysis is the quantification of the features (genes).
+A fundamental aspect during \textit{RNA-seq} analysis is the quantification of the features (genes).
 To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from samples mapping files, using the \lstinline!countBamFilesFeatureCounts! function with the aim to guide and facilitate this operation to the user.
 
 The feature is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
 The user can give as input a list of \textit{BAM} files and a \gls{gtf} file, choosing  the \lstinline!gtf.attr.type! and \lstinline!gtf.feat.type! to quantify the samples expression on its needs.
 
-\subsubsection*{Results Comparison}
+\subsubsection{Results Comparison}
 
 Usually during a differential expression analysis it is pretty common to have the need to compare multiple \glspl{deg} results list.
-In order to facilitate this need we developed three different functions for venn diagrams plots, \lstinline!Venn2de!, \lstinline!Venn3de! and \lstinline!Venn4de!.
-During this process it is often required not just to show the graphical plot, but it's most important to show the gene lists resulting from the intersections and disjunctions of the venns.
-To afford this aim these functions take as input the gene lists to compare and automatically produces as output lists of files within the resulting lists of all the areas of the produced venns.
+In order to facilitate this need we developed three different functions for \textit{Venn} diagrams, \lstinline!Venn2de!, \lstinline!Venn3de! and \lstinline!Venn4de!, respectively for two, three and four lists.
+During this process it is often required not just to show the graphical plot, but it's most important to show the gene lists resulting from the intersections and disjunctions of the Venns.
+To afford this aim these functions take as input the gene lists to compare and automatically store output file lists within the resulting lists of all the areas of the produced Venns.
 
-\subsubsection*{Gene Identifiers Conversion}
+\subsubsection{Gene Identifiers Conversion}
 
 The \gls{tic} package exports multiple functions for the gene names manipulation. 
 Indeed, it is very common the need to convert \glspl{deg} list from a specific identifier to another.
-We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! which convert a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor packages for \textit{Human, Mouse} and \textit{Rat}.
+We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! which convert a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor package for \textit{Human, Mouse} and \textit{Rat}.
 Additionally, it's possible to easily attach the resulting list to a \textit{dataframe}, by using the \lstinline!attachGeneColumnToDf! function, which takes care of adding a new column within the mapped identifiers in the right places of the original \textit{dataframe}.
 
-\subsubsection*{Input/Output File Handling}
+\subsubsection{Input/Output File Handling}
 
 To speed up the reading and writing of input/output files, \gls{tic} offers two main functions, \lstinline!readDataFrameFromTSV! and \lstinline!writeDataFrameAsTSV!.
 

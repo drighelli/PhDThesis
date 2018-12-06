@@ -79,28 +79,46 @@
 \definecolor{colIdentifier}{rgb}{0,0,0}
 \definecolor{colComments}{rgb}{1,0,0}
 \definecolor{colString}{rgb}{0,0.5,0}
-\lstset{%
-float=hbp,%
-identifierstyle=\color{colIdentifier}, %
-keywordstyle=\color{colKeys}, %
-stringstyle=\color{colString}, %
-commentstyle=\color{colComments}, %
-columns=flexible, %
-tabsize=2, %
-frame=single, %
-extendedchars=true, %
-showspaces=false, %
-showstringspaces=false, %
-numbers=left, %
-numberstyle={\tiny\ttfamily}, %
-stepnumber=5, %
-breaklines=true, %
-backgroundcolor=\color{hellgelb}, %
-breakautoindent=true, %
-basicstyle={\small\ttfamily},%
-language=C,%
-captionpos=b%
+
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    numbers=left,
+	stepnumber=1,
+%	numbersep=5pt,
+%    stringstyle=\color{},
+%    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+%    morekeywords={TRUE,FALSE},
+%    deletekeywords={data,frame,length,as,character},
+%	deletekeywords={.*},
+    keywordstyle=\color{blue},
+    commentstyle=\color{teal},
+   	backgroundcolor=\color{white},
+   	breaklines=true
 }
+
+%\lstset{%
+%float=hbp,%
+%identifierstyle=\color{colIdentifier}, %
+%keywordstyle=\color{colKeys}, %
+%stringstyle=\color{colString}, %
+%commentstyle=\color{colComments}, %
+%columns=flexible, %
+%tabsize=2, %
+%frame=single, %
+%extendedchars=true, %
+%showspaces=false, %
+%showstringspaces=false, %
+%numbers=left, %
+%numberstyle={\tiny\ttfamily}, %
+%stepnumber=5, %
+%breaklines=true, %
+%backgroundcolor=\color{hellgelb}, %
+%breakautoindent=true, %
+%basicstyle={\small\ttfamily},%
+%language=C,%
+%captionpos=b%
+%}
+
 
 
 \usepackage{fancyheadings}

@@ -1,10 +1,13 @@
-\gls{tic} offers four different ways for analyzing time course RNA-Seq data.
+\gls{tic} offers three different ways for analyzing time course RNA-Seq data.
 
 Depending on the biological question under investigation we designed three different ways of interrogate the data in a time-course experiment.
 
 Moreover, \gls{tic} offers three different ways for analyzing different biological conditions in a single time point.
 
-To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages, \textit{DESeq2}\cite{Love2014};\textit{MASigPro}\cite{Nueda2014}; \textit{edgeR}\cite{Robinson2009}; \textit{NOISeq}\cite{Tarazona2012}.
+To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages, \textit{DESeq2} \cite{Love2014};\textit{MASigPro} \cite{Nueda2014}; \textit{edgeR} \cite{Robinson2009}; \textit{NOISeq} \cite{Tarazona2012}.
+
+All the selected methods model the \textit{RNA-seq} data counts for each gene as independents Negative Binomial distributions, which has been demonstrated \cite{Robinson2007} to be better suited for this data type.
+At the same time, each of them differs for the statistical test implemented, while approaching to the biological question under investigation.
 
 In the following sections we firstly present the Time-Course methods and then the methods for single time point gene differentiation.
 
@@ -46,16 +49,16 @@ Here the \textit{full} model defines the time points and the conditions variable
 
 \subsubsection{Single DE Methods}
 
-To account for fixed time point experiment we implemented functionalities for helping also the exporation of this aspect, using three different methodologies.
+To account for fixed time point experiment we implemented functionalities for helping also the exploration of this aspect, using three different methodologies.
  
 %Our package offers a way to analyze the differences between the conditions at single time point, offering three different methodologies.
 
 By using the \lstinline!differentiateConditions! function, it is possible to choose between the \textit{edgeR}, \textit{DESeq2}, \textit{NOISeq} and \textit{NOISeqBio}.
 
 In case of \textit{edgeR} we decided to use the \textit{Quasi-Likelihood} method for the differential expression.
-While when using \textit{DESeq2} for this specific case we choose the \textit{Wald} test, as suggested by the authors.
+While when using \textit{DESeq2} for this specific case we choose the \textit{Wald} test, as authors suggest.
 
-The \textit{NOISeq} package offers the possibility to discriminate between \textit{biological} and \textit{technical} replicates, computing a posterior probability in both cases. 
+The \textit{NOISeq} package offers the possibility to discriminate between \textit{biological} and \textit{technical} replicates, computing a posterior probability in both cases, but applying different hypothesis tests.
 
 
 

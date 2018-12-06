@@ -1175,9 +1175,9 @@
     \endverb
     \field{volume}{32}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Risso et al. - 2014 - Normalization of RNA-seq data using factor a
-    \verb nalysis of control genes or samples (RUVSeq).pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Risso et al. - 2014 - Normalization of RNA-seq data using factor an
+    \verb alysis of control genes or samples (RUVSeq).pdf:pdf
     \endverb
     \field{journaltitle}{Nature Biotechnology}
     \field{year}{2014}
@@ -1394,6 +1394,61 @@
     \field{volume}{26}
     \field{journaltitle}{Bioinformatics (Oxford, England)}
     \field{year}{2009}
+  \endentry
+
+  \entry{Robinson2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RMD}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Mark\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SGK}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={Gordon\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMDSGK1}
+    \strng{fullhash}{RMDSGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Motivation: Digital gene expression (DGE) technologies measure gene
+  expression by counting sequence tags. They are sensitive technologies for
+  measuring gene expression on a genomic scale, without the need for prior
+  knowledge of the genome sequence. As the cost of sequencing DNA decreases,
+  the number of DGE datasets is expected to grow
+  dramatically.$\backslash$nVarious tests of differential expression have been
+  proposed for replicated DGE data using binomial, Poisson, negative binomial
+  or pseudo-likelihood (PL) models for the counts, but none of the these are
+  usable when the number of replicates is very small.$\backslash$nResults: We
+  develop tests using the negative binomial distribution to model
+  overdispersion relative to the Poisson, and use conditional weighted
+  likelihood to moderate the level of overdispersion across genes. Not only is
+  our strategy applicable even with the smallest number of libraries, but it
+  also proves to be more powerful than previous strategies when more libraries
+  are available. The methodology is equally applicable to other counting
+  technologies, such as proteomic spectral counts.$\backslash$nAvailability: An
+  R package can be accessed from
+  http://bioinf.wehi.edu.au/resources/$\backslash$nContact:
+  smyth@wehi.edu.au$\backslash$nSupplementary information:
+  http://bioinf.wehi.edu.au/resources/%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btm453
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)$\backslash$r1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{number}{21}
+    \field{pages}{2881\bibrangedash 2887}
+    \field{title}{{Moderated statistical tests for assessing differences in tag
+  abundance}}
+    \field{volume}{23}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2007}
   \endentry
 
   \entry{Kanehisa2016}{article}{}
@@ -1686,9 +1741,9 @@
     \endverb
     \field{volume}{14}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Soneson, Delorenzi - 2013 - A comparison of methods for differenti
-    \verb al expression analysis of RNA-seq data.pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Soneson, Delorenzi - 2013 - A comparison of methods for differentia
+    \verb l expression analysis of RNA-seq data.pdf:pdf
     \endverb
     \field{journaltitle}{BMC bioinformatics}
     \field{year}{2013}
@@ -2889,10 +2944,10 @@
     \field{title}{{A comprehensive evaluation of normalization methods for
   Illumina high-throughput RNA sequencing data analysis}}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Dillies et al. - 2013 - A comprehensive evaluation of normalizatio
-    \verb n methods for Illumina high-throughput RNA sequencing data analysis.p
-    \verb df:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Dillies et al. - 2013 - A comprehensive evaluation of normalization
+    \verb  methods for Illumina high-throughput RNA sequencing data analysis(2)
+    \verb .pdf:pdf
     \endverb
     \field{journaltitle}{Briefings in Bioinformatics}
     \field{year}{2013}
@@ -3222,6 +3277,402 @@
     \field{volume}{13}
     \field{journaltitle}{BMC Bioinformatics}
     \field{year}{2012}
+  \endentry
+
+  \entry{russo2015advantages}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RF}{%
+         family={Russo},
+         familyi={R\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=b}{%
+         family={{$\backslash$textbfDario Righelli}},
+         familyi={b\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Angelini},
+         familyi={A\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{RF+1}
+    \strng{fullhash}{RFbAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Meeting on Computational Intelligence
+  Methods for Bioinformatics and Biostatistics}
+    \field{pages}{245\bibrangedash 258}
+    \field{title}{{Advantages and Limits in the Adoption of Reproducible
+  Research and R-Tools for the Analysis of Omic Data}}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Kluyver2016}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=TJDT}{%
+         family={{Thomas Kluyver, Benjamin Ragan-Kelley, Fernando P{\'{e}}rez,
+  Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica
+  Hamrick, Jason Grout, Sylvain Corlay, Paul Ivanov, Dami{\'{a}}n Avila, Safia
+  Abdalla, Carol Willing}},
+         familyi={T\bibinitperiod},
+         given={Jupyter Development\bibnamedelima Team},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TJDT1}
+    \strng{fullhash}{TJDT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    It is increasingly necessary for researchers in all fields to write
+  computer code, and in order to reproduce research results, it is important
+  that this code is published. We present Jupyter notebooks, a document format
+  for publishing code, results and explanations in a form that is both readable
+  and executable. We discuss various tools and use cases for notebook
+  documents.%
+    }
+    \field{booktitle}{Positioning and Power in Academic Publishing: Players,
+  Agents and Agendas}
+    \verb{doi}
+    \verb 10.3233/978-1-61499-649-1-87
+    \endverb
+    \field{isbn}{9781614996491}
+    \field{issn}{0015-0193}
+    \field{pages}{87 \bibrangedash  90}
+    \field{title}{{Jupyter Notebooks – a publishing format for reproducible
+  computational workflows}}
+    \verb{url}
+    \verb http://ebooks.iospress.nl/publication/42900
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Blankenberg2010}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=BD}{%
+         family={Blankenberg},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KGV}{%
+         family={Kuster},
+         familyi={K\bibinitperiod},
+         given={Gregory\bibnamedelima Von},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Coraor},
+         familyi={C\bibinitperiod},
+         given={Nathaniel},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Ananda},
+         familyi={A\bibinitperiod},
+         given={Guruprasad},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lazarus},
+         familyi={L\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mangan},
+         familyi={M\bibinitperiod},
+         given={Mary},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nekrutenko},
+         familyi={N\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+  \keyw{Algorithm,Analysis,Bioinformatics,Galaxy,Genomics,Pipeline,SNPs,Workflow}
+    \strng{namehash}{BD+1}
+    \strng{fullhash}{BDKGVCNAGLRMMNATJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    High-throughput data production has revolutionized molecular biology.
+  However, massive increases in data generation capacity require analysis
+  approaches that are more sophisticated, and often very computationally
+  intensive. Thus, making sense of high-throughput data requires informatics
+  support. Galaxy (http://galaxyproject.org) is a software system that provides
+  this support through a framework that gives experimentalists simple
+  interfaces to powerful tools, while automatically managing the computational
+  details. Galaxy is distributed both as a publicly available Web service,
+  which provides tools for the analysis of genomic, comparative genomic, and
+  functional genomic data, or a downloadable package that can be deployed in
+  individual laboratories. Either way, it allows experimentalists without
+  informatics or programming expertise to perform complex large-scale analysis
+  with just a Web browser.%
+    }
+    \field{booktitle}{Current Protocols in Molecular Biology}
+    \verb{doi}
+    \verb 10.1002/0471142727.mb1910s89
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{0471142727}
+    \field{issn}{19343639}
+    \field{number}{SUPPL. 89}
+    \field{title}{{Galaxy: A web-based genome analysis tool for
+  experimentalists}}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Giardine2005}{article}{}
+    \name{author}{13}{}{%
+      {{hash=GB}{%
+         family={Giardine},
+         familyi={G\bibinitperiod},
+         given={Belinda},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Riemer},
+         familyi={R\bibinitperiod},
+         given={Cathy},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HRC}{%
+         family={Hardison},
+         familyi={H\bibinitperiod},
+         given={Ross\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Burhans},
+         familyi={B\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Elnitski},
+         familyi={E\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Prachi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Blankenberg},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Albert},
+         familyi={A\bibinitperiod},
+         given={Istvan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Webb},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KWJ}{%
+         family={Kent},
+         familyi={K\bibinitperiod},
+         given={W.\bibnamedelima James},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nekrutenko},
+         familyi={N\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GB+1}
+    \strng{fullhash}{GBRCHRCBRELSPZYBDAITJMWKWJNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Accessing and analyzing the exponentially expanding genomic sequence and
+  functional data pose a challenge for biomedical researchers. Here we describe
+  an interactive system, Galaxy, that combines the power of existing genome
+  annotation databases with a simple Web portal to enable users to search
+  remote resources, combine data from independent queries, and visualize the
+  results. The heart of Galaxy is a flexible history system that stores the
+  queries from each user; performs operations such as intersections, unions,
+  and subtractions; and links to other computational tools. Galaxy can be
+  accessed at http://g2.bx.psu.edu.%
+    }
+    \verb{doi}
+    \verb 10.1101/gr.4086505
+    \endverb
+    \field{isbn}{1088-9051 (Print)}
+    \field{issn}{10889051}
+    \field{number}{10}
+    \field{pages}{1451\bibrangedash 1455}
+    \field{title}{{Galaxy: A platform for interactive large-scale genome
+  analysis}}
+    \field{volume}{15}
+    \field{journaltitle}{Genome Research}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Goecks2010}{article}{}
+    \name{author}{15}{}{%
+      {{hash=GJ}{%
+         family={Goecks},
+         familyi={G\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nekrutenko},
+         familyi={N\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Afgan},
+         familyi={A\bibinitperiod},
+         given={Enis},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Ananda},
+         familyi={A\bibinitperiod},
+         given={Guruprasad},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Dannon},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Blankenberg},
+         familyi={B\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Chakrabarty},
+         familyi={C\bibinitperiod},
+         given={Ramkrishna},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Coraor},
+         familyi={C\bibinitperiod},
+         given={Nate},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Goecks},
+         familyi={G\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={{Von Kuster}},
+         familyi={V\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lazarus},
+         familyi={L\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Kanwei},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Vincent},
+         familyi={V\bibinitperiod},
+         given={Kelly},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJNATJAEAGBDBDCRCNGJVGLRLKTJVK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Increased reliance on computational approaches in the life sciences has
+  revealed grave concerns about how accessible and reproducible
+  computation-reliant results truly are. Galaxy http://usegalaxy.org, an open
+  web-based platform for genomic research, addresses these problems. Galaxy
+  automatically tracks and manages data provenance and provides support for
+  capturing the context and intent of computational methods. Galaxy Pages are
+  interactive, web-based documents that provide users with a medium to
+  communicate a complete computational analysis.%
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2010-11-8-r86
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1465-6914 (Electronic)$\backslash$r1465-6906 (Linking)}
+    \field{issn}{1474760X}
+    \field{number}{8}
+    \field{title}{{Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life sciences}}
+    \field{volume}{11}
+    \field{journaltitle}{Genome Biology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
   \endentry
 \endsortlist
 \endinput

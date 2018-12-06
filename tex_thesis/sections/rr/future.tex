@@ -1,0 +1,12 @@
+The package \textit{easyReporting}, even if useful and easy to handle, can be improved with several additional functionalities.
+While it is really important to generate an \textit{rmarkdown} file, it could be useful to introduce methods for its file editing. 
+Indeed, if an analyst or a final user, want to correct an analysis, by changing an already inserted \gls{cc}, he/she could have the possibility to do this, by editing that specific \gls{cc} or by overwriting it.
+A possible approach to do this could be to trace the \glspl{cc}, with a dedicated data structure, while inserting them, and give the possibility to the user to access them with specific class methods.
+
+At the same time, even if the \textit{rmarkdown} options enable the user to store the input/output data with \lstinline!cache! option, it could be better to provide caching methods, in order to give higher manageability of the data, storing them inside caching database files, as reported also in figure \ref{fig:rrscheme}.
+Additionally, a caching store system (such as BiocFileCache\footnote{\url{https://bioconductor.org/packages/release/bioc/html/BiocFileCache.html}}) could produce caching database files, easily sharable through the Internet or as supplementary data of a publication.
+
+In order to reconstruct an entire analysis, giving it a graphical visualization, could be useful to equip \textit{easyReporting} with methods for graph construction.
+In such a way, the final report could be, not only read by third party users, but also graphically impress the reader.
+
+

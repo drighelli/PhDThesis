@@ -1,48 +1,54 @@
-While analyzing RNA-Seq data, it is almost mandatory exploring data during each step of the analysis, in order to understand which is the best method to apply for at each analysis step and to be more confident with produced results. 
+During \textit{RNA-seq} data analysis, it is almost mandatory to explore the data during each step of the analysis, in order to understand which is the best method to apply for, at each analysis step and to be more confident with produced results. 
 
-At this scope, we equipped \gls{tic} of several useful graphics and plots useful  at each analysis step.
+At this scope, we equipped \gls{tic} of several useful graphics and plots to be used at each analysis step.
 
-Each of them, except when otherwise declared, enables to convert the plot in an interactive \textit{HTML} plot, useful to inspect additional attributes with the mouse pointer.
+Each of them, except when otherwise declared, with aim of \textit{plotly} library, enables to convert the plot in an interactive \textit{HTML} plot, useful to inspect additional attributes with the mouse pointer.
 
 \subsubsection{Exploration Plots on Counts}
-For exploring counts data we implemented two plots, the \textit{Boxplot} and the \gls{pca}.
+As already mentioned (section \ref{sec:ticorsernormalization}), the normalization phase critically affects the final results in terms of \glspl{deg} detected.
+That's why it is a good norm to always understand how the applied transformations are influencing the counts. 
+To address this need we implemented two plots, the \textit{Boxplot} and the \gls{pca}.
 
-The \textit{boxplot} is a graphical representation of the distribution of the samples, in our case we decided to plot a \textit{boxplot} for each sample and to colour them accordingly to the time-point they belongs to (figure \ref{fig:ticorserboxplot}).
+The \textit{boxplot} is a graphical representation of the distribution of the samples. 
+Our \textit{boxplot} is organized in group colours accordingly to the time-point each sample belongs to (figure \ref{fig:ticorserboxplot}).
 
-It is a box divided in two parts, with an outgoing segment from each side. 
-The horizontal upper and lower parts of the box represent the first and third quartile, while the middle horizontal rule represents the median.
+Each box is divided in two main parts, with an outgoing segment from each side. 
+The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
 The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/boxplot_example.png}
+\centering
+\includegraphics[width=10cm, keepaspectratio]{img/ticorser/boxplot_example.png}
 \caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each boxplot represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles.}
 \label{fig:ticorserboxplot}
-\centering
+
 \end{figure}
 
-Moreover, the \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for colouring the samples thanks to the \lstinline!colorColname! parameter. 
+Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for coloring the samples thanks to the \lstinline!colorColname! parameter. 
 
-Due to the very high dimensionality of RNA-Seq data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
+Due to the very high dimensionality of \textit{RNA-seq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
 There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
 
 The user just needs to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
 In such a way, the function will compute and plot the \gls{pca}, coloring the samples according to the groups identified by the chosen column.
-Moreover, by setting to \lstinline!TRUE! the \lstinline!ellipse.flag! argument, the function will show the ellipses surrounding each sample group, each describing the variance of the groups.
+It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
+Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/pca_example.png}
-\caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each simbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
-\label{fig:ticorserpca}
 \centering
+\includegraphics[width=10cm, keepaspectratio]{img/ticorser/pca_example.png}
+\caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
+\label{fig:ticorserpca}
+
 \end{figure}
 
 \subsubsection{DE Results Plots}
-In order to inspect the results producted by DE methods, we implemented two kind of very common plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
+In order to inspect the produced results by DE methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
 
-Both our implementated methods take as input a DE results data frame automatically recognizing which method produced it.
-Moreover, it gives the possiblity to add a list of positive control genes, in order to annotate them on the volcano plot with a third colour (figure \ref{fig:ticorservolcano}).
+Both our implemented methods take as input a DE results data frame, automatically recognizing which method produced it.
+Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the volcano plot with a third color (figure \ref{fig:ticorservolcano}).
 
-The volcano plot puts in relation the $log_2(FC)$ with $log_{10}(p-value)$ in order to highlight the significant changes inside the data experiment.
+The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of each gene, in order to highlight the significant changes inside the data experiment.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/volcano_example.png}
@@ -51,8 +57,8 @@ The volcano plot puts in relation the $log_2(FC)$ with $log_{10}(p-value)$ in or
 \centering
 \end{figure}
 
-The MA-Plot puts in relation two quantities useful to understand the differences between the measurements in two conditions.
-On the x-axis there is represented the $log_2(FC)$ where \textit{FC} is the fold change computed as the ratio of the treatment on the reference.
+The MA-Plot shows the relation between two quantities useful to understand the differences between the measurements in two conditions.
+On the x-axis there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference.
 It is not mandatory to have a DE results dataframe to plot an MA-plot, but it's pretty useful to have it in order to understand the distribution of the significant genes (figure \ref{fig:ticorsermaplot}).
  
 

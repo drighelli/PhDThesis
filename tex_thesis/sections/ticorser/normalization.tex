@@ -1,11 +1,11 @@
 Normalization is a fundamental aspect in \textit{RNA-seq} data analysis, especially when a comparison between different biological conditions is aimed to highlight the major differences.
 
-For this reason \gls{tic} is particularly focused on this aspect. Indeed, through the \lstinline!normalizeData! function \gls{tic} provides five different normalization methods without taking care of particular additional information, except for the normalization method.
+For this reason \gls{tic} is particularly focused on this aspect. Indeed, through the \lstinline!normalizeData! function \gls{tic} provides five different normalization methods, where the user doesn't have to take care of any particular additional information, except for the normalization method.
 Thanks to the design matrix based system, the method allows to automatically subset the data only to the relevant factors the user want to normalize.
 
 The function offers the possibility to normalize the data with \textit{Full quantile}, \textit{Upper quartile} and \textit{Trimmed Mean of M-values}, setting the \lstinline!norm.type! parameter to \textit{fqua}, \textit{uqua} or \textit{tmm}.
 
-Moreover, it is possible to apply a batch effect removal normalization method, as described in \textit{RUVSeq} R/Bioconductor package \cite{Risso2014h}, focusin the attention on \textit{RUVg} and \textit{RUVs} normalization methods.
+Moreover, it is possible to apply a batch effect removal normalization method, as described in \textit{RUVSeq} R/Bioconductor package \cite{Risso2014h}, focusing the attention on \textit{RUVg} and \textit{RUVs} normalization methods.
 
 The first one, \textit{RUVg}, can be selected by setting the \lstinline!norm.type! parameter to \textit{ruvg}, which requires a list of negative controls genes with \lstinline!negative.controls! parameter.
 If it's not already available from previous studies, this list can be produced by executing a first \textit{differential expression} analysis, and taking the less significative genes.
@@ -14,5 +14,5 @@ In order to facilitate this process we developed a method for creating the negat
 The function \lstinline!estimateNegativeControlGenesForRUV! takes as input the \lstinline!de.genes! and the \lstinline!counts.dataset! dataframes to extrapolate the less significative genes and to redistribute them in bins representing the mean value of the genes.
 By selecting one or two genes per each bin our method is able to produce a list of negative control genes which have equal distribution for each gene counts trend.
 
-Finally, the \lstinline!normalizeData! function offers the possibility to remove batch effects with \textit{RUVs} normalization, which is more robust to the negative controls, giving better results when their estimation is approximated.
+Finally, the \lstinline!normalizeData! function offers the possibility to remove batch effects with \textit{RUVs} normalization, which is more robust to negative controls, giving better results when their estimation is approximated.
 This method taking care of creating the group samples and also the negative controls list, in case this one is \lstinline!NULL!.
