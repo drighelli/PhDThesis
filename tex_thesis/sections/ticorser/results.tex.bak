@@ -1,18 +1,27 @@
-For testing our package we selected a not yet published, but very complex dataset for traumatic \gls{sci}, that is a neurological condition occurring mainly at the thoracic and cervical levels.
-The dataset is constituted of 62 samples of \textit{RNA-seq}, divided in groups of two different tissues at four different time points, with treatments and controls for each time point.
-Because the dataset is not yet accessible, the genes and the samples have been masked during the analysis and no further details will be provided, but we only use it as illustrative example.
+For testing our package we selected a not yet published, but very complex dataset, for traumatic \gls{sci}, that is a neurological condition occurring mainly at the thoracic and cervical levels.
+The dataset is composed by 62 samples of bulk \textit{RNA-seq}, divided in groups of two different tissues at four different time points, with treatments and controls at each time point.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/dataset.pdf}
+\caption[ticorser dataset]{An illustrative example of the used dataset. Neurons of Cervical and Thoracic spinal cord injury, have been extracted and sequenced at 4 different time points.}
+\label{fig:ticorserdataset}
+
+\end{figure}
+
+Because the dataset is not yet accessible, the genes and the samples have been masked during the analysis and no further details will be provided, but we only use it as illustrative example (figure \ref{fig:ticorserdataset} shows the dataset with most relevant details masked).
 
 \subsubsection{Features quantification}
 \gls{tic} gives the possibility to quantify the gene expression by using the \lstinline!featureCounts! method of the \lstinline!rsubread! R/Bioconductor package, by using the \lstinline!countBamFiltesFeatureCounts! method with the path of the \textit{BAM} files and a \gls{gtf}\footnote{https://www.ensembl.org/info/website/upload/gff.html} file within the desired annotation features.
 
-It's really important the choice of the \gls{gtf} file, in terms of version and release, because it affects the further analysis, that's why we suggest to always use the \gls{gtf} associated to latest version of the genome for the under investigation specie \footnote{Two main resources for genome download are https://www.ensembl.org/index.html and https://www.ncbi.nlm.nih.gov/grc}. 
+It's really important the choice of the \gls{gtf} file, in terms of version and release, because it affects the further analysis. For this reason we suggest to always use the latest version of the \gls{gtf} of the genome for the under investigation specie \footnote{Two main resources for genome download are https://www.ensembl.org/index.html and https://www.ncbi.nlm.nih.gov/grc}. 
 
 After the gene quantification, the method produces a count matrix with the features (genes) on the rows and the samples on the columns. 
-Each cell of the matrix is an integer value indicating the amount of reads quantified for the feature on the row in the column sample. 
+Each cell of the matrix is a discrete value indicating the amount of reads quantified for the feature on the row in the column of the sample. 
 
 \subsubsection{The design matrix}
-From this point afterwards, \gls{tic} requires a design file illustrating their characteristics of each sample, in order to speed up the computations and the interactions with the user.
-In particular, the design matrix must have a column specifying the sample names, which have to be equal to the column names in the count matrix.
+From this point afterwards, \gls{tic} requires a design file illustrating the descriptive characteristics of each sample, in order to speed up the computations and the interactions with the user.
+In particular, the design matrix must have a column or the rownames specifying the sample names, which have to be equal to the column names in the count matrix.
 Table \ref{tab:ticorserdesmat} shows an example of a typical design matrix useful to work with \gls{tic} package.
 
 \begin{table}[H]
@@ -53,52 +62,50 @@ s03\_t02\_u2 & 02h & untreated2 & tissue2 \\
 
 \subsubsection{Filtering \& Normalization}
 A so obtained count matrix could reflect the effects of one or more bias due to experimental passages during the library preparation or to different sequencing batches. \textbf{(need reference)}
-In order to account for this, is a good practice to normalize data, a step which affects the \glspl{deg} detection\cite{Peixoto2015, Soneson2013d, Bullard2010}.
-Before normalizing, it might also be useful to filter out low expressed features, since less significant and may lead to biased results introducing unwanted noise in the analysis. 
+In order to account for this, it is a good practice to normalize data, a step which affects the \glspl{deg} detection\cite{Peixoto2015, Soneson2013d, Bullard2010}.
+But before normalizing, it might also be useful to filter out low expressed features, since they are not relevant and may lead to biased results introducing unwanted noise in the analysis. 
 
-Figure \ref{fig:ticorserfiltering} shows the effects of the filtering step on the row counts (in the upper left corner). 
-What emerges from this comparison is that the low expressed features are in high amount in raw data, while it is quite un-important the method used for filtering them.
+Figure \ref{fig:ticorserfiltering} shows the effects of filtering step on row counts (in upper left corner). 
+What emerges from this comparison is that low expressed features are in high amount in raw data, while it is quite un-important the method used for filtering them.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/filtering/panel1.pdf}
+\centering
+\includegraphics[width=12cm, keepaspectratio]{img/ticorser/filtering/panel1.pdf}
 \caption[ticorser filtering methods]{A comparison of how the filtering methods available in \gls{tic} affect the data.
 The first panel shows the row counts with low expressed genes, while the other boxes shows the filtering effect on the samples.}
 \label{fig:ticorserfiltering}
-\centering
+
 \end{figure}
 
 Moreover, looking at the \textit{Wilcoxon} test, it is more conservative, because it preserves $17039$ features, respect to the \textit{Proportion} test and \gls{cpm}, that preserves, respectively, $14122$ and $14171$ features.
 We decided to use the count matrix filtered with \textit{Proportion} test and default parameter.  
 
 In order to improve the results for the differential expression analysis, it is crucial to correct for between-sample distributional differences in read counts.
-To compare the differences of normalized data we decided to use not only the boxplots for the samples, as shown in  figure \ref{fig:ticorsernormalizingbox}, but also the \gls{pca} representation, enabling us to understand which normalization better remove biases from the samples by clusterizing the samples of the same group (figure \ref{fig:ticorsernormalizingpca}).
+To compare the differences of normalized data we decided to use not only the boxplots for the samples, as shown in  figure \ref{fig:ticorsernormalizingbox}, but also the \gls{pca} representation, enabling us to understand which normalization better remove biases from the samples by clustering the samples of the same group (figure \ref{fig:ticorsernormalizingpca}).
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/normalizing/boxplots/all_boxes.pdf}
+\includegraphics[width=12cm,keepaspectratio]{img/ticorser/normalizing/boxplots/all_boxes.pdf}
 \caption[ticorser normalizing methods]{A comparison of how the filtering methods available in \gls{tic} affect the data.
 The first panel shows the row counts with low expressed genes, while the other boxes shows the filtering effect on the samples.}
 \label{fig:ticorsernormalizingbox}
 \centering
 \end{figure}
 
-Figure \ref{fig:ticorsernormalizingbox} perfectly shows the different effects of different normalization types on the count data.  
-In fact we can see that while \textit{Upper quartile} aligns all the samples on third percentile leaving the medians not aligned, the \textit{Full quantile} totally aligns the samples, not only on the third percentile, but also the medians as such as the all the upper distributed outliers.
-At the same time, the \textit{TMM} aligns the samples, but in a not so stringent manner, well interpreting and leaving the variability of each sample.
+Figure \ref{fig:ticorsernormalizingbox} perfectly shows different effects of each normalization type on count data.  
+In fact, we can see that while \textit{Upper quartile} aligns all the samples on third percentile leaving the medians not aligned, the \textit{Full quantile} applies a stronger effect, which totally aligns the samples, not only on the third percentile, but also the medians as such as the all the upper distributed outliers.
+At the same time, the \textit{TMM} aligns the samples, but in a not so stringent way, well interpreting and leaving the variability of each sample.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/normalizing/pca/all_pca.pdf}
+\includegraphics[width=12cm,keepaspectratio]{img/ticorser/normalizing/pca/all_pca.pdf}
 \caption[ticorser normalizing methods]{A comparison of how the normalizations methods available in \gls{tic} affect the data.
 The first panel shows the clustering of row samples, while the other boxes shows the normalization effect on the samples.}
 \label{fig:ticorsernormalizingpca}
 \centering
 \end{figure}
 
-As already mentioned a boxplot data inspection could not be enough to discriminate between the normalization methods. 
-Indeed, looking at \textit{PCAs} of normalized counts (figure \ref{fig:ticorsernormalizingpca}) the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate the treated and the untreated samples, but still preserving some variability inside each group.
-While the \textit{Full quantile}, even if it is able to help discriminating the treated and untreated groups, it smashes too much the variability inside the untreated samples.\begin{equation}
-•
-\end{equation}
-
+As already mentioned a boxplot data inspection could not be enough to determine which normalization method is better working on the data. 
+Indeed, when looking at \textit{PCAs} for normalized counts (figure \ref{fig:ticorsernormalizingpca} the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate treated and untreated samples, but still preserving some variability inside each group.
+While \textit{Full quantile}, even if it is able to help discriminating the treated and untreated groups, it smashes too much the variability inside untreated samples.
 
 \subsubsection{Differential Expression}
 Once the data are well normalized, in order to be able to well discriminate between the groups, simply by changing our design matrix with only the interested samples, we can focus on the differential expression step.
@@ -138,7 +145,7 @@ No-Int & 9560 & 4893 & 4667 && 9567 & 4900 & 4667 \\
 It is also possible to inspect the \textit{DE} results by plotting a \textit{Volcano Plot} or an MA plot, as figure \ref{fig:ticorservolcma} shows.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/volcma.pdf}
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/de/volcma.pdf}
 \caption[ticorser Volcano-MA plots]{}
 \label{fig:ticorservolcma}
 \centering
@@ -160,7 +167,7 @@ To look at the gene expression, \gls{tic} has a specific function to explore the
 By the usage of the \lstinline!PlotCountsAlongTimes! and by specifying the name of a gene that is present in the count matrix, we are able to explore its behaviour.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/trends/trends.pdf}
+\includegraphics[width=\textwidth,keepaspectratio]{img/ticorser/de/trends/trends.pdf}
 \caption[ticorser genes trends]{}
 \label{fig:ticorsertrends}
 \centering
@@ -199,7 +206,7 @@ In particular, \lstinline!NOISeqBio! is really useful when working with biologic
 Indeed, when using \lstinline!NOISeq! on the same data, the \glspl{deg} are only 24, while \textit{DESeq2} is able to detect quite the same amount of genes.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
+\includegraphics[width=\textwidth,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
 \caption[ticorser venn diagram single time point]{}
 \label{fig:ticorsertpvenn}
 \centering
@@ -216,7 +223,7 @@ In order to perform pathway analysis with \textit{GProfiler} we used \lstinline!
 Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on KEGG database, but is able to produce a graphical representation of the network of the pathways. (see figure \ref{fig:ticorserpathmap})
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
+\includegraphics[width=\textwidth,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
 \caption[ticorser venn diagram single time point]{\textbf{CHANGE THE FIGURE WITH PATHWAY NETWORK}}
 \label{fig:ticorserpathmat}
 \centering
@@ -225,7 +232,7 @@ Then, we performed the same analysis with \textit{ClusterProfiler} by using the 
 On the other hand, to perform a Gene Ontology functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
 Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results, but also a tree for the Gene Ontology terms significative in our dataset. (see figure \textbf{ADD FIGURE})
 
-Finally, if we have identified a specific KEGG pathway which is of our interest, we can plot a \textit{KEGG map} representation with \lstinline!PlotKeggMapTimeCoursePathview!, which takes as input a dataframe of expression values of the relevant genes for the pathway interested.
+Finally, if we have identified a specific KEGG pathway which is of our interest, we can plot a \textit{KEGG map} representation with \lstinline!PlotKeggMapTimeCoursePathview!, which takes as input a data frame of relevant genes expression values for the interested pathway.
 In such a way a keggmap with the expression values for each time point for those genes will be visualized.
 
 

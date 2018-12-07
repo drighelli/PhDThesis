@@ -1822,6 +1822,118 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Yeh2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YTS}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={T.\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HYP}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Y.\bibnamedelima P.},
+         giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=WHI}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={H.\bibnamedelima I.},
+         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=PSL}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={S.\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YTS+1}
+    \strng{fullhash}{YTSHYPWHIPSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Spinal cord injury and Parkinson's disease: a population-based, propensity
+  score-matched, longitudinal follow-up study%
+    }
+    \verb{doi}
+    \verb 10.1038/sc.2016.74
+    \endverb
+    \field{isbn}{1476-5624 (Electronic) 1362-4393 (Linking)}
+    \field{issn}{14765624}
+    \field{number}{12}
+    \field{pages}{1215\bibrangedash 1219}
+    \field{title}{{Spinal cord injury and Parkinson's disease: A
+  population-based, propensity score-matched, longitudinal follow-up study}}
+    \field{volume}{54}
+    \field{journaltitle}{Spinal Cord}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Yeh2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YTS}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Tian\bibnamedelima Shin},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HYC}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Yu\bibnamedelima Chun},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HCL}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={Cherng\bibnamedelima Lan},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PSL}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Shin\bibnamedelima Liang},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YTS+2}
+    \strng{fullhash}{YTSHYCHCLPSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    STUDY DESIGN: Propensity score-matched, retrospective cohort study.
+  OBJECTIVES: To determine the risk of developing Alzheimer's disease (AD) in
+  patients with spinal cord injury (SCI). SETTING: The present study used
+  Taiwan's National Health Insurance Research Database. METHODS: A total of
+  9257 patients who had 2 ambulatory visits with a diagnosis of SCI in 2001
+  were included in the SCI group. The non-SCI group consisted of 37,028
+  propensity score-matched patients without a diagnosis of SCI. The cumulative
+  incidence of AD was estimated for each of the two patient groups using the
+  Kaplan-Meier method. Stratified Cox proportional hazard regression was then
+  employed to assess the influence of SCI on the risk of AD. RESULTS: During
+  the follow-up period, 25 subjects in the SCI group and 57 in the non-SCI
+  group developed AD. The cumulative incidence of AD in the SCI group was
+  higher than in the non-SCI group (P = 0.0168); and the hazard ratio of AD for
+  the SCI group, as compared to the non-SCI group, was 1.71 (95{\%} CI
+  1.06-2.76, P = 0.0273). CONCLUSIONS: This study suggests that patients with
+  SCI have an increased risk of developing AD.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41393-017-0009-3
+    \endverb
+    \field{isbn}{1476-5624 (Electronic) 1362-4393 (Linking)}
+    \field{issn}{14765624}
+    \field{number}{2}
+    \field{pages}{151\bibrangedash 157}
+    \field{title}{{Spinal cord injury and Alzheimer's disease risk: A
+  population-based, retrospective cohort study article}}
+    \field{volume}{56}
+    \field{journaltitle}{Spinal Cord}
+    \field{year}{2018}
+  \endentry
+
   \entry{Koberstein2018}{article}{}
     \name{author}{12}{}{%
       {{hash=KJN}{%

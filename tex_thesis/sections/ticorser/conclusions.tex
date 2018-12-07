@@ -1,8 +1,8 @@
 We presented \gls{tic}, an R command line tool for easy and fast analysis of time course \textit{RNA-seq} data, presenting a wide range of methods for differential expression data analysis and their visualization.
 
-In the next future we programmed to implement novel functionalities 
+While the package allows to compare different methodologies to well discriminate between multiple conditions at single time point, it'd be a good practice also to compare results coming from multiple methodologies when working with \gls{tc} data.
+A good candidate for this aim is the \textit{nextMASigPro} R/Bioconductor package which takes advantage of the \gls{glm} with Negative Binomial distribution.
+This method, unlike the implemented ones, allows to detect all the \glspl{deg} showing any kind of differences between the conditions across all the time points.
+And, as suggested by authors is a good norm to cluster the genes to better understand which is their singular behaviour.
 
-- next masigpro
-- Pathway network generation with 3Dnetwork package.
-- time course oriented heatmaps
-- 
+Additionally, to provide a useful instrument for gene expression inspection, we plan to insert features for time-oriented heatmaps creation and manipulation.

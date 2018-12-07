@@ -223,17 +223,43 @@ In order to perform pathway analysis with \textit{GProfiler} we used \lstinline!
 Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on KEGG database, but is able to produce a graphical representation of the network of the pathways. (see figure \ref{fig:ticorserpathmap})
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
-\caption[ticorser venn diagram single time point]{\textbf{CHANGE THE FIGURE WITH PATHWAY NETWORK}}
-\label{fig:ticorserpathmat}
 \centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/net_kegg.pdf}
+\caption[ticorser pathway network]{A network representation of the kegg results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
+\label{fig:ticorserpathmat}
 \end{figure}
 
 On the other hand, to perform a Gene Ontology functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
-Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results, but also a tree for the Gene Ontology terms significative in our dataset. (see figure \textbf{ADD FIGURE})
+Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results, but also a tree for the Gene Ontology terms significative in our dataset. (see figure \ref{fig:ticorsergo}).
 
-Finally, if we have identified a specific KEGG pathway which is of our interest, we can plot a \textit{KEGG map} representation with \lstinline!PlotKeggMapTimeCoursePathview!, which takes as input a data frame of relevant genes expression values for the interested pathway.
-In such a way a keggmap with the expression values for each time point for those genes will be visualized.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/mf_hier.pdf}
+\caption[ticorser hierarchial GO-terms]{A hierarchical graphical representation of Molecular Function GO-terms obtained with \textit{clusterProfiler}, by using \gls{tic}.
+Graphical colours, from red (most significant) to yellow (less significant) indicates the p-value significance of each GO-term. 
+Gray ones, are not significant at all.}
+\label{fig:ticorsergo}
+\end{figure}
+
+Finally, when we identify one or more interesting \textit{KEGG} pathways, we can plot a \textit{KEGG map} representation of it, by using \lstinline!PlotKeggMapTimeCoursePathview!, which takes as input a data frame of relevant genes expression values for the interested pathway, and the \lstinline!keggid! identifying the pathway. 
+In such a way a keggmap with the expression values at each time point for those genes will be visualized.
+Figure \ref{fig:ticorserparkinson} and \ref{fig:ticorseralzheimer} graphically shows the \textit{KEGG-maps} of the \textit{Parkinson disease} and \textit{Alzheimer disease} pathways, which both resulted highly significant from our functional analysis, and which are known to be associated to \gls{sci} \cite{Yeh2016, Yeh2018}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/alzheimer.png}
+\caption[ticorser alzheimer keggmap]{}
+\label{fig:ticorsergo}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/parkinson.png}
+\caption[ticorser parkinson keggmap]{}
+\label{fig:ticorsergo}
+\end{figure}
+
+
 
 
 

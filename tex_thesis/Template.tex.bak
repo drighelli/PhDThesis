@@ -23,10 +23,6 @@
 \usepackage{listings}
 \usepackage[multiple]{footmisc}
 %\usepackage{xcolor}
-
-
- 
- 
  
 %\include{acronym.tex}
 
@@ -93,7 +89,8 @@
     keywordstyle=\color{blue},
     commentstyle=\color{teal},
    	backgroundcolor=\color{white},
-   	breaklines=true
+   	breaklines=true,
+   	showstringspaces=false
 }
 
 %\lstset{%
@@ -384,6 +381,8 @@ Write your abstract here
 \input{sections/rr/intro.tex}
 \section{Methods}
 \input{sections/rr/methods.tex}
+\section{Usage}
+\input{sections/rr/usage.tex}
 \section{Future Works}
 \input{sections/rr/future.tex}
 

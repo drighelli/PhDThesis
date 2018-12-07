@@ -29,30 +29,31 @@ Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, descri
 Due to the very high dimensionality of \textit{RNA-seq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
 There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
 
-The user just needs to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
-In such a way, the function will compute and plot the \gls{pca}, coloring the samples according to the groups identified by the chosen column.
-It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
-Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
-
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm, keepaspectratio]{img/ticorser/pca_example.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/pca_example.png}
 \caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
 \label{fig:ticorserpca}
 
 \end{figure}
 
-In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one comparison between them at the same time (figure \ref{fig:ticorserpcas}).
-By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pca.list! argument.
+
+The user just needs to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
+In such a way, the function will compute and plot the \gls{pca}, coloring the samples according to the groups identified by the chosen column.
+It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
+Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm, keepaspectratio]{img/ticorser/pcas.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/pcas.png}
 \caption[ticorser pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
 \label{fig:ticorserpcas}
-
 \end{figure}
+
+In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one comparison between them at the same time (figure \ref{fig:ticorserpcas}).
+By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pca.list! argument.
+
 
 \subsubsection{DE Results Plots}
 In order to inspect the results produced by so many different \textit{DE} methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
