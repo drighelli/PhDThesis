@@ -5,67 +5,69 @@
 \contentsline {chapter}{Abstract}{7}{Doc-Start}
 \contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
 \contentsline {section}{\numberline {1.1}Biological Background}{13}{section.1.1}
-\contentsline {section}{\numberline {1.2}Sequencing Techniques}{13}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}RNA-Seq}{13}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Atac-Seq}{15}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Computational Aspects}{17}{section.1.3}
-\contentsline {chapter}{\numberline {2}Time Course RNA-Seq analyzer \newline \textbf {ticorser}}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Time Course RNA-Seq}{20}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Methods}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Filtering low counts}{22}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Data Normalization}{22}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Differential Expression}{23}{subsection.2.2.3}
-\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT-TC}}{24}{section*.5}
-\contentsline {subsubsection}{Time-Course DE Method 2 - \textit {LRT-T}}{24}{section*.6}
-\contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{25}{section*.7}
-\contentsline {subsubsection}{Single DE Methods}{25}{section*.8}
-\contentsline {subsection}{\numberline {2.2.4}Data Visualization}{25}{subsection.2.2.4}
-\contentsline {subsubsection}{Exploration Plots on Counts}{26}{section*.9}
-\contentsline {subsubsection}{DE Results Plots}{30}{section*.13}
-\contentsline {subsubsection}{Gene Profiles plot}{32}{section*.16}
-\contentsline {subsubsection}{keggmap}{33}{section*.18}
-\contentsline {section}{\numberline {2.3}Additional Features}{34}{section.2.3}
-\contentsline {subsubsection}{Gene quantification}{34}{section*.20}
-\contentsline {subsubsection}{Results Comparison}{35}{section*.21}
-\contentsline {subsubsection}{Gene Identifiers Conversion}{35}{section*.22}
-\contentsline {subsubsection}{Input/Output File Handling}{35}{section*.23}
-\contentsline {section}{\numberline {2.4}Case Study}{36}{section.2.4}
-\contentsline {subsubsection}{Features quantification}{38}{section*.25}
-\contentsline {subsubsection}{The design matrix}{38}{section*.26}
-\contentsline {subsubsection}{Filtering \& Normalization}{39}{section*.28}
-\contentsline {subsubsection}{Differential Expression}{44}{section*.32}
-\contentsline {subsubsection}{Functional Enrichment Analysis}{50}{section*.39}
-\contentsline {section}{\numberline {2.5}Conclusions and Future Works}{54}{section.2.5}
-\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2\newline DEScan2}{57}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{58}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{58}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{59}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{61}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{61}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Additional Features}{62}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Case Study}{63}{section.3.3}
-\contentsline {subsubsection}{Data Description and Preprocessing}{63}{section*.45}
-\contentsline {subsubsection}{Peaks Detection}{64}{section*.47}
-\contentsline {subsubsection}{Removing Unwanted Peaks}{66}{section*.50}
-\contentsline {subsubsection}{Quantifying Peaks}{67}{section*.52}
-\contentsline {subsubsection}{Peaks Normalization}{68}{section*.54}
-\contentsline {subsubsection}{Differential Enrichment of Peaks}{72}{section*.57}
-\contentsline {subsubsection}{Peaks Integration}{74}{section*.60}
-\contentsline {section}{\numberline {3.4}Conclusions and Future Works}{75}{section.3.4}
-\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{77}{chapter.4}
-\contentsline {section}{\numberline {4.1}Implementation Aspects}{77}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reproducible Computational Research}{80}{section.4.2}
-\contentsline {chapter}{\numberline {5}Easy Reporting: a reproducible computational research R6 Class}{81}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methods}{82}{section.5.2}
-\contentsline {subsubsection}{General Description and Initialization}{83}{section*.63}
-\contentsline {subsubsection}{Class Methods}{84}{section*.65}
-\contentsline {section}{\numberline {5.3}Usage}{85}{section.5.3}
-\contentsline {section}{\numberline {5.4}Future Works}{89}{section.5.4}
-\contentsline {chapter}{Appendices}{91}{section*.67}
-\contentsline {section}{\numberline {.1}R Language}{93}{section.a..1}
-\contentsline {section}{\numberline {.2}R Markdown Language}{93}{section.a..2}
-\contentsline {chapter}{\numberline {6}Bibliography}{95}{chapter.6}
-\contentsline {chapter}{List of Figures}{105}{chapter.6}
-\contentsline {chapter}{List of Tables}{107}{chapter.6}
+\contentsline {subsection}{\numberline {1.1.1}The cell and the cellular membrane}{13}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}The DNA}{14}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Sequencing Techniques}{19}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}RNA-Seq}{19}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Atac-Seq}{21}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Computational Aspects}{22}{section.1.3}
+\contentsline {chapter}{\numberline {2}Time Course RNA-Seq analyzer \newline \textbf {ticorser}}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{23}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Time Course RNA-Seq}{24}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Methods}{24}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Filtering low counts}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Data Normalization}{26}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Differential Expression}{27}{subsection.2.2.3}
+\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT-TC}}{28}{section*.8}
+\contentsline {subsubsection}{Time-Course DE Method 2 - \textit {LRT-T}}{28}{section*.9}
+\contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{29}{section*.10}
+\contentsline {subsubsection}{Single DE Methods}{29}{section*.11}
+\contentsline {subsection}{\numberline {2.2.4}Data Visualization}{29}{subsection.2.2.4}
+\contentsline {subsubsection}{Exploration Plots on Counts}{30}{section*.12}
+\contentsline {subsubsection}{DE Results Plots}{34}{section*.16}
+\contentsline {subsubsection}{Gene Profiles plot}{36}{section*.19}
+\contentsline {subsubsection}{keggmap}{37}{section*.21}
+\contentsline {section}{\numberline {2.3}Additional Features}{38}{section.2.3}
+\contentsline {subsubsection}{Gene quantification}{38}{section*.23}
+\contentsline {subsubsection}{Results Comparison}{39}{section*.24}
+\contentsline {subsubsection}{Gene Identifiers Conversion}{39}{section*.25}
+\contentsline {subsubsection}{Input/Output File Handling}{39}{section*.26}
+\contentsline {section}{\numberline {2.4}Case Study}{40}{section.2.4}
+\contentsline {subsubsection}{Features quantification}{42}{section*.28}
+\contentsline {subsubsection}{The design matrix}{42}{section*.29}
+\contentsline {subsubsection}{Filtering \& Normalization}{43}{section*.31}
+\contentsline {subsubsection}{Differential Expression}{48}{section*.35}
+\contentsline {subsubsection}{Functional Enrichment Analysis}{54}{section*.42}
+\contentsline {section}{\numberline {2.5}Conclusions and Future Works}{58}{section.2.5}
+\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2\newline DEScan2}{61}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{62}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{62}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{63}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{65}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{65}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Additional Features}{66}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Case Study}{67}{section.3.3}
+\contentsline {subsubsection}{Data Description and Preprocessing}{67}{section*.48}
+\contentsline {subsubsection}{Peaks Detection}{68}{section*.50}
+\contentsline {subsubsection}{Removing Unwanted Peaks}{70}{section*.53}
+\contentsline {subsubsection}{Quantifying Peaks}{71}{section*.55}
+\contentsline {subsubsection}{Peaks Normalization}{72}{section*.57}
+\contentsline {subsubsection}{Differential Enrichment of Peaks}{76}{section*.60}
+\contentsline {subsubsection}{Peaks Integration}{78}{section*.63}
+\contentsline {section}{\numberline {3.4}Conclusions and Future Works}{79}{section.3.4}
+\contentsline {chapter}{\numberline {4}IntegrHO - Integration of High-Throughtput Omics data}{81}{chapter.4}
+\contentsline {section}{\numberline {4.1}Implementation Aspects}{81}{section.4.1}
+\contentsline {section}{\numberline {4.2}Reproducible Computational Research}{84}{section.4.2}
+\contentsline {chapter}{\numberline {5}Easy Reporting: a reproducible computational research R6 Class}{85}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{85}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{86}{section.5.2}
+\contentsline {subsubsection}{General Description and Initialization}{87}{section*.66}
+\contentsline {subsubsection}{Class Methods}{88}{section*.68}
+\contentsline {section}{\numberline {5.3}Usage}{89}{section.5.3}
+\contentsline {section}{\numberline {5.4}Future Works}{93}{section.5.4}
+\contentsline {chapter}{Appendices}{95}{section*.70}
+\contentsline {section}{\numberline {.1}R Language}{97}{section.a..1}
+\contentsline {section}{\numberline {.2}R Markdown Language}{97}{section.a..2}
+\contentsline {chapter}{\numberline {6}Bibliography}{99}{chapter.6}
+\contentsline {chapter}{List of Figures}{109}{chapter.6}
+\contentsline {chapter}{List of Tables}{111}{chapter.6}

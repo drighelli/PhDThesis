@@ -17,6 +17,38 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{Annunziato2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AAT}{%
+         family={Annunziato},
+         familyi={A\bibinitperiod},
+         given={Anthony\bibnamedelima T.},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AAT1}
+    \strng{fullhash}{AAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The haploid human genome contains approximately 3 billion base pairs of DNA
+  packaged into 23 chromosomes. Of course, most cells in the body (except for
+  female ova and male sperm) are diploid, with 23 pairs of chromosomes. That
+  makes a total of 6 billion base pairs of DNA per cell. Because each base pair
+  is around 0.34 nanometers long (a nanometer is one-billionth of a meter),
+  each diploid cell therefore contains about 2 meters of DNA [(0.34 × 10-9) ×
+  (6 × 109)]. Moreover, it is estimated that the human body contains about 50
+  trillion cells—which works out to 100 trillion meters of DNA per human.
+  Now, consider the fact that the Sun is 150 billion meters from Earth. This
+  means that each of us has enough DNA to go from here to the Sun and back more
+  than 300 times, or around Earth's equator 2.5 million times! How is this
+  possible?%
+    }
+    \field{title}{{DNA Packaging: Nucleosomes and Chromatin}}
+    \field{journaltitle}{Nature Education}
+    \field{year}{2008}
+  \endentry
+
   \entry{Thermes2014}{misc}{}
     \name{author}{1}{}{%
       {{hash=TC}{%
