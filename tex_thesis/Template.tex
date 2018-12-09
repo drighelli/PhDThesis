@@ -118,7 +118,7 @@
 
 
 
-\usepackage{fancyheadings}
+\usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]%
 {\markboth{\uppercase{\thechapter.\ #1}}{}}
@@ -279,14 +279,17 @@ Write your abstract here
 
 \section{Biological Background}
 \input{sections/intro/bio_background.tex}
-
-\section{Sequencing Techniques}
+\section{Sequencing Techniques}\label{sec:seqs}
+\input{sections/intro/seqs.tex}
 \subsection{RNA-Seq} \label{sec:rnaseq}
 \input{sections/intro/rna.tex}
+\subsection{RNA-Seq} \label{sec:chipseq}
+\input{sections/intro/chip.tex}
 \subsection{Atac-Seq} \label{sec:atacseq}
 \input{sections/intro/atac.tex}
+\subsection{Multi-omics Integration} \label{sec:integration}
+\input{sections/intro/integration.tex}
 
-\section{Computational Aspects}
 
 %%%%%%%%%%%%%%%%%
 
