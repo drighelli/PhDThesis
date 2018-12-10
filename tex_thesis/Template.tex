@@ -261,7 +261,7 @@ Add acknowledgements here
 
 \addcontentsline{toc}{chapter}{Abstract}
 
-Write your abstract here
+%\input{abstract.tex}
 \include{abstract}
 
 \hypersetup{hidelinks} % to hide suares around links
@@ -281,11 +281,11 @@ Write your abstract here
 \input{sections/intro/bio_background.tex}
 \section{Sequencing Techniques}\label{sec:seqs}
 \input{sections/intro/seqs.tex}
-\subsection{RNA-Seq} \label{sec:rnaseq}
+\subsection{RNA-seq} \label{sec:rnaseq}
 \input{sections/intro/rna.tex}
-\subsection{RNA-Seq} \label{sec:chipseq}
+\subsection{ChIP-seq} \label{sec:chipseq}
 \input{sections/intro/chip.tex}
-\subsection{Atac-Seq} \label{sec:atacseq}
+\subsection{ATAC-seq} \label{sec:atacseq}
 \input{sections/intro/atac.tex}
 \subsection{Multi-omics Integration} \label{sec:integration}
 \input{sections/intro/integration.tex}
@@ -293,13 +293,11 @@ Write your abstract here
 
 %%%%%%%%%%%%%%%%%
 
-\chapter{Time Course RNA-Seq analyzer \newline \textbf{ticorser}} \label{sec:ticorsercap}
+\chapter{Time Course RNA-seq analyzer \newline \textbf{ticorser}} \label{sec:ticorsercap}
 \input{sections/ticorser/general.tex}
 
 \section{Introduction} \label{sec:ticorseintro}
 \input{sections/ticorser/intro.tex}
-
-\subsection{Time Course RNA-Seq} \label{sec:ticorsernaseq}
 
 \section{Methods} \label{sec:ticorseintromethods}
 \input{sections/ticorser/intromethods.tex}
@@ -322,7 +320,7 @@ Write your abstract here
 \section{Case Study} \label{sec:ticorseresults}
 \input{sections/ticorser/results.tex}
 
-\section{Conclusions and Future Works} \label{sec:ticorseconclusions}
+\section{Future Works} \label{sec:ticorseconclusions}
 \input{sections/ticorser/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -350,7 +348,7 @@ Write your abstract here
 \section{Case Study} \label{sec:descan2results}
 \input{sections/descan2/results.tex}
 
-\section{Conclusions and Future Works} \label{sec:descan2next}
+\section{Future Works} \label{sec:descan2next}
 \input{sections/descan2/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -389,13 +387,15 @@ Write your abstract here
 \section{Future Works}
 \input{sections/rr/future.tex}
 
-\begin{appendices}
-\section{R Language} \label{sec:rlang}
-\section{R Markdown Language} \label{sec:rmarkdown}
-%\include{appendixA}
-%\include{appendixB}
-%\include{appendixC}
-\end{appendices}
+\chapter{Conclusions}
+\input{sections/conclusions.tex}
+%\begin{appendices}
+%\section{R Language} \label{sec:rlang}
+%\section{R Markdown Language} \label{sec:rmarkdown}
+%%\include{appendixA}
+%%\include{appendixB}
+%%\include{appendixC}
+%\end{appendices}
 
 %\include{introduction}
 %\include{aim_of_the_study}
