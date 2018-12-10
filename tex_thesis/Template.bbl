@@ -430,6 +430,50 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Park2009}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PPJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PPJ1}
+    \strng{fullhash}{PPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Chromatin immunoprecipitation followed by sequencing (ChIP-seq) is a
+  technique for genome-wide profiling of DNA-binding proteins, histone
+  modifications or nucleosomes. Owing to the tremendous progress in
+  next-generation sequencing technology, ChIP-seq offers higher resolution,
+  less noise and greater coverage than its array-based predecessor ChIP-chip.
+  With the decreasing cost of sequencing, ChIP-seq has become an indispensable
+  tool for studying gene regulation and epigenetic mechanisms. In this Review,
+  I describe the benefits and challenges in harnessing this technique with an
+  emphasis on issues related to experimental design and data analysis. ChIP-seq
+  experiments generate large quantities of data, and effective computational
+  analysis will be crucial for uncovering biological mechanisms.%
+    }
+    \field{booktitle}{Nature Reviews Genetics}
+    \verb{doi}
+    \verb 10.1038/nrg2641
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1471-0064 (Electronic)}
+    \field{issn}{14710056}
+    \field{number}{10}
+    \field{pages}{669\bibrangedash 680}
+    \field{title}{{ChIP-seq: Advantages and challenges of a maturing
+  technology}}
+    \field{volume}{10}
+    \field{eprinttype}{arXiv}
+    \field{year}{2009}
+  \endentry
+
   \entry{Giresi2007}{article}{}
     \name{author}{5}{}{%
       {{hash=GPG}{%
