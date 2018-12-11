@@ -45,7 +45,9 @@ rd$compile()
 \end{lstlisting}
  
  
+ 
 The previous R script leads to automatically produce the following \textit{rmarkddown} file.
+
 
 \begin{lstlisting}
 
@@ -94,14 +96,13 @@ a <- 1
 b <- 2
 (c <- a+b)
 ```
-
 \end{lstlisting}
 
 Thanks to the \lstinline!rd$compile()! command inside the first script, it automatically produces the final \textit{HTML} \textit{report} illustrated in figure \ref{fig:rrreport}.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth, keepaspectratio]{img/rr/report.png}
-\caption[html report]{}
+\caption[html report]{An example HTML report with \textit{easyReporting} R package.}
 \label{fig:rrreport}
 \centering
 \end{figure}

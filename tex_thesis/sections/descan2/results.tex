@@ -8,7 +8,7 @@ This dataset is organized in 62 samples of \textit{ATAC-seq} and \textit{RNA-seq
 We chose to compare the differences between the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a potential \textit{ATAC-seq} workflow for Differential Enrichment, and how to integrate this data type with \textit{RNA-seq}. A general illustration of this dataset is represented in figure \ref{fig:atacdataset}.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/dataset.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/dataset.png}
 \caption[DEScan2 dataset illustration]{An illustration of our extraction of the GSE82015\cite{Su2017} dataset.}
 \label{fig:atacdataset}
 \centering
@@ -25,7 +25,7 @@ To be confident with our results we run \gls{descan} and \textit{MACS2}  \cite{Z
 This can be due to a major accuracy given by \textit{MACS2} on the reliability of the detected peaks, while our method finds more peaks, but, at this stage, still preserving false positive regions.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/d2m2_peaks_number.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/d2m2_peaks_number.png}
 \caption[The \gls{descan} and \textit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
 \label{fig:des2m2peaks}
 \centering
@@ -35,7 +35,7 @@ To be more robust, we compared \gls{descan} detected peaks with the same validat
 The lower part of figure \ref{fig:peaksdescan} shows the detected and validated regions (in blue and red) resulting differentially enriched between the E0 (in pink) and E1 (in green) conditions, while the upper part shows \gls{descan} filtered and aligned peaks (in blue) between the samples, highlighting a capability to catch not only the same regions of the published ones, but also (gold circles) to be more accurate in the smaller peaks detection.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/descan2/peaks.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/peaks.png}
 \caption[\gls{descan} peaks detection]{A comparison of \gls{descan} detected peaks with validated peaks in article \cite{Su2017}.}
 \label{fig:peaksdescan}
 \centering
@@ -56,7 +56,7 @@ Highlighting a inverse relationship between the number of the peaks and the comb
 %\end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/filtering_m2_d2.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/filtering_m2_d2.png}
 \caption[\gls{descan} and \textit{MACS2} filtering comparison]{Filtering the detected regions with different thresholds on peak scores between \textit{MACS2} and \gls{descan}.}
 \label{fig:filteringdescanmacs2}
 \centering
@@ -103,7 +103,7 @@ The detection of \glspl{der} has been performed on each combination ($18$) of sh
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/null_dataset_final.pdf}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/null_dataset_final.pdf}
 \caption[Normalizations applied to null dataset]{The figure shows the effects of different normalizations on a null dataset of epigenetic regions, putting in relation the \glspl{der} with the threshold on the samples used to align peaks.}
 \label{fig:normalizationsnull}
 \centering
@@ -115,7 +115,7 @@ Highlighting that even if a normalization is applied, once reduced the false pos
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/full_final.pdf}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/full_final.pdf}
 \caption[Normalizations applied to detected regions]{The figure shows the effects of different normalizations on a dataset of epigenetic regions, putting in relation the \glspl{der} with the threshold on the samples used to align peaks.}
 \label{fig:normalizationsfull}
 \centering
@@ -148,7 +148,7 @@ To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/DE_peaks.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/DE_peaks.png}
 \caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}.}
 \label{fig:depeaksdescan}
 \centering
@@ -160,7 +160,7 @@ Then we used the resulted design to estimate the dispersion and fit a Quasi-Like
  
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
 \caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of \glspl{der}. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}. Green circles highlights the peaks with a \gls{deg} annotated.}
 \label{fig:depeakdegenessdescan}
 \centering
@@ -181,7 +181,7 @@ We used the resulting significant \glspl{deg} (with posterior probability higher
 Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}, producing a total of 430 annotated peaks.
 Realizing the plot with \textit{ggplot2} combined with \textit{plotly} library it is possible to enhance the names of the genes with a tooltip.
 
-Then we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
+Then, to obtain a secon level of data integration, we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
 
 %\textbf{Insert tables for the functional results, to discuss with Davide/Lucia}
 

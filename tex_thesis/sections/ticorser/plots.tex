@@ -12,17 +12,16 @@ To address this need we implemented two plots, the \textit{Boxplot} and the \gls
 The \textit{boxplot} is a graphical representation of the distribution of the samples. 
 Our \textit{boxplot} is organized in group colours accordingly to the time-point each sample belongs to (figure \ref{fig:ticorserboxplot}).
 
-Each box is divided in two main parts, with an outgoing segment from each side. 
-The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
-The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/boxplot_example.png}
 \caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each boxplot represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles.}
 \label{fig:ticorserboxplot}
-
 \end{figure}
+
+Each box is divided in two main parts, with an outgoing segment from each side. 
+The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
+The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
 
 Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for coloring the samples thanks to the \lstinline!colorColname! parameter. 
 
