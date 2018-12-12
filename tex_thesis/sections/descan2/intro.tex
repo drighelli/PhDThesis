@@ -2,11 +2,11 @@
 
 The package has been implemented using Bioconductor \cite{Gentleman2004} data structures and methods, and it is available through the Bioconductor repository since version 3.7.
 
-The tool is organized in three main steps. 
+The tool is organized into three main steps. 
 A peak caller, which is a standard moving scan window that compares the reads coverage signal within a sliding window to the signal in a larger region outside the window. It uses a Maximum Likelihood Estimator of a Poisson Distribution, providing a final score for each detected peak.
 
 The filtering and alignment steps are aimed to determine if a peak is a "true peak" on the basis of its replicability in other samples. 
-These steps are grouped in a single procedure and are based on a double user-defined threshold, one on the peaks's scores and one on the number of samples.
+These steps are grouped in a single procedure and are based on a double user-defined threshold, one on the peaks scores and one on the number of samples.
 
 The third step produces a count matrix where each column represents a sample and each row a peak. The value of each cell represents the number of reads for the peak in the sample.
 

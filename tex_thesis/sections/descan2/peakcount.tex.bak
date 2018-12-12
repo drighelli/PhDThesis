@@ -1,9 +1,9 @@
 The counting step (\lstinline!countFinalRegions! method) is designed to take a \textit{GenomicRanges} data structure as input, where for each peak additional attributes are saved, as well as the score and the number of samples.
 Moreover, to quantify the peaks given as input, it requires also the path of the alignment files where the reads are stored.
 
-For each region the method counts the number of reads present in each sample.
-In so doing, it produces a matrix of the counts, where the rows and the columns, respectively, represent the regions and the samples.
+For each region, the method counts the number of reads present in each sample.
+In so doing, it produces a matrix of counts, where the rows and the columns, respectively, represent the regions and the samples.
 
-In order to keep trace of all information associated to the regions, it produces a \textit{SummarizedExperiment} \cite{SummExp} data structure, giving the possibility to retrieve the \textit{GenomicRanges} of associated peaks and the count matrix, respectively, using the \lstinline!rowRanges! and \lstinline!assays! methods.
+In order to keep track of all information associated to the regions, it produces a \textit{SummarizedExperiment} \cite{SummExp} data structure, giving the possibility to retrieve the \textit{GenomicRanges} of associated peaks and the count matrix, respectively, using the \lstinline!rowRanges! and \lstinline!assays! methods.
 
-The choice to produce a count matrix is guided by the versatility of this data structure, useful not only for the differential enrichment of the regions between multiple conditions, but also for integrating the epigenomic data with other omic data types, as RNA-Seq.
+The choice to produce a count matrix is guided by the versatility of this data structure, useful not only for the differential enrichment of the regions between multiple conditions but also for integrating the epigenomic data with other -omics data types, such as RNA-Seq.

@@ -10,9 +10,9 @@ The user can give as input a list of \textit{BAM} files and a \gls{gtf} file, ch
 
 \subsubsection{Results Comparison}
 
-Usually during a differential expression analysis it is pretty common to have the need to compare multiple \glspl{deg} results list.
+Usually, during a differential expression analysis, it is pretty common to have the need to compare multiple \glspl{deg} results list.
 In order to facilitate this need we developed three different functions for \textit{Venn} diagrams, \lstinline!Venn2de!, \lstinline!Venn3de! and \lstinline!Venn4de!, respectively for two, three and four lists.
-During this process it is often required not just to show the graphical plot, but it's most important to show the gene lists resulting from the intersections and disjunctions of the Venns.
+During this process, it is often required not just to show the graphical plot, but it's most important to show the gene lists resulting from the intersections and disjunctions of the Venns.
 To afford this aim these functions take as input the gene lists to compare and automatically store output file lists within the resulting lists of all the areas of the produced Venns.
 
 \subsubsection{Gene Identifiers Conversion}
@@ -26,15 +26,15 @@ Additionally, it's possible to easily attach the resulting list to a \textit{dat
 
 To speed up the reading and writing of input/output files, \gls{tic} offers two main functions, \lstinline!readDataFrameFromTSV! and \lstinline!writeDataFrameAsTSV!.
 
-In the first case there is only one mandatory parameter, the \lstinline!file.name.path!, even if gives the possibility to change the classical parameters as \lstinline!row.names.col, headed.flag, sep, quote.char!.
+In the first case, there is only one mandatory parameter, the \lstinline!file.name.path!, even if gives the possibility to change the classical parameters as \lstinline!row.names.col, headed.flag, sep, quote.char!.
 
 While in the second case the function requires the \lstinline!data.frame.to.save! and the \lstinline!file.name.path! where to store the object. 
-Also in this case it is possible to set the classical parameters as \lstinline!col.names! and \lstinline!row.names!.
+Also, in this case, it is possible to set the classical parameters as \lstinline!col.names! and \lstinline!row.names!.
 
 Moreover, we implemented a method for creating a folder path in a recursive way.
 The \lstinline!updateFolderPath! method takes as input a starting path and a list of strings. 
 It is useful when using a recursive function call or an automated nested function call process.
-Of course if a user need to create a single path by itself, he/she can simply create it using the \lstinline!dir.create! R base function.
+Of course, if a user needs to create a single path by itself, he/she can simply create it using the \lstinline!dir.create! R base function.
 
 
 

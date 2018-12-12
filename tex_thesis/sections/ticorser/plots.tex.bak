@@ -12,17 +12,16 @@ To address this need we implemented two plots, the \textit{Boxplot} and the \gls
 The \textit{boxplot} is a graphical representation of the distribution of the samples. 
 Our \textit{boxplot} is organized in group colours accordingly to the time-point each sample belongs to (figure \ref{fig:ticorserboxplot}).
 
-Each box is divided in two main parts, with an outgoing segment from each side. 
-The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
-The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/boxplot_example.png}
 \caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each boxplot represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles.}
 \label{fig:ticorserboxplot}
-
 \end{figure}
+
+Each box is divided in two main parts, with an outgoing segment from each side. 
+The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
+The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
 
 Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for coloring the samples thanks to the \lstinline!colorColname! parameter. 
 
@@ -44,22 +43,21 @@ In such a way, the function will compute and plot the \gls{pca}, coloring the sa
 It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
 Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
 
-
-In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one comparison between them at the same time (figure \ref{fig:ticorserpcas}).
-By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pca.list! argument.
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/pcas.png}
 \caption[ticorser pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
 \label{fig:ticorserpcas}
-
 \end{figure}
+
+In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one comparison between them at the same time (figure \ref{fig:ticorserpcas}).
+By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pca.list! argument.
+
 
 \subsubsection{DE Results Plots}
 In order to inspect the results produced by so many different \textit{DE} methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
 
-Both our implemented methods take as input a \textit{DE} results data frame, automatically recognizing which method produced it, lightening, in such a way, the user load during the analysis.
+Both our implemented methods take as input a \textit{DE} results data frame, automatically recognizing which method produced it, lightning, in such a way, the user load during the analysis.
 Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the volcano plot with a third color (figure \ref{fig:ticorservolcano}).
 
 The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of each gene, in order to highlight the significant changes inside the data experiment.

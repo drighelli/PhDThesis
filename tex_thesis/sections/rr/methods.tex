@@ -19,9 +19,9 @@ The package is accessible at the following link:\\ \href{https://github.com/drig
 
 The class can to be imagined as a schematic representation of the \textit{rmarkdown} file (\textit{report}), indeed 
 its attributes represent the \textit{report} characteristics, which are typically inserted in the header of the file.
-But our class methods are not only for the attributes manipulations, but also for insertion of \glspl{cc}, comments and section titles inside the \textit{report}.
+But our class methods are not only for the attributes manipulations but also for insertion of \glspl{cc}, comments and section titles inside the \textit{report}.
 
-As any typical class, before of using it, \textit{easyReporting} requires to be initializated with the \lstinline!new! command, passing as mandatory arguments the \textit{path} and the name of the file as \lstinline!filenamepath! and a title as \lstinline!mainTitle!.
+As any typical class, before of using it, \textit{easyReporting} requires to be initialized with the \lstinline!new! command, passing as mandatory arguments the \textit{path} and the name of the file as \lstinline!filenamepath! and a title as \lstinline!mainTitle!.
 Additionally, an \lstinline!author! and the \lstinline!documentType! can be specified.
 
 When initializing, the class automatically creates the \textit{report} with the entire specified folder tree, setting up the header of it and declaring the general options for the \textit{rmarkdown} file.
@@ -43,7 +43,7 @@ The class is provided of several methods for \textit{rmarkdown} \gls{cc} constru
 Once an \textit{easyReporting} instance is available, with \lstinline!mkdTitle! it is possible to insert six levels of titles, by setting the parameters \lstinline!title! and \lstinline!level!.
 It is also possible to add natural language comments with \lstinline!mkdGeneralMsg!.
 
-When working with \glspl{cc}, two main choice are available.
+When working with \glspl{cc}, two main choices are available.
 The first one gives the possibility to construct a \gls{cc} as additional steps, by using first the \lstinline!mkdCodeChunkSt!, then adding variable assignment and/or function calling with \lstinline!mkdVariableAssignment! or \lstinline!mkdGeneralMsg!, and finally closing the \gls{cc} with \lstinline!mkdCodeChunkEnd!.
 
 In particular, when starting a \gls{cc} with \lstinline!mkdCodeChunkSt!, it is possible to assign a specific \lstinline!optionList! and/or a \lstinline!source.files.list! to be added to that \gls{cc}.

@@ -1,0 +1,8 @@
+We presented \gls{igro}, a web platform for multi-omics data analysis, integration and their visualization.
+Moreover, it traces each step performed by the user by storing input/output data produced and saving executed data inside an \gls{rmd} file, which can be edited and compiled through the interface itself.
+
+Thanks to its modularity \gls{igro} allows easy expandability with other methodologies.
+Indeed, we plan to implement other functionalities for project manipulation and tracing. 
+Indeed, to extend the \gls{rr} layer we planned to implement methodologies for graph construction of executed modules, in order to produce also a graphical representation of the final enriched document.
+
+Moreover, to deeper address the multiple omics integration phase, we are working on the implementation of methods like mixOmics and MoFa, which gives a graphical response of the samples or the features, when working with high-dimensional datasets.

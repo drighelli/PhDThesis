@@ -15,30 +15,30 @@
 \contentsline {chapter}{\numberline {2}Time Course RNA-seq analyzer \newline ticorser}{27}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{27}{section.2.1}
 \contentsline {section}{\numberline {2.2}Methods}{28}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Filtering low counts}{29}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Filtering low counts}{28}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Data Normalization}{30}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Differential Expression}{31}{subsection.2.2.3}
-\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT-TC}}{32}{section*.15}
+\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT-TC}}{31}{section*.15}
 \contentsline {subsubsection}{Time-Course DE Method 2 - \textit {LRT-T}}{32}{section*.16}
 \contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{32}{section*.17}
-\contentsline {subsubsection}{Single DE Methods}{33}{section*.18}
+\contentsline {subsubsection}{Single DE Methods}{32}{section*.18}
 \contentsline {subsection}{\numberline {2.2.4}Data Visualization}{33}{subsection.2.2.4}
-\contentsline {subsubsection}{Exploration Plots on Counts}{34}{section*.19}
-\contentsline {subsubsection}{DE Results Plots}{39}{section*.23}
-\contentsline {subsubsection}{Gene Profiles plot}{41}{section*.26}
-\contentsline {subsubsection}{keggmap}{42}{section*.28}
-\contentsline {section}{\numberline {2.3}Additional Features}{43}{section.2.3}
-\contentsline {subsubsection}{Gene quantification}{43}{section*.30}
-\contentsline {subsubsection}{Results Comparison}{44}{section*.31}
-\contentsline {subsubsection}{Gene Identifiers Conversion}{44}{section*.32}
-\contentsline {subsubsection}{Input/Output File Handling}{44}{section*.33}
-\contentsline {section}{\numberline {2.4}Case Study}{45}{section.2.4}
-\contentsline {subsubsection}{Features quantification}{47}{section*.35}
-\contentsline {subsubsection}{The design matrix}{47}{section*.36}
-\contentsline {subsubsection}{Filtering \& Normalization}{48}{section*.38}
-\contentsline {subsubsection}{Differential Expression}{53}{section*.42}
-\contentsline {subsubsection}{Functional Enrichment Analysis}{59}{section*.49}
-\contentsline {section}{\numberline {2.5}Future Works}{63}{section.2.5}
+\contentsline {subsubsection}{Exploration Plots on Counts}{33}{section*.19}
+\contentsline {subsubsection}{DE Results Plots}{38}{section*.23}
+\contentsline {subsubsection}{Gene Profiles plot}{40}{section*.26}
+\contentsline {subsubsection}{keggmap}{41}{section*.28}
+\contentsline {section}{\numberline {2.3}Additional Features}{42}{section.2.3}
+\contentsline {subsubsection}{Gene quantification}{42}{section*.30}
+\contentsline {subsubsection}{Results Comparison}{43}{section*.31}
+\contentsline {subsubsection}{Gene Identifiers Conversion}{43}{section*.32}
+\contentsline {subsubsection}{Input/Output File Handling}{43}{section*.33}
+\contentsline {section}{\numberline {2.4}Case Study}{44}{section.2.4}
+\contentsline {subsubsection}{Features quantification}{46}{section*.35}
+\contentsline {subsubsection}{The design matrix}{46}{section*.36}
+\contentsline {subsubsection}{Filtering \& Normalization}{47}{section*.38}
+\contentsline {subsubsection}{Differential Expression}{52}{section*.42}
+\contentsline {subsubsection}{Functional Enrichment Analysis}{58}{section*.49}
+\contentsline {section}{\numberline {2.5}Future Works}{62}{section.2.5}
 \contentsline {chapter}{\numberline {3}Differential Enriched Scan 2\newline DEScan2}{65}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{66}{section.3.1}
 \contentsline {section}{\numberline {3.2}Methods}{66}{section.3.2}

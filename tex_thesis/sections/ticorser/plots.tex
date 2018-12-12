@@ -19,11 +19,11 @@ Our \textit{boxplot} is organized in group colours accordingly to the time-point
 \label{fig:ticorserboxplot}
 \end{figure}
 
-Each box is divided in two main parts, with an outgoing segment from each side. 
+Each box is divided into two main parts, with an outgoing segment from each side. 
 The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
 The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
 
-Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for coloring the samples thanks to the \lstinline!colorColname! parameter. 
+Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for colouring the samples thanks to the \lstinline!colorColname! parameter. 
 
 Due to the very high dimensionality of \textit{RNA-seq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
 There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
@@ -39,7 +39,7 @@ There are several packages allowing to apply a \gls{pca} transformation, but we 
 
 
 The user just needs to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
-In such a way, the function will compute and plot the \gls{pca}, coloring the samples according to the groups identified by the chosen column.
+In such a way, the function will compute and plot the \gls{pca}, colouring the samples according to the groups identified by the chosen column.
 It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
 Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
 
@@ -57,21 +57,21 @@ By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare m
 \subsubsection{DE Results Plots}
 In order to inspect the results produced by so many different \textit{DE} methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
 
-Both our implemented methods take as input a \textit{DE} results data frame, automatically recognizing which method produced it, lightening, in such a way, the user load during the analysis.
-Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the volcano plot with a third color (figure \ref{fig:ticorservolcano}).
+Both our implemented methods take as input a \textit{DE} results data frame, automatically recognizing which method produced it, lightning, in such a way, the user load during the analysis.
+Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the volcano plot with a third colour (figure \ref{fig:ticorservolcano}).
 
 The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of each gene, in order to highlight the significant changes inside the data experiment.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/volcano_example.png}
-\caption[ticorser volcano]{An example of interactive volcano plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlights the significance of the genes. In green there are those genes coming from the positive control list. When passing the mouse over a dot it shows additional information about the selected gene.}
+\caption[ticorser volcano]{An example of interactive volcano plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlight the significance of the genes. In green, there are those genes coming from the positive control list. When passing the mouse over a dot it shows additional information about the selected gene.}
 \label{fig:ticorservolcano}
 \end{figure}
 
-The MA-Plot shows the relation between two quantities useful to understand the differences between the measurements in two conditions.
-On the x-axis there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference.
-It is not mandatory to have a DE results dataframe to plot an MA-plot, but it's pretty useful to have it in order to highlight the distribution of the significant genes (figure \ref{fig:ticorsermaplot}).
+The MA-Plot shows the relation between the two quantities useful to understand the differences between the measurements in two conditions.
+On the x-axis, there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference.
+It is not mandatory to have a DE-results dataframe to plot an MA-plot, but it's pretty useful to have it in order to highlight the distribution of the significant genes (figure \ref{fig:ticorsermaplot}).
  
 \begin{figure}[H]
 \centering
@@ -97,8 +97,8 @@ In order to highlight the gene expression of a gene across multiple time points 
 \subsubsection{keggmap}
 Once detected \glspl{deg} it is really important to look for functional mechanisms regulated by up-regulated and down-regulated genes. 
 
-\gls{tic} offers the possibility to plot \textit{keggmaps}\cite{Kanehisa2016} taking into account the $log_2(FC)$ of the genes involved in the graphical representation, through all the timepoints.
-Indeed, using the \lstinline!plotKeggmap! function it enables to plot a \textit{keggmap}, using as input the counts and the design matrix, computing the $log_2(FC)$ at each time point, and showing it in the gene box inside the kegg map.
+\gls{tic} offers the possibility to plot \textit{keggmaps}\cite{Kanehisa2016} taking into account the $log_2(FC)$ of the genes involved in the graphical representation, through all the time points.
+Indeed, using the \lstinline!plotKeggmap! function enables to plot a \textit{keggmap}, using as input the counts and the design matrix, computing the $log_2(FC)$ at each time point, and showing it in the gene box inside the \textit{KEGG} map.
 
 \begin{figure}[H]
 \includegraphics[width=12cm, keepaspectratio]{img/ticorser/keggmap_example.png}

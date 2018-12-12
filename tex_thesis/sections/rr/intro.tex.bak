@@ -1,0 +1,7 @@
+During last years several approaches \cite{russo2015advantages} have been proposed for helping to trace the analysis steps, using different programming languages; such as  \textit{Jupyter} \footnote{\url{https://jupyter.org/}} \cite{Kluyver2016} in \textit{Python} or \textit{Rmarkdown}\footnote{\url{https://rmarkdown.rstudio.com/}} in \textit{R}.
+Or by building a web environment to encapsulate several tools made with different programming languages, such as \textit{Galaxy} \footnote{\url{https://usegalaxy.org/}} \cite{Blankenberg2010, Giardine2005, Goecks2010}.
+
+The common underlying idea of each one of these instruments is to provide a mixture of natural language sentences along with computational language (\glspl{cc}) and visual outputs, in order to produce a unique final product where the \glspl{cc} and their outputs are explained to the reader, enhancing comprehensibility and reproducibility of the work, in a unique final resulting file.
+
+To address this scope the R community proposed several solutions, like \textit{sweave} before, \textit{knitr} and \textit{rmarkdown} later.
+Due to its easy interactive usage, \textit{rmarkdown} became one of the most used instruments in the \textit{R} community, but its usability when developing automated instruments like \gls{gui} or packages becomes more difficult, leading developers to give up using it.
