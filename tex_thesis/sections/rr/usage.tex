@@ -1,27 +1,28 @@
 Here we report an example script where a general illustration of the \textit{easyReporting} is described.
 
 \begin{lstlisting}
-## creating report file with default options on global document
+## Creating report file with default options on global document
 rd <- easyreporting$new(filenamepath="./project_report", title="example_report", author=c("Dario Righelli"))
 
 rd$mkdTitle("First Level Title")
 
 rd$mkdGeneralMsg("Here I'm writing a simple paragraph useful to describe my code chunk")
 
-## leaving the default options to the code chunk
+## Leaving the default options to the code chunk
 rd$mkdCodeChunkSt()
-## adding a variable assignement
+
+## Adding a variable assignement
 variable <- 1
 rd$mkdVariableAssignment("variable", "variable", show=TRUE)
 rd$mkdCodeChunkEnd()
 
-## or i can create my own options for the chunk
+## Or i can create my own options for the chunk
 rd$mkdTitle("Second Level Title", level=2)
 optList <- maketOptionsList(includeFlag=TRUE)
 rd$mkdCodeChunkSt(optionsList=optList)
 rd$mkdCodeChunkEnd()
 
-## moreover I can add a list of files to source in che code chunk
+## Moreover I can add a list of files to source in che code chunk
 rd$mkdCodeChunkSt(optionsList=optList, source.files.list=c("R/cachingFunctions.R", "R/cachingFunctions.R"))
 rd$mkdCodeChunkEnd()
 
@@ -29,7 +30,7 @@ rd$mkdCodeChunkEnd()
 rd$mkdCodeChunkComplete(message="a <- 1\nb <- 2\nc <- a+b\n print(c)")
 
 
-## otherwise I can make a direct call with all the code chunk and the comment in one call
+## Otherwise I can make a direct call with all the code chunk and the comment in one call
 optList <- makeOptionsList(includeFlag=TRUE, cacheFlag=TRUE)
 
 rd$mkdCodeChunkCommented(commentMsg="This is the comment of the following code chunk",
@@ -39,15 +40,9 @@ rd$mkdCodeChunkCommented(commentMsg="This is the comment of the following code c
 
 ## finally I can directly compile my report
 rd$compile()
-
-
-
 \end{lstlisting}
  
- 
- 
 The previous R script leads to automatically produce the following \textit{rmarkddown} file.
-
 
 \begin{lstlisting}
 

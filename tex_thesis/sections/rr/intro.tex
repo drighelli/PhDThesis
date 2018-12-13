@@ -2,6 +2,16 @@ During last years several approaches \cite{russo2015advantages} have been propos
 Or by building a web environment to encapsulate several tools made with different programming languages, such as \textit{Galaxy} \footnote{\url{https://usegalaxy.org/}} \cite{Blankenberg2010, Giardine2005, Goecks2010}.
 
 The common underlying idea of each one of these instruments is to provide a mixture of natural language sentences along with computational language (\glspl{cc}) and visual outputs, in order to produce a unique final product where the \glspl{cc} and their outputs are explained to the reader, enhancing comprehensibility and reproducibility of the work, in a unique final resulting file.
+Additionally, it is a good norm to provide the data needful to run through again the entire analysis.
+In such a way, a mixture of explaining natural language sentences combined with code instructions executed on the right data lead to produce a final product that can be easily reused also by a non-expert user.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/rr/scheme.pdf}
+\caption[Reproducible Research illustration]{A general illustration of Reproducible Research concept. Raw data can be analysed with R code, producing plots, tables and additional caching database files. All together, R code, data and results can be inserted in an enriched document, which can be added as supplementary material to a valuable published article.\newline
+Image adapted from \cite{RussoRighelli2016}}
+\label{fig:rrscheme}
+\end{figure}
 
 To address this scope the R community proposed several solutions, like \textit{sweave} before, \textit{knitr} and \textit{rmarkdown} later.
-Due to its easy interactive usage, \textit{rmarkdown} became one of the most used instruments in the \textit{R} community, but its usability when developing automated instruments like \gls{gui} or packages becomes more difficult, leading developers to give up using it.
+Due to its easy interactive usage, \textit{rmarkdown} became one of the most used instruments inside the R community, but its usability when developing automated instruments like \gls{gui} or packages becomes more difficult, leading developers to give up using it.
