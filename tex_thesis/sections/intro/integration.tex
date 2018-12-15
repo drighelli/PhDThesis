@@ -1,9 +1,9 @@
 All above-mentioned sequencing techniques are aimed to investigate only one cellular compartment at a time, but in order to obtain a more comprehensive view of the cellular behaviour, it is necessary to look at more than one omics at the same time.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=9.5cm, keepaspectratio]{img/intro/omics.png}
-\caption[Omics Representation]{A scheme of different omics with their related sequencing techniques.}
+\includegraphics[width=9cm, keepaspectratio]{img/intro/multiomicsex.png}
+\caption[Multi-Omics Representation]{An example of different omics coming from the same biological representation. (adapted from \cite{Angelini2014c})}
 \label{fig:omics}
 \end{figure}
 
@@ -20,8 +20,12 @@ In order to reconstruct a 3D model of the building, we need to put each device s
 
 The same idea can be adapted to the sequencing techniques, we need to integrate the information coming from different omics in order reconstruct (and understand) how multiple mechanisms orchestrate the cellular behaviour.
 
+Indeed, we can imagine a typical combination of epigenomics factors affecting the chromatin in order to influence the transcription of one or more genes.
+An \glspl{hm} (such as \textit{Acetylation}) can have inhibited the accession to bind specific nucleosomes, because already occupied by specific \glspl{tf}, inhibiting, in such a way, the expression of those genes present in that particular portion of the chromatin (upper part of figure \ref{fig:omics}).
+To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm}
+
 As figure \ref{fig:funnell} outline, multi-omics data integration can be made at different levels, by graphical exploration, by functional annotation, by network fusion and by dimensionality reduction.
-We can distinguish two main approaches, the first one can be done also with few samples, where each omics is analysed standalone and then the results can be combined to obtain a common response (levels 1 and 2 of figure \ref{fig:funnell}).
+We can distinguish two main approaches, the first one can be done also with few samples, where each omics is analyzed standalone and then the results can be combined to obtain a common response (levels 1 and 2 of figure \ref{fig:funnell}).
 The second main approach needs a high number of samples to analyze all the omics together to obtain more power in the response prediction (levels 3 and 4 of figure \ref{fig:funnell}) \cite{Rohart2017, Argelaguet2018, Jia2017, Meng2016}.
 
 \begin{figure}[h]

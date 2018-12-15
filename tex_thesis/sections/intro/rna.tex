@@ -10,7 +10,7 @@ Although, such aspect will not be further treated in this thesis.
 The general idea underlying the library preparation of an \textit{RNA-seq} experiment can be viewed as the conversion of long \glspl{mrna} segments in \gls{cdna} fragments with \gls{rna} or \gls{dna} fragmentation. 
 To each sequence, an adapter for the sequencer is added and a short read is obtained with high-throughput sequencing technology (Figure \ref{fig:rnaseqexp}).
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seq.png}
 \caption[RNA-seq experiment]{Representation of an RNA-seq experiment. \cite{Wang2009}}
@@ -20,17 +20,23 @@ To each sequence, an adapter for the sequencer is added and a short read is obta
 
 Afterwards, the so-obtained reads need to be analyzed with several tools, depending on the particular question the researcher is interested in \cite{Pepke2009, Oshlack2010}.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seqan.png}
-\caption[RNA-seq analysis]{Representation of \textit{RNA-seq} analysis complexity. \cite{Pepke2009}}
-\label{fig:rnaseqan}
-\end{figure}
-
 % Due to the widespread of  \textit{RNA-seq} technology the bioinformatics community contributed with several methods for its analysis. 
 % Indeed, when working with this data the number of already developed and available methods is so high that for a non-expert user is really easy to understand where to start.
 
 In particular we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. In this specific context, a typical analysis starts from the alignment of the reads on a species's reference genome, followed by the quantification of the mapped reads, producing a count matrix of the samples (on columns) and the genes related features (on the rows), typically identifiers depending on the annotation database used by the analyzer.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm, keepaspectratio]{img/intro/rnaseqgui1.pdf}
+\caption[RNA-seq pipeline]{A representation of \textit{RNA-seq} analysis pipeline, as implemented in \textit{RNASeqGUI}, a graphical user interface for \textit{RNA-seq} data analysis (Image from \cite{RussoRighelli2016}).
+\gls{bam} files can be explored and their contained reads can be used to quantify the expression of genomic features.
+Afterwards, it is possible to filter low expressed features and normalize the resulting ones, in order to lower the noise that can affect further results.
+Subsequently, it is possible to analyze the data for inspect for differential expression of the genes between multiple conditions, this is relevant to understand how a ''treatment'' is affecting a specific condition respect to another one.
+Finally the results can be graphically inspected and/or integrated with Gene Ontology or Pathway databases to obtain a more detailed information about the cellular mechanisms affected by the ''treatment''.}
+\label{fig:rnaseqan}
+\end{figure}
+
 Commonly, the count matrix needs to be filtered from low expressed features and then normalized across the samples, to reduce specific bias for each sample.
 Then, it is possible to choose between several methods for the detection of differential expression of the features between the conditions (see section \ref{sec:ticorsermethods}).
 Finally, the significant features can be integrated with databases of biological functionalities in order to detect the mostly influenced ones.

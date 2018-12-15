@@ -17,38 +17,6 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
-  \entry{Annunziato2008}{article}{}
-    \name{author}{1}{}{%
-      {{hash=AAT}{%
-         family={Annunziato},
-         familyi={A\bibinitperiod},
-         given={Anthony\bibnamedelima T.},
-         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AAT1}
-    \strng{fullhash}{AAT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The haploid human genome contains approximately 3 billion base pairs of DNA
-  packaged into 23 chromosomes. Of course, most cells in the body (except for
-  female ova and male sperm) are diploid, with 23 pairs of chromosomes. That
-  makes a total of 6 billion base pairs of DNA per cell. Because each base pair
-  is around 0.34 nanometers long (a nanometer is one-billionth of a meter),
-  each diploid cell therefore contains about 2 meters of DNA [(0.34 × 10-9) ×
-  (6 × 109)]. Moreover, it is estimated that the human body contains about 50
-  trillion cells—which works out to 100 trillion meters of DNA per human.
-  Now, consider the fact that the Sun is 150 billion meters from Earth. This
-  means that each of us has enough DNA to go from here to the Sun and back more
-  than 300 times, or around Earth's equator 2.5 million times! How is this
-  possible?%
-    }
-    \field{title}{{DNA Packaging: Nucleosomes and Chromatin}}
-    \field{journaltitle}{Nature Education}
-    \field{year}{2008}
-  \endentry
-
   \entry{Park2009}{misc}{}
     \name{author}{1}{}{%
       {{hash=PPJ}{%
@@ -1101,6 +1069,308 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Trapnell2010}{article}{}
+    \name{author}{9}{}{%
+      {{hash=TC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Cole},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WBA}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Brian\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pertea},
+         familyi={P\bibinitperiod},
+         given={Geo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mortazavi},
+         familyi={M\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kwan},
+         familyi={K\bibinitperiod},
+         given={Gordon},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VMJ}{%
+         family={{Van Baren}},
+         familyi={V\bibinitperiod},
+         given={Marijke\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Salzberg},
+         familyi={S\bibinitperiod},
+         given={Steven\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=WBJ}{%
+         family={Wold},
+         familyi={W\bibinitperiod},
+         given={Barbara\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pachter},
+         familyi={P\bibinitperiod},
+         given={Lior},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TC+1}
+    \strng{fullhash}{TCWBAPGMAKGVMJSSLWBJPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    High-throughput mRNA sequencing (RNA-Seq) promises simultaneous transcript
+  discovery and abundance estimation. However, this would require algorithms
+  that are not restricted by prior gene annotations and that account for
+  alternative transcription and splicing. Here we introduce such algorithms in
+  an open-source software program called Cufflinks. To test Cufflinks, we
+  sequenced and analyzed {\textgreater}430 million paired 75-bp RNA-Seq reads
+  from a mouse myoblast cell line over a differentiation time series. We
+  detected 13,692 known transcripts and 3,724 previously unannotated ones,
+  62{\%} of which are supported by independent expression data or by homologous
+  genes in other species. Over the time series, 330 genes showed complete
+  switches in the dominant transcription start site (TSS) or splice isoform,
+  and we observed more subtle shifts in 1,304 other genes. These results
+  suggest that Cufflinks can illuminate the substantial regulatory flexibility
+  and complexity in even this well-studied model of muscle development and that
+  it can improve transcriptome-based genome annotation.%
+    }
+    \verb{doi}
+    \verb 10.1038/nbt.1621
+    \endverb
+    \verb{eprint}
+    \verb 171
+    \endverb
+    \field{isbn}{1546-1696 (Electronic)$\backslash$r1087-0156 (Linking)}
+    \field{issn}{10870156}
+    \field{number}{5}
+    \field{pages}{511\bibrangedash 515}
+    \field{title}{{Transcript assembly and quantification by RNA-Seq reveals
+  unannotated transcripts and isoform switching during cell differentiation}}
+    \field{volume}{28}
+    \field{journaltitle}{Nature Biotechnology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Roberts2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pimentel},
+         familyi={P\bibinitperiod},
+         given={Harold},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Cole},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pachter},
+         familyi={P\bibinitperiod},
+         given={Lior},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RAPHTCPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We describe a new 'reference annotation based transcript assembly' problem
+  for RNA-Seq data that involves assembling novel transcripts in the context of
+  an existing annotation. This problem arises in the analysis of expression in
+  model organisms, where it is desirable to leverage existing annotations for
+  discovering novel transcripts. We present an algorithm for reference
+  annotation-based transcript assembly and show how it can be used to rapidly
+  investigate novel transcripts revealed by RNA-Seq in comparison with a
+  reference annotation.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btr355
+    \endverb
+    \verb{eprint}
+    \verb 171
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)$\backslash$r1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{number}{17}
+    \field{pages}{2325\bibrangedash 2329}
+    \field{title}{{Identification of novel transcripts in annotated genomes
+  using RNA-seq}}
+    \field{volume}{27}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Roberts2011a}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Cole},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Donaghey},
+         familyi={D\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RJL}{%
+         family={Rinn},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pachter},
+         familyi={P\bibinitperiod},
+         given={Lior},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RATCDJRJLPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The biochemistry of RNA-Seq library preparation results in cDNA fragments
+  that are not uniformly distributed within the transcripts they represent.
+  This non-uniformity must be accounted for when estimating expression levels,
+  and we show how to perform the needed corrections using a likelihood based
+  approach. We find improvements in expression estimates as measured by
+  correlation with independently performed qRT-PCR and show that correction of
+  bias leads to improved replicability of results across libraries and
+  sequencing technologies.%
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2011-12-3-r22
+    \endverb
+    \verb{eprint}
+    \verb 1111.6189v1
+    \endverb
+    \field{isbn}{1465-6906}
+    \field{issn}{14747596}
+    \field{number}{3}
+    \field{title}{{Improving RNA-Seq expression estimates by correcting for
+  fragment bias}}
+    \field{volume}{12}
+    \field{journaltitle}{Genome Biology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Trapnell2013}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Cole},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HDG}{%
+         family={Hendrickson},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima G},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sauvageau},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Goff},
+         familyi={G\bibinitperiod},
+         given={Loyal},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RJL}{%
+         family={Rinn},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pachter},
+         familyi={P\bibinitperiod},
+         given={Lior},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TC+1}
+    \strng{fullhash}{TCHDGSMGLRJLPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Differential analysis of gene and transcript expression using
+  high-throughput RNA sequencing (RNA-seq) is complicated by several sources of
+  measurement variability and poses numerous statistical challenges. We present
+  Cuffdiff 2, an algorithm that estimates expression at transcript-level
+  resolution and controls for variability evident across replicate libraries.
+  Cuffdiff 2 robustly identifies differentially expressed transcripts and genes
+  and reveals differential splicing and promoter-preference changes. We
+  demonstrate the accuracy of our approach through differential analysis of
+  lung fibroblasts in response to loss of the developmental transcription
+  factor HOXA1, which we show is required for lung fibroblast and HeLa cell
+  cycle progression. Loss of HOXA1 results in significant expression level
+  changes in thousands of individual transcripts, along with isoform switching
+  events in key regulators of the cell cycle. Cuffdiff 2 performs robust
+  differential analysis in RNA-seq experiments at transcript resolution,
+  revealing a layer of regulation not readily observable with other
+  high-throughput technologies.%
+    }
+    \verb{doi}
+    \verb 10.1038/nbt.2450
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1750279917502799}
+    \field{issn}{10870156}
+    \field{number}{1}
+    \field{pages}{46\bibrangedash 53}
+    \field{title}{{Differential analysis of gene regulation at transcript
+  resolution with RNA-seq.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/23222703{\%}0Ahttp://www.pubmedcen
+    \verb tral.nih.gov/articlerender.fcgi?artid=PMC3869392
+    \endverb
+    \field{volume}{31}
+    \field{journaltitle}{Nature biotechnology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
+
   \entry{Pepke2009}{article}{}
     \name{author}{3}{}{%
       {{hash=PS}{%
@@ -1198,6 +1468,56 @@
     \field{title}{{From RNA-seq reads to differential expression results}}
     \field{volume}{11}
     \field{year}{2010}
+  \endentry
+
+  \entry{RussoRighelli2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RF}{%
+         family={Russo},
+         familyi={R\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Righelli},
+         familyi={R\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Angelini},
+         familyi={A\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RF+2}
+    \strng{fullhash}{RFRDAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present the advancements and novelties recently introduced in RNASeqGUI,
+  a graphical user interface that helps biologists to handle and analyse large
+  data collected in RNA-Seq experiments. This work focuses on the concept of
+  reproducible research and shows how it has been incorporated in RNASeqGUI to
+  provide reproducible (computational) results. The novel version of RNASeqGUI
+  combines graphical interfaces with tools for reproducible research, such as
+  literate statistical programming, human readable report, parallel executions,
+  caching, and interactive and web-explorable tables of results. These features
+  allow the user to analyse big datasets in a fast, efficient, and reproducible
+  way. Moreover, this paper represents a proof of concept, showing a simple way
+  to develop computational tools for Life Science in the spirit of reproducible
+  research.%
+    }
+    \verb{doi}
+    \verb 10.1155/2016/7972351
+    \endverb
+    \field{issn}{23146141}
+    \field{title}{{Advancements in RNASeqGUI towards a Reproducible Analysis of
+  RNA-Seq Experiments}}
+    \field{volume}{2016}
+    \field{journaltitle}{BioMed Research International}
+    \field{year}{2016}
   \endentry
 
   \entry{Giresi2007}{article}{}
@@ -1341,6 +1661,327 @@
     \field{volume}{23}
     \field{journaltitle}{Genome Research}
     \field{year}{2013}
+  \endentry
+
+  \entry{righelli2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=RD}{%
+         family={Righelli},
+         familyi={R\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Koberstein},
+         familyi={K\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZN}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Nancy},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Angelini},
+         familyi={A\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Peixoto},
+         familyi={P\bibinitperiod},
+         given={Lucia},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Risso},
+         familyi={R\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {PeerJ Inc.}%
+    }
+    \keyw{atac-seq,bioinformatics,epigenomics,peak calling,pipeline}
+    \strng{namehash}{RD+1}
+    \strng{fullhash}{RDKJZNACPLRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.7287/peerj.preprints.27357v1
+    \endverb
+    \field{issn}{2167-9843}
+    \field{title}{{Differential Enriched Scan 2 (DEScan2): a fast pipeline for
+  broad peak analysis}}
+    \verb{url}
+    \verb https://peerj.com/preprints/27357/
+    \endverb
+    \verb{file}
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Righelli et al. - 2018 - Differential Enriched Scan 2 (DEScan2) a f
+    \verb ast pipeline for broad peak analysis.pdf:pdf
+    \endverb
+    \field{journaltitle}{PeerJ}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Koberstein2018}{article}{}
+    \name{author}{12}{}{%
+      {{hash=KJN}{%
+         family={Koberstein},
+         familyi={K\bibinitperiod},
+         given={John\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=PSG}{%
+         family={Poplawski},
+         familyi={P\bibinitperiod},
+         given={Shane\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WME}{%
+         family={Wimmer},
+         familyi={W\bibinitperiod},
+         given={Mathieu\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Porcari},
+         familyi={P\bibinitperiod},
+         given={Giulia},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kao},
+         familyi={K\bibinitperiod},
+         given={Charlly},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={Bruce},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Risso},
+         familyi={R\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hakonarson},
+         familyi={H\bibinitperiod},
+         given={Hakon},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZNR}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Nancy\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SRT}{%
+         family={Schultz},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima T.},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Abel},
+         familyi={A\bibinitperiod},
+         given={Ted},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Peixoto},
+         familyi={P\bibinitperiod},
+         given={Lucia},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJN+1}
+    \strng{fullhash}{KJNPSGWMEPGKCGBRDHHZNRSRTATPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Autism spectrum disorder (ASD) is a prevalent neurodevelopmental disorder
+  that is associated with genetic risk factors. Most human disease-associated
+  single-nucleotide polymorphisms (SNPs) are not located in genes but rather
+  are in regulatory regions that control gene expression. The function of
+  regulatory regions is determined through epigenetic mechanisms. Parallels
+  between the cellular basis of development and the formation of long-term
+  memory have long been recognized, particularly the role of epigenetic
+  mechanisms in both processes. We analyzed how learning alters chromatin
+  accessibility in the mouse hippocampus using a new high-throughput sequencing
+  bioinformatics strategy we call DEScan (differential enrichment scan).
+  DEScan, which enabled the analysis of data from epigenomic experiments
+  containing multiple replicates, revealed changes in chromatin accessibility
+  at 2365 regulatory regions-most of which were promoters. Learning-regulated
+  promoters were active during forebrain development in mice and were enriched
+  in epigenetic modifications indicative of bivalent promoters. These promoters
+  were disproportionally intronic, showed a complex relationship with gene
+  expression and alternative splicing during memory consolidation and
+  retrieval, and were enriched in the data set relative to known ASD risk
+  genes. Genotyping in a clinical cohort within one of these promoters (SHANK3
+  promoter 6) revealed that the SNP rs6010065 was associated with ASD. Our data
+  support the idea that learning recapitulates development at the epigenetic
+  level and demonstrate that behaviorally induced epigenetic changes in mice
+  can highlight regulatory regions relevant to brain disorders in patients.%
+    }
+    \verb{doi}
+    \verb 10.1126/scisignal.aan6500
+    \endverb
+    \field{isbn}{1937-9145}
+    \field{issn}{19379145}
+    \field{title}{{Learning-dependent chromatin remodeling highlights noncoding
+  regulatory regions linked to autism}}
+    \field{journaltitle}{Science Signaling}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Ou2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=OJ}{%
+         family={Ou},
+         familyi={O\bibinitperiod},
+         given={Jianhong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Haibo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Kelliher},
+         familyi={K\bibinitperiod},
+         given={Michelle\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CLH}{%
+         family={Castilla},
+         familyi={C\bibinitperiod},
+         given={Lucio\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LND}{%
+         family={Lawson},
+         familyi={L\bibinitperiod},
+         given={Nathan\bibnamedelima D.},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ZLJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Lihua\bibnamedelima Julie},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{ATAC-seq,ATACseqQC,Chromatin accessibility,Quality control}
+    \strng{namehash}{OJ+1}
+    \strng{fullhash}{OJLHYJKMACLHLNDZLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    ATAC-seq (Assays for Transposase-Accessible Chromatin using sequencing) is
+  a recently developed technique for genome-wide analysis of chromatin
+  accessibility. Compared to earlier methods for assaying chromatin
+  accessibility, ATAC-seq is faster and easier to perform, does not require
+  cross-linking, has higher signal to noise ratio, and can be performed on
+  small cell numbers. However, to ensure a successful ATAC-seq experiment,
+  step-by-step quality assurance processes, including both wet lab quality
+  control and in silico quality assessment, are essential. While several tools
+  have been developed or adopted for assessing read quality, identifying
+  nucleosome occupancy and accessible regions from ATAC-seq data, none of the
+  tools provide a comprehensive set of functionalities for preprocessing and
+  quality assessment of aligned ATAC-seq datasets. We have developed a
+  Bioconductor package, ATACseqQC, for easily generating various diagnostic
+  plots to help researchers quickly assess the quality of their ATAC-seq data.
+  In addition, this package contains functions to preprocess aligned ATAC-seq
+  data for subsequent peak calling. Here we demonstrate the utilities of our
+  package using 25 publicly available ATAC-seq datasets from four studies. We
+  also provide guidelines on what the diagnostic plots should look like for an
+  ideal ATAC-seq dataset. This software package has been used successfully for
+  preprocessing and assessing several in-house and public ATAC-seq datasets.
+  Diagnostic plots generated by this package will facilitate the quality
+  assessment of ATAC-seq data, and help researchers to evaluate their own
+  ATAC-seq experiments as well as select high-quality ATAC-seq datasets from
+  public repositories such as GEO to avoid generating hypotheses or drawing
+  conclusions from low-quality ATAC-seq experiments. The software, source code,
+  and documentation are freely available as a Bioconductor package at
+  https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html .%
+    }
+    \verb{doi}
+    \verb 10.1186/s12864-018-4559-3
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1311.3268v1
+    \endverb
+    \field{issn}{14712164}
+    \field{number}{1}
+    \field{title}{{ATACseqQC: A Bioconductor package for post-alignment quality
+  assessment of ATAC-seq data}}
+    \field{volume}{19}
+    \field{journaltitle}{BMC Genomics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Angelini2014c}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AC}{%
+         family={Angelini},
+         familyi={A\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Costa},
+         familyi={C\bibinitperiod},
+         given={Valerio},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{ChIP-seq, data integration, gene regulatory
+  mechan,Integration,chip-seq,data integration,gene regulatory mechanisms,next
+  generation sequencing,ngs,rna-seq,statistics}
+    \strng{namehash}{ACCV1}
+    \strng{fullhash}{ACCV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3389/fcell.2014.00051
+    \endverb
+    \field{issn}{2296-634X}
+    \field{number}{September}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{{Understanding gene regulatory mechanisms by integrating
+  ChIP-seq and RNA-seq data: statistical solutions to biological problems}}
+    \verb{url}
+    \verb http://journal.frontiersin.org/article/10.3389/fcell.2014.00051/abstr
+    \verb act
+    \endverb
+    \field{volume}{2}
+    \verb{file}
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Angelini, Costa - 2014 - Understanding gene regulatory mechanisms b
+    \verb y integrating ChIP-seq and RNA-seq data statistical solutions to biol
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Cell and Developmental Biology}
+    \field{year}{2014}
   \endentry
 
   \entry{Rohart2017}{article}{}
@@ -2051,56 +2692,6 @@
     \endverb
     \field{journaltitle}{The Economist}
     \field{year}{2011}
-  \endentry
-
-  \entry{RussoRighelli2016}{article}{}
-    \name{author}{3}{}{%
-      {{hash=RF}{%
-         family={Russo},
-         familyi={R\bibinitperiod},
-         given={Francesco},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Righelli},
-         familyi={R\bibinitperiod},
-         given={Dario},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=AC}{%
-         family={Angelini},
-         familyi={A\bibinitperiod},
-         given={Claudia},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RF+2}
-    \strng{fullhash}{RFRDAC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    We present the advancements and novelties recently introduced in RNASeqGUI,
-  a graphical user interface that helps biologists to handle and analyse large
-  data collected in RNA-Seq experiments. This work focuses on the concept of
-  reproducible research and shows how it has been incorporated in RNASeqGUI to
-  provide reproducible (computational) results. The novel version of RNASeqGUI
-  combines graphical interfaces with tools for reproducible research, such as
-  literate statistical programming, human readable report, parallel executions,
-  caching, and interactive and web-explorable tables of results. These features
-  allow the user to analyse big datasets in a fast, efficient, and reproducible
-  way. Moreover, this paper represents a proof of concept, showing a simple way
-  to develop computational tools for Life Science in the spirit of reproducible
-  research.%
-    }
-    \verb{doi}
-    \verb 10.1155/2016/7972351
-    \endverb
-    \field{issn}{23146141}
-    \field{title}{{Advancements in RNASeqGUI towards a Reproducible Analysis of
-  RNA-Seq Experiments}}
-    \field{volume}{2016}
-    \field{journaltitle}{BioMed Research International}
-    \field{year}{2016}
   \endentry
 
   \entry{CostaRighelli2017}{article}{}
@@ -3018,7 +3609,7 @@
       }}%
     }
     \keyw{next generation sequencing,ngs,normalization,rna-seq}
-    \strng{namehash}{RD+1}
+    \strng{namehash}{RD+2}
     \strng{fullhash}{RDNJSTPDS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -3810,121 +4401,6 @@
   population-based, retrospective cohort study article}}
     \field{volume}{56}
     \field{journaltitle}{Spinal Cord}
-    \field{year}{2018}
-  \endentry
-
-  \entry{Koberstein2018}{article}{}
-    \name{author}{12}{}{%
-      {{hash=KJN}{%
-         family={Koberstein},
-         familyi={K\bibinitperiod},
-         given={John\bibnamedelima N.},
-         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=PSG}{%
-         family={Poplawski},
-         familyi={P\bibinitperiod},
-         given={Shane\bibnamedelima G.},
-         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=WME}{%
-         family={Wimmer},
-         familyi={W\bibinitperiod},
-         given={Mathieu\bibnamedelima E.},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=PG}{%
-         family={Porcari},
-         familyi={P\bibinitperiod},
-         given={Giulia},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=KC}{%
-         family={Kao},
-         familyi={K\bibinitperiod},
-         given={Charlly},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=GB}{%
-         family={Gomes},
-         familyi={G\bibinitperiod},
-         given={Bruce},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Risso},
-         familyi={R\bibinitperiod},
-         given={Davide},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=HH}{%
-         family={Hakonarson},
-         familyi={H\bibinitperiod},
-         given={Hakon},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=ZNR}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Nancy\bibnamedelima R.},
-         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=SRT}{%
-         family={Schultz},
-         familyi={S\bibinitperiod},
-         given={Robert\bibnamedelima T.},
-         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=AT}{%
-         family={Abel},
-         familyi={A\bibinitperiod},
-         given={Ted},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=PL}{%
-         family={Peixoto},
-         familyi={P\bibinitperiod},
-         given={Lucia},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KJN+1}
-    \strng{fullhash}{KJNPSGWMEPGKCGBRDHHZNRSRTATPL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Autism spectrum disorder (ASD) is a prevalent neurodevelopmental disorder
-  that is associated with genetic risk factors. Most human disease-associated
-  single-nucleotide polymorphisms (SNPs) are not located in genes but rather
-  are in regulatory regions that control gene expression. The function of
-  regulatory regions is determined through epigenetic mechanisms. Parallels
-  between the cellular basis of development and the formation of long-term
-  memory have long been recognized, particularly the role of epigenetic
-  mechanisms in both processes. We analyzed how learning alters chromatin
-  accessibility in the mouse hippocampus using a new high-throughput sequencing
-  bioinformatics strategy we call DEScan (differential enrichment scan).
-  DEScan, which enabled the analysis of data from epigenomic experiments
-  containing multiple replicates, revealed changes in chromatin accessibility
-  at 2365 regulatory regions-most of which were promoters. Learning-regulated
-  promoters were active during forebrain development in mice and were enriched
-  in epigenetic modifications indicative of bivalent promoters. These promoters
-  were disproportionally intronic, showed a complex relationship with gene
-  expression and alternative splicing during memory consolidation and
-  retrieval, and were enriched in the data set relative to known ASD risk
-  genes. Genotyping in a clinical cohort within one of these promoters (SHANK3
-  promoter 6) revealed that the SNP rs6010065 was associated with ASD. Our data
-  support the idea that learning recapitulates development at the epigenetic
-  level and demonstrate that behaviorally induced epigenetic changes in mice
-  can highlight regulatory regions relevant to brain disorders in patients.%
-    }
-    \verb{doi}
-    \verb 10.1126/scisignal.aan6500
-    \endverb
-    \field{isbn}{1937-9145}
-    \field{issn}{19379145}
-    \field{title}{{Learning-dependent chromatin remodeling highlights noncoding
-  regulatory regions linked to autism}}
-    \field{journaltitle}{Science Signaling}
     \field{year}{2018}
   \endentry
 
