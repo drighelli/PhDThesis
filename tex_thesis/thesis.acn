@@ -45,15 +45,19 @@
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{UTR?\glossentry{utr}|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{IGV?\glossentry{igv}|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{IGV?\glossentry{igv}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{NGS?\glossentry{ngs}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
@@ -286,21 +290,19 @@
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{128}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{128}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{128}
-\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{129}
-\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{129}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{130}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{130}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{130}
-\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{145}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{146}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{146}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{146}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{146}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{147}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{151}

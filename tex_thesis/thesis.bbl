@@ -2694,6 +2694,63 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Fomel2009b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FS}{%
+         family={Fomel},
+         familyi={F\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJF}{%
+         family={Claerbout},
+         familyi={C\bibinitperiod},
+         given={Jon\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \keyw{reproducible research}
+    \strng{namehash}{FSCJF1}
+    \strng{fullhash}{FSCJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The articles in this special issue provide independent solutions for
+  practical reproducible research systems. The use of Matlab-based tools such
+  as the famous Wavelab and Sparselab packages in promoting reproducible
+  research in computational harmonic analysis has been presented. In
+  particular, the authors point to the success of the reproducible research
+  discipline in increasing the reliability of computational research and
+  reflect on the effort necessary for implementing this discipline in a
+  research group and overcoming possible objections to it. An article also
+  describes a Python interface to the well-known Clawpack package for solving
+  hyperbolic partial differential equations that appear in wave propagation
+  problems. The author argues strongly in favor of reproducible computations
+  and shows an example using a simplified Python interface to Fortran code. An
+  article also represents the field of bioinformatics, which has been a
+  stronghold of reproducible research. It describes the cacher package, which
+  is built on top of the R computing environment. Cacher enables a modular
+  approach to reproducible computations by storing results of intermediate
+  computations in a database. The special issue ends with an article on the
+  legal aspects of reproducible research, including copyright and licensing
+  issues.%
+    }
+    \verb{doi}
+    \verb 10.1109/MCSE.2009.14
+    \endverb
+    \field{issn}{1521-9615}
+    \field{number}{1}
+    \field{pages}{5\bibrangedash 7}
+    \field{title}{{Reproducible Research}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Fomel, Claerbout - 2009 - Reproducible Research.pdf:pdf
+    \endverb
+    \field{journaltitle}{Computing in Science {\&} Engineering}
+    \field{year}{2009}
+  \endentry
+
   \entry{CostaRighelli2017}{article}{}
     \name{author}{6}{}{%
       {{hash=CV}{%
@@ -2807,6 +2864,45 @@
     \field{title}{{Advantages and Limits in the Adoption of Reproducible
   Research and R-Tools for the Analysis of Omic Data}}
     \field{year}{2015}
+  \endentry
+
+  \entry{Peng2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PRD}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Roger\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ESP}{%
+         family={Eckel},
+         familyi={E\bibinitperiod},
+         given={Sandrah\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PRDESP1}
+    \strng{fullhash}{PRDESP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The ability to make scientific findings reproducible is
+  increasingly$\backslash$nimportant. The authors describe a simple framework
+  in which scientists$\backslash$ncan perform and distribute reproducible
+  research via cached computations.$\backslash$nThis article describes a
+  prototype implementation as well as a case$\backslash$nstudy application.%
+    }
+    \verb{doi}
+    \verb 10.1109/MCSE.2009.6
+    \endverb
+    \field{issn}{15219615}
+    \field{number}{1}
+    \field{pages}{28\bibrangedash 34}
+    \field{title}{{Distributed reproducible research using cached
+  computations}}
+    \field{volume}{11}
+    \field{journaltitle}{Computing in Science and Engineering}
+    \field{year}{2009}
   \endentry
 
   \entry{Aranguren2015}{article}{}

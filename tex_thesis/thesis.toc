@@ -77,5 +77,5 @@
 \contentsline {section}{\numberline {5.4}Discussions}{128}{section.5.4}
 \contentsline {chapter}{\numberline {6}Conclusions}{129}{chapter.6}
 \contentsline {chapter}{\numberline {7}Bibliography}{131}{chapter.7}
-\contentsline {chapter}{List of Figures}{145}{chapter.7}
-\contentsline {chapter}{List of Tables}{149}{chapter.7}
+\contentsline {chapter}{List of Figures}{147}{chapter.7}
+\contentsline {chapter}{List of Tables}{151}{chapter.7}

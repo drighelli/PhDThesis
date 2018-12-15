@@ -22,9 +22,9 @@ The same idea can be adapted to the sequencing techniques, we need to integrate 
 
 Indeed, we can imagine a typical combination of epigenomics factors affecting the chromatin in order to influence the transcription of one or more genes.
 An \glspl{hm} (such as \textit{Acetylation}) can have inhibited the accession to bind specific nucleosomes, because already occupied by specific \glspl{tf}, inhibiting, in such a way, the expression of those genes present in that particular portion of the chromatin (upper part of figure \ref{fig:omics}).
-To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm}
+To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm} and one for the \textit{tf}) to study singularly each epigenomics factors and the gene expression (lower part of figure \ref{fig:omics}). 
 
-As figure \ref{fig:funnell} outline, multi-omics data integration can be made at different levels, by graphical exploration, by functional annotation, by network fusion and by dimensionality reduction.
+As figure \ref{fig:funnell} outlines, multi-omics data integration can be made at different levels, by graphical exploration, by functional annotation, by network fusion and by dimensionality reduction.
 We can distinguish two main approaches, the first one can be done also with few samples, where each omics is analyzed standalone and then the results can be combined to obtain a common response (levels 1 and 2 of figure \ref{fig:funnell}).
 The second main approach needs a high number of samples to analyze all the omics together to obtain more power in the response prediction (levels 3 and 4 of figure \ref{fig:funnell}) \cite{Rohart2017, Argelaguet2018, Jia2017, Meng2016}.
 
@@ -39,7 +39,7 @@ With graphical exploration, we can visualize data coming from different sources 
 
 We refer to functional annotation integration when using methods combining analysis results (such as relevant lists of genes) with publicly available databases,  like the Gene Ontology\footnote{http://www.geneontology.org/} and pathway (\textit{KEGG}\footnote{https://www.genome.jp/kegg/} or \textit{Reactome}\footnote{https://reactome.org/}) based ones, to detect functional responses highly related to the experimental condition under investigation.
 
-It is possible to integrate multiple omics data types by constructing multiple networks, one for each omic analyzed, and then combine these networks with fusion techniques.
+It is possible to integrate multiple omics data types by constructing multiple regulation networks, one for each omic analyzed, and then combine these networks with fusion techniques.
 This integration aspect is used when a high number of data samples is available or when having multiple-omics data types coming from the same patients \cite{Wang2014}.
 
 A deeper level of integration is achievable with dimensionality reduction techniques. 
