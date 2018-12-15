@@ -7,7 +7,6 @@ The main aim of \textit{RNA-seq} experiment is to highlight which genes are incr
 The general idea underlying the library preparation of an \textit{RNA-seq} experiment can be viewed as the conversion of long \glspl{mrna} segments in \gls{cdna} fragments with \gls{rna} or \gls{dna} fragmentation. 
 To each sequence, an adapter for the sequencer is added and a short read is obtained with high-throughput sequencing technology (Figure \ref{fig:rnaseqexp}).
 
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seq.png}
@@ -21,9 +20,12 @@ Afterwards, the so-obtained reads need to be analyzed with several tools, depend
 \begin{figure}[h]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seqan.png}
-\caption[RNA-seq analysis]{Representation of RNA-seq analysis complexity. \cite{Pepke2009}}
+\caption[RNA-seq analysis]{Representation of \textit{RNA-seq} analysis complexity. \cite{Pepke2009}}
 \label{fig:rnaseqan}
 \end{figure}
+
+% Due to the widespread of  \textit{RNA-seq} technology the bioinformatics community contributed with several methods for its analysis. 
+% Indeed, when working with this data the number of already developed and available methods is so high that for a non-expert user is really easy to understand where to start.
 
 In particular we focused on the gene expression quantification in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc., where a typical analysis starts from the alignment of the reads on a species's reference genome and the quantification of the mapped reads, producing a count matrix of the samples (on columns) and the genes related features (on the rows), typically identifiers depending on the annotation database used by the analyzer.
 Commonly, the count matrix needs to be filtered from low expressed features and then normalized across the samples, to reduce specific bias for each sample.

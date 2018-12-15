@@ -1,4 +1,4 @@
-\documentclass[b5paper,oneside,british,intoc,bibliograph=totoc,index=totoc,BCOR10mm,twoside,openright]{book}
+\documentclass[b5paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
 \usepackage[LGR,T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 \usepackage{inputenc}
@@ -21,12 +21,12 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{listings}
-\usepackage[multiple]{footmisc}
+
 %\usepackage{xcolor}
  \usepackage{subcaption}
 %\include{acronym.tex}
 
-\setstretch{1.2}
+\setstretch{1.5}
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
  breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
@@ -107,6 +107,7 @@
 \renewcommand\l@paragraph[2]{}
 \renewcommand\l@subsubsection[2]{}
 
+\usepackage[multiple]{footmisc}
 
 \usepackage[backend=bibtex8,style=nature]{biblatex} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addbibresource{bibs/PhDThesisBib.bib}
@@ -257,7 +258,7 @@ Add acknowledgements here
 \input{sections/intro/workaim.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Time Course RNA-seq analyzer \newline ticorser} \label{sec:ticorsercap}
+\chapter{Time Course RNA-seq analyzer: ticorser} \label{sec:ticorsercap}
 \input{sections/ticorser/general.tex}
 \section{Introduction} \label{sec:ticorseintro}
 \input{sections/ticorser/intro.tex}
@@ -280,7 +281,7 @@ Add acknowledgements here
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Differential Enriched Scan 2\newline DEScan2} \label{sec:descan2cap}
+\chapter{Differential Enriched Scan 2: DEScan2} \label{sec:descan2cap}
 \input{sections/descan2/general.tex}
 \section{Introduction} \label{sec:descan2intro}
 \input{sections/descan2/intro.tex}
@@ -301,7 +302,7 @@ Add acknowledgements here
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{A reproducible computational research R6 Class \newline easyReporting}
+\chapter{A reproducible computational research R6 Class: easyReporting}
 \input{sections/rr/introchap.tex}
 \section{Introduction}
 \input{sections/rr/intro.tex}
@@ -314,7 +315,7 @@ Add acknowledgements here
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Integration of High-Throughtput Omics data \newline IntegrHO} \label{sec:integrhocap}
+\chapter{Integration of High-Throughtput Omics data: IntegrHO} \label{sec:integrhocap}
 \input{sections/integrho/general.tex}
 \section{Introduction} \label{sec:integrhointro}
 \input{sections/integrho/intro.tex}

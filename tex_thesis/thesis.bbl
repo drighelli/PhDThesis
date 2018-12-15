@@ -368,6 +368,457 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Andrews2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    FastQC aims to provide a simple way to do some quality control checks on
+  raw sequence data coming from high throughput sequencing pipelines. It
+  provides a modular set of analyses which you can use to give a quick
+  impression of whether your data has any problems of which you should be aware
+  before doing any further analysis. The main functions of FastQC are Import of
+  data from BAM, SAM or FastQ files (any variant) Providing a quick overview to
+  tell you in which areas there may be problems Summary graphs and tables to
+  quickly assess your data Export of results to an HTML based permanent report
+  Offline operation to allow automated generation of reports without running
+  the interactive application%
+    }
+    \verb{doi}
+    \verb citeulike-article-id:11583827
+    \endverb
+    \field{isbn}{0022-5347}
+    \field{issn}{00029548 (ISSN)}
+    \field{pages}{http://www.bioinformatics.babraham.ac.uk/projects/}
+    \field{title}{{FastQC}}
+    \verb{url}
+    \verb http://scholar.google.com/scholar?hl=en{\&}btnG=Search{\&}q=intitle:F
+    \verb astQC+a+quality+control+tool+for+high+throughput+sequence+data.{\#}0
+    \endverb
+    \field{journaltitle}{Babraham Bioinformatics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Dobin2013}{article}{}
+    \name{author}{9}{}{%
+      {{hash=DA}{%
+         family={Dobin},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DCA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Carrie\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Schlesinger},
+         familyi={S\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Drenkow},
+         familyi={D\bibinitperiod},
+         given={Jorg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zaleski},
+         familyi={Z\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jha},
+         familyi={J\bibinitperiod},
+         given={Sonali},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Batut},
+         familyi={B\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Chaisson},
+         familyi={C\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Gingeras},
+         familyi={G\bibinitperiod},
+         given={Thomas\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADCASFDJZCJSBPCMGTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    MOTIVATION: Accurate alignment of high-throughput RNA-seq data is a
+  challenging and yet unsolved problem because of the non-contiguous transcript
+  structure, relatively short read lengths and constantly increasing throughput
+  of the sequencing technologies. Currently available RNA-seq aligners suffer
+  from high mapping error rates, low mapping speed, read length limitation and
+  mapping biases.$\backslash$n$\backslash$nRESULTS: To align our large
+  ({\textgreater}80 billon reads) ENCODE Transcriptome RNA-seq dataset, we
+  developed the Spliced Transcripts Alignment to a Reference (STAR) software
+  based on a previously undescribed RNA-seq alignment algorithm that uses
+  sequential maximum mappable seed search in uncompressed suffix arrays
+  followed by seed clustering and stitching procedure. STAR outperforms other
+  aligners by a factor of {\textgreater}50 in mapping speed, aligning to the
+  human genome 550 million 2 × 76 bp paired-end reads per hour on a modest
+  12-core server, while at the same time improving alignment sensitivity and
+  precision. In addition to unbiased de novo detection of canonical junctions,
+  STAR can discover non-canonical splices and chimeric (fusion) transcripts,
+  and is also capable of mapping full-length RNA sequences. Using Roche 454
+  sequencing of reverse transcription polymerase chain reaction amplicons, we
+  experimentally validated 1960 novel intergenic splice junctions with an
+  80-90{\%} success rate, corroborating the high precision of the STAR mapping
+  strategy.$\backslash$n$\backslash$nAVAILABILITY AND IMPLEMENTATION: STAR is
+  implemented as a standalone C++ code. STAR is free open source software
+  distributed under GPLv3 license and can be downloaded from
+  http://code.google.com/p/rna-star/.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bts635
+    \endverb
+    \verb{eprint}
+    \verb 1201.0052
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{title}{{STAR: Ultrafast universal RNA-seq aligner}}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Kim2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KD}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Daehwan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Langmead},
+         familyi={L\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Salzberg},
+         familyi={S\bibinitperiod},
+         given={Steven\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD+2}
+    \strng{fullhash}{KDLBSSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    HISAT (hierarchical indexing for spliced alignment of transcripts) is a
+  highly efficient system for aligning reads from RNA sequencing experiments.
+  HISAT uses an indexing scheme based on the Burrows-Wheeler transform and the
+  Ferragina-Manzini (FM) index, employing two types of indexes for alignment: a
+  whole-genome FM index to anchor each alignment and numerous local FM indexes
+  for very rapid extensions of these alignments. HISAT's hierarchical index for
+  the human genome contains 48,000 local FM indexes, each representing a
+  genomic region of ∼64,000 bp. Tests on real and simulated data sets showed
+  that HISAT is the fastest system currently available, with equal or better
+  accuracy than any other method. Despite its large number of indexes, HISAT
+  requires only 4.3 gigabytes of memory. HISAT supports genomes of any size,
+  including those larger than 4 billion bases.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.3317
+    \endverb
+    \verb{eprint}
+    \verb 15334406
+    \endverb
+    \field{isbn}{1548-7091}
+    \field{issn}{15487105}
+    \field{number}{4}
+    \field{pages}{357\bibrangedash 360}
+    \field{title}{{HISAT: A fast spliced aligner with low memory requirements}}
+    \field{volume}{12}
+    \field{journaltitle}{Nature Methods}
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Kim2013}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KD}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Daehwan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pertea},
+         familyi={P\bibinitperiod},
+         given={Geo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Cole},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pimentel},
+         familyi={P\bibinitperiod},
+         given={Harold},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kelley},
+         familyi={K\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Salzberg},
+         familyi={S\bibinitperiod},
+         given={Steven\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD+2}
+    \strng{fullhash}{KDPGTCPHKRSSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    TopHat is a popular spliced aligner for RNA-sequence (RNA-seq) experiments.
+  In this paper, we describe TopHat2, which incorporates many significant
+  enhancements to TopHat. TopHat2 can align reads of various lengths produced
+  by the latest sequencing technologies, while allowing for variable-length
+  indels with respect to the reference genome. In addition to de novo spliced
+  alignment, TopHat2 can align reads across fusion breaks, which can occur
+  after genomic translocations. TopHat2 combines the ability to identify novel
+  splice sites with direct mapping to known transcripts, producing sensitive
+  and accurate alignments, even for highly repetitive genomes or in the
+  presence of pseudogenes. TopHat2 is available at
+  http://ccb.jhu.edu/software/tophat.%
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2013-14-4-r36
+    \endverb
+    \verb{eprint}
+    \verb 1512.00567
+    \endverb
+    \field{isbn}{1465-6914 (Electronic)$\backslash$r1465-6906 (Linking)}
+    \field{issn}{1474760X}
+    \field{number}{4}
+    \field{pages}{R36}
+    \field{title}{{TopHat2: accurate alignment of transcriptomes in the
+  presence of insertions, deletions and gene fusions.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/23618408{\%}0Ahttp://www.pubmedcen
+    \verb tral.nih.gov/articlerender.fcgi?artid=PMC4053844
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Genome biology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Li2009}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Handsaker},
+         familyi={H\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wysoker},
+         familyi={W\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fennell},
+         familyi={F\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Ruan},
+         familyi={R\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Homer},
+         familyi={H\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Marth},
+         familyi={M\bibinitperiod},
+         given={Gabor},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Abecasis},
+         familyi={A\bibinitperiod},
+         given={Goncalo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Durbin},
+         familyi={D\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LH+1}
+    \strng{fullhash}{LHHBWAFTRJHNMGAGDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    SUMMARY: The Sequence Alignment/Map (SAM) format is a generic alignment
+  format for storing read alignments against reference sequences, supporting
+  short and long reads (up to 128 Mbp) produced by different sequencing
+  platforms. It is flexible in style, compact in size, efficient in random
+  access and is the format in which alignments from the 1000 Genomes Project
+  are released. SAMtools implements various utilities for post-processing
+  alignments in the SAM format, such as indexing, variant caller and alignment
+  viewer, and thus provides universal tools for processing read alignments.
+  AVAILABILITY: http://samtools.sourceforge.net.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btp352
+    \endverb
+    \verb{eprint}
+    \verb 1006.1266v2
+    \endverb
+    \field{isbn}{1367-4803$\backslash$r1460-2059}
+    \field{issn}{13674803}
+    \field{title}{{The Sequence Alignment/Map format and SAMtools}}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Li2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LH1}
+    \strng{fullhash}{LH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Motivation: Most existing methods for DNA sequence analysis rely on
+  accurate sequences or genotypes. However, in applications of the
+  next-generation sequencing (NGS), accurate genotypes may not be easily
+  obtained (e.g. multi-sample low-coverage sequencing or somatic mutation
+  discovery). These applications press for the development of new methods for
+  analyzing sequence data with uncertainty. Results: We present a statistical
+  framework for calling SNPs, discovering somatic mutations, inferring
+  population genetical parameters and performing association tests directly
+  based on sequencing data without explicit genotyping or linkage-based
+  imputation. On real data, we demonstrate that our method achieves comparable
+  accuracy to alternative methods for estimating site allele count, for
+  inferring allele frequency spectrum and for association mapping. We also
+  highlight the necessity of using symmetric datasets for finding somatic
+  mutations and confirm that for discovering rare events, mismapping is
+  frequently the leading source of errors. Availability:
+  http://samtools.sourceforge.net. Contact: hengli@broadinstitute.org.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btr509
+    \endverb
+    \verb{eprint}
+    \verb 1203.6372
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)$\backslash$r1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{number}{21}
+    \field{pages}{2987\bibrangedash 2993}
+    \field{title}{{A statistical framework for SNP calling, mutation discovery,
+  association mapping and population genetical parameter estimation from
+  sequencing data}}
+    \field{volume}{27}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Morgan}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=MM}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pag{\`{e}}s},
+         familyi={P\bibinitperiod},
+         given={Harv{\`{e}}},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=OV}{%
+         family={Obenchain},
+         familyi={O\bibinitperiod},
+         given={Valerie},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Hayden},
+         familyi={H\bibinitperiod},
+         given={Nathaniel},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMPHOVHN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This package provides an interface to the 'samtools', 'bcftools', and
+  'tabix' utilities (see 'LICENCE') for manipulating SAM (Sequence Alignment /
+  Map), FASTA, binary variant call (BCF) and compressed indexed tab-delimited
+  (tabix) files.%
+    }
+    \field{title}{{Rsamtools}}
+  \endentry
+
   \entry{Thermes2014}{misc}{}
     \name{author}{1}{}{%
       {{hash=TC}{%
@@ -3607,92 +4058,6 @@
     \field{year}{1996}
   \endentry
 
-  \entry{Li2009}{article}{}
-    \name{author}{9}{}{%
-      {{hash=LH}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Heng},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=HB}{%
-         family={Handsaker},
-         familyi={H\bibinitperiod},
-         given={Bob},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=WA}{%
-         family={Wysoker},
-         familyi={W\bibinitperiod},
-         given={Alec},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=FT}{%
-         family={Fennell},
-         familyi={F\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=RJ}{%
-         family={Ruan},
-         familyi={R\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HN}{%
-         family={Homer},
-         familyi={H\bibinitperiod},
-         given={Nils},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Marth},
-         familyi={M\bibinitperiod},
-         given={Gabor},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=AG}{%
-         family={Abecasis},
-         familyi={A\bibinitperiod},
-         given={Goncalo},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=DR}{%
-         family={Durbin},
-         familyi={D\bibinitperiod},
-         given={Richard},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LH+1}
-    \strng{fullhash}{LHHBWAFTRJHNMGAGDR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    SUMMARY: The Sequence Alignment/Map (SAM) format is a generic alignment
-  format for storing read alignments against reference sequences, supporting
-  short and long reads (up to 128 Mbp) produced by different sequencing
-  platforms. It is flexible in style, compact in size, efficient in random
-  access and is the format in which alignments from the 1000 Genomes Project
-  are released. SAMtools implements various utilities for post-processing
-  alignments in the SAM format, such as indexing, variant caller and alignment
-  viewer, and thus provides universal tools for processing read alignments.
-  AVAILABILITY: http://samtools.sourceforge.net.%
-    }
-    \verb{doi}
-    \verb 10.1093/bioinformatics/btp352
-    \endverb
-    \verb{eprint}
-    \verb 1006.1266v2
-    \endverb
-    \field{isbn}{1367-4803$\backslash$r1460-2059}
-    \field{issn}{13674803}
-    \field{title}{{The Sequence Alignment/Map format and SAMtools}}
-    \field{journaltitle}{Bioinformatics}
-    \field{eprinttype}{arXiv}
-    \field{year}{2009}
-  \endentry
-
   \entry{Lawrence2013}{article}{}
     \name{author}{8}{}{%
       {{hash=LM}{%
@@ -4234,107 +4599,6 @@
     \field{title}{{NCBI GEO: Archive for functional genomics data sets -
   Update}}
     \field{journaltitle}{Nucleic Acids Research}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Dobin2013}{article}{}
-    \name{author}{9}{}{%
-      {{hash=DA}{%
-         family={Dobin},
-         familyi={D\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DCA}{%
-         family={Davis},
-         familyi={D\bibinitperiod},
-         given={Carrie\bibnamedelima A.},
-         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=SF}{%
-         family={Schlesinger},
-         familyi={S\bibinitperiod},
-         given={Felix},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=DJ}{%
-         family={Drenkow},
-         familyi={D\bibinitperiod},
-         given={Jorg},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=ZC}{%
-         family={Zaleski},
-         familyi={Z\bibinitperiod},
-         given={Chris},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=JS}{%
-         family={Jha},
-         familyi={J\bibinitperiod},
-         given={Sonali},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Batut},
-         familyi={B\bibinitperiod},
-         given={Philippe},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=CM}{%
-         family={Chaisson},
-         familyi={C\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GTR}{%
-         family={Gingeras},
-         familyi={G\bibinitperiod},
-         given={Thomas\bibnamedelima R.},
-         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DA+1}
-    \strng{fullhash}{DADCASFDJZCJSBPCMGTR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    MOTIVATION: Accurate alignment of high-throughput RNA-seq data is a
-  challenging and yet unsolved problem because of the non-contiguous transcript
-  structure, relatively short read lengths and constantly increasing throughput
-  of the sequencing technologies. Currently available RNA-seq aligners suffer
-  from high mapping error rates, low mapping speed, read length limitation and
-  mapping biases.$\backslash$n$\backslash$nRESULTS: To align our large
-  ({\textgreater}80 billon reads) ENCODE Transcriptome RNA-seq dataset, we
-  developed the Spliced Transcripts Alignment to a Reference (STAR) software
-  based on a previously undescribed RNA-seq alignment algorithm that uses
-  sequential maximum mappable seed search in uncompressed suffix arrays
-  followed by seed clustering and stitching procedure. STAR outperforms other
-  aligners by a factor of {\textgreater}50 in mapping speed, aligning to the
-  human genome 550 million 2 × 76 bp paired-end reads per hour on a modest
-  12-core server, while at the same time improving alignment sensitivity and
-  precision. In addition to unbiased de novo detection of canonical junctions,
-  STAR can discover non-canonical splices and chimeric (fusion) transcripts,
-  and is also capable of mapping full-length RNA sequences. Using Roche 454
-  sequencing of reverse transcription polymerase chain reaction amplicons, we
-  experimentally validated 1960 novel intergenic splice junctions with an
-  80-90{\%} success rate, corroborating the high precision of the STAR mapping
-  strategy.$\backslash$n$\backslash$nAVAILABILITY AND IMPLEMENTATION: STAR is
-  implemented as a standalone C++ code. STAR is free open source software
-  distributed under GPLv3 license and can be downloaded from
-  http://code.google.com/p/rna-star/.%
-    }
-    \verb{doi}
-    \verb 10.1093/bioinformatics/bts635
-    \endverb
-    \verb{eprint}
-    \verb 1201.0052
-    \endverb
-    \field{isbn}{1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)}
-    \field{issn}{13674803}
-    \field{title}{{STAR: Ultrafast universal RNA-seq aligner}}
-    \field{journaltitle}{Bioinformatics}
-    \field{eprinttype}{arXiv}
     \field{year}{2013}
   \endentry
 
@@ -5081,6 +5345,83 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Poplawski2016}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=PA}{%
+         family={Poplawski},
+         familyi={P\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Marini},
+         familyi={M\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hess},
+         familyi={H\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zeller},
+         familyi={Z\bibinitperiod},
+         given={Tanja},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mazur},
+         familyi={M\bibinitperiod},
+         given={Johanna},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Binder},
+         familyi={B\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Evaluation,Interface,RNA-seq,Systematic search,Workflow}
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAMFHMZTMJBH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    RNA-sequencing (RNA-seq) has become an established way for measuring gene
+  expression in model organisms and humans. While methods development for
+  refining the corresponding data processing and analysis pipeline is ongoing,
+  protocols for typical steps have been proposed and are widely used. Several
+  user interfaces have been developed for making such analysis steps accessible
+  to life scientists without extensive knowledge of command line tools. We
+  performed a systematic search and evaluation of such interfaces to
+  investigate to what extent these can indeed facilitate RNA-seq data analysis.
+  We found a total of 29 open source interfaces, and six of the more widely
+  used interfaces were evaluated in detail. Central criteria for evaluation
+  were ease of configuration, documentation, usability, computational demand
+  and reporting. No interface scored best in all of these criteria, indicating
+  that the final choice will depend on the specific perspective of users and
+  the corresponding weighting of criteria. Considerable technical hurdles had
+  to be overcome in our evaluation. For many users, this will diminish
+  potential benefits compared with command line tools, leaving room for future
+  improvement of interfaces.%
+    }
+    \field{booktitle}{Briefings in Bioinformatics}
+    \verb{doi}
+    \verb 10.1093/bib/bbv036
+    \endverb
+    \field{isbn}{1477-4054 (Electronic)$\backslash$r1467-5463 (Linking)}
+    \field{issn}{14774054}
+    \field{number}{2}
+    \field{pages}{213\bibrangedash 223}
+    \field{title}{{Systematically evaluating interfaces for RNA-seq analysis
+  from a life scientist perspective}}
+    \field{volume}{17}
+    \field{year}{2016}
+  \endentry
+
   \entry{Hillman-Jackson2012}{article}{}
     \name{author}{6}{}{%
       {{hash=HJJ}{%
@@ -5318,6 +5659,49 @@
     \field{journaltitle}{Nucleic acids research}
     \field{eprinttype}{arXiv}
     \field{year}{2013}
+  \endentry
+
+  \entry{Robinson2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RMD}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Mark\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Oshlack},
+         familyi={O\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMDOA1}
+    \strng{fullhash}{RMDOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The fine detail provided by sequencing-based transcriptome surveys suggests
+  that RNA-seq is likely to become the platform of choice for interrogating
+  steady state RNA. In order to discover biologically important changes in
+  expression, we show that normalization continues to be an essential step in
+  the analysis. We outline a simple and effective method for performing
+  normalization and show dramatically improved results for inferring
+  differential expression in simulated and publicly available data sets.%
+    }
+    \verb{doi}
+    \verb 10.1186/gb-2010-11-3-r25
+    \endverb
+    \verb{eprint}
+    \verb PMC2864565
+    \endverb
+    \field{isbn}{1465-6906}
+    \field{issn}{14747596}
+    \field{title}{{A scaling normalization method for differential expression
+  analysis of RNA-seq data}}
+    \field{journaltitle}{Genome Biology}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
   \endentry
 
   \entry{Lun2015}{article}{}
