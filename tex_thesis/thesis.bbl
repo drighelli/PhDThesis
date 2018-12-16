@@ -2840,9 +2840,11 @@
          given={Francesco},
          giveni={F\bibinitperiod},
       }}%
-      {{hash=b}{%
-         family={{$\backslash$textbfDario Righelli}},
-         familyi={b\bibinitperiod},
+      {{hash=RD}{%
+         family={Righelli},
+         familyi={R\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
       }}%
       {{hash=AC}{%
          family={Angelini},
@@ -2855,7 +2857,7 @@
       {Springer}%
     }
     \strng{namehash}{RF+2}
-    \strng{fullhash}{RFbAC1}
+    \strng{fullhash}{RFRDAC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{booktitle}{International Meeting on Computational Intelligence
@@ -5992,6 +5994,67 @@
   from a life scientist perspective}}
     \field{volume}{17}
     \field{year}{2016}
+  \endentry
+
+  \entry{Services2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SH}{%
+         family={Services},
+         familyi={S\bibinitperiod},
+         given={Human},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SH1}
+    \strng{fullhash}{SH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Examination of gene expression using high-throughput methodologies has
+  become very popular in recent years. Techniques such as microarray
+  hybridization and serial analysis of gene expression (SAGE) allow the
+  simultaneous quantification of tens of thou- sands of gene transcripts. The
+  Gene Expression Omnibus (GEO) is a public repository that archives and freely
+  distributes high- throughput gene expression data submitted by the scientific
+  community. GEO currently stores approximately a billion individual gene
+  expression measurements, derived from over 100 organisms, addressing a wide
+  range of biological issues. These huge volumes of data may be effectively
+  explored, queried, and visualized using user-friendly Web-based tools. GEO is
+  accessible at www.ncbi.nlm.nih.gov/geo%
+    }
+    \field{isbn}{3014809241}
+    \field{number}{Figure 1}
+    \field{pages}{2\bibrangedash 3}
+    \field{title}{{GEO : the Gene Expression Omnibus}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/geo/
+    \endverb
+    \field{volume}{23}
+    \field{journaltitle}{Gene Expression}
+    \field{year}{2007}
+  \endentry
+
+  \entry{tcga2013a}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The Cancer Genoma Atlas}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Cancer Genome Atlas (TCGA) is a comprehensive and coordinated effort to
+  accelerate our understanding of the molecular basis of cancer through the
+  application of genome analysis technologies, including large-scale genome
+  sequencing.%
+    }
+    \field{booktitle}{National Cancer Institute (NCI) and National Human Genome
+  Research Institute (NHGRI)}
+    \field{title}{{TCGA}}
+    \field{year}{2013}
   \endentry
 
   \entry{Hillman-Jackson2012}{article}{}

@@ -18,7 +18,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 18066 items from 5000.
+Reallocated field_info (elt_size=4) to 18344 items from 5000.
 Database file #1: thesis-blx.bib
 Database file #2: bibs/PhDThesisBib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -27,45 +27,45 @@ Warning--I didn't find a database entry for "shinyFiles"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 93 entries,
+You've used 95 entries,
             6256 wiz_defined-function locations,
-            2024 strings with 132543 characters,
-and the built_in function-call counts, 784963 in all, are:
-= -- 61815
-> -- 10193
-< -- 1575
-+ -- 23174
-- -- 4476
-* -- 61767
-:= -- 91621
+            2038 strings with 133750 characters,
+and the built_in function-call counts, 791412 in all, are:
+= -- 62135
+> -- 10344
+< -- 1607
++ -- 23285
+- -- 4523
+* -- 62165
+:= -- 92136
 add.period$ -- 0
-call.type$ -- 93
+call.type$ -- 95
 change.case$ -- 8
 chr.to.int$ -- 32
-cite$ -- 184
-duplicate$ -- 85021
-empty$ -- 70313
-format.name$ -- 8994
-if$ -- 151476
+cite$ -- 188
+duplicate$ -- 85825
+empty$ -- 71021
+format.name$ -- 9095
+if$ -- 152849
 int.to.chr$ -- 0
-int.to.str$ -- 205
+int.to.str$ -- 210
 missing$ -- 0
-newline$ -- 5140
-num.names$ -- 3593
-pop$ -- 34543
+newline$ -- 5189
+num.names$ -- 3672
+pop$ -- 35194
 preamble$ -- 1
-purify$ -- 1760
+purify$ -- 1780
 quote$ -- 0
-skip$ -- 14865
+skip$ -- 15162
 stack$ -- 0
-substring$ -- 114756
-swap$ -- 17782
-text.length$ -- 2058
+substring$ -- 115086
+swap$ -- 18013
+text.length$ -- 2092
 text.prefix$ -- 20
 top$ -- 1
-type$ -- 3150
+type$ -- 3218
 warning$ -- 0
-while$ -- 11299
+while$ -- 11371
 width$ -- 0
-write$ -- 5048
+write$ -- 5095
 (There was 1 warning)

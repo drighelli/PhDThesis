@@ -1,3 +1,21 @@
+When working with multiple omics data, the integration phase requires that the data used for this step are comparable between the different omics.
+
+For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need data coming from \textit{ChIP-seq} and \textit{RNA-seq} data of the same species and on the same cellular line affected by the disease.
+If we want to investigate the \textit{Breast Cancer}, we need to study \textit{Breast} cells.
+To do that, we need to collect as many sample as possible for each omics, because as higher is the number of samples as higher will be the power of estimating good results.
+
+Moreover, when investigating multiple conditions, we need multiple replicates for each condition, in order to be able to well estimate the biases that affecting the experiment.
+(Biostatisticians typically say that the number of replicates must never be lower than 3, indeed some statistical methods cannot work properly with a number of replicates lower than this.)
+
+To rechap, when working with multi-omics data, we need to collect samples of the cellular line interested by the ''disease'' we want to study.
+Moreover, to understand multiple mechanisms affected by the disease we need to collect multiple omics for each biological aspect (i.e. \textit{ChIP-seq} and \textit{RNA-seq}).
+Additionally, for each omics we need to collect multiple samples for each condition (i.e. healthy and tumor).
+
+Once we have all the required samples, we can start analyzing each omics individually and integrating them to understand the cellular behaviour involved in the studied disease.
+Depending on the number of collected samples we can choose from different methodologies to apply, if we have few number of samples, we can decide to work on single omics analysis and then to integrate the results.
+Otherwise, when having high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks.
+
+
 \subsection{The interface}
 \gls{igro} is a web platform fully developed in R with aid of Shiny libraries, combining the power of the R statistical instrument with HTML5/javascript flexibility.
 
@@ -25,16 +43,17 @@ In order to well set up the parameters for each functionality, an additional sid
 \label{fig:integrhomain}
 \end{figure}
 
-Once the user set up the required parameters and used the section button the results are shown in graphical or table format in the main part of the interface.
+Once the user had set up the required parameters and used the section button, the results are shown in graphical or table format in the main part of the interface.
 
 Before to proceed to data analysis, it is mandatory for the user to set up the project with a dedicated interface. 
-The user has to upload a design file which describes the information related to its samples, some of them are mandatory as the filename (with path) of the \gls{bam} files and the condition of each sample, while others are optional as the tissue or the run id. 
+The user has to upload a design file which describes the information related to its samples.
+Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the condition of each sample, while others are optional as the tissue or the run id. 
 It is also possible to manually edit the design matrix directly from the interface (figure \ref{fig:integrhodesign}).
 
 The choice of using a mandatory variable describing the path of  \gls{bam} filenames is due to a \textit{Shiny} library limitation. 
 Because of its ''ui-server'' structure, shiny applications, when using a \lstinline!fileInput! widget, make a temporary copy of the selected file(s).
-But this aspect become really problematic when a file can reach several gigabytes, as a  \gls{bam} file.
-Even if there are alternative packages, such as \textit{shinyFiles} \cite{shinyFiles}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choice for this workaround solution.
+But this aspect become really problematic when a file can reach several gigabytes of memory on disk, as one or more \gls{bam} files can.
+Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choice for this workaround solution.
 
 
 \begin{figure}[H]
@@ -60,17 +79,11 @@ In particular, the \lstinline!R6ProjectClass! stores all the paths represented i
 
 Unlike tools as Galaxy \cite{Hillman-Jackson2012} and Taverna \cite{Wolstencroft2013}, focused on analysis workflows, \gls{igro} gives to the user high freedom of interaction, reporting all performed steps in a human-readable \textit{HTML} report.
  
-Actually, \gls{igro} methodologies can be organized have been organized in a way that the user can analyze each single omics, and afterwards combine the results to obtain an integrated view of them (figure \ref{fig:integrhoidea} shows a schematic representation of \gls{igro}).
+Actually, \gls{igro} methodologies have been organized in a way that the user can analyze each single omics, and afterwards combine the results to obtain an integrated view of them (figure \ref{fig:integrhoidea} shows a schematic representation of \gls{igro}).
 
 In particular, we defined specific interfaces for \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq} data, providing additional interfaces for their integration, such as \textit{functional enrichment} and \textit{gene-peak} annotations.
 %It implements not only the methodologies reported inside \textit{ticorser} for \textit{RNA-Seq} and \textit{DEScan2} for \textit{ATAC-Seq}, but implements also methodologies for \textit{ChIP-Seq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/integrho/integrho_scheme.pdf}
-\caption[\gls{igro} representation]{A schematical representation of \gls{igro} underlying idea.}
-\label{fig:integrhoidea}
-\end{figure}
 
 %\subsubsection{Graphics}
 \subsubsection{RNA-seq}
