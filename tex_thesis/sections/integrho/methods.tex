@@ -93,8 +93,6 @@ Inside \gls{igro}, we take from granted that every omics data type is already ma
 
 %It implements not only the methodologies reported inside \textit{ticorser} for \textit{RNA-Seq} and \textit{DEScan2} for \textit{ATAC-Seq}, but implements also methodologies for \textit{ChIP-Seq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
-
-
 \subsubsection{RNA-seq} \label{sec:integrhorna}
 For \textit{RNA-seq} we chose multiples methods for allowing the user to obtain an good overview of this omics analysis, focusing on \textit{Differential Expression} aspect.
 In such a way, the user have several methodologies for accounting for a complete \textit{RNA-seq} pipeline (refer to \ref{sec:rnaseq} section for a typical \textit{RNA-seq} pipeline description).
@@ -167,12 +165,12 @@ Considering to have multiple \gls{bam} samples of \textit{ChIP-seq} data, we con
 Also in this case, we are focusing on the problem of detecting how the signal differs between multiple biological conditions.
 We refer to \glspl{dbs} because of the nature of the biological data, coming it from proteins binding specific regions of the chromatin.
 
-{\setlength{\parindent}{0cm}\textbf{Peak Calling}}
+%{\setlength{\parindent}{0cm}\textbf{Peak Calling}}
 
 Assuming that the samples are in \gls{bam} format, we assume that the user needs to reconstruct the signal of the chromatin regions binded by the interested protein.
 We underline that a \textit{ChIP-seq} experiment is ''protein specific'', because it involves using an antibody that is specific for a known protein.
 
-For the peak calling, because of the lack of specific methods starting from \gls{bam} files in R, we implemented a dedicated interface for \textit{csaw} \cite{Lun2015} peak caller, which allows quantification for both broad and narrow peaks, typically resulting from \gls{hm} and \gls{tf} \textit{ChIP-seq} data.
+For the \textbf{peak calling}, because of the lack of specific methods starting from \gls{bam} files in R, we implemented a dedicated interface for \textit{csaw} \cite{Lun2015} peak caller, which allows quantification for both broad and narrow peaks, typically resulting from \gls{hm} and \gls{tf} \textit{ChIP-seq} data.
 
 Firstly, it is possible to select the design matrix (stored inside \lstinline!IntegrHO/project_name/design! folder) and the column specifying the experiment.
 In such a way, \gls{igro} is able to pick up the \gls{bam} filenames associated to the \textit{CHiP-seq} experiments by itself.
@@ -187,21 +185,30 @@ At the end of the processing, the count matrix is shown into the main part of th
 In order to distinguish the produced output from others, the results file is saved by adding the method name at the end of the filename.
 
 %{\setlength{\parindent}{0cm}\textbf{Differential Binding}}
-
-Thanks to the counts matrix form, we are able to apply the same methodologies designed for \textit{RNA-seq} data (see section \ref{sec:integrhorna} for further details).
+Once constructed a count matrix of genomic windows (features) on the rows and samples on the columns, in order to detect \glspl{dbs} across the conditions, we are able to apply the same methodologies designed for \textit{RNA-seq} data (see section \ref{sec:integrhorna} for further details).
 For this reason, we used the same methods as defined for \textit{RNA-seq}, showing the results table as output.
+
+Other methodologies for differential binding have been developed in R, such as the package \textit{DiffBind} \ref{Ross-Innes2012}, but at the moment we didn't implemented them yet.
+
+Moreover, it is relevant for \textit{ChIP-seq} data analysis to account for the ''right normalization'' to use.
+The count matrix form allows to apply the same normalization methodologies developed for \textit{RNA-seq} data, but at the moment we didn't implemented this aspect.
+Additionally, it is still an open issue to study for the ''correctness'' of applied normalization on \textit{ChIP-seq} data, even if some approaches have already been presented \cite{Angelini2015}.
 
 
 \subsubsection{ATAC-seq} \label{sec:integrhoatac}
 
-\textit{ATAC-seq} is 
+\textit{ATAC-seq} is a sequencing technology for investigating chromatin accessible regions, which are typically associated on the identification of the instrumental epigenetic changes responsible for differential gene expression, cell proliferation, functional diversification and disease development (see \ref{sec:atacseq} for further details).
+
+
+
 Thanks to the work made with \gls{descan} (chapter \ref{sec:descan2cap}), we had the possibility to deeply investigate \textit{ATAC-seq} data, presenting a specific analysis workflow.
-
 We tried to give access to the same methodologies, defined for \gls{descan}, herein \gls{igro}, in order to simplify and spread the proposed work.
-
 %{\setlength{\parindent}{0cm}\textbf{Region Detection}}
-As for the \textit{ChIP-seq}, the user need
-In particular we built a specific interface for the peak caller (see section \ref{sec:descan2peakcall}) defined in \gls{descan}.
+
+As for the \textit{ChIP-seq}, the user needs to reconstruct the signal across the entire genome by detecting the genomic regions.
+%It needs to have already mapped the experimental sequences on a reference genome, producing \gls{bam} files for each of the samples under investigation.
+
+In particular, to account for the regions detection, we built a specific interface for the peak caller defined in \gls{descan} (see section \ref{sec:descan2peakcall}).
 
 As for the \textit{csaw}, the user can select the design matrix (stored inside \lstinline!IntegrHO/project_name/design! folder) and the column associated with the experiment definition.
 Additional parameter selection is required for the selection of the \lstinline!genome name!, the \lstinline!bin size! for the genome binning, and for the \lstinline!max window! and \lstinline!min window! lengths.
@@ -210,16 +217,11 @@ Also, in this case, we gave the possibility to select for a multi-core computati
 The user can also select the \lstinline!peak score! threshold for filtering out the regions with a lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{descan2filtering}).
 
 In order to better compare \gls{descan} results with similar methods, such as \textit{casw}, we preferred to include also the \gls{descan} filtering method inside the \textit{region detection} interface.
-In such a way, the presented output is a count matrix of detected regions on the rows and samples on the columns.
+In such a way, the presented output is a count matrix of detected regions (peaks) on the rows and samples on the columns.
 
-{\setlength{\parindent}{0cm}\textbf{Normalization}}
+After the reconstruction of the signal, it is a good norm to normalize the data, in order to remove unwanted factors biasing the data leading to misleading results.
+Also in this case, we took advantages of the count matrix form to apply the same methodologies developed for \textit{RNA-seq}, and doing the same for the detection of \glspl{der} (section \ref{sec:integrhorna}).
 
-
-
-For the annotation we selected the \textit{ChIPpeakAnno} and the \textit{ChIPseeker} R/Bioconductor packages, which produces similar output formats starting from peaks.
-While for the detection of \glspl{der} we used the same methods as for \textit{RNA-seq}.
-
-For \textit{ATAC-seq} we used mostly the same methods implemented for the \textit{ChIP-Seq}, but designing specific interfaces for the filtering/alignment and the counting matrix as implemented in the \textit{DEScan2} package (see chapter \ref{sec:descan2cap} for further details).
 
 To provide an integration of these omics, we dedicated an entire section to this aspect, with functionalities for the annotation of \glspl{der} with \glspl{deg} using \textit{ChIPpeakAnno} and to use this information to investigate the functional response by enrichment for Gene Ontology or for Pathways.
 These last two aspects implemented with aid of \textit{g:Profiler} \cite{Reimand2016} and \textit{graphite} \cite{Sales2012a} R/Bioconductor packages.
@@ -230,3 +232,5 @@ For each -omics, \gls{igro} takes as input \gls{bam} files, previously defined i
 Moreover, not only our software offers lots of utilities for data management and analysis, but also a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, etc.
 
 In order to facilitate the multi-omic data integration, we assembled several R functions to be freely combined in order to analyse each single-omic data type and to use their results for multi-omic data integration (Figure 1).
+
+For the annotation we selected the \textit{ChIPpeakAnno} and the \textit{ChIPseeker} R/Bioconductor packages, which produces similar output formats starting from peaks.
