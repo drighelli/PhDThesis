@@ -222,8 +222,25 @@ In such a way, the presented output is a count matrix of detected regions (peaks
 After the reconstruction of the signal, it is a good norm to normalize the data, in order to remove unwanted factors biasing the data leading to misleading results.
 Also in this case, we took advantages of the count matrix form to apply the same methodologies developed for \textit{RNA-seq}, and doing the same for the detection of \glspl{der} (section \ref{sec:integrhorna}).
 
+\subsubsection{Integration}
+The previously studied omics, even if not so many, already give the possibility to construct an integrated view of multiple cellular aspects.
 
-To provide an integration of these omics, we dedicated an entire section to this aspect, with functionalities for the annotation of \glspl{der} with \glspl{deg} using \textit{ChIPpeakAnno} and to use this information to investigate the functional response by enrichment for Gene Ontology or for Pathways.
+For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples.
+We already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
+Moreover, we can look at how the gene expression has been influenced by these chromatin accession mechanisms.
+
+To account even for simple integration problems like this one, we started to implement functionalities for the annotation of \glspl{der}/\glspl{dbs} with \glspl{deg} using \textit{ChIPpeakAnno}.
+
+
+
+The interface allows for the selection of a \lstinline!peaks! file (\gls{der}/\gls{dbs}), automatically loaded from  \lstinline!IntegrHO/project_name/results/tables/peaks!.
+Additionally, an \lstinline!annotation file! is required to retrieve the genomic features to annotate the peaks.
+In alternative, a list of \glspl{deg} can be selected.
+Other relevant parameters, such as the gene \lstinline!feature!  or the \lstinline!max distance! between the peaks and the genes, are needed for the right working of \lstinline!annotatePeakInBatch! function, defined inside the \lstinline!ChIPpeakAnno! R/Bioconductor package.
+
+
+
+ and to use this information to investigate the functional response by enrichment for Gene Ontology or for Pathways.
 These last two aspects implemented with aid of \textit{g:Profiler} \cite{Reimand2016} and \textit{graphite} \cite{Sales2012a} R/Bioconductor packages.
 
 

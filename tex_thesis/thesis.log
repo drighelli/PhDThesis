@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  16 DEC 2018 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  16 DEC 2018 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1554,7 +1554,7 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 )
 \c__siunitx_mathtt_int=\count436
 
-<img/logoUnisa.png, id=315, 441.65pt x 441.65pt>
+<img/logoUnisa.png, id=319, 441.65pt x 441.65pt>
 File: img/logoUnisa.png Graphic file (type png)
  <use img/logoUnisa.png>
 Package pdftex.def Info: img/logoUnisa.png used on input line 162.
@@ -1612,7 +1612,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-<img/intro/cell.png, id=425, 912.40875pt x 513.92pt>
+<img/intro/cell.png, id=429, 912.40875pt x 513.92pt>
 File: img/intro/cell.png Graphic file (type png)
  <use img/intro/cell.png>
 Package pdftex.def Info: img/intro/cell.png used on input line 16.
@@ -1624,7 +1624,7 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 24.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) [12 <./img/intro/cell.png>] <img/intro/dna1.png, id=439, 256.96pt x 380.42125
+) [12 <./img/intro/cell.png>] <img/intro/dna1.png, id=443, 256.96pt x 380.42125
 pt>
 File: img/intro/dna1.png Graphic file (type png)
 
@@ -1635,7 +1635,7 @@ Package pdftex.def Info: img/intro/dna1.png used on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/intro/gene_chrom.png, id=448, 1505.625pt x 1134.2375pt>
+<img/intro/gene_chrom.png, id=452, 1505.625pt x 1134.2375pt>
 File: img/intro/gene_chrom.png Graphic file (type png)
 
 <use img/intro/gene_chrom.png>
@@ -1650,7 +1650,7 @@ Underfull \vbox (badness 2680) has occurred while \output is active []
 
  [13]
 [14 <./img/intro/dna1.png>] [15 <./img/intro/gene_chrom.png>]
-<img/intro/hm.png, id=476, 473.77pt x 473.77pt>
+<img/intro/hm.png, id=480, 473.77pt x 473.77pt>
 File: img/intro/hm.png Graphic file (type png)
  <use img/intro/hm.png>
 Package pdftex.def Info: img/intro/hm.png used on input line 74.
@@ -1665,7 +1665,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
 (./sections/intro/rna.tex [18]
-<img/intro/rna-seq.png, id=542, 1021.8175pt x 806.01125pt>
+<img/intro/rna-seq.png, id=546, 1021.8175pt x 806.01125pt>
 File: img/intro/rna-seq.png Graphic file (type png)
 
 <use img/intro/rna-seq.png>
@@ -1675,7 +1675,7 @@ Package pdftex.def Info: img/intro/rna-seq.png used on input line 15.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-<img/intro/rnaseqgui1.pdf, id=560, 2328.7pt x 4717.625pt>
+<img/intro/rnaseqgui1.pdf, id=564, 2328.7pt x 4717.625pt>
 File: img/intro/rnaseqgui1.pdf Graphic file (type pdf)
 
 <use img/intro/rnaseqgui1.pdf>
@@ -1689,7 +1689,7 @@ Overfull \vbox (126.06436pt too high) has occurred while \output is active []
 
 
 [21 <./img/intro/rnaseqgui1.pdf>]) (./sections/intro/chip.tex
-<img/intro/chip.png, id=605, 631.35875pt x 760.8425pt>
+<img/intro/chip.png, id=609, 631.35875pt x 760.8425pt>
 File: img/intro/chip.png Graphic file (type png)
 
 <use img/intro/chip.png>
@@ -1701,7 +1701,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [22]
 Underfull \vbox (badness 4940) has occurred while \output is active []
 
- [23 <./img/intro/chip.png>] <img/intro/peak_call.png, id=626, 423.5825pt x 668
+ [23 <./img/intro/chip.png>] <img/intro/peak_call.png, id=630, 423.5825pt x 668
 .4975pt>
 File: img/intro/peak_call.png Graphic file (type png)
 
@@ -1713,7 +1713,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24])
 [25 <./img/intro/peak_call.png>] (./sections/intro/atac.tex
-<img/intro/atac.png, id=645, 476.78125pt x 227.85126pt>
+<img/intro/atac.png, id=649, 476.78125pt x 227.85126pt>
 File: img/intro/atac.png Graphic file (type png)
 
 <use img/intro/atac.png>
@@ -1721,7 +1721,7 @@ Package pdftex.def Info: img/intro/atac.png used on input line 8.
 (pdftex.def)             Requested size: 256.0748pt x 122.38422pt.
  [26 <./img/intro/atac.png>])
 (./sections/intro/integration.tex
-<img/intro/multiomicsex.png, id=662, 685.05937pt x 790.45313pt>
+<img/intro/multiomicsex.png, id=666, 685.05937pt x 790.45313pt>
 File: img/intro/multiomicsex.png Graphic file (type png)
 
 <use img/intro/multiomicsex.png>
@@ -1731,7 +1731,7 @@ Package pdftex.def Info: img/intro/multiomicsex.png used on input line 5.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<img/intro/cameras.png, id=674, 387.3672pt x 161.403pt>
+<img/intro/cameras.png, id=678, 387.3672pt x 161.403pt>
 File: img/intro/cameras.png Graphic file (type png)
 
 <use img/intro/cameras.png>
@@ -1742,7 +1742,7 @@ Package pdftex.def Info: img/intro/cameras.png used on input line 16.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./img/intro/multiomicsex.png>]
-<img/intro/funnell.pdf, id=692, 5028.7875pt x 4617.25pt>
+<img/intro/funnell.pdf, id=696, 5028.7875pt x 4617.25pt>
 File: img/intro/funnell.pdf Graphic file (type pdf)
 
 <use img/intro/funnell.pdf>
@@ -1757,7 +1757,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `Peng2009' on page 32 undefined on input line 10.
 
-<img/intro/rr_scheme.png, id=797, 518.93875pt x 364.36125pt>
+<img/intro/rr_scheme.png, id=801, 518.93875pt x 364.36125pt>
 File: img/intro/rr_scheme.png Graphic file (type png)
 
 <use img/intro/rr_scheme.png>
@@ -1773,7 +1773,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 2.
 (./sections/ticorser/general.tex) (./sections/ticorser/intro.tex [37])
 (./sections/ticorser/intromethods.tex
-<img/ticorser/main_flow.pdf, id=853, 601.28638pt x 678.37442pt>
+<img/ticorser/main_flow.pdf, id=857, 601.28638pt x 678.37442pt>
 File: img/ticorser/main_flow.pdf Graphic file (type pdf)
 
 <use img/ticorser/main_flow.pdf>
@@ -1798,7 +1798,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-<img/ticorser/boxplot_example.png, id=959, 1187.43625pt x 1154.3125pt>
+<img/ticorser/boxplot_example.png, id=963, 1187.43625pt x 1154.3125pt>
 File: img/ticorser/boxplot_example.png Graphic file (type png)
 
 <use img/ticorser/boxplot_example.png>
@@ -1812,7 +1812,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 5711) has occurred while \output is active []
 
  [46 <./img/ticorser/boxplot_example.png>]
-<img/ticorser/pca_example.png, id=976, 1205.50375pt x 1210.5225pt>
+<img/ticorser/pca_example.png, id=980, 1205.50375pt x 1210.5225pt>
 File: img/ticorser/pca_example.png Graphic file (type png)
 
 <use img/ticorser/pca_example.png>
@@ -1825,14 +1825,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1048) has occurred while \output is active []
 
  [48 <./img/ticorser/pca_example.png>]
-<img/ticorser/pcas.png, id=994, 881.2925pt x 587.19376pt>
+<img/ticorser/pcas.png, id=998, 881.2925pt x 587.19376pt>
 File: img/ticorser/pcas.png Graphic file (type png)
 
 <use img/ticorser/pcas.png>
 Package pdftex.def Info: img/ticorser/pcas.png used on input line 48.
 (pdftex.def)             Requested size: 345.0pt x 229.86479pt.
  [49 <./img/ticorser/pcas.png>]
-<img/ticorser/volcano_example.png, id=1012, 882.29625pt x 856.19875pt>
+<img/ticorser/volcano_example.png, id=1016, 882.29625pt x 856.19875pt>
 File: img/ticorser/volcano_example.png Graphic file (type png)
 
 <use img/ticorser/volcano_example.png>
@@ -1843,7 +1843,7 @@ Package pdftex.def Info: img/ticorser/volcano_example.png used on input line 67
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50]
-<img/ticorser/maplot.pdf, id=1021, 596.95016pt x 599.84097pt>
+<img/ticorser/maplot.pdf, id=1025, 596.95016pt x 599.84097pt>
 File: img/ticorser/maplot.pdf Graphic file (type pdf)
 
 <use img/ticorser/maplot.pdf>
@@ -1853,14 +1853,14 @@ Package pdftex.def Info: img/ticorser/maplot.pdf used on input line 78.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51 <./img/ticorser/volcano_example.png>] [52 <./img/ticorser/maplot.pdf>]
-<img/ticorser/gene_trend.png, id=1042, 382.42876pt x 271.76532pt>
+<img/ticorser/gene_trend.png, id=1046, 382.42876pt x 271.76532pt>
 File: img/ticorser/gene_trend.png Graphic file (type png)
 
 <use img/ticorser/gene_trend.png>
 Package pdftex.def Info: img/ticorser/gene_trend.png used on input line 91.
 (pdftex.def)             Requested size: 284.52756pt x 202.20209pt.
 
-<img/ticorser/keggmap_example.png, id=1048, 1428.33624pt x 981.6675pt>
+<img/ticorser/keggmap_example.png, id=1052, 1428.33624pt x 981.6675pt>
 File: img/ticorser/keggmap_example.png Graphic file (type png)
 
 <use img/ticorser/keggmap_example.png>
@@ -1891,7 +1891,7 @@ Overfull \hbox (36.93637pt too wide) in paragraph at lines 20--24
  []
 
 [55]) (./sections/ticorser/results.tex
-<img/ticorser/dataset.pdf, id=1080, 634.37pt x 634.37pt>
+<img/ticorser/dataset.pdf, id=1084, 634.37pt x 634.37pt>
 File: img/ticorser/dataset.pdf Graphic file (type pdf)
 
 <use img/ticorser/dataset.pdf>
@@ -1918,7 +1918,7 @@ ng the []
  []
 
 [58] [59]
-<img/ticorser/filtering/panel1.pdf, id=1166, 1013.7875pt x 938.50626pt>
+<img/ticorser/filtering/panel1.pdf, id=1170, 1013.7875pt x 938.50626pt>
 File: img/ticorser/filtering/panel1.pdf Graphic file (type pdf)
 
 <use img/ticorser/filtering/panel1.pdf>
@@ -1930,7 +1930,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
 [61 <./img/ticorser/filtering/panel1.pdf>]
-<img/ticorser/normalizing/boxplots/all_boxes.pdf, id=1250, 1028.84375pt x 1013.
+<img/ticorser/normalizing/boxplots/all_boxes.pdf, id=1254, 1028.84375pt x 1013.
 7875pt>
 File: img/ticorser/normalizing/boxplots/all_boxes.pdf Graphic file (type pdf)
  <use img/ticorser/normalizing/boxplots/all_boxes.pdf>
@@ -1942,7 +1942,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
 [63 <./img/ticorser/normalizing/boxplots/all_boxes.pdf>]
-<img/ticorser/normalizing/pca/all_pca.pdf, id=1358, 1028.84375pt x 1028.84375pt
+<img/ticorser/normalizing/pca/all_pca.pdf, id=1362, 1028.84375pt x 1028.84375pt
 >
 File: img/ticorser/normalizing/pca/all_pca.pdf Graphic file (type pdf)
  <use img/ticorser/normalizing/pca/all_pca.pdf>
@@ -1953,7 +1953,7 @@ Package pdftex.def Info: img/ticorser/normalizing/pca/all_pca.pdf used on input
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./img/ticorser/normalizing/pca/all_pca.pdf>] [65]
-<img/ticorser/de/volcma.pdf, id=1421, 1204.5pt x 602.25pt>
+<img/ticorser/de/volcma.pdf, id=1425, 1204.5pt x 602.25pt>
 File: img/ticorser/de/volcma.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/volcma.pdf>
@@ -1963,7 +1963,7 @@ Package pdftex.def Info: img/ticorser/de/volcma.pdf used on input line 148.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-<img/ticorser/de/venn3.pdf, id=1429, 722.7pt x 722.7pt>
+<img/ticorser/de/venn3.pdf, id=1433, 722.7pt x 722.7pt>
 File: img/ticorser/de/venn3.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/venn3.pdf>
@@ -1973,7 +1973,7 @@ Package pdftex.def Info: img/ticorser/de/venn3.pdf used on input line 158.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67 <./img/ticorser/de/volcma.pdf>] [68 <./img/ticorser/de/venn3.pdf>]
-<img/ticorser/de/trends/trends.pdf, id=1698, 2107.875pt x 1736.4875pt>
+<img/ticorser/de/trends/trends.pdf, id=1702, 2107.875pt x 1736.4875pt>
 File: img/ticorser/de/trends/trends.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/trends/trends.pdf>
@@ -1981,7 +1981,7 @@ Package pdftex.def Info: img/ticorser/de/trends/trends.pdf used on input line 1
 70.
 (pdftex.def)             Requested size: 345.0pt x 284.20287pt.
  [69 <./img/ticorser/de/trends/trends.pdf>] <img/ticorser/de/singleTP/venn.pdf,
- id=1734, 491.8375pt x 562.1pt>
+ id=1738, 491.8375pt x 562.1pt>
 File: img/ticorser/de/singleTP/venn.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/singleTP/venn.pdf>
@@ -2005,7 +2005,7 @@ Overfull \hbox (34.15686pt too wide) in paragraph at lines 222--224
 GPro-filer \T1/cmr/m/n/10 we used []
  []
 
-<img/ticorser/functional/net_kegg.pdf, id=1789, 505.89pt x 505.89pt>
+<img/ticorser/functional/net_kegg.pdf, id=1793, 505.89pt x 505.89pt>
 File: img/ticorser/functional/net_kegg.pdf Graphic file (type pdf)
 
 <use img/ticorser/functional/net_kegg.pdf>
@@ -2017,7 +2017,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
 [73 <./img/ticorser/functional/net_kegg.pdf>]
-<img/ticorser/functional/mf_hier.pdf, id=1813, 505.89pt x 505.89pt>
+<img/ticorser/functional/mf_hier.pdf, id=1817, 505.89pt x 505.89pt>
 File: img/ticorser/functional/mf_hier.pdf Graphic file (type pdf)
 
 <use img/ticorser/functional/mf_hier.pdf>
@@ -2028,7 +2028,7 @@ Package pdftex.def Info: img/ticorser/functional/mf_hier.pdf used on input line
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
  [74 <./img/ticorser/functional/mf_hier.pdf>]
-<img/ticorser/functional/alzheimer.png, id=1831, 1102.1175pt x 910.40125pt>
+<img/ticorser/functional/alzheimer.png, id=1835, 1102.1175pt x 910.40125pt>
 File: img/ticorser/functional/alzheimer.png Graphic file (type png)
 
 <use img/ticorser/functional/alzheimer.png>
@@ -2039,7 +2039,7 @@ ne 250.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-<img/ticorser/functional/parkinson.png, id=1842, 1570.86874pt x 979.66pt>
+<img/ticorser/functional/parkinson.png, id=1846, 1570.86874pt x 979.66pt>
 File: img/ticorser/functional/parkinson.png Graphic file (type png)
 
 <use img/ticorser/functional/parkinson.png>
@@ -2060,7 +2060,7 @@ Underfull \vbox (badness 3323) has occurred while \output is active []
 
 ])
 (./sections/descan2/intro.tex [80]) (./sections/descan2/methods.tex
-<img/descan2/flow.png, id=1889, 550.055pt x 572.1375pt>
+<img/descan2/flow.png, id=1893, 550.055pt x 572.1375pt>
 File: img/descan2/flow.png Graphic file (type png)
 
 <use img/descan2/flow.png>
@@ -2076,7 +2076,7 @@ Underfull \vbox (badness 1668) has occurred while \output is active []
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-<img/descan2/dataset.png, id=1943, 716.4366pt x 334.851pt>
+<img/descan2/dataset.png, id=1947, 716.4366pt x 334.851pt>
 File: img/descan2/dataset.png Graphic file (type png)
 
 <use img/descan2/dataset.png>
@@ -2086,7 +2086,7 @@ Package pdftex.def Info: img/descan2/dataset.png used on input line 11.
 Underfull \vbox (badness 3954) has occurred while \output is active []
 
  [86]
-<img/descan2/d2m2_peaks_number.png, id=1962, 1262.7175pt x 1003.75pt>
+<img/descan2/d2m2_peaks_number.png, id=1966, 1262.7175pt x 1003.75pt>
 File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
 
 <use img/descan2/d2m2_peaks_number.png>
@@ -2095,14 +2095,14 @@ Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 2
 (pdftex.def)             Requested size: 345.0pt x 274.24779pt.
  [87 <./img/descan2/dataset.png>]
 [88 <./img/descan2/d2m2_peaks_number.png>]
-<img/descan2/peaks.png, id=1985, 680.3016pt x 262.581pt>
+<img/descan2/peaks.png, id=1989, 680.3016pt x 262.581pt>
 File: img/descan2/peaks.png Graphic file (type png)
 
 <use img/descan2/peaks.png>
 Package pdftex.def Info: img/descan2/peaks.png used on input line 38.
 (pdftex.def)             Requested size: 345.0pt x 133.16528pt.
 
-<img/descan2/filtering_m2_d2.png, id=1992, 2569.6pt x 1419.3025pt>
+<img/descan2/filtering_m2_d2.png, id=1996, 2569.6pt x 1419.3025pt>
 File: img/descan2/filtering_m2_d2.png Graphic file (type png)
 
 <use img/descan2/filtering_m2_d2.png>
@@ -2113,7 +2113,7 @@ Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 59.
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
  [89 <./img/descan2/peaks.png>] [90 <./img/descan2/filtering_m2_d2.png>]
-<img/descan2/counts.png, id=2012, 286.671pt x 211.5102pt>
+<img/descan2/counts.png, id=2016, 286.671pt x 211.5102pt>
 File: img/descan2/counts.png Graphic file (type png)
 
 <use img/descan2/counts.png>
@@ -2125,7 +2125,7 @@ Overfull \hbox (5.27924pt too wide) in paragraph at lines 99--100
 ht-ing a re-la-tion between
  []
 
-<img/descan2/null_dataset_final.pdf, id=2034, 711.65875pt x 767.86874pt>
+<img/descan2/null_dataset_final.pdf, id=2038, 711.65875pt x 767.86874pt>
 File: img/descan2/null_dataset_final.pdf Graphic file (type pdf)
 
 <use img/descan2/null_dataset_final.pdf>
@@ -2136,7 +2136,7 @@ Package pdftex.def Info: img/descan2/null_dataset_final.pdf used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [92]
-<img/descan2/full_final.pdf, id=2045, 807.015pt x 767.86874pt>
+<img/descan2/full_final.pdf, id=2050, 807.015pt x 767.86874pt>
 File: img/descan2/full_final.pdf Graphic file (type pdf)
 
 <use img/descan2/full_final.pdf>
@@ -2144,7 +2144,7 @@ Package pdftex.def Info: img/descan2/full_final.pdf used on input line 118.
 (pdftex.def)             Requested size: 345.0pt x 328.2673pt.
  [93 <./img/descan2/null_dataset_final.pdf>]
 [94 <./img/descan2/full_final.pdf>]
-<img/descan2/DE_peaks.png, id=2092, 986.18437pt x 858.20625pt>
+<img/descan2/DE_peaks.png, id=2096, 986.18437pt x 858.20625pt>
 File: img/descan2/DE_peaks.png Graphic file (type png)
 
 <use img/descan2/DE_peaks.png>
@@ -2154,7 +2154,7 @@ Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 151.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95]
-<img/descan2/Annotated_depeaks_degenes.png, id=2103, 1380.15625pt x 1208.515pt>
+<img/descan2/Annotated_depeaks_degenes.png, id=2107, 1380.15625pt x 1208.515pt>
 File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
 <use img/descan2/Annotated_depeaks_degenes.png>
 Package pdftex.def Info: img/descan2/Annotated_depeaks_degenes.png used on inpu
@@ -2173,7 +2173,7 @@ sions.tex
 ]
 Chapter 4.
 (./sections/rr/introchap.tex) (./sections/rr/intro.tex [101]
-<img/rr/scheme.pdf, id=2168, 9104.88588pt x 4552.43803pt>
+<img/rr/scheme.pdf, id=2172, 9104.88588pt x 4552.43803pt>
 File: img/rr/scheme.pdf Graphic file (type pdf)
 
 <use img/rr/scheme.pdf>
@@ -2197,7 +2197,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 11.
 
-[104] <img/rr/knitropts.png, id=2286, 1666.225pt x 1219.55624pt>
+[104] <img/rr/knitropts.png, id=2290, 1666.225pt x 1219.55624pt>
 File: img/rr/knitropts.png Graphic file (type png)
 
 <use img/rr/knitropts.png>
@@ -2226,7 +2226,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [109]
-<img/rr/report.png, id=2390, 937.5025pt x 765.86125pt>
+<img/rr/report.png, id=2394, 937.5025pt x 765.86125pt>
 File: img/rr/report.png Graphic file (type png)
  <use img/rr/report.png>
 Package pdftex.def Info: img/rr/report.png used on input line 99.
@@ -2244,7 +2244,7 @@ Underfull \vbox (badness 3323) has occurred while \output is active []
 
 ])
 (./sections/integrho/intro.tex [114]
-<img/integrho/integrho_scheme.pdf, id=2453, 1024.29674pt x 597.50829pt>
+<img/integrho/integrho_scheme.pdf, id=2457, 1024.29674pt x 597.50829pt>
 File: img/integrho/integrho_scheme.pdf Graphic file (type pdf)
 
 <use img/integrho/integrho_scheme.pdf>
@@ -2257,7 +2257,7 @@ Overfull \hbox (5.84952pt too wide) in paragraph at lines 10--13
  we want to study. Moreover,
  []
 
-[116] [117] <img/integrho/interface.png, id=2582, 1096.095pt x 800.9925pt>
+[116] [117] <img/integrho/interface.png, id=2586, 1096.095pt x 800.9925pt>
 File: img/integrho/interface.png Graphic file (type png)
 
 <use img/integrho/interface.png>
@@ -2270,7 +2270,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
  [119 <./img/integrho/interface.png>]
-<img/integrho/design.png, id=2601, 1088.56688pt x 499.8675pt>
+<img/integrho/design.png, id=2605, 1088.56688pt x 499.8675pt>
 File: img/integrho/design.png Graphic file (type png)
 
 <use img/integrho/design.png>
@@ -2280,7 +2280,7 @@ Package pdftex.def Info: img/integrho/design.png used on input line 66.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [120]
-<img/integrho/project_folder.pdf, id=2612, 1555.8125pt x 1304.875pt>
+<img/integrho/project_folder.pdf, id=2616, 1555.8125pt x 1304.875pt>
 File: img/integrho/project_folder.pdf Graphic file (type pdf)
 
 <use img/integrho/project_folder.pdf>
@@ -2319,30 +2319,29 @@ LaTeX Warning: Reference `descan2filtering' on page 128 undefined on input line
  217.
 
 [128] [129]) (./sections/integrho/reprres.tex
-<img/integrho/rr_1.png, id=2742, 1161.33875pt x 776.9025pt>
+<img/integrho/rr_1.png, id=2749, 1161.33875pt x 776.9025pt>
 File: img/integrho/rr_1.png Graphic file (type png)
 
 <use img/integrho/rr_1.png>
 Package pdftex.def Info: img/integrho/rr_1.png used on input line 10.
 (pdftex.def)             Requested size: 155.24895pt x 103.84596pt.
 
-<img/integrho/rr_2.png, id=2745, 954.56625pt x 1053.9375pt>
+<img/integrho/rr_2.png, id=2752, 954.56625pt x 1053.9375pt>
 File: img/integrho/rr_2.png Graphic file (type png)
 
 <use img/integrho/rr_2.png>
 Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
 (pdftex.def)             Requested size: 155.24895pt x 171.3995pt.
-
+ [130]
 Overfull \hbox (1.96863pt too wide) in paragraph at lines 26--27
 \T1/cmr/m/n/10 guage (HTML)[] (sub-figure []5.3.1b[]) or [][]Port-able Doc-u-me
 nt Format (PDF)[] formats,
  []
 
 ) (./sections/integrho/conclusions.tex
-Underfull \vbox (badness 4739) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130])
-[131 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] [132]
+ [131 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>]) [132]
 Chapter 6.
 (./sections/conclusions.tex [133
 
@@ -2449,7 +2448,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FEF1780864981A8694E57A9D0C94436B;12009.
+(rerunfilecheck)             Checksum: 032FB1C8266D104A6B7C31FB51FB8248;12126.
 
 
 LaTeX Warning: There were undefined references.
@@ -2467,10 +2466,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40854 strings out of 492995
- 727298 string characters out of 6132703
- 1178088 words of memory out of 5000000
- 43195 multiletter control sequences out of 15000+600000
+ 40856 strings out of 492995
+ 727322 string characters out of 6132703
+ 1178093 words of memory out of 5000000
+ 43196 multiletter control sequences out of 15000+600000
  31621 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,77p,10379b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2505,10 +2504,10 @@ r/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
 sftt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8
 a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (157 pages, 53231952 bytes).
+Output written on thesis.pdf (157 pages, 53232834 bytes).
 PDF statistics:
- 3436 PDF objects out of 3580 (max. 8388607)
- 2466 compressed objects within 25 object streams
- 513 named destinations out of 1000 (max. 500000)
- 890 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3445 PDF objects out of 3580 (max. 8388607)
+ 2475 compressed objects within 25 object streams
+ 514 named destinations out of 1000 (max. 500000)
+ 898 words of extra memory for PDF output out of 10000 (max. 10000000)
 
