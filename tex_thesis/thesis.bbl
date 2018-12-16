@@ -5813,6 +5813,39 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Knuth1984a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KDE}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={D.\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{KDE1}
+    \strng{fullhash}{KDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1093/comjnl/27.2.97
+    \endverb
+    \field{issn}{0010-4620}
+    \field{number}{2}
+    \field{pages}{97\bibrangedash 111}
+    \field{title}{{Literate Programming}}
+    \verb{url}
+    \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/27.
+    \verb 2.97
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{The Computer Journal}
+    \field{year}{1984}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Napolitano2013}{article}{}
     \name{author}{3}{}{%
       {{hash=NF}{%
@@ -6055,6 +6088,23 @@
   Research Institute (NHGRI)}
     \field{title}{{TCGA}}
     \field{year}{2013}
+  \endentry
+
+  \entry{Pedersen}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PTL}{%
+         family={Pedersen},
+         familyi={P\bibinitperiod},
+         given={Thomas\bibnamedelima Lin},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PTL1}
+    \strng{fullhash}{PTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{shinyFiles}}
+    \field{year}{2018}
   \endentry
 
   \entry{Hillman-Jackson2012}{article}{}

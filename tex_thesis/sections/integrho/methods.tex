@@ -1,22 +1,23 @@
 When working with multiple omics data, the integration phase requires that the data used for this step are comparable between the different omics.
 
-For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need data coming from \textit{ChIP-seq} and \textit{RNA-seq} data of the same species and on the same cellular line affected by the disease.
+For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need data coming from \textit{ChIP-seq} and \textit{RNA-seq} data of the same species and on the same cell line affected by the disease.
 If we want to investigate the \textit{Breast Cancer}, we need to study \textit{Breast} cells.
-To do that, we need to collect as many sample as possible for each omics, because as higher is the number of samples as higher will be the power of estimating good results.
+To do that, we need to collect as many samples as possible for each omics, because as higher is the number of samples as higher will be the power for estimating good results.
 
 Moreover, when investigating multiple conditions, we need multiple replicates for each condition, in order to be able to well estimate the biases that affecting the experiment.
 (Biostatisticians typically say that the number of replicates must never be lower than 3, indeed some statistical methods cannot work properly with a number of replicates lower than this.)
 
-To rechap, when working with multi-omics data, we need to collect samples of the cellular line interested by the ''disease'' we want to study.
+To summarize, when working with multi-omics data, we need to collect samples of the interested cellular line for the ''disease'' we want to study.
 Moreover, to understand multiple mechanisms affected by the disease we need to collect multiple omics for each biological aspect (i.e. \textit{ChIP-seq} and \textit{RNA-seq}).
-Additionally, for each omics we need to collect multiple samples for each condition (i.e. healthy and tumor).
+Additionally, for each omics, we need to collect multiple samples for each condition (i.e. healthy and tumor).
 
-Once we have all the required samples, we can start analyzing each omics individually and integrating them to understand the cellular behaviour involved in the studied disease.
-Depending on the number of collected samples we can choose from different methodologies to apply, if we have few number of samples, we can decide to work on single omics analysis and then to integrate the results.
-Otherwise, when having high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks.
+Once we have all the required samples, we can start analyzing each omics individually and integrating them to understand the cellular behaviours involved in the studied disease.
+Depending on the number of collected samples we can choose from different methodologies to apply, if we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
+Otherwise, when having a high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c}.
 
+In order to account for these kinds of studies, inside \gls{igro} we implemented several aspects and interfaces to help and guide the user to achieve integrated results.
 
-\subsection{The interface}
+\subsection{The main interface}
 \gls{igro} is a web platform fully developed in R with aid of Shiny libraries, combining the power of the R statistical instrument with HTML5/javascript flexibility.
 
 Shiny apps are typically designed for small applications, allowing a very easy and versatile way for developing and releasing them.
@@ -25,7 +26,7 @@ The first one includes all the aesthetic components which the user interact with
 
 Natively, shiny apps support only one server, but when the needs grow up and multiple interfaces are needed the things become more complicated. 
 
-Our case is composed of a high number of methodologies for multiple-omics problem solving and required a more complex implementation.
+Our case is composed of a high number of methodologies for Multiple-omics problem solving and required a more complex implementation.
 To account our problematic, we choose to build \gls{igro} as self-containing modules, by using recently born shiny modules technology \footnote{\url{https://shiny.rstudio.com/articles/modules.html}}.
 In such a way, the main shiny app can be shredded in multiple "mini apps", each one with its own \gls{sui} and \gls{ss}.
 This approach is totally invisible to the final user but helps the developer for the maintainability and the extensibility of the entire tool.
@@ -45,16 +46,20 @@ In order to well set up the parameters for each functionality, an additional sid
 
 Once the user had set up the required parameters and used the section button, the results are shown in graphical or table format in the main part of the interface.
 
-Before to proceed to data analysis, it is mandatory for the user to set up the project with a dedicated interface. 
-The user has to upload a design file which describes the information related to its samples.
+We decided to implement \gls{igro} as a design file based software.
+Because of the high number of samples needed for the data analysis, the user needs to specify several variables describing each sample.
+This is useful for defining samples belonging to the same condition, and to specify which is the omics for each sample, and some additional describing variables.
+The design file information will be used during all the following steps of the analysis.
+
+Before to proceed to data analysis, it is mandatory for the user to set up the project with a dedicated interface.
+The user has to upload the design file which describes the information related to its samples.
 Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the condition of each sample, while others are optional as the tissue or the run id. 
-It is also possible to manually edit the design matrix directly from the interface (figure \ref{fig:integrhodesign}).
+It is also possible to manually edit the design file directly from the interface (figure \ref{fig:integrhodesign}).
 
 The choice of using a mandatory variable describing the path of  \gls{bam} filenames is due to a \textit{Shiny} library limitation. 
-Because of its ''ui-server'' structure, shiny applications, when using a \lstinline!fileInput! widget, make a temporary copy of the selected file(s).
-But this aspect become really problematic when a file can reach several gigabytes of memory on disk, as one or more \gls{bam} files can.
-Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choice for this workaround solution.
-
+Because of its ''UI-server'' structure, shiny applications, when using a \lstinline!fileInput! widget, make a temporary copy of the selected file(s).
+But this aspect becomes really problematic when a file can reach several gigabytes of memory on disk, as one or more \gls{bam} files can.
+Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choose for this workaround solution.
 
 \begin{figure}[H]
 \centering
@@ -72,61 +77,79 @@ Using the project interface, \gls{igro} creates inside the working directory (re
 \label{fig:integrhotree}
 \end{figure}
 
-In particular, the \lstinline!R6ProjectClass! stores all the paths represented inside the figure \ref{fig:integrhotree}, giving fast access to the files stored in each folder, when an interface is selected.
+In particular, we designed a \lstinline!R6ProjectClass!, which stores all the paths represented inside the figure \ref{fig:integrhotree}
+This allows fast access to the files stored in each folder, that will be processed specifically for each selected interface.
 
 
 \subsection{Available Methodologies}
 
 Unlike tools as Galaxy \cite{Hillman-Jackson2012} and Taverna \cite{Wolstencroft2013}, focused on analysis workflows, \gls{igro} gives to the user high freedom of interaction, reporting all performed steps in a human-readable \textit{HTML} report.
  
-Actually, \gls{igro} methodologies have been organized in a way that the user can analyze each single omics, and afterwards combine the results to obtain an integrated view of them (figure \ref{fig:integrhoidea} shows a schematic representation of \gls{igro}).
+Actually, \gls{igro} methodologies have been organized in a way that the user can analyze every single omics, and afterwards, combine the results to obtain an integrated view of them.
 
 In particular, we defined specific interfaces for \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq} data, providing additional interfaces for their integration, such as \textit{functional enrichment} and \textit{gene-peak} annotations.
+
+Inside \gls{igro}, we take from granted that every omics data type is already mapped on a reference genome, producing \gls{bam} files for every sample the user wants to investigate.
+
 %It implements not only the methodologies reported inside \textit{ticorser} for \textit{RNA-Seq} and \textit{DEScan2} for \textit{ATAC-Seq}, but implements also methodologies for \textit{ChIP-Seq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
 
-%\subsubsection{Graphics}
-\subsubsection{RNA-seq}
-For \textit{RNA-seq} we chose multiples methods for allowing the user to obtain an good overview of this omics analysis.
+
+\subsubsection{RNA-seq} \label{sec:integrhorna}
+For \textit{RNA-seq} we chose multiples methods for allowing the user to obtain an good overview of this omics analysis, focusing on \textit{Differential Expression} aspect.
+In such a way, the user have several methodologies for accounting for a complete \textit{RNA-seq} pipeline (refer to \ref{sec:rnaseq} section for a typical \textit{RNA-seq} pipeline description).
 
 
-{\setlength{\parindent}{0cm}\textbf{Features Quantification}}
+%{\setlength{\parindent}{0cm}\textbf{Features Quantification}}
 
-When selecting the \lstinline!Quantify Counts! an interface designed for \lstinline!featureCounts! of \lstinline!Rsubread! R/Bioc package function \cite{Liao2014} appears.
-The  \gls{bam} file paths for the \textit{RNA-seq} data are automatically selected from the   design matrix loaded during the project creation phase.
+When working with \textit{RNA-seq} data it is really important to quantify the reads contained inside the \gls{bam} files associating them to genomic features.
+To do that it is necessary a file with the genomic features description, typically a \gls{gtf} file (defined in \ref{sec:ticorseresults} section) describing the genomic coordinates for each feature (genes, transcripts etc.).
+
+To account for genomic feature quantification, the user has to select the \lstinline!Quantify Counts! interface, designed for \lstinline!featureCounts! of \lstinline!Rsubread! R/Bioconductor package function \cite{Liao2014} appears.
+The  \gls{bam} file paths for the \textit{RNA-seq} data are automatically selected from the design matrix loaded during the project creation phase.
 
 We choose proper widgets for selecting the reference genome and its annotation, it is also possible to configure the \lstinline!featureType! to use, while the \lstinline!attributeType! is set by default to \lstinline!gene_id!.
-Additionally parameters can be selected for \lstinline!allowMultiOverlap! and to select if the reads are \lstinline!paired!.
-Finally, the number of thread to use can be set from 1 to 8.
+Additionally, parameters can be selected for \lstinline!allowMultiOverlap! and to select if the reads are \lstinline!paired!.
+Finally, the number of threads to use can be set from 1 to 8.
 
-At the end of the processing the resulting count matrix is presented in the main part of the interface as a \lstinline!data.table! format, and automatically stored inside the \lstinline!IntegrHO/project_name/counts! folder.
+At the end of the processing, the resulting count matrix is presented in the main part of the interface as a \lstinline!data.table! format, and automatically stored inside the \lstinline!IntegrHO/project_name/counts! folder.
 
 
-{\setlength{\parindent}{0cm}\textbf{Counts Filtering and Normalization}}
+%{\setlength{\parindent}{0cm}\textbf{Counts Filtering and Normalization}}
 
+When working with \textit{RNA-seq} data, several features are too low expressed to be kept, because their expression will affect the further analysis, leading to biased results.
 When selecting the \lstinline!Filter Counts! the designed interface automatically loads the counts files inside the \lstinline!IntegrHO/project_name/counts!, otherwise allowing, with a \lstinline!fileInput! widget, to chose another count matrix file.
 It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2012}.
 
-The same type of interface is loaded when the \lstinline!Normalize Counts! menu voice is selected.
+The filtered-in features need to be normalized in order to be compared across multiple conditions.
+Also, in this case, a not proper data normalization can head to misleading results.
+
+The same type of interface built for the filtering step is loaded when the \lstinline!Normalize Counts! menu voice is selected.
 Three different normalization methods can be selected, the \textit{Trimmed Mean of M-values} \cite{Robinson2010}, the \textit{Upper Quartile} and the \textit{Full Quantile}.
+
+Additionally, a main aspect of \textit{RNA-seq} data analysis is to account for ''unwanted factors'' (batch effects) that, very often, affect the data.
+This noises are part of the data, because reflecting batch, library preparation, and other nuisance effects.
 
 When selecting the \lstinline!Batch Effect! section there will be the possibility to apply the \textit{RUVs} or \textit{RUVg} methods from \textit{RUVSeq} R/Bioconductor package \cite{Risso2014h}.
 Moreover, when selecting one of this methods, an additional file can be loaded, in order to upload an optional list of negative control genes.
 
 To graphically inspect the normalized data two different plots will be presented into the main interface, the \gls{pca} and the \textit{boxplots} for before and after normalization of the samples.
+This comparison is dictated by the need of inspecting the effects of noise removal from the data.
 
 Finally, at the end of execution the filtered/normalized features, as \gls{tsv} file format, are stored inside the \lstinline!IntegrHO/project_name/counts! folder, adding at the end of the file name the ''transformation'' applied.
 
 
-{\setlength{\parindent}{0cm}\textbf{Differential Expression Methods}}
+%{\setlength{\parindent}{0cm}\textbf{Differential Expression Methods}}
+
+Finally, when the data are well normalized, the user can address for differential expression inspection of the samples.
 
 In order to detect \glspl{deg}, we designed the \lstinline!Differential Expression Simple Design!, where it is possible to choose between four different methods.
 
 The available count matrix files are automatically loaded from the \lstinline!IntegrHO/project_name/counts! folder.
 Otherwise, the user can additionally load another count matrix file using the apposite file selector.
 
-In order to address for the factors to analyze, the interface automatically gives the possibility to select the design matrix column name where to fine them.
-Additionally, two \lstinline!selectInput! widgets appears where to select the two factors to contrast.
+In order to address for the factors to analyze, the interface automatically gives the possibility to select the design matrix column name where to find them.
+Additionally, two \lstinline!selectInput! widgets appear where to select the two factors to contrast.
 
 We selected four different methods implemented inside \textit{edgeR}, \textit{DESeq2}, \textit{NOISeq} and \textit{NOISeqBio} R/Bioconductor packages \cite{Robinson2009, Love2014,Tarazona2012}.
 
@@ -137,11 +160,17 @@ The \textit{NOISeq} package offers the possibility to discriminate between \text
 The dedicated interface automatically shows a \lstinline!tabsetPanel! of 3 different tabs, within, respectively, a \textit{VolcanoPlot}, an \textit{MA-Plot} and the table of the \gls{deg} results.
 
 
-\subsubsection{ChIP-seq}
-
-For \textit{ChIP-Seq} we constructed specific interfaces for peak calling and \glspl{der} detection.
+\subsubsection{ChIP-seq} \label{sec:integrhochip}
+\textit{ChIP-seq} is a very common technique to investigate multiple epigenetic factors, the sequencing technique by itself identifies chromatin regions where specific proteins bind on.
+Here we consider that
+Considering to have multiple \gls{bam} samples of \textit{ChIP-seq} data, we constructed specific interfaces for peak calling and \glspl{dbs} detection.
+Also in this case, we are focusing on the problem of detecting how the signal differs between multiple biological conditions.
+We refer to \glspl{dbs} because of the nature of the biological data, coming it from proteins binding specific regions of the chromatin.
 
 {\setlength{\parindent}{0cm}\textbf{Peak Calling}}
+
+Assuming that the samples are in \gls{bam} format, we assume that the user needs to reconstruct the signal of the chromatin regions binded by the interested protein.
+We underline that a \textit{ChIP-seq} experiment is ''protein specific'', because it involves using an antibody that is specific for a known protein.
 
 For the peak calling, because of the lack of specific methods starting from \gls{bam} files in R, we implemented a dedicated interface for \textit{csaw} \cite{Lun2015} peak caller, which allows quantification for both broad and narrow peaks, typically resulting from \gls{hm} and \gls{tf} \textit{ChIP-seq} data.
 
@@ -149,38 +178,36 @@ Firstly, it is possible to select the design matrix (stored inside \lstinline!In
 In such a way, \gls{igro} is able to pick up the \gls{bam} filenames associated to the \textit{CHiP-seq} experiments by itself.
 
 Afterwards, the interface enables the specification of several parameters useful for the \lstinline!windowCounts! method of \textit{csaw} R/Bioconductor package.
-The method constructs a count matrix where the rows indicate the detected windows of length \lstinline!window width!, and the columns indicate samples.
+The method constructs a count matrix where the rows indicate the detected windows of length \lstinline!window width! and the columns indicate samples.
 
-Additional parameters selected for the analysis with the \textit{csaw} method are the \lstinline!paired end reads!, a flag for ignoring duplicated reads with \lstinline!ignore duplicates!, and the possibility to make the analysis only on a list of chromosomes, using \lstinline!chromosomes list! implemented with a \lstinline!selectizeInput!.
-The possibility to make parallel computing is implemented with \lstinline!core number! widget.
+Additional parameters selected for the analysis with the \textit{csaw} method are the \lstinline!paired end reads!, a flag for ignoring duplicated reads with \lstinline!ignore duplicates!, and the possibility to make the analysis only on a list of chromosomes, using the \lstinline!chromosomes list! implemented with a \lstinline!selectizeInput!.
+The possibility to make parallel computing is implemented with the \lstinline!core number! widget (from 1 to 8).
 
-At the end of the processing the count matrix is shown into the main part of the interface, and it is saved as \gls{tsv} format, into the \lstinline!IntegrHO/project_name/results/tables/peaks! folder.
-In order to distinguish the produced output from others, the results file is saved adding the method name at the end of the filename.
+At the end of the processing, the count matrix is shown into the main part of the interface, and it is saved as \gls{tsv} format, into the \lstinline!IntegrHO/project_name/results/tables/peaks! folder.
+In order to distinguish the produced output from others, the results file is saved by adding the method name at the end of the filename.
 
-{\setlength{\parindent}{0cm}\textbf{Differential Binding}}
+%{\setlength{\parindent}{0cm}\textbf{Differential Binding}}
 
-Thanks to the counts matrix form, we are able to apply the same methodologies designed for \textit{RNA-seq} data.
-For this reason we used the same  methods as defined for \textit{RNA-seq}, with a main difference on the output.
-
-In this case the output module is by a the \glspl{dbs} table
+Thanks to the counts matrix form, we are able to apply the same methodologies designed for \textit{RNA-seq} data (see section \ref{sec:integrhorna} for further details).
+For this reason, we used the same methods as defined for \textit{RNA-seq}, showing the results table as output.
 
 
-\subsubsection{ATAC-seq}
+\subsubsection{ATAC-seq} \label{sec:integrhoatac}
 
+\textit{ATAC-seq} is 
 Thanks to the work made with \gls{descan} (chapter \ref{sec:descan2cap}), we had the possibility to deeply investigate \textit{ATAC-seq} data, presenting a specific analysis workflow.
 
-We tried to give access to the same methodologies here in \gls{igro}, in order to simplify and spread the proposed work.
+We tried to give access to the same methodologies, defined for \gls{descan}, herein \gls{igro}, in order to simplify and spread the proposed work.
 
-
-{\setlength{\parindent}{0cm}\textbf{Region Detection}}
-
+%{\setlength{\parindent}{0cm}\textbf{Region Detection}}
+As for the \textit{ChIP-seq}, the user need
 In particular we built a specific interface for the peak caller (see section \ref{sec:descan2peakcall}) defined in \gls{descan}.
 
-As for the \textit{csaw}, the user can select the design matrix (stored inside \lstinline!IntegrHO/project_name/design! folder) and the column associated to the experiment definition.
+As for the \textit{csaw}, the user can select the design matrix (stored inside \lstinline!IntegrHO/project_name/design! folder) and the column associated with the experiment definition.
 Additional parameter selection is required for the selection of the \lstinline!genome name!, the \lstinline!bin size! for the genome binning, and for the \lstinline!max window! and \lstinline!min window! lengths.
-Also in this case we gave the possibility to select for a multi-core computation with the \lstinline!core number! sliderInput widget.
+Also, in this case, we gave the possibility to select for a multi-core computation with the \lstinline!core number! sliderInput widget.
 
-The user can also select the \lstinline!peak score! threshold for filtering out the regions with lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{descan2filtering}).
+The user can also select the \lstinline!peak score! threshold for filtering out the regions with a lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{descan2filtering}).
 
 In order to better compare \gls{descan} results with similar methods, such as \textit{casw}, we preferred to include also the \gls{descan} filtering method inside the \textit{region detection} interface.
 In such a way, the presented output is a count matrix of detected regions on the rows and samples on the columns.
