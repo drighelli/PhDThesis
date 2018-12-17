@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  16 DEC 2018 23:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.28)  17 DEC 2018 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1399,6 +1399,9 @@ LaTeX Warning: Label `fig:chipseqexp' multiply defined.
 
 LaTeX Warning: Label `sec:reprres' multiply defined.
 
+
+LaTeX Warning: Label `fig:integrhotree' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -2297,57 +2300,84 @@ r/m/it/10 RNA-seq\T1/cmr/m/n/10 , \T1/cmr/m/it/10 ChIP-seq \T1/cmr/m/n/10 and \
 T1/cmr/m/it/10 ATAC-
  []
 
-[123] [124]
-Overfull \hbox (7.80064pt too wide) in paragraph at lines 152--153
+
+LaTeX Warning: Reference `fig:integrhopackscheme' on page 123 undefined on inpu
+t line 96.
+
+<img/integrho/integrho_pack_scheme.pdf, id=2662, 2358.8125pt x 1856.9375pt>
+File: img/integrho/integrho_pack_scheme.pdf Graphic file (type pdf)
+
+<use img/integrho/integrho_pack_scheme.pdf>
+Package pdftex.def Info: img/integrho/integrho_pack_scheme.pdf used on input li
+ne 101.
+(pdftex.def)             Requested size: 345.0pt x 271.58664pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124 <./img/integrho/integrho_pack_scheme.pdf>] [125]
+Overfull \hbox (7.80064pt too wide) in paragraph at lines 165--166
 []\T1/cmr/m/n/10 We se-lec-ted four dif-fer-ent meth-ods im-ple-men-ted in-side
  \T1/cmr/m/it/10 edgeR\T1/cmr/m/n/10 , \T1/cmr/m/it/10 DESeq2\T1/cmr/m/n/10 , \
 T1/cmr/m/it/10 NOISeq
  []
 
-[125] [126]
+[126] [127]
 
-LaTeX Warning: Reference `Ross-Innes2012' on page 127 undefined on input line 1
-91.
+LaTeX Warning: Reference `Ross-Innes2012' on page 128 undefined on input line 2
+04.
+
+[128]
+
+LaTeX Warning: Citation 'Angelini2015' on page 129 undefined on input line 208.
 
 
-LaTeX Warning: Citation 'Angelini2015' on page 127 undefined on input line 195.
+[129]
+
+LaTeX Warning: Reference `descan2filtering' on page 130 undefined on input line
+ 228.
+
+[130]
+
+LaTeX Warning: Citation 'Subramanian2005' on page 131 undefined on input line 2
+57.
 
 
-[127]
+LaTeX Warning: Citation 'Yu2012' on page 131 undefined on input line 257.
 
-LaTeX Warning: Reference `descan2filtering' on page 128 undefined on input line
- 217.
 
-[128] [129]) (./sections/integrho/reprres.tex
-<img/integrho/rr_1.png, id=2749, 1161.33875pt x 776.9025pt>
+LaTeX Warning: Citation 'Huang2009' on page 131 undefined on input line 257.
+
+
+LaTeX Warning: Citation 'Yu2012' on page 131 undefined on input line 260.
+
+[131]) (./sections/integrho/reprres.tex
+<img/integrho/rr_1.png, id=2792, 1161.33875pt x 776.9025pt>
 File: img/integrho/rr_1.png Graphic file (type png)
 
 <use img/integrho/rr_1.png>
 Package pdftex.def Info: img/integrho/rr_1.png used on input line 10.
 (pdftex.def)             Requested size: 155.24895pt x 103.84596pt.
 
-<img/integrho/rr_2.png, id=2752, 954.56625pt x 1053.9375pt>
+<img/integrho/rr_2.png, id=2795, 954.56625pt x 1053.9375pt>
 File: img/integrho/rr_2.png Graphic file (type png)
 
 <use img/integrho/rr_2.png>
 Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
 (pdftex.def)             Requested size: 155.24895pt x 171.3995pt.
- [130]
-Overfull \hbox (1.96863pt too wide) in paragraph at lines 26--27
-\T1/cmr/m/n/10 guage (HTML)[] (sub-figure []5.3.1b[]) or [][]Port-able Doc-u-me
-nt Format (PDF)[] formats,
- []
-
-) (./sections/integrho/conclusions.tex
+ [132]) (./sections/integrho/conclusions.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>]) [132]
+ [133 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>]) [134]
 Chapter 6.
-(./sections/conclusions.tex [133
+(./sections/conclusions.tex [135
 
-]) [134]
+]) [136]
 Chapter 7.
-[135
+[137
 
 ]
 Overfull \hbox (124.35768pt too wide) in paragraph at lines 357--357
@@ -2355,19 +2385,19 @@ Overfull \hbox (124.35768pt too wide) in paragraph at lines 357--357
 cs, \T1/cmr/m/n/10 http://www.bioinformatics.babraham.ac.uk/projects/.
  []
 
-[136] [137] [138]
+[138] [139] [140]
 Overfull \hbox (28.78247pt too wide) in paragraph at lines 357--357
 \T1/cmr/m/it/10 Cur-rent Pro-to-cols in Hu-man Ge-net-ics. \T1/cmr/m/sc/10 issn
 \T1/cmr/m/n/10 : 19348258. doi:[]$\T1/cmtt/m/n/10 10 . 1002 / 0471142905 .
  []
 
-[139]
+[141]
 Overfull \hbox (17.44516pt too wide) in paragraph at lines 357--357
 \T1/cmr/m/n/10 web ser-vice work-flows with Galaxy and Docker. \T1/cmr/m/it/10 
 GigaS-cience \T1/cmr/bx/n/10 4. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 2047217X.
  []
 
-[140] [141]
+[142] [143]
 Overfull \hbox (8.83487pt too wide) in paragraph at lines 357--357
 []\T1/cmr/m/n/10 Nueda, M. J., Tarazona, S. & Con-esa, A. Next maSigPro: Up-dat
 -ing maSigPro
@@ -2379,39 +2409,39 @@ Overfull \hbox (14.97775pt too wide) in paragraph at lines 357--357
 Bioin-form-at-ics. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14602059.
  []
 
-[142]
+[144]
 Overfull \hbox (25.02959pt too wide) in paragraph at lines 357--357
 []\T1/cmr/m/n/10 Carlson, M. \T1/cmr/m/it/10 org.Mm.eg.db: Gen-ome wide an-nota
 -tion for Mouse. \T1/cmr/m/n/10 2018. doi:[]$\T1/cmtt/m/n/10 https :
  []
 
-[143]
+[145]
 Overfull \hbox (5.56445pt too wide) in paragraph at lines 357--357
 \T1/cmr/m/n/10 ChIP-seq and ChIP-chip data. \T1/cmr/m/it/10 BMC Bioin-form-at-i
 cs. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14712105. doi:[]$\T1/cmtt/m/n/10 10 .
  []
 
-[144]
+[146]
 Overfull \hbox (7.83244pt too wide) in paragraph at lines 357--357
 \T1/cmr/m/it/10 ment-al-ists \T1/cmr/m/n/10 2010. doi:[]$\T1/cmtt/m/n/10 10 . 1
 002 / 0471142727 . mb1910s89$[]\T1/cmr/m/n/10 . arXiv: []$\T1/cmtt/m/n/10 NIHMS
 150003$[]\T1/cmr/m/n/10 . 
  []
 
-[145] [146]
+[147] [148]
 Overfull \hbox (5.59947pt too wide) in paragraph at lines 357--357
 \T1/cmr/m/n/10 en-tial ex-pres-sion ana-lysis of RNA-seq data. \T1/cmr/m/it/10 
 Gen-ome Bio-logy. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 14747596.
  []
 
-[147] [148
+[149] [150
 
-] (./thesis.acr [149
+] (./thesis.acr [151
 
 
-] [150]) [151] [152
+] [152]) [153] [154
 
-] (./thesis.lof [153
+] (./thesis.lof [155
 
 ]
 Overfull \hbox (2.55492pt too wide) detected at line 36
@@ -2428,18 +2458,18 @@ Overfull \hbox (2.55492pt too wide) detected at line 38
 \T1/cmr/m/n/10 2.4.12 
  []
 
-[154])
+[156])
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [155] [156
+ [157] [158
 
 ] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
- [157
+ [159
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
@@ -2448,7 +2478,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 032FB1C8266D104A6B7C31FB51FB8248;12126.
+(rerunfilecheck)             Checksum: 53607B76F73C0739A357273B6C195E4D;12126.
 
 
 LaTeX Warning: There were undefined references.
@@ -2466,48 +2496,57 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40856 strings out of 492995
- 727322 string characters out of 6132703
- 1178093 words of memory out of 5000000
- 43196 multiletter control sequences out of 15000+600000
+ 40966 strings out of 492995
+ 729098 string characters out of 6132703
+ 1179016 words of memory out of 5000000
+ 43299 multiletter control sequences out of 15000+600000
  31621 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,77p,10379b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sfrm2488.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/c
-m-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-
-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-su
-per/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
-r/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sftt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8
-a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (157 pages, 53232834 bytes).
+pdfTeX warning (dest): name{glo:gocc} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gomf} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gobp} has been referenced but does not exist, r
+eplaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sfrm2488.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-
+super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-su
+per/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
+sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
+tt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on thesis.pdf (159 pages, 53607947 bytes).
 PDF statistics:
- 3445 PDF objects out of 3580 (max. 8388607)
- 2475 compressed objects within 25 object streams
- 514 named destinations out of 1000 (max. 500000)
- 898 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3490 PDF objects out of 3580 (max. 8388607)
+ 2506 compressed objects within 26 object streams
+ 520 named destinations out of 1000 (max. 500000)
+ 903 words of extra memory for PDF output out of 10000 (max. 10000000)
 

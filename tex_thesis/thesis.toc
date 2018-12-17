@@ -70,13 +70,13 @@
 \contentsline {section}{\numberline {5.2}Methods}{116}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}The main interface}{117}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{122}{subsection.5.2.2}
-\contentsline {subsubsection}{RNA-seq}{123}{section*.81}
-\contentsline {subsubsection}{ChIP-seq}{126}{section*.82}
-\contentsline {subsubsection}{ATAC-seq}{128}{section*.83}
-\contentsline {subsubsection}{Integration}{129}{section*.84}
-\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{130}{section.5.3}
-\contentsline {section}{\numberline {5.4}Discussions}{132}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions}{133}{chapter.6}
-\contentsline {chapter}{\numberline {7}Bibliography}{135}{chapter.7}
-\contentsline {chapter}{List of Figures}{153}{section*.86}
-\contentsline {chapter}{List of Tables}{157}{section*.86}
+\contentsline {subsubsection}{RNA-seq}{123}{section*.82}
+\contentsline {subsubsection}{ChIP-seq}{127}{section*.83}
+\contentsline {subsubsection}{ATAC-seq}{129}{section*.84}
+\contentsline {subsubsection}{Integration}{130}{section*.85}
+\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{132}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussions}{134}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions}{135}{chapter.6}
+\contentsline {chapter}{\numberline {7}Bibliography}{137}{chapter.7}
+\contentsline {chapter}{List of Figures}{155}{section*.87}
+\contentsline {chapter}{List of Tables}{159}{section*.87}

@@ -89,7 +89,20 @@ Actually, \gls{igro} methodologies have been organized in a way that the user ca
 
 In particular, we defined specific interfaces for \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq} data, providing additional interfaces for their integration, such as \textit{functional enrichment} and \textit{gene-peak} annotations.
 
+Moreover, through the \lstinline!graphics! interface the user have the possibility to between a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, \textit{etckeggmap}, etc.
+
 Inside \gls{igro}, we take from granted that every omics data type is already mapped on a reference genome, producing \gls{bam} files for every sample the user wants to investigate.
+
+Figure \ref{fig:integrhopackscheme} illustrates a schematic representation of implemented packages inside \gls{igro}.
+The upper part shows the single-omics packages used for the analysis of \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq}, while the lower part refers to the multi-omics integration, showing the packages used for \textit{functional analysis} and \textit{peak-gene annotations}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/integrho/integrho_pack_scheme.pdf}
+\caption[\gls{igro} packages scheme]{A schematical representation of packages included inside \gls{igro} web-platform.
+The upper part shows the packages for the the single-omics analysis, while the lower part shows the packages for the multi-omics analysis.}
+\label{fig:integrhopackascheme}
+\end{figure}
 
 %It implements not only the methodologies reported inside \textit{ticorser} for \textit{RNA-Seq} and \textit{DEScan2} for \textit{ATAC-Seq}, but implements also methodologies for \textit{ChIP-Seq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
@@ -199,8 +212,6 @@ Additionally, it is still an open issue to study for the ''correctness'' of appl
 
 \textit{ATAC-seq} is a sequencing technology for investigating chromatin accessible regions, which are typically associated on the identification of the instrumental epigenetic changes responsible for differential gene expression, cell proliferation, functional diversification and disease development (see \ref{sec:atacseq} for further details).
 
-
-
 Thanks to the work made with \gls{descan} (chapter \ref{sec:descan2cap}), we had the possibility to deeply investigate \textit{ATAC-seq} data, presenting a specific analysis workflow.
 We tried to give access to the same methodologies, defined for \gls{descan}, herein \gls{igro}, in order to simplify and spread the proposed work.
 %{\setlength{\parindent}{0cm}\textbf{Region Detection}}
@@ -222,32 +233,37 @@ In such a way, the presented output is a count matrix of detected regions (peaks
 After the reconstruction of the signal, it is a good norm to normalize the data, in order to remove unwanted factors biasing the data leading to misleading results.
 Also in this case, we took advantages of the count matrix form to apply the same methodologies developed for \textit{RNA-seq}, and doing the same for the detection of \glspl{der} (section \ref{sec:integrhorna}).
 
-\subsubsection{Integration}
+\subsubsection{Integration} \label{sec:integrhointegration}
 The previously studied omics, even if not so many, already give the possibility to construct an integrated view of multiple cellular aspects.
 
 For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples.
 We already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
 Moreover, we can look at how the gene expression has been influenced by these chromatin accession mechanisms.
 
-To account even for simple integration problems like this one, we started to implement functionalities for the annotation of \glspl{der}/\glspl{dbs} with \glspl{deg} using \textit{ChIPpeakAnno}.
-
-
+To account even for simple integration problems like this one, we implemented functionalities for the \textbf{peak-gene annotation} of \glspl{der}/\glspl{dbs} with \glspl{deg} using \textit{ChIPpeakAnno}.
 
 The interface allows for the selection of a \lstinline!peaks! file (\gls{der}/\gls{dbs}), automatically loaded from  \lstinline!IntegrHO/project_name/results/tables/peaks!.
 Additionally, an \lstinline!annotation file! is required to retrieve the genomic features to annotate the peaks.
 In alternative, a list of \glspl{deg} can be selected.
 Other relevant parameters, such as the gene \lstinline!feature!  or the \lstinline!max distance! between the peaks and the genes, are needed for the right working of \lstinline!annotatePeakInBatch! function, defined inside the \lstinline!ChIPpeakAnno! R/Bioconductor package.
 
+After that the server side computed the results, they are showed with two plots organized in two panels of a \lstinline!tabsetPanel! widget. 
+A \textit{pie chart} showing the percentage of detected features organized on their distance, and table of annotated regions with corresponding genes.
 
+Finally, a \gls{tsv} file with annotated peaks is saved inside the  \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! folder, while the volcano plot, in \gls{html} format, is saved into the \lstinline!IntegrHO/project_name/results/plot! folder.
 
- and to use this information to investigate the functional response by enrichment for Gene Ontology or for Pathways.
-These last two aspects implemented with aid of \textit{g:Profiler} \cite{Reimand2016} and \textit{graphite} \cite{Sales2012a} R/Bioconductor packages.
+Another kind of integration is given by \textbf{functional annotation} analysis, where list of genes (annotated or resulting from differential experession analysis) can be used to detect cellular functional behaviours, thanks to databases born to annotate multiple gene contributing to specific cellular mechanisms (called pathways or gene ontology terms).
 
+In order to interrogate these databases, several methodologies for functional analysis born \cite{Subramanian2005, Sales2012a, Reimand2016, Yu2012, Huang2009}.
+The underlying idea of them is to use a list of genes to see which of them mostly \textit{up-regulate}/\textit{down-regulate} annotated cellular functional mechanisms
 
-For each -omics, \gls{igro} takes as input \gls{bam} files, previously defined inside the design matrix of the main project definition interface.
+To account for this integration aspect we developed one interface for allowing the user to choose between two methods \textit{gProfiler} \cite{Reimand2016} and \textit{clusterProfiler} \cite{Yu2012}.
+Both methodologies allow to investigate multiple databases, for pathways \textit{KEGG} and \textit{REACTOME} and for Gene Ontology we give the possibility to choose between \gls{gobp}, \gls{gomf} and \gls{gocc}.
 
-Moreover, not only our software offers lots of utilities for data management and analysis, but also a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, etc.
+The interface automatically loads the file inside the \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! and \lstinline!IntegrHO/project_name/results/tables/DE_genes! folders, giving the possibility to select the number corresponding to the column within the gene list.
 
-In order to facilitate the multi-omic data integration, we assembled several R functions to be freely combined in order to analyse each single-omic data type and to use their results for multi-omic data integration (Figure 1).
+In order to choose the method to apply a \lstinline!selectInput! shiny widget gives the possibility to choose between the \textit{clusterProfiler} and the \textit{gProfiler} methods.
+Moreover, the user has to select the type of functional annotation to do (pathway or Gene Ontology) and the database to use.
 
-For the annotation we selected the \textit{ChIPpeakAnno} and the \textit{ChIPseeker} R/Bioconductor packages, which produces similar output formats starting from peaks.
+At the end of computations \gls{igro} will present the table of the results in the main interface and will store them into the  \lstinline!IntegrHO/project_name/results/tables/functional! folder.
+
