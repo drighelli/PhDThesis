@@ -26,6 +26,7 @@
  \usepackage{subcaption}
 %\include{acronym.tex}
 
+\usepackage[export]{adjustbox}
 
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
@@ -203,10 +204,17 @@ ANNO ACCADEMICO 2017/2018
 \begin{quotation}
 \begin{flushright}
 \textit{
-When the men on the chessboard\\get up and tell you where to go\\
-And you've just had some kind of mushroom,\\and your mind is moving low\\
+When the men on the chessboard\\
+get up and tell you where to go\\
+And you've just had some kind of mushroom,\\
+and your mind is moving low\\
 Go ask Alice, I think she'll know\\
 }
+\par
+
+%\begin{figure}[H]
+%\includegraphics[width=3cm, keepaspectratio]{img/alice.jpg}
+%\end{figure}
 \par\end{flushright}
 \end{quotation}
 
@@ -240,7 +248,7 @@ Add acknowledgements here
 
 \chapter{Introduction}
 \input{sections/introduction.tex}
-\section{Biological Background}
+\section{Biological Background} \label{sec:bioback}
 \input{sections/intro/bio_background.tex}
 \section{Sequencing Techniques}\label{sec:seqs}
 \input{sections/intro/seqs.tex}
@@ -305,7 +313,7 @@ Add acknowledgements here
 
 \chapter{A reproducible computational research tool: the R6 Class easyReporting}
 \input{sections/rr/introchap.tex}
-\section{Introduction}
+\section{The idea of Reproducible Research}
 \input{sections/rr/intro.tex}
 \section{Methods}
 \input{sections/rr/methods.tex}

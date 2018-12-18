@@ -7,8 +7,11 @@ The common steps valid for almost every \gls{ngs} data type starts from a librar
 
 The typical analysis requires several steps to achieve good quality results, regardless of the specific final aim of the investigation.
 A standard analysis starts with a quality control assessment of the raw sequenced fragments (reads), using software as \textit{FastQC} \cite{Andrews2010}.
-After quality control assessment, it is essential for the analysis to map the raw reads on a reference genome. 
-During the last years, in order to obtain higher accuracy in read mapping (alignment), several software, such as \textit{STAR} \cite{Dobin2013} and \textit{HISAT2} \cite{Kim2015}, superseded broadly used tools as \textit{TopHat2} \cite{Kim2013}.
+After quality control assessment, in general, it is fundamental for the analysis to map the raw reads on a reference genome. 
+But for the read mapping phase we have to distinguish the aligner depending on the sequencing technique we are studying.
+For \gls{dna} sequencing \textit{Bowtie} \cite{Langmead2009, Langmead2012} and \textit{BWA} \cite{Li2010, Li2009b} are the most common ones, while for \textit{BS-seq} there is \textit{Bismark} \cite{Krueger2011}.
+
+For \textit{RNA-seq}, during the last years, in order to obtain higher accuracy in read mapping (alignment), several software, such as \textit{STAR} \cite{Dobin2013} and \textit{HISAT2} \cite{Kim2015}, superseded broadly used tools as \textit{TopHat2} \cite{Kim2013}.
 Usually, an aligner produces \gls{bam} files\footnote{\url{http://samtools.github.io/hts-specs/SAMv1.pdf}} \cite{Li2009} where all the reads (mapped and un-mapped) are collected with additional fields relevant for further steps of the analysis.
 Depending on the final aim of the analysis, \gls{bam} files can be further processed to delete or to split the reads. 
 Usually the software used for this scope is \textit{samtools} \cite{Li2009, Li2011}, available also in R programming language with \textit{rsamtools} \cite{Morgan}.

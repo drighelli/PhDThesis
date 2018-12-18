@@ -1,4 +1,4 @@
-\documentclass[b5paper,oneside,british,intoc,bibliograph=totoc,index=totoc,BCOR10mm,twoside,openright]{book}
+\documentclass[b5paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
 \usepackage[LGR,T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 \usepackage{inputenc}
@@ -21,12 +21,13 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{listings}
-\usepackage[multiple]{footmisc}
+
 %\usepackage{xcolor}
  \usepackage{subcaption}
 %\include{acronym.tex}
 
-\setstretch{1.2}
+\usepackage[export]{adjustbox}
+
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
  breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
@@ -107,6 +108,7 @@
 \renewcommand\l@paragraph[2]{}
 \renewcommand\l@subsubsection[2]{}
 
+\usepackage[multiple]{footmisc}
 
 \usepackage[backend=bibtex8,style=nature]{biblatex} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addbibresource{bibs/PhDThesisBib.bib}
@@ -202,10 +204,17 @@ ANNO ACCADEMICO 2017/2018
 \begin{quotation}
 \begin{flushright}
 \textit{
-When the men on the chessboard\\get up and tell you where to go\\
-And you've just had some kind of mushroom,\\and your mind is moving low\\
+When the men on the chessboard\\
+get up and tell you where to go\\
+And you've just had some kind of mushroom,\\
+and your mind is moving low\\
 Go ask Alice, I think she'll know\\
 }
+\par
+
+%\begin{figure}[H]
+%\includegraphics[width=3cm, keepaspectratio]{img/alice.jpg}
+%\end{figure}
 \par\end{flushright}
 \end{quotation}
 
@@ -234,12 +243,12 @@ Add acknowledgements here
 \include{acronym.tex}
 %\include{original_articles}
 \newpage
-
+\setstretch{1.5}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Introduction}
 \input{sections/introduction.tex}
-\section{Biological Background}
+\section{Biological Background} \label{sec:bioback}
 \input{sections/intro/bio_background.tex}
 \section{Sequencing Techniques}\label{sec:seqs}
 \input{sections/intro/seqs.tex}
@@ -249,12 +258,16 @@ Add acknowledgements here
 \input{sections/intro/chip.tex}
 \subsection{ATAC-seq} \label{sec:atacseq}
 \input{sections/intro/atac.tex}
-\subsection{Multi-omics Integration} \label{sec:integration}
+\section{Multi-omics Integration} \label{sec:integration}
 \input{sections/intro/integration.tex}
+\section{Reproducible Research} \label{sec:reprres}
+\input{sections/intro/reprres.tex}
+\section{Aim of the Work} \label{sec:reprres}
+\input{sections/intro/workaim.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Time Course RNA-seq analyzer \newline ticorser} \label{sec:ticorsercap}
+\chapter{Time Course RNA-seq analyzer: ticorser} \label{sec:ticorsercap}
 \input{sections/ticorser/general.tex}
 \section{Introduction} \label{sec:ticorseintro}
 \input{sections/ticorser/intro.tex}
@@ -272,12 +285,12 @@ Add acknowledgements here
 \input{sections/ticorser/addfeat.tex}
 \section{Case Study} \label{sec:ticorseresults}
 \input{sections/ticorser/results.tex}
-\section{Future Works} \label{sec:ticorseconclusions}
+\section{Discussions} \label{sec:ticorseconclusions}
 \input{sections/ticorser/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Differential Enriched Scan 2\newline DEScan2} \label{sec:descan2cap}
+\chapter{Differential Enriched Scan 2: DEScan2} \label{sec:descan2cap}
 \input{sections/descan2/general.tex}
 \section{Introduction} \label{sec:descan2intro}
 \input{sections/descan2/intro.tex}
@@ -293,25 +306,25 @@ Add acknowledgements here
 \input{sections/descan2/addfeat.tex}
 \section{Case Study} \label{sec:descan2results}
 \input{sections/descan2/results.tex}
-\section{Future Works} \label{sec:descan2next}
+\section{Discussions} \label{sec:descan2next}
 \input{sections/descan2/conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{A reproducible computational research R6 Class \newline easyReporting}
+\chapter{A reproducible computational research tool: the R6 Class easyReporting}
 \input{sections/rr/introchap.tex}
-\section{Introduction}
+\section{The idea of Reproducible Research}
 \input{sections/rr/intro.tex}
 \section{Methods}
 \input{sections/rr/methods.tex}
 \section{Usage}
 \input{sections/rr/usage.tex}
-\section{Future Works}
+\section{Discussions}
 \input{sections/rr/future.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Integration of High-Throughtput Omics data \newline IntegrHO} \label{sec:integrhocap}
+\chapter{Integration of High-Throughtput Omics data: IntegrHO} \label{sec:integrhocap}
 \input{sections/integrho/general.tex}
 \section{Introduction} \label{sec:integrhointro}
 \input{sections/integrho/intro.tex}
@@ -319,7 +332,7 @@ Add acknowledgements here
 \input{sections/integrho/methods.tex}
 \section{Reproducible Computational Research} \label{sec:integrhorr}
 \input{sections/integrho/reprres.tex}
-\section{Future Works} \label{sec:integrhofuture}
+\section{Discussions} \label{sec:integrhofuture}
 \input{sections/integrho/conclusions.tex}
 
 %\chapter{Conclusions \& Future Works} \label{sec:integrhofuture}

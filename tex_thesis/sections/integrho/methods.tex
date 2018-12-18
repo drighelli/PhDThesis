@@ -1,21 +1,22 @@
-When working with multiple omics data, the integration phase requires that the data used for this step are comparable between the different omics.
+Roughly speaking, when working with multiple omics data, the integration phase requires that the data used for this step are ''connected'' between the different omics.
 
-For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need data coming from \textit{ChIP-seq} and \textit{RNA-seq} data of the same species and on the same cell line affected by the disease.
-If we want to investigate the \textit{Breast Cancer}, we need to study \textit{Breast} cells.
-To do that, we need to collect as many samples as possible for each omics, because as higher is the number of samples as higher will be the power for estimating good results.
+For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need to collect data from \textit{ChIP-seq} and \textit{RNA-seq} experiments under the same experimental conditions.
+To do that, we need to collect as many samples as possible for each omics (because as higher is the number of samples as higher will be the power for estimating good results) to evaluate a certain number of variables/features (i.s. gene expression, methylation, \gls{tf}, etc.) for each sample.
 
-Moreover, when investigating multiple conditions, we need multiple replicates for each condition, in order to be able to well estimate the biases that affecting the experiment.
-(Biostatisticians typically say that the number of replicates must never be lower than 3, indeed some statistical methods cannot work properly with a number of replicates lower than this.)
+Moreover, when investigating multiple conditions, we need multiple replicates for each condition, in order to be able to well estimate and remove biases affecting the experiment and distinguish technical or biological variability as well as other sources of variation.
+%(Biostatisticians typically say that the number of replicates must never be lower than 3, indeed some statistical methods cannot work properly with a number of replicates lower than this.)
 
-To summarize, when working with multi-omics data, we need to collect samples of the interested cellular line for the ''disease'' we want to study.
+To summarize, when working with multi-omics data, we need to collect samples of the interested cellular line for the disease/condition we want to study.
 Moreover, to understand multiple mechanisms affected by the disease we need to collect multiple omics for each biological aspect (i.e. \textit{ChIP-seq} and \textit{RNA-seq}).
 Additionally, for each omics, we need to collect multiple samples for each condition (i.e. healthy and tumor).
+Therefore, typically multi-omics datasets consist in a bunch of short reads files (each of them corresponding to a specific sample in specific conditions). 
+After some preprocessing (alignment, qunatification, etc.) results are combined in omics specific matrices $X_k k=1,...,m$, where m denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples and $p_k$ the number of variable osserved on the specific omics.
 
-Once we have all the required samples, we can start analyzing each omics individually and integrating them to understand the cellular behaviours involved in the studied disease.
+Once we collected all required samples, we can either start analyzing each omics individually and/or integrating them to better understand the cellular behaviours involved in the studied disease.
 Depending on the number of collected samples we can choose from different methodologies to apply, if we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
-Otherwise, when having a high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c}.
+Otherwise, when having a high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c, Rohart2017, Argelaguet2018}.
 
-In order to account for these kinds of studies, inside \gls{igro} we implemented several aspects and interfaces to help and guide the user to achieve integrated results.
+In order to account for these kinds of studies, inside \gls{igro} we are implementing several aspects and interfaces to help and guide the user to achieve integrated results.
 
 \subsection{The main interface}
 \gls{igro} is a web platform fully developed in R with aid of Shiny libraries, combining the power of the R statistical instrument with HTML5/javascript flexibility.

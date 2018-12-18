@@ -25,15 +25,19 @@ An \glspl{hm} (such as \textit{Acetylation}) can have inhibited the accession to
 To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm} and one for the \textit{tf}) to study singularly each epigenomics factors and the gene expression (lower part of figure \ref{fig:omics}). 
 
 As figure \ref{fig:funnell} outlines, multi-omics data integration can be made at different levels, by graphical exploration, by functional annotation, by network fusion and by dimensionality reduction.
-We can distinguish two main approaches, the first one can be done also with few samples, where each omics is analyzed standalone and then the results can be combined to obtain a common response (levels 1 and 2 of figure \ref{fig:funnell}).
+We can distinguish two main approaches,; ''analyze each omics then integrate the results'' and ''jointly analyze each omics to improve the power''.
+The first one can be done also with few samples, where each omics is analyzed standalone and then the results can be combined to obtain a common response (levels 1 and 2 of figure \ref{fig:funnell}).
 The second main approach needs a high number of samples to analyze all the omics together to obtain more power in the response prediction (levels 3 and 4 of figure \ref{fig:funnell}) \cite{Rohart2017, Argelaguet2018, Jia2017, Meng2016}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/funnell.pdf}
-\caption[Integration Funnell]{A schematic representation of multi-omic data integration levels.}
+\caption[Integration Funnell]{A schematic representation of multi-omic data integration levels.
+}
 \label{fig:funnell}
 \end{figure}
+
+More in general, integration can be performed at different levels (i.e. descriptive, exploratory, inferencial, etc.).
 
 With graphical exploration, we can visualize data coming from different sources (e.g. \textit{RNA-seq} and \textit{ChIP-seq}) using specific tools designed at this scope, such as \textit{Genome Browser} \cite{Karolchik2011} or \gls{igv} \cite{Robinson2011, Thorvaldsdottir2013} and looking to the overlapping regions, or where expressed epigenomic markers have corrispondence with gene expression sites.
 

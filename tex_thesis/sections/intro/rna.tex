@@ -15,7 +15,6 @@ To each sequence, an adapter for the sequencer is added and a short read is obta
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seq.png}
 \caption[RNA-seq experiment]{Representation of an RNA-seq experiment. \cite{Wang2009}}
 \label{fig:rnaseqexp}
-
 \end{figure}
 
 Afterwards, the so-obtained reads need to be analyzed with several tools, depending on the particular question the researcher is interested in \cite{Pepke2009, Oshlack2010}.
@@ -23,7 +22,10 @@ Afterwards, the so-obtained reads need to be analyzed with several tools, depend
 % Due to the widespread of  \textit{RNA-seq} technology the bioinformatics community contributed with several methods for its analysis. 
 % Indeed, when working with this data the number of already developed and available methods is so high that for a non-expert user is really easy to understand where to start.
 
-In particular we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. In this specific context, a typical analysis starts from the alignment of the reads on a species's reference genome, followed by the quantification of the mapped reads, producing a count matrix of the samples (on columns) and the genes related features (on the rows), typically identifiers depending on the annotation database used by the analyzer.
+
+In particular we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. 
+Figure \ref{fig:rnaseqan} shows a pipeline we designed inside the \textit{RNASeqGUI} \cite{russo2015advantages} software for \textit{RNA-seq} data analysis.
+After the alignment of the reads on a species's reference genome, the software allows for the quantification of the mapped reads, producing a count matrix of the samples (on columns) and the genes related features (on the rows), typically identifiers depending on the annotation database used by the analyzer.
 
 
 \begin{figure}[H]
@@ -37,7 +39,7 @@ Finally the results can be graphically inspected and/or integrated with Gene Ont
 \label{fig:rnaseqan}
 \end{figure}
 
-Commonly, the count matrix needs to be filtered from low expressed features and then normalized across the samples, to reduce specific bias for each sample.
-Then, it is possible to choose between several methods for the detection of differential expression of the features between the conditions (see section \ref{sec:ticorsermethods}).
+The count matrix needs to be filtered from low expressed features and then normalized across the samples, to reduce specific bias for each sample.
+Then, depending on the experimental design (simple or complex), it is possible to choose between several methods for the detection of differential expression of the features between the conditions (see section \ref{sec:ticorsermethods}).
 Finally, the significant features can be integrated with databases of biological functionalities in order to detect the mostly influenced ones.
 

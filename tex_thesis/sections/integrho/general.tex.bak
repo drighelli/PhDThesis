@@ -1,0 +1,49 @@
+%Previous chapters deeply described tools for multiple omics data analysis, integration and visualization using command line tools.
+%Even if the command line approach is pretty common inside the bioinformatics community, it is not for every scientist who is not so confident with programming languages or terminal.
+%When working with multiple omics data, there is an overabundance of available tools for each sequencing that can bewilder a beginner, up to the point to renounce approaching the analysis problem.
+%
+%Morevoer, thanks to our previous experiences \cite{russo2015advantages} in developing \gls{gui}, we noticed a growing interest by the scientific community in using interactive software.
+%This interest seems to be leaded by multiple motivations, such as the need to analyze data very fast or the lack of time in learning programming languages and terminal-line based tools.
+%
+%Furthermore, even if the bioinformatics community has massively moved on the development of novel statistical and computational methods for multi-omics data integration, part of the scientific community is still anchored to the single-omics analysis side.
+%Even if still really helpful, it is still very common to read published papers based on single-omics data analysis without taking into account possible integrated solution with other omics data types.
+%
+%Of course it is not so simple to afford for multiple omics data experiments, but, nowadays, the internet swarms of public datasets.
+%In particular when looking at public biological data banks, such as \gls{geo}\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/}} \cite{Services2007} or \gls{tcga}\footnote{\url{https://cancergenome.nih.gov/}} \cite{tcga2013a}, where it is possible to retrieve as many data as needed.
+%
+%On the other side, if there are not so much papers publishing integrated analysis, it is also difficult for analysts to retrieve the right methodologies for the multi-omics data analysis and their visualization. 
+%
+%Based on these considerations and in order to promote the multi-omics data integration, we decided to provide the scientific community of a novel easy-to-use instrument which not only gives the possibility to analyze single-omics data types but also guides the user through multiple ways of integrating multi-omics data type.
+
+In previous chapters, we have described few tools (\gls{tic}, \gls{descan}) for the analysis of specific experimental conditions. 
+However, the practical usage of such tools requires a certain level of programming language from a user.
+
+Moreover, it is clear that as soon as the analysis becomes more complex, and different types of integration have to be performed, data anlysis becomes more consuming and requires higher computational and statistical knowledge.
+
+%Previous chapters deeply described tools for multiple omics data analysis, integration and visualization using command line tools.
+%An approach that is not for every scientist.
+
+%Thanks to our previous experience (\textit{RNASeqGUI} \cite{russo2015advantages}) in developing \gls{gui}, 
+To face such limits, we noticed the growing interest by part of the scientific community in using interactive and user friendly software.
+This interest is led by multiple motivations, such as the need to analyze data very fast or the lack of time in learning programming languages and terminal-line based tools.
+
+Several interface-based tools \cite{Poplawski2016} have been proposed during last years but too often they are oriented to analyze singular-omics (such as \textit{RNASeqGUI} \cite{russo2015advantages}).
+However, in many cases s
+or when designed for multi-omics, they are pipeline oriented. 
+
+In this chapter we introduce \gls{igro}, our web-based platform for multi-omics data analysis and integration,  in a \gls{rr} spirit.
+First, it describes the outstanding idea of the software, describing the general interface and then the available methods for the omics data analysis and their integration.
+
+
+%
+%Even if the bioinformatics community has massively moved on the development of novel statistical and computational methods for multi-omics data integration, part of the scientific community is still anchored to the single-omics analysis side.
+%Indeed, even if really useful, it is still very common to read published papers taking into account analysis of single-omics data without taking into account possible integrated solution with other omics data types.
+%
+%Of course it is not so simple to afford for multiple omics data experiments, but, nowadays, the internet swarms of public datasets.
+%In particular when looking at public biological data banks, such as \gls{geo}\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/}} \cite{Services2007} or \gls{tcga}\footnote{\url{https://cancergenome.nih.gov/}} \cite{tcga2013a}, where it is possible to retrieve as many data as needed.
+%
+%On the other side, if there are not so much papers publishing integrated analysis, it is also difficult for the analysts to retrieve the right methodologies for the multi-omics data analysis and their visualization. 
+%
+%In order to promote the multi-omics data integration, we decided to provide the scientific community of a novel easy-to-use instrument which starting from the single-omics data analysis, guides the user to multiple ways of integrating multi-omics data type.
+
+

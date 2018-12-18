@@ -1,5 +1,8 @@
 Here we report an example script where a general illustration of the \textit{easyReporting} is described.
 
+As already mentioned, the class allows to report not only the \gls{cc}, but allows also to add personal titles and personal comments, enhancing the knowledge transfer between the ''back-side'' (the analyst/developer) and the ''front-side'' (the reader) users.
+Note that ''back-side'' and ''front-side'' can also be the data analyst and the collaborators, respectively.
+
 \begin{lstlisting}
 ## Creating report file with default options on global document
 rd <- easyreporting$new(filenamepath="./project_report", title="example_report", author=c("Dario Righelli"))
@@ -42,7 +45,8 @@ rd$mkdCodeChunkCommented(commentMsg="This is the comment of the following code c
 rd$compile()
 \end{lstlisting}
  
-The previous R script leads to automatically produce the following \textit{rmarkddown} file.
+The previous R script leads to automatically produce the following \textit{rmarkddown} file, where it is possible to see at rows 13 and 23 two titles at different levels.
+And additionally, starting from row 15 a describing paragraph, representing the additional comments that can added to provide additional explanations to the following \gls{cc}.
 
 \begin{lstlisting}
 
@@ -94,6 +98,9 @@ b <- 2
 \end{lstlisting}
 
 Thanks to the \lstinline!rd$compile()! command inside the first script, it automatically produces the final \textit{HTML} \textit{report} illustrated in figure \ref{fig:rrreport}.
+
+Finally, the report in \gls{html} format provides a human readable document, where all the \gls{cc} are highlithed in grey, and the results in white.
+Titles and comments are in plain text, highlighting the natural language format of a self-explaining document.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth, keepaspectratio]{img/rr/report.png}

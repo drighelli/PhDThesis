@@ -1,14 +1,12 @@
-In the -omics data field, the complexity of the analysis, due to the high dimensionality of the data and to the wide range of methdologies to use, has revived an interest in \gls{rr}, because of the difficulties in reproducing third party scientific findings.
+%As previously mentioned in section \ref{sec:reprres}, in the omics data field, the complexity of the analysis, due to the data high-dimensionality and to the wide range of methodologies to use, has revived an interest in \gls{rr}, because of the difficulties in reproducing third-party scientific findings.
 
-As previous chapters \ref{sec:ticorsercap, sec:descan2cap} clearly show, the huge amount of computational tools, statistical methods and data visualization approaches used for \gls{htp} data analysis and their integration ...
+%Basically, the implementation of the \gls{rr} is pretty complex, requiring a combination of multiple tools, each one with a different final scope.
 
-During last years several approaches (add reference) in different programming languages (such as \gls{html}, \textit{Python}, \textit{R}, etc.) have been proposed for helping to trace the analysis steps.
+%In this Chapter we illustrate \textit{easyReporting} a novel R package for speeding up the \gls{rr} implementation when analyzing data or when constructing other packages.
 
-The common underlying idea of these instruments is to provide a mixture of natural language sentences along with computational language (\glspl{cc}) and visual outputs, in order to produce a unique final product where the \glspl{cc} and their outputs are explained to the reader, enhancing comprensibility and reproducibility of the work.
+It has been claimed that many research findings in omics science are false (or partially false) due to accidental mistakes or mis-usage of methods.
+To prevent misleading results it is important to be able to inspect and reproduce the entire data analysis carried out in a unified product.
 
-To address this scope the R community proposed several solutions, like \textit{sweave} before, \textit{knitr} and \textit{rmarkdown}\footnote{\url{https://rmarkdown.rstudio.com/}} later.
-Due to it's easy interactive usage, \textit{rmarkdown} became one of the most used instruments in \textit{R} community, but its usability when developing automated instruments like \gls{gui} or packages becomes more difficult, leading developers to give up using it.
+\gls{rr} consists in making available both the analytic data and the associated code, so other researchers might reproduce the findings. 
 
-Here we present \textit{easyReporting}, an \textit{R6} \footnote{\url{https://adv-r.hadley.nz/r6.html}}\footnote{\url{https://cran.r-project.org/web/packages/R6/index.html}} class which helps developers to integrate \textit{rmarkdown} into their computational products.
-
-The project is accessible at the following link:\\ \href{https://github.com/drighelli/easyreporting}{https://github.com/drighelli/easyreporting}
+In this Chapter we illustrate \textit{easyReporting} a novel R package for speeding up the \gls{rr} implementation when analyzing data or when constructing other packages.

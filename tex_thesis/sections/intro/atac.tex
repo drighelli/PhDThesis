@@ -14,7 +14,7 @@ The library preparation adopts a hyperactive \textit{Tn5} transposase, modified 
 The technology exploits the \textit{Tn5} capability of integrating itself into active regulatory elements.
 
 After \textit{Tn5} tagmentation, the resulting segments can be amplified and sequenced, producing sequences to map on a reference genome.
-There is no standard analysis reached for the \textit{ATAC-seq} analysis, but, inspired by the \textit{ChIP-seq} analysis, the resulting reads, typically, are processed with tools (peak callers) for quantifying their amplification, which produces for each detected open chromatin region a feature, the peak (generally with an associated score). 
+There is no standard analysis reached for the \textit{ATAC-seq} analysis, but, inspired by the \textit{ChIP-seq} analysis, the resulting reads, typically, are processed with tools (peak callers) for quantifying their amplification, which produces for each detected open chromatin region a feature, the peak (generally with an associated score) \cite{Wei2018}. 
 
 Depending on the used tool, the peaks can be represented in different data structures, but their representation is typically given by the genomic coordinates; chromosome, starting and ending point of the region, the strand of the \gls{dna} on which the region lies, and additional attributes such as a score, a number of samples on which the regions have been detected, etc.
 
