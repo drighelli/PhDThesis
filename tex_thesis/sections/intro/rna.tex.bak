@@ -13,7 +13,11 @@ To each sequence, an adapter for the sequencer is added and a short read is obta
 \begin{figure}[H]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seq.png}
-\caption[RNA-seq experiment]{Representation of an RNA-seq experiment. \cite{Wang2009}}
+\caption[RNA-seq experiment]{Representation of an RNA-seq experiment. 
+The messanger RNA (mRNA) is converted into complementary DNA (cDNA) or RNA fragments, to be linked to short sequencing adaptors.
+Producing sequencing reads via high-throughput technology.
+The resulting reads are aligned to a reference genome or transcriptome, to be classified as exonic, junction or poly(A) end-reads.
+\cite{Wang2009}}
 \label{fig:rnaseqexp}
 \end{figure}
 

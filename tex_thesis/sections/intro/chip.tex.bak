@@ -10,21 +10,23 @@ This technique allows to use antibodies for selected proteins or nucleosomes, wh
 \begin{figure}[H]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/chip.png}
-\caption[ChIP-seq experiment]{Representation of a  ChIP-seq experiment. \cite{Park2009}}
+\caption[ChIP-seq experiment]{\textit{ChIP-seq} experiments can be used to investigate \gls{dna} binding sites such histone modifications (Histon ChIP) and transcription factors (Non-histone ChIP), using specific antibodies for the specific interested protein (immunoprecipitation).
+After the \gls{dna} purification, the genetic matherial is linked to specific adaptors and then amplified in different manner, depending on the amplification and sequencing type used. \cite{Park2009}}
 \label{fig:chipseqexp}
 \end{figure}
 
 The library preparation consists into lock biological processes with formaldehyde and then cutting the chromatin into small fragments with sonication.
-Afterwards, a specific antibody for the interested protein is used to immunoprecipitate the \gls{dna}-protein complex, in order to be purified and, after amplification, be sequenced.
+Afterwards, a specific antibody for the interested protein is used to immunoprecipitate the \gls{dna}-protein complex, in order to be purified and, after amplification, to be sequenced.
 
 When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP because, even if the library preparation it's the same (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different in methodologies used because of the different signal produced by them.
-Indeed, after read mapping on a reference genome, reads need to be processed with methodologies for the protein-binding regions detection, that are typically called \textit{Peak callers}.
+Indeed, after read mapping on a reference genome, reads need to be processed with methodologies for the protein-binding regions detection, that are typically called \textit{Peak Callers}.
 After the peak calling process it is possible to highlight that the \gls{tf} signals (peaks) are more narrowed respect to the ones detected for \gls{hm}, leading to develop different methodologies for investigating further aspects for each one of these \textit{ChIP-seq} signals.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/peak_call.png}
-\caption[ChIP-seq peak detection]{Representation of a  ChIP-seq peak calling process. \cite{Park2009}}
+\caption[ChIP-seq peak detection]{The \gls{dna} fragments at 5' are sequenced, producing a double profile for each \gls{dna} strand in correspondence of the surrounding area of the protein binding site.
+In such a way it is possible to identificate a unified peak combining the profiles with the reads.\cite{Park2009}}
 \label{fig:chipseqexp}
 \end{figure}
 

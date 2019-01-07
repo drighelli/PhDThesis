@@ -14,26 +14,28 @@ Moreover, it is possible to distinguish multiple organelles, such as \textit{rib
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/intro/cell.png}
-\caption[The Cell]{Schematic representation of an Eukaryotic Cell.}
+\caption[The Cell]{Schematic representation of an Eukaryotic Cell. 
+It is surrounded by the plasmatic membrane, which encloses the cytoplasm within multiple organelles. 
+One of these is the nucleus which protects the DNA.}
 \label{fig:cell}
 \end{figure}
 
 \subsection{The DNA}
 \label{sec:genica}
-The \textit{DNA} was been isolated for the first time by the German doctor Friedrich Miescher in 1869, while in the same decade the English biologist Charles Darwin was publishing \textit{On the Origin of the Species} and the  Augustinian friar scientist was communicating his results on the pees to the Brunn Natural History Society.
+The \textit{DNA} has been isolated for the first time by the German doctor Friedrich Miescher in 1869, while in the same decade the English biologist Charles Darwin was publishing \textit{On the Origin of the Species} and the  Augustinian friar scientist was communicating his results on the pees to the Brunn Natural History Society.
 
-Because the substance isolated by Miescher was white, lightly acid and present only into the cells nuclei, it was been termed \textit{Nucleic Acid}.
-Name modified afterwards in \gls{dna}, to distinguish is from another one, very similar, the \gls{rna}.
+Because the isolated substance by Miescher was white, lightly acid and was present only into the cells nuclei, it was been termed \textit{Nucleic Acid}.
+Name modified afterwards in \gls{dna}, to distinguish it from another one, very similar, the \gls{rna}.
 
-These two molecules are constituted by \textit{nucleotides}, constituted by a nitrogen base, deoxyribose sugar and a phosphate group.
+These two molecules are constituted by \textit{nucleotides}, formed by a nitrogen base, deoxyribose sugar and a phosphate group.
 We distinguish two nitrogen bases, purines and pyrimidines.
-Inside the \gls{dna}, we have two \textit{pyrimidines}, \textit{adenine (A)} and \textit{guanine (G)}, and two \textit{pyrimidines}, the \textit{Cytosine (C)} and the \textit{Thimine (T)}  .
-Inside \gls{rna} \textit{Thymine} is substituted by the \textit{Uracil (U)}.
+Inside the \gls{dna}, we have two \textit{pyrimidines}, \textit{adenine (A)} and \textit{guanine (G)}, and two \textit{pyrimidines}, the \textit{Cytosine (C)} and the \textit{Thymine (T)}  .
+Inside \gls{rna} the \textit{Thymine (T)} is substituted by the \textit{Uracil (U)}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=5cm, keepaspectratio]{img/intro/dna1.png}
-\caption[the \gls{dna}]{Schematic representation of double-stranded filament structure of \gls{dna}. The legend report the four nitrogen bases, Adenine, Guanine, Cytosine and Thymine.}
+\caption[the \gls{dna}]{Schematic representation of double-stranded filament structure of the \gls{dna}. The legend reports the four nitrogen bases, Adenine (A), Guanine (G), Cytosine (C) and Thymine (T).}
 \label{fig:dna}
 \end{figure}
 
@@ -41,7 +43,7 @@ Inside \gls{rna} \textit{Thymine} is substituted by the \textit{Uracil (U)}.
 According to their model, the \gls{dna} is a double-stranded filament, where Adenines can pair only with Thymines and Guanines only with Cytosines.
 The four bases constitute the alphabet for the genetic message.
 
-\gls{dna} is folded on itself (\textit{\gls{dna} packaging}, thanks to specific "beads" called \textit{nucleosomes}, which themselves consist of eight proteins with tails, called \textit{histones}, that have the \gls{dna} wrapped on them.
+\gls{dna} is folded on itself (\textit{\gls{dna} packaging}, thanks to specific "beads" called \textit{nucleosomes}, which themselves consist of eight proteins with tails, called \textit{histones}, having the \gls{dna} wrapped on them.
 This mechanism enables to store around 2 meters of chromatin inside a nucleus of a 2-10 micron diameter when referring to Human species.
 
 \begin{figure}[h]
@@ -57,11 +59,11 @@ Moreover, the \gls{dna} contains the \textit{genes}, particular sections contain
 Each gene is localized on a precise position of a \textit{Chromosome}, which are in a different number for each species.
 Each chromosome is constituted by \gls{dna} within thousands of genes, each one composed by introns and exons (figure \ref{fig:dnachromgene}).
 
-It is important to underlying that since some decades ago the \textit{Central Dogma of Molecular Biology} was founded on the transcription-translation principle, where \textit{exons} were transcribed into \gls{rna}, which subsequently it would have been translated into protein.
+It is important to underlying that since some decades ago the \textit{Central Dogma of Molecular Biology} was founded on the transcription-translation principle, where \textit{exons} were transcribed into \gls{rna}, which subsequently it is translated into protein.
 
 Nowadays, we know that the gene transcription is regulated by several mechanisms, and moreover, the translation is not the only process fated for \gls{rna}.
 
-Indeed, since few years ago, introns were considered junk \gls{dna}, but now demonstrated to be involved in regulation mechanisms, such as post-transcriptional processes, while exons are destined to be translated into proteins (figure \ref{fig:dnachromgene}).
+Indeed, since few years ago, introns were considered junk \gls{dna}, but now they have been demonstrated to be involved in regulation mechanisms, such as post-transcriptional processes, while exons are destined to be translated into proteins (figure \ref{fig:dnachromgene}).
 
 
 \subsection{The Chromatin}
@@ -73,7 +75,7 @@ Because of chromatin condensed form, for the transcription of a gene, there are 
 \begin{figure}[h]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/hm.png}
-\caption[Histon modification]{Representation of some processes involved in histone modification, influencing gene expression regulation.}
+\caption[Histon modification]{Representation of some processes involved in histone modification, influencing gene expression regulation, such as Acetylatyion, Methylation, Phosphorylation, Deimination and Ubiquitation.}
 \label{fig:histmod}
 \end{figure}
 
@@ -84,7 +86,7 @@ It seems to be relevant for the chromosomic condensation during cellular divisio
 \textit{Methylation} generally involves histones \textit{H3} and \textit{H4}, but the modification effects depend on the affected position, influencing the gene expression/repression.
 More in detail, acetylation and phosphorylation directly affect the nucleosome structure, while methylation recruits multiprotein complexes involved into the chromatin remodelling.
 
-Each of these modifications affects the \gls{dna} structure, varying not only the chromatin compaction but also by promoting, together with proteins and non-coding \gls{rna}, the chromatin folding, influencing the gene expression regulation.
+Each of these modifications affect the \gls{dna} structure, varying not only the chromatin compaction but also by promoting, together with proteins and non-coding \gls{rna}, the chromatin folding and influencing the gene expression regulation.
 
 %Figure \ref{fig:dnachromosome} better helps to understand the relationship between chromosomes, chromatin, nucleosomes and genes.
 %

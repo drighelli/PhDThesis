@@ -10,7 +10,7 @@ To summarize, when working with multi-omics data, we need to collect samples of 
 Moreover, to understand multiple mechanisms affected by the disease we need to collect multiple omics for each biological aspect (i.e. \textit{ChIP-seq} and \textit{RNA-seq}).
 Additionally, for each omics, we need to collect multiple samples for each condition (i.e. healthy and tumor).
 Therefore, typically multi-omics datasets consist in a bunch of short reads files (each of them corresponding to a specific sample in specific conditions). 
-After some preprocessing (alignment, qunatification, etc.) results are combined in omics specific matrices $X_k k=1,...,m$, where m denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples and $p_k$ the number of variable osserved on the specific omics.
+After some preprocessing (alignment, qunatification, etc.) results are combined in omics specific matrices $X_k$ with  $k=1,...,m$, where m denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples and $p_k$ the number of variable osserved on the specific omics.
 
 Once we collected all required samples, we can either start analyzing each omics individually and/or integrating them to better understand the cellular behaviours involved in the studied disease.
 Depending on the number of collected samples we can choose from different methodologies to apply, if we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
@@ -202,7 +202,7 @@ In order to distinguish the produced output from others, the results file is sav
 Once constructed a count matrix of genomic windows (features) on the rows and samples on the columns, in order to detect \glspl{dbs} across the conditions, we are able to apply the same methodologies designed for \textit{RNA-seq} data (see section \ref{sec:integrhorna} for further details).
 For this reason, we used the same methods as defined for \textit{RNA-seq}, showing the results table as output.
 
-Other methodologies for differential binding have been developed in R, such as the package \textit{DiffBind} \ref{Ross-Innes2012}, but at the moment we didn't implemented them yet.
+Other methodologies for differential binding have been developed in R, such as the package \textit{DiffBind} \cite{Ross-Innes2012}, but at the moment we didn't implemented them yet.
 
 Moreover, it is relevant for \textit{ChIP-seq} data analysis to account for the ''right normalization'' to use.
 The count matrix form allows to apply the same normalization methodologies developed for \textit{RNA-seq} data, but at the moment we didn't implemented this aspect.
@@ -226,7 +226,7 @@ As for the \textit{csaw}, the user can select the design matrix (stored inside \
 Additional parameter selection is required for the selection of the \lstinline!genome name!, the \lstinline!bin size! for the genome binning, and for the \lstinline!max window! and \lstinline!min window! lengths.
 Also, in this case, we gave the possibility to select for a multi-core computation with the \lstinline!core number! sliderInput widget.
 
-The user can also select the \lstinline!peak score! threshold for filtering out the regions with a lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{descan2filtering}).
+The user can also select the \lstinline!peak score! threshold for filtering out the regions with a lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{sec:descan2filtering}).
 
 In order to better compare \gls{descan} results with similar methods, such as \textit{casw}, we preferred to include also the \gls{descan} filtering method inside the \textit{region detection} interface.
 In such a way, the presented output is a count matrix of detected regions (peaks) on the rows and samples on the columns.

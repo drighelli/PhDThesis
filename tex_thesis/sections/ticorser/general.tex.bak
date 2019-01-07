@@ -1,2 +1,5 @@
-This chapter illustrates the features of \gls{tic}, a tool developed for analyzing \textit{RNA-seq} time course data.
+When working with \textit{RNA-seq} data, there are multiple aspect that can be studied, such as single nucleotide variations, alternative splicing, post-transcriptional alterations, fusion gene detections, etc.
+
+
+In this chapter we focus on \gls{tc} experimental design with \textit{RNA-seq} data using \gls{tic} a tool developed for analyzing \textit{RNA-seq} time-course data.
 

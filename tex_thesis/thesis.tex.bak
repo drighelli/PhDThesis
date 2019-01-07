@@ -1,4 +1,4 @@
-\documentclass[b5paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
+\documentclass[a4paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
 \usepackage[LGR,T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 \usepackage{inputenc}
@@ -64,7 +64,6 @@
 \usepackage{siunitx}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
-
 
 \usepackage[a4,cam,center]{crop}
 
@@ -204,17 +203,31 @@ ANNO ACCADEMICO 2017/2018
 \begin{quotation}
 \begin{flushright}
 \textit{
-When the men on the chessboard\\
-get up and tell you where to go\\
-And you've just had some kind of mushroom,\\
-and your mind is moving low\\
-Go ask Alice, I think she'll know\\
+One pill makes you larger, and one pill makes you small\\
+And the ones that mother gives you, don't do anything at all\\
+Go ask Alice, when she's ten feet tall\\[1PC]
+And if you go chasing rabbits, and you know you're going to fall\\
+Tell 'em a hookah-smoking caterpillar has given you the call\\
+And call Alice, when she was just small\\[1PC]
+When the men on the chessboard get up and tell you where to go\\
+And you've just had some kind of mushroom, \\and your mind is moving low\\
+Go ask Alice, I think she'll know\\[1PC]
+When logic and proportion have fallen sloppy dead\\
+And the white knight is talking backwards\\
+And the red queen's off with her head\\
+Remember what the dormouse said\\[1PC]
+Feed your head, feed your head\\[3PC]
 }
-\par
 
-%\begin{figure}[H]
-%\includegraphics[width=3cm, keepaspectratio]{img/alice.jpg}
-%\end{figure}
+
+%\\[6PC]When the men on the chessboard\\
+%get up and tell you where to go\\
+%And you've just had some kind of mushroom,\\
+%and your mind is moving low\\
+%Go ask Alice, I think she'll know\\[3PC]}
+
+\includegraphics[width=5cm, keepaspectratio, right]{img/alice1.jpg}
+
 \par\end{flushright}
 \end{quotation}
 

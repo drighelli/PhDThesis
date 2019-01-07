@@ -1,7 +1,13 @@
-\gls{tic} is an R package for complete and fast analysis of time dependent \textit{RNA-seq} data, offering a vast amount of hypothesis tests setup for differential expression between two or more conditions.
-With aid of \textit{edgeR}, \textit{DESeq2} 
-%and \textit{nextMASigPro} 
-the tool offers the possiblity to setup the experiment and to obtain differential expression between the experimental biological conditions.
+When working with \textit{RNA-seq} data it should be interesting to investigate the evolution in time of the gene expression between two or more conditions.
+
+When defining a time-course experiment we refer to muliple samples, taken at subsequent time points, in multiple conditions.
+If we suppose to want to investigate the cellular gene expression effects of a drug treatment in 24 hours, it could be a good idea to perform multiple sampling (i.e. one per hour) of the treated and the untreated cells.
+Moreover, to obtain more power to be statistically significant with our results we'll need to have multiple replicates at each sampling.
+In such a way, we are able to collect multiple replicates at multiple times (24) for each condition (treated and untreated).
+By doing sequencing of these samples and inspecting the resulting experimental sequences, we are able to explore with ad-hoc designed statistical and computational tools the differences in time between the conditions.
+
+To afford problematic like this one, we designed \gls{tic}, an R package for complete and fast analysis of time-dependent \textit{RNA-seq} data, offering a vast amount of hypothesis tests set up for differential expression between two or more conditions.
+With aid of \textit{edgeR} and \textit{DESeq2}, it offers the possibility to set up the experiment and to obtain differential expression between the experimental biological conditions.
 The software is developed to assist the user to perform an entire analysis pipeline, from the quantification step, to the functional enrichment analysis, passing through the normalization, filtering and differential expression analysis.
 
-For each step, it offers the possiblity of several interactive plots and graphics, such as KEGG-maps and hierarchical GO terms trees.
+For each step, it offers the possibility of several interactive plots and graphics, such as KEGG-maps and hierarchical GO terms trees.
