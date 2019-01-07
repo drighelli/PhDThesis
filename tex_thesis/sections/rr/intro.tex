@@ -1,7 +1,7 @@
 During last years, several approaches \cite{russo2015advantages} have been proposed for helping to trace the analysis steps, using different programming languages; such as  \textit{Jupyter}\footnote{\url{https://jupyter.org/}} \cite{Kluyver2016} in \textit{Python} or \textit{Rmarkdown}\footnote{\url{https://rmarkdown.rstudio.com/}} in R.
-Or by building a web environment to encapsulate several tools made with different programming languages, such as \textit{Galaxy} \footnote{\url{https://usegalaxy.org/}} \cite{Blankenberg2010, Giardine2005, Goecks2010}.
+Or by building a web environment to encapsulate several tools made with different programming languages, such as \textit{Galaxy}\footnote{\url{https://usegalaxy.org/}} \cite{Blankenberg2010, Giardine2005, Goecks2010}.
 
-The common underlying idea of each one of these instruments is to provide a mixture of natural language sentences along with computational language (\glspl{cc}) and visual outputs, in order to produce a unique final product where the \glspl{cc} and their outputs are explained to the reader, enhancing comprehensibility and reproducibility of the work, in a unique final resulting file (Literate Statistical Programming \cite{Knuth1984a}).
+The common underlying idea of each one of these instruments is to provide a mixture of natural language sentences along with computational language (\glspl{cc}) and visual outputs, in order to produce a unique final product where the \glspl{cc} and their outputs are explained to the reader, enhancing comprehensibility and reproducibility of the work in a unique final resulting file (Literate Statistical Programming \cite{Knuth1984a}).
 Additionally, it is mandatory to provide the analytic data needful to run through again the entire analysis.
 In such a way, a mixture of explaining natural language sentences combined with code instructions executed on the analytic data lead to produce a final product that can be easily reused also by a non-expert user.
 
@@ -13,17 +13,17 @@ Image adapted from \cite{RussoRighelli2016}}
 \label{fig:rrscheme}
 \end{figure}
 
-During last decades \gls{rr} idea has been improved by the scientific community proposing several approaches in order to provide more accessibility to the analytic data, the code and the results at lower cost in terms of time and efforts.
+During last decades \gls{rr} idea has been improved by the scientific community proposing several approaches in order to provide more accessibility to the analytic data, the code and the results at lower costs in terms of time and efforts.
 In particular the R community proposed several solutions, like \textit{sweave} \cite{Leisch2002a, Leisch2002} before, \textit{knitr} \cite{Xie2012} and \textit{rmarkdown} later.
 Due to its easy interactive usage, \textit{rmarkdown} became one of the most used instruments inside the R community, but its usability when developing automated instruments like \gls{gui} or packages becomes more difficult, leading developers to give up on using it.
 
 In order to facilitate the widespread of \gls{rr} through the analysts community, in the past we proposed a possible solution with the \textit{RNASeqGUI} \cite{russo2015advantages} project, a graphical interface software for analyzing \textit{RNA-seq} data.
-The software, while the user interacts with the interfaces to analyze the data, traces the code inside an \gls{rmd} file and stores the data inside specific databases \gls{cdf}.
+The software, while the user interacts with the interfaces to analyze the data, traces the code inside an \gls{rmd} file and stores the data inside specific \gls{cdf}.
 At the end of the analysis, the \gls{rmd} and the \gls{cdf} contributes together at the compilation of the report, where all the code, the data and the results where presented.
 
 This solution, although very useful, does not allow to insert personal comments at each \gls{cc}.
 Indeed, each portion of the code was always automatically accompanied by default comments, that, to be edited required some experience by the user in \gls{rmd} file editing.
-But inserting personal comment to the \gls{cc} is fundamental for the final knowledge transfer across researchers and lab members in time.
+However, inserting personal comments for the \gls{cc} is fundamental for the final knowledge transfer across researchers and lab members across time.
 
 %Indeed, as we proposed in the past with \textit{RNASeqGUI}inside our first approach for helping also non-expert users to produce reproducible analysis 
 
