@@ -1,24 +1,15 @@
-Here we present \textit{easyReporting}, an \textit{R6} \footnote{\url{https://adv-r.hadley.nz/r6.html}}\footnote{\url{https://cran.r-project.org/web/packages/R6/index.html}} class\footnote{\url{https://en.wikipedia.org/wiki/Class_(computer_programming)}} developers to integrate a reproducible research layer inside their software products, as well as lazy analysts to speed up their report production without learning the \textit{rmarkdown} language.
+Here we present \textit{easyReporting}, an \textit{R6}\footnote{\url{https://adv-r.hadley.nz/r6.html}}\footnote{\url{https://cran.r-project.org/web/packages/R6/index.html}} class\footnote{\url{https://en.wikipedia.org/wiki/Class_(computer_programming)}} helping developers to integrate a reproducible research layer inside their software products, as well as lazy analysts to speed up their report production without learning the \textit{rmarkdown} language.
 
 In such a way, thanks to minimal additional efforts of developers, the end user has available an \textit{rmarkdown} file within all the source code generated during the analysis, divided into \glspl{cc} ready for the compilation.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/rr/scheme.pdf}
-\caption[Reproducible Computational Research illustration]{A general illustration of Reproducible Computational Research concept. Raw data can be analysed with R code, producing plots, tables and additional caching database files. All together, R code, data and results can be inserted in an enriched document, which can be added as supplementary material to a valuable published article.}
-\label{fig:rrscheme}
-\end{figure}
 
 Once manually edited with comments and descriptions the file can be compiled to produce an enriched document within input data, source code and output results.
 
 A so final document can be attached to the publication of the analysis as supplementary material, helping the interested community to entirely reproduce the computational part of work (figure \ref{fig:rrscheme}). 
 
-The package is accessible at the following link:\\ \href{https://github.com/drighelli/easyreporting}{https://github.com/drighelli/easyreporting} 
-
 \subsubsection{General Description and Initialization}
 
 The class can to be imagined as a schematic representation of the \textit{rmarkdown} file (\textit{report}), indeed 
-its attributes represent the \textit{report} characteristics, which are typically inserted in the header of the file.
+its attributes represent the \textit{report} characteristics, which are typically inserted into the header of the file.
 But our class methods are not only for the attributes manipulations but also for insertion of \glspl{cc}, comments and section titles inside the \textit{report}.
 
 As any typical class, before of using it, \textit{easyReporting} requires to be initialized with the \lstinline!new! command, passing as mandatory arguments the \textit{path} and the name of the file as \lstinline!filenamepath! and a title as \lstinline!mainTitle!.
@@ -35,7 +26,6 @@ If \textit{rmarkdown} personal options (see figure \ref{fig:knitropts} for a lis
 \end{figure}
 
 
-
 \subsubsection{Class Methods}
 
 The class is provided of several methods for \textit{rmarkdown} \gls{cc} construction.
@@ -43,7 +33,7 @@ The class is provided of several methods for \textit{rmarkdown} \gls{cc} constru
 Once an \textit{easyReporting} instance is available, with \lstinline!mkdTitle! it is possible to insert six levels of titles, by setting the parameters \lstinline!title! and \lstinline!level!.
 It is also possible to add natural language comments with \lstinline!mkdGeneralMsg!.
 
-When working with \glspl{cc}, two main choice are available.
+When working with \glspl{cc}, two main choices are available.
 The first one gives the possibility to construct a \gls{cc} as additional steps, by using first the \lstinline!mkdCodeChunkSt!, then adding variable assignment and/or function calling with \lstinline!mkdVariableAssignment! or \lstinline!mkdGeneralMsg!, and finally closing the \gls{cc} with \lstinline!mkdCodeChunkEnd!.
 
 In particular, when starting a \gls{cc} with \lstinline!mkdCodeChunkSt!, it is possible to assign a specific \lstinline!optionList! and/or a \lstinline!source.files.list! to be added to that \gls{cc}.

@@ -1,12 +1,12 @@
 For testing our package we selected a not yet published, but very complex dataset, for traumatic \gls{sci}, that is a neurological condition occurring mainly at the thoracic and cervical levels.
 The dataset is composed of 62 samples of bulk \textit{RNA-seq}, divided into groups of two different tissues at four different time points, with treatments and controls at each time point.
 
-The \gls{tic} pipeline, as described in figure \ref{fig:ticorserflow}, has been followed for this case study.
+The \gls{tic} pipeline, as described in figure \ref{fig:ticorserflow}, has been applied for this case study.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/dataset.pdf}
-\caption[ticorser dataset]{An illustrative example of the used dataset. Neurons of Cervical and Thoracic spinal cord injury, have been extracted and sequenced at 4 different time points. Inside the table, for each tissue (Cervical/Thoracic) the number of samples for the treatments (upper line) and controls (lower line) are reported at each time point.}
+\caption[ticorser dataset]{An illustrative example of the used dataset. Neurons of Cervical and Thoracic spinal cord injury have been extracted and sequenced at 4 different time points. Inside the table, for each tissue (Cervical/Thoracic) the number of samples for the treatments (upper line) and controls (lower line) are reported at each time point.}
 \label{fig:ticorserdataset}
 
 \end{figure}
@@ -23,7 +23,7 @@ Each cell of the matrix is a discrete value indicating the number of reads quant
 
 \subsubsection{The design matrix}
 From this point afterwards, \gls{tic} requires a design file illustrating the descriptive characteristics of each sample, in order to speed up the computations and the interactions with the user.
-In particular, the design matrix must have a column or the rownames specifying the sample names, which have to be equal to the column names in the count matrix.
+In particular, the design matrix must have the first column specifying the sample names, which has to be equal to the column names in the count matrix.
 Table \ref{tab:ticorserdesmat} shows an example of a typical design matrix useful to work with \gls{tic} package.
 
 \begin{table}[H]
@@ -60,16 +60,16 @@ s03\_t02\_u2 & 02h & untreated2 & tissue2 \\
 \end{tabular}
 \caption[\gls{tic} Design Matrix example]{An example of design matrix required for the right working of \gls{tic} package.
 It provides 3 mandatory columns.
-The first column describes samples names equal to the column names of the count matrix.
+The first column describes sample names equal to the column names of the count matrix.
 The \textit{Times} column indicates the time points for each samples, while the \textit{Conditions} column specifies the experimental conditions.
 Finally, the \textit{Tissue} column (not mandatory) identifies possible multiple tissues.}
 \label{tab:ticorserdesmat}
 \end{table}
 
 \subsubsection{Filtering \& Normalization}
-A so obtained count matrix could reflect the effects of one or more bias due to experimental passages during the library preparation or to different sequencing batches.
+The count matrix obtained from the quantification step, could reflect the effects of one or more bias due to experimental passages during the library preparation or to different sequencing batches.
 In order to account for this, it is a good practice to normalize data, a step which affects the \glspl{deg} detection \cite{Peixoto2015, Soneson2013d, Bullard2010}.
-But before normalizing, it might also be useful to filter out low expressed features, since they are not relevant and may lead to biased results introducing unwanted noise in the analysis. 
+But before normalizing it, because of the presence of several low expressing features, it might also be useful to filter out them, since they are not relevant and may lead to biased results introducing unwanted noise in the analysis. 
 
 Figure \ref{fig:ticorserfiltering} shows the effects of filtering step on row counts (in upper left corner). 
 What emerges from this comparison is that low expressed features are in a high amount in raw data, while it is quite un-important the method used for filtering them.
@@ -84,14 +84,14 @@ The first panel shows the row counts with low expressed genes, while the other b
 \end{figure}
 
 Moreover, looking at the \textit{Wilcoxon} test, it is more conservative, because it preserves $17039$ features, respect to the \textit{Proportion} test and \gls{cpm}, that preserves, respectively, $14122$ and $14171$ features.
-We decided to use the count matrix filtered with \textit{Proportion} test and default parameter.  
+We decided to use the count matrix filtered with \textit{Proportion} test and \lstinline!cpm=1!.  
 
 In order to improve the results for the differential expression analysis, it is crucial to correct for between-sample distributional differences in read counts.
 To compare the differences of normalized data we decided to use not only the boxplots for the samples, as shown in  figure \ref{fig:ticorsernormalizingbox}, but also the \gls{pca} representation, enabling us to understand which normalization better removes the biases from the samples by clustering the samples of the same group (figure \ref{fig:ticorsernormalizingpca}).
 
 \begin{figure}[H]
 \includegraphics[width=12cm,keepaspectratio]{img/ticorser/normalizing/boxplots/all_boxes.pdf}
-\caption[ticorser normalizing methods]{A comparison of how the filtering methods available in \gls{tic} affect the data.
+\caption[ticorser normalizing boxplots]{A comparison of how the normalization methods available in \gls{tic} affect the data.
 The first panel shows the row counts with low expressed genes, while the other boxes show the filtering effect on the samples.}
 \label{fig:ticorsernormalizingbox}
 \centering
@@ -103,7 +103,7 @@ At the same time, the \textit{TMM} aligns the samples, but in a not so stringent
 
 \begin{figure}[H]
 \includegraphics[width=12cm,keepaspectratio]{img/ticorser/normalizing/pca/all_pca.pdf}
-\caption[ticorser normalizing methods]{A comparison of how the normalizations methods available in \gls{tic} affect the data.
+\caption[ticorser normalizing \gls{pca}]{A comparison of how the normalizations methods available in \gls{tic} affect the data.
 The first panel shows the clustering of row samples, while the other boxes show the normalization effect on the samples.}
 \label{fig:ticorsernormalizingpca}
 \centering
@@ -115,7 +115,7 @@ While \textit{Full quantile}, even if it is able to help to discriminate the tre
 
 \subsubsection{Differential Expression}
 Once the data are well normalized, in order to be able to well discriminate between the groups, simply by changing our design matrix with only the interesting samples, we can focus on the differential expression step.
-Here we focus only on half of the total dataset, checking differences between the treated and untreated samples across experimental time points.
+Here we focus only on half of the total dataset, using only the cervical tissue data, checking differences between the treated and untreated samples across experimental time points.
 
 For detecting \glspl{deg} across time points taking into account the conditions we designed \gls{tic} with several methods (see section \ref{sec:ticorsermethods} for further details).
 Depending on the biological question under investigation, using the \lstinline!ApplyDeSeq2! function and using the count matrix with the design matrix, the package automatically detects the samples to discriminate for the differential expression.
@@ -123,9 +123,10 @@ Moreover, depending on the method selected, it is able to detect different types
 When selecting \lstinline!DeSeqTime_TC! method, it detects all the genes which change their expression across all time points between two conditions in the \lstinline!Conditions! column of the design matrix, while using \lstinline!DeSeqTime_T!, it recognizes all the genes which have different expression between the conditions across all the time points. 
 Furthermore, using \lstinline!DeSeqTime_NoInteraction!, the method is able to detect all those genes demonstrating an oscillating behaviour across the time points in both the conditions.
 
-Additionally, for each of the previously described methods we produce an additional output, obtained with a \textit{Wald Test}, in order to detect all those genes which express differential expression between the two conditions.
+Additionally, for each of the previously described methods we produce an additional output, applying a \textit{Wald Test} on the \textit{lrt} results, in order to detect all those genes showing differential expression between the two conditions.
 
 For each method we produce a list of two lists, within the results for the \gls{lrt} and for the \textit{LRT\_Wald}. Each of this already divided for all differential expressed gene, only UP genes, only DOWN genes and the results table with all the genes and their statistics.
+To identify \glspl{deg} we selected a threshold of $0.05$ on the adjusted p-values, corrected with \gls{fdr} method \cite{Benjamini1995}.
 
 Table \ref{tab:ticorserderesults} illustrates differences in catching \glspl{deg} between the three different methods on the same dataset, highlighting the total number of genes reported, with UP and DOWN regulated. 
 It is relevant to see that, when applying the \textit{Wald Test} on the results obtained by \gls{lrt} the \glspl{deg} for this test are much higher in number.
@@ -159,7 +160,7 @@ It is also possible to inspect the \textit{DE} results by plotting a \textit{Vol
 \end{figure}
 
 In order to better compare the results coming from different analysis and methodologies approaches we can use one of the VENN diagrams available in \gls{tic}, which, while intersecting the results, saves all the gene lists coming from the intersections and also from exclusions.
-Moreover, by setting the \lstinline!enrich.lists.flag! to \lstinline!TRUE!, the methods automatically starts functional enrichment for both pathways (on Reactome and KEGG databases) and Gene Ontology (on Biological Process, Cellular Components and Molecular Function), storing all the results in the \lstinline!output.folder! specified (we remind to next section for further details on Functional Enrichment Analysis).
+Moreover, by setting the \lstinline!enrich.lists.flag! to \lstinline!TRUE!, the methods automatically start functional enrichment for both pathways (on \textit{Reactome} and \textit{KEGG} databases) and Gene Ontology (on \gls{gomf}, \gls{gocc} and \gls{gobp}), storing all the results in the \lstinline!output.folder! specified (we remind to next section for further details on Functional Enrichment Analysis).
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/venn3.pdf}
@@ -186,9 +187,11 @@ Finally, using the \lstinline!DeSeqTime_NoInteraction! method, we detected a gen
 
 Once inspected the results for the time course experiment analysis, an investigator could be interested in exploring the data on singular time points, here we report an analysis example on the first time point.
 
-For the singular time point analysis, we can choose between three different methodologies, two present in the \textit{NOISeq} package (accessible through the \lstinline!ApplyNoiseq! function), while the third one is the \textit{Wald test} present in the \textit{DESeq2} package.
+For the singular time point analysis, we can choose between four different methodologies, two present in the \textit{NOISeq} package (accessible through the \lstinline!ApplyNoiseq! function), the third one, the \textit{Wald test}, present in the \textit{DESeq2} package and, finally, the \textit{Quasi-likelihood} test from the \textit{edgeR} package.
 It is a good practice to use more than one method while working with transcriptomic data in order to be more confident about the final results.
 Table \ref{tab:ticorserderesultstp} illustrates differences between the methods used for \glspl{deg} detection.
+
+For the motivations mentioned into the section \ref{sec:ticorseintromethods}, we use the \textit{NOISeqBio} method, and not the \textit{NOISeq} method, because we have biological replicates.
 
 
 \begin{table}[H]
@@ -201,10 +204,10 @@ Table \ref{tab:ticorserderesultstp} illustrates differences between the methods 
 \multicolumn{1}{r}{} & Total & UP & DOWN \\
 \cline{2-4}
 DESeq2 & 5239 & 2684 & 2555 \\
-NOISeq & 24 & 24 & 0 \\
+edgeR & 7095 & 2935 & 4170 \\
 NOISeqBio & 6315 & 3053 & 3262 \\
 \end{tabular}
-\caption[\gls{tic} Single Time Points DE methods results]{A comparison of the number of \glspl{deg} detected with \gls{tic} at single time point.}
+\caption[\gls{tic} Single Time Points DE methods results]{A comparison of the number of \glspl{deg} detected with \gls{tic} at single time point. Here we present the results for the first time point (t01).}
 \label{tab:ticorserderesultstp}
 \end{table}
 
@@ -215,7 +218,7 @@ Indeed, when using \lstinline!NOISeq! on the same data, the \glspl{deg} are only
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
-\caption[ticorser venn diagram single time point]{A venn diagram for comparying results coming from different methods used for \gls{deg} detection. }
+\caption[ticorser venn diagram single time point]{A venn diagram for comparying results coming from different methods used for \gls{deg} detection.}
 \label{fig:ticorsertpvenn}
 \end{figure}
 
@@ -224,20 +227,22 @@ The tool automatically stores the results in the \lstinline!output.folder! creat
 
 \subsubsection{Functional Enrichment Analysis}
 
-For the Functional Analysis \gls{tic} has a set of functions helping to perform it with \textit{GProfiler} and \textit{ClusterProfiler} tools.
+For the Functional Analysis \gls{tic} has a set of functions helping to perform it with \textit{GProfiler} and \textit{ClusterProfiler} tools \cite{Yu2012, Reimand2016}.
 
 In order to perform pathway analysis with \textit{GProfiler} we used \lstinline!enrichPathwayGProfiler! function, twice, one for the \textit{Reactome} database and one for the \textit{KEGG} database enrichment.
-Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on KEGG database but is able to produce a graphical representation of the network of the pathways. (see figure \ref{fig:ticorserpathmap})
+Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on \textit{KEGG} database but is able to produce a graphical representation of the network of the pathways (see figure \ref{fig:ticorserpathmap}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/net_kegg.pdf}
-\caption[ticorser pathway network]{A network representation of the kegg results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
-\label{fig:ticorserpathmat}
+\caption[ticorser pathway network]{A network representation of the \textit{KEGG} results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
+\label{fig:ticorserpathmap}
 \end{figure}
 
-On the other hand, to perform a Gene Ontology functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
+On the other hand, to perform a \gls{go} functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
 Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results but also a tree for the Gene Ontology terms significative in our dataset. (see figure \ref{fig:ticorsergo}).
+
+Because the data used for this analysis have not been yet published, we do not publish the results obtained with \textit{clusterProfiler} and \textit{gProfiler}, but we show some relevant plots useful for illustrating the obtained results.
 
 \begin{figure}[H]
 \centering

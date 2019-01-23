@@ -13,7 +13,7 @@ Furthermore, even if the bioinformatics community has massively moved on the dev
 Indeed, without entering into the merit of the obtained scientific results, it is still very common to read published papers based on single-omics data analysis without taking into account possible integrated solution with other omics data types.
 
 Nowadays, it is more easily achievable to afford for multi-omics experiments because of the lowering costs of them.
-Additionally, there are international big projects for collecting biological data and providing public access to their biological data banks, such as \gls{geo}\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/}} \cite{Services2007} or \gls{tcga}\footnote{\url{https://cancergenome.nih.gov/}} \cite{tcga2013a}, where it is possible to retrieve as many data as needed.
+Additionally, there are international big projects for collecting biological data and providing public access to their biological data banks, such as \gls{geo}\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/}} \cite{Services2007} or \gls{tcga}\footnote{\url{https://cancergenome.nih.gov/}} \cite{TCGA2008}, where it is possible to retrieve as many data as needed.
 
 On the other side, multi-omics data integration is an emerging research field, that still needs to become a standard of biological data analysis.
 
@@ -29,7 +29,7 @@ This integration can lead to produce graphical results, in case of low dimension
 \label{fig:integrhoidea}
 \end{figure}
 
-Based on the above mentioned considerations and in order to promote the multi-omics data integration, we developed \gls{igro} a novel easy-to-use instrument which not only gives the possibility to analyze single-omics data types but also guides the user through multiple ways of integrating multi-omics data types (figure \ref{fig:integrhoidea} gives an underlying idea of \gls{igro}).
+Based on the above mentioned considerations and in order to promote the multi-omics data integration, we are developing \gls{igro},  a novel easy-to-use instrument which not only gives the possibility to analyze single-omics data types but also guides the user through multiple ways of integrating multi-omics data types (figure \ref{fig:integrhoidea} gives an underlying idea of \gls{igro}).
 
 
 

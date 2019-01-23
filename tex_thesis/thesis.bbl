@@ -17,7 +17,7 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
-  \entry{Park2009}{misc}{}
+  \entry{Park2009}{article}{}
     \name{author}{1}{}{%
       {{hash=PPJ}{%
          family={Park},
@@ -43,7 +43,6 @@
   experiments generate large quantities of data, and effective computational
   analysis will be crucial for uncovering biological mechanisms.%
     }
-    \field{booktitle}{Nature Reviews Genetics}
     \verb{doi}
     \verb 10.1038/nrg2641
     \endverb
@@ -57,6 +56,7 @@
     \field{title}{{ChIP-seq: Advantages and challenges of a maturing
   technology}}
     \field{volume}{10}
+    \field{journaltitle}{Nature Reviews Genetics}
     \field{eprinttype}{arXiv}
     \field{year}{2009}
   \endentry
@@ -384,9 +384,6 @@
     \field{number}{39}
     \field{title}{{Hi-C: A Method to Study the Three-dimensional Architecture
   of Genomes.}}
-    \verb{url}
-    \verb http://www.jove.com/index/Details.stp?ID=1869
-    \endverb
     \field{journaltitle}{Journal of Visualized Experiments}
     \field{year}{2010}
   \endentry
@@ -421,7 +418,7 @@
     \endverb
     \field{isbn}{0022-5347}
     \field{issn}{00029548 (ISSN)}
-    \field{pages}{http://www.bioinformatics.babraham.ac.uk/projects/}
+    \field{pages}{https://goo.gl/Brfph2}
     \field{title}{{FastQC}}
     \verb{url}
     \verb http://scholar.google.com/scholar?hl=en{\&}btnG=Search{\&}q=intitle:F
@@ -566,9 +563,6 @@
   the alignment can be achieved with the open source SAMtools software
   package.$\backslash$n$\backslash$nAVAILABILITY: http://maq.sourceforge.net.%
     }
-    \verb{doi}
-    \verb 10.1093/bioinformatics/btp698
-    \endverb
     \verb{eprint}
     \verb 1303.3997
     \endverb
@@ -628,8 +622,8 @@
     \endverb
     \field{isbn}{1367-4803}
     \field{issn}{1367-4803, 1367-4811}
-    \field{title}{{Fast and accurate short read alignment with
-  Burrows{\^{a}}€“Wheeler transform}}
+    \field{title}{{Fast and accurate short read alignment with Burrows-Wheeler
+  transform}}
     \field{journaltitle}{Bioinformatics}
     \field{year}{2009}
   \endentry
@@ -824,7 +818,6 @@
     \verb 15334406
     \endverb
     \field{isbn}{1548-7091}
-    \field{issn}{15487105}
     \field{number}{4}
     \field{pages}{357\bibrangedash 360}
     \field{title}{{HISAT: A fast spliced aligner with low memory requirements}}
@@ -1088,7 +1081,7 @@
     \field{title}{{Rsamtools}}
   \endentry
 
-  \entry{Thermes2014}{misc}{}
+  \entry{Thermes2014}{article}{}
     \name{author}{1}{}{%
       {{hash=TC}{%
          family={Thermes},
@@ -1116,7 +1109,6 @@
   landscape of NGS applications and provide a perspective for future
   developments.%
     }
-    \field{booktitle}{Trends in genetics : TIG}
     \verb{doi}
     \verb 10.1016/j.tig.2014.07.001
     \endverb
@@ -1129,11 +1121,12 @@
     \field{pages}{418\bibrangedash 426}
     \field{title}{{Ten years of next-generation sequencing technology}}
     \field{volume}{30}
+    \field{journaltitle}{Trends in genetics : TIG}
     \field{eprinttype}{arXiv}
     \field{year}{2014}
   \endentry
 
-  \entry{Costa2010}{misc}{}
+  \entry{Costa2010}{article}{}
     \name{author}{4}{}{%
       {{hash=CV}{%
          family={Costa},
@@ -1165,29 +1158,27 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    {\textless}p{\textgreater}In recent years, the introduction of massively
-  parallel sequencing platforms for Next Generation Sequencing (NGS) protocols,
-  able to simultaneously sequence hundred thousand DNA fragments, dramatically
-  changed the landscape of the genetics studies. RNA-Seq for transcriptome
-  studies, Chip-Seq for DNA-proteins interaction, CNV-Seq for large genome
-  nucleotide variations are only some of the intriguing new applications
-  supported by these innovative platforms. Among them RNA-Seq is perhaps the
-  most complex NGS application. Expression levels of specific genes,
-  differential splicing, allele-specific expression of transcripts can be
-  accurately determined by RNA-Seq experiments to address many
-  biological-related issues. All these attributes are not readily achievable
-  from previously widespread hybridization-based or tag sequence-based
-  approaches. However, the unprecedented level of sensitivity and the large
-  amount of available data produced by NGS platforms provide clear advantages
-  as well as new challenges and issues. This technology brings the great power
-  to make several new biological observations and discoveries, it also requires
-  a considerable effort in the development of new bioinformatics tools to deal
-  with these massive data files. The paper aims to give a survey of the RNA-Seq
+    In recent years, the introduction of massively parallel sequencing
+  platforms for Next Generation Sequencing (NGS) protocols, able to
+  simultaneously sequence hundred thousand DNA fragments, dramatically changed
+  the landscape of the genetics studies. RNA-Seq for transcriptome studies,
+  Chip-Seq for DNA-proteins interaction, CNV-Seq for large genome nucleotide
+  variations are only some of the intriguing new applications supported by
+  these innovative platforms. Among them RNA-Seq is perhaps the most complex
+  NGS application. Expression levels of specific genes, differential splicing,
+  allele-specific expression of transcripts can be accurately determined by
+  RNA-Seq experiments to address many biological-related issues. All these
+  attributes are not readily achievable from previously widespread
+  hybridization-based or tag sequence-based approaches. However, the
+  unprecedented level of sensitivity and the large amount of available data
+  produced by NGS platforms provide clear advantages as well as new challenges
+  and issues. This technology brings the great power to make several new
+  biological observations and discoveries, it also requires a considerable
+  effort in the development of new bioinformatics tools to deal with these
+  massive data files. The paper aims to give a survey of the RNA-Seq
   methodology, particularly focusing on the challenges that this application
-  presents both from a biological and a bioinformatics point of
-  view.{\textless}/p{\textgreater}%
+  presents both from a biological and a bioinformatics point of view.%
     }
-    \field{booktitle}{Journal of Biomedicine and Biotechnology}
     \verb{doi}
     \verb 10.1155/2010/853916
     \endverb
@@ -1195,10 +1186,11 @@
     \field{issn}{11107243}
     \field{title}{{Uncovering the complexity of transcriptomes with RNA-Seq}}
     \field{volume}{2010}
+    \field{journaltitle}{Journal of Biomedicine and Biotechnology}
     \field{year}{2010}
   \endentry
 
-  \entry{Ozsolak2011}{misc}{}
+  \entry{Ozsolak2011}{article}{}
     \name{author}{2}{}{%
       {{hash=OF}{%
          family={Ozsolak},
@@ -1229,7 +1221,6 @@
   particularly direct RNA sequencing and approaches that allow RNA
   quantification from very small amounts of cellular materials.%
     }
-    \field{booktitle}{Nature Reviews Genetics}
     \verb{doi}
     \verb 10.1038/nrg2934
     \endverb
@@ -1242,11 +1233,12 @@
     \field{pages}{87\bibrangedash 98}
     \field{title}{{RNA sequencing: Advances, challenges and opportunities}}
     \field{volume}{12}
+    \field{journaltitle}{Nature Reviews Genetics}
     \field{eprinttype}{arXiv}
     \field{year}{2011}
   \endentry
 
-  \entry{Costa2013}{misc}{}
+  \entry{Costa2013}{article}{}
     \name{author}{4}{}{%
       {{hash=CV}{%
          family={Costa},
@@ -1305,7 +1297,6 @@
   linking nucleotide variations to gene expression changes, also discussing its
   limitations.%
     }
-    \field{booktitle}{European Journal of Human Genetics}
     \verb{doi}
     \verb 10.1038/ejhg.2012.129
     \endverb
@@ -1316,6 +1307,7 @@
     \field{title}{{RNA-Seq and human complex diseases: Recent accomplishments
   and future perspectives}}
     \field{volume}{21}
+    \field{journaltitle}{European Journal of Human Genetics}
     \field{year}{2013}
   \endentry
 
@@ -1679,7 +1671,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{Oshlack2010}{misc}{}
+  \entry{Oshlack2010}{article}{}
     \name{author}{3}{}{%
       {{hash=OA}{%
          family={Oshlack},
@@ -1708,7 +1700,6 @@
     Many methods and tools are available for preprocessing high-throughput RNA
   sequencing data and detecting differential expression.%
     }
-    \field{booktitle}{Genome Biology}
     \verb{doi}
     \verb 10.1186/gb-2010-11-12-220
     \endverb
@@ -1717,6 +1708,7 @@
     \field{number}{12}
     \field{title}{{From RNA-seq reads to differential expression results}}
     \field{volume}{11}
+    \field{journaltitle}{Genome Biology}
     \field{year}{2010}
   \endentry
 
@@ -2070,9 +2062,9 @@
     \verb https://peerj.com/preprints/27357/
     \endverb
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Righelli et al. - 2018 - Differential Enriched Scan 2 (DEScan2) a
-    \verb fast pipeline for broad peak analysis.pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Righelli et al. - 2018 - Differential Enriched Scan 2 (DEScan2) a f
+    \verb ast pipeline for broad peak analysis(2).pdf:pdf
     \endverb
     \field{journaltitle}{PeerJ}
     \field{year}{2018}
@@ -2271,7 +2263,7 @@
   public repositories such as GEO to avoid generating hypotheses or drawing
   conclusions from low-quality ATAC-seq experiments. The software, source code,
   and documentation are freely available as a Bioconductor package at
-  https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html .%
+  https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html.%
     }
     \verb{doi}
     \verb 10.1186/s12864-018-4559-3
@@ -2325,10 +2317,10 @@
     \endverb
     \field{volume}{2}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Angelini, Costa - 2014 - Understanding gene regulatory mechanisms
-    \verb by integrating ChIP-seq and RNA-seq data statistical solutions to bio
-    \verb l.pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Angelini, Costa - 2014 - Understanding gene regulatory mechanisms b
+    \verb y integrating ChIP-seq and RNA-seq data statistical solutions to biol
+    \verb .pdf:pdf
     \endverb
     \field{journaltitle}{Frontiers in Cell and Developmental Biology}
     \field{year}{2014}
@@ -2405,7 +2397,7 @@
     \field{isbn}{1111111111}
     \field{issn}{15537358}
     \field{number}{11}
-    \field{title}{{mixOmics: An R package for ‘omics feature selection and
+    \field{title}{{mixOmics: An R package for omics feature selection and
   multiple data integration}}
     \field{volume}{13}
     \field{journaltitle}{PLoS Computational Biology}
@@ -2487,9 +2479,9 @@
   identification of sample subgroups, data imputation and the detection of
   outlier samples. We applied MOFA to a cohort of 200 patient samples of
   chronic lymphocytic leukaemia, profiled for somatic mutations, RNA
-  expression, DNA methylation and ex vivo drug responses. MOFA identified
-  major dimensions of disease heterogeneity, including immunoglobulin
-  heavy-chain variable region status, trisomy of chromosome 12 and previously
+  expression, DNA methylation and ex vivo drug responses. MOFA identified major
+  dimensions of disease heterogeneity, including immunoglobulin heavy-chain
+  variable region status, trisomy of chromosome 12 and previously
   underappreciated drivers, such as response to oxidative stress. In a second
   application, we used MOFA to analyse single-cell multi-omics data,
   identifying coordinated transcriptional and epigenetic changes along cell
@@ -2504,7 +2496,7 @@
     \field{issn}{1744-4292}
     \field{number}{6}
     \field{pages}{e8124}
-    \field{title}{{Multi‐Omics Factor Analysis—a framework for unsupervised
+    \field{title}{{Multi‐Omics Factor Analysis - a framework for unsupervised
   integration of multi‐omics data sets}}
     \verb{url}
     \verb http://msb.embopress.org/lookup/doi/10.15252/msb.20178124
@@ -3012,22 +3004,14 @@
   \endentry
 
   \entry{Potti2011}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PA}{%
-         family={Potti},
-         familyi={P\bibinitperiod},
-         given={Anil},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=NJ}{%
-         family={Nevins},
-         familyi={N\bibinitperiod},
-         given={Joseph},
-         giveni={J\bibinitperiod},
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The Economist}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PANJ1}
-    \strng{fullhash}{PANJ1}
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
@@ -3094,8 +3078,8 @@
     \field{title}{{Reproducible Research}}
     \field{volume}{11}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Fomel, Claerbout - 2009 - Reproducible Research.pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Fomel, Claerbout - 2009 - Reproducible Research.pdf:pdf
     \endverb
     \field{journaltitle}{Computing in Science {\&} Engineering}
     \field{year}{2009}
@@ -3863,7 +3847,7 @@
     \field{year}{2015}
   \endentry
 
-  \entry{Tarazona2012}{article}{}
+  \entry{Tarazona2011}{article}{}
     \name{author}{5}{}{%
       {{hash=TS}{%
          family={Tarazona},
@@ -3871,23 +3855,23 @@
          given={Sonia},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=GF}{%
-         family={Garc{\'{i}}a},
-         familyi={G\bibinitperiod},
+      {{hash=GAF}{%
+         family={Garc{\'{i}}a-Alcalde},
+         familyi={G\bibinitperiod-A\bibinitperiod},
          given={Fernando},
          giveni={F\bibinitperiod},
-      }}%
-      {{hash=FA}{%
-         family={Ferrer},
-         familyi={F\bibinitperiod},
-         given={Alberto},
-         giveni={A\bibinitperiod},
       }}%
       {{hash=DJ}{%
          family={Dopazo},
          familyi={D\bibinitperiod},
          given={Joaqu{\'{i}}n},
          giveni={J\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Ferrer},
+         familyi={F\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=CA}{%
          family={Conesa},
@@ -3896,101 +3880,120 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{COST,RNA-seq,differential expression,next generation
-  sequencing,non-parametric approach}
     \strng{namehash}{TS+1}
-    \strng{fullhash}{TSGFFADJCA1}
+    \strng{fullhash}{TSGAFDJFACA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    http://bioinfo.cipf.es/aconesa Introduction Next Generation Sequencing
-  (NGS) technologies have brought a revolution to research in genome and genome
-  regulation. One of the most breaking applications of NGS is in transcriptome
-  analysis. RNA-seq has revealed exciting new data on gene models, alternative
-  splicing and extra-genic expression. Also RNA-seq permits the quantification
-  of gene expression across a large dynamic range and with more reproducibility
-  than microarrays. Several methods for the assessment of differential
-  expression from count data have been proposed but biases associated to
-  transcript length and transcript frequency distributions have been reported.
-  It is still not clear how much sequencing reads should be generated in a
-  RNA-seq experiment to obtain reliable results and what's exactly being
-  detected. In general we observed that many RNA-seq datasets have not reached
-  saturation for detection of expressed genes and that the relative proportion
-  of different transcript biotypes changes with increasing sequencing depth. In
-  this work we investigate the effect that library size has on the assessment
-  of differential expression on different aspects of the selected genes. We
-  show that current statistical methods suffer from a strong dependency of
-  their significant calls on the number of mapped reads considered and proposed
-  a novel differential expression methodology – NOISeq1- that is robust to
-  the amount of reads. Results NOISeq is a non-parametric approach for the
-  differential expression analysis of RNseq-data. NOISeq creates a null or
-  noise distribution of count changes by comparing the number of reads of each
-  gene in samples within the same condition. This reference distribution is
-  then used to assess whether the change in count number between two conditions
-  for a given gene is likely to be part of the noise or represents a true
-  differential expression. Two variants of the method are implemented:
-  NOISeq-real uses replicates, when available, to compute the noise
-  distribution and, NOISeq-sim simulates them in absence of replication. We
-  compared our method with edgeR2, DESeq3, baySeq4 and Fisher Exact Test (FET)
-  using three different experimental datasets. Results are presented for MAQC
-  experiment where the transcriptome of brain and Universal Human Reference
-  (HUR) samples were sequenced at about 45 million Solexa reads each. We first
-  determined that although protein-coding gene is the most abundant transcript
-  type within differential expression calls for all methodologies, other RNA
-  types, such as processed-transcript, pseudogenes and lincRNAs are readily
-  detected. NOISeq dected comparatively more protein-coding genes than other
-  methods that called significant a considerable number of non-coding and small
-  RNA transcripts. Additionally, all comparing methods except FET greatly
-  increased the number of detected (non-coding) genes as sequencing depth
-  raised while NOISeq showed a constant pattern. Also these other methods tend
-  to select shorter genes and smaller fold change differences with the
-  increasing amounts of reads. In general, parametric approaches selected much
-  more genes than NOISeq, specially at high sequencing depth rates. When
-  analyzing the functional content of these genes by functional enrichment
-  analysis, we observed that the pool of genes detected both by NOISeq and the
-  parametric methods where highly enriched in functional categories, while
-  genes selected only by parametric methods did not. To check whether this
-  differences were indicative of different false calls between methods, we used
-  the RT-PCR data available at the MAQC project that contains 330 true positive
-  and 83 true negative differentially expressed genes. Performance plots
-  indicate that edgeR, DESeq, baySeq strongly increased the number of false
-  calls with sequencing depth, while NOISeq was constant and low. On the
-  contrary true discoveries were slightly better for these methods, presumably
-  consequence of their large number of selected genes. FET showed in low false
-  and true discovery rates, due to its general lower detection power.
-  Conclusions We showed that most current RNA-seq statistical analysis methods
-  fail to control the number of false discoveries as the size of the sequenced
-  library increases. These false positive are mainly short, non- coding genes
-  and/or genes with small fold changes. NOISeq, but adopting an empirical
-  approach to model the null distribution of differential expression captures
-  better the shape of noise in RNA-seq data, resulting in a sequencing-depth
-  robust method for differential expression analysis. References 1. Tarazona
-  S., Garcia-Alcalde F., Ferrer A., Dopazo J., Conesa, A. Differential
-  expression in RNA-seq:a matter of depth. Genome Research, Sep 2011,
-  doi:10.1101/gr.124321.11. 2. Robinson, MD, McCarthy, DJ, and Smyth, GK. 2010.
-  edgeR: a Bioconductor package for differential expression analysis of digital
-  gene expression data. Bioinformatics 26(1):139,140. 3. Anders, S and Huber,
-  W. 2010. Differential expression analysis for sequence count data. Genome
-  Biology 11(10):R106. 4. Hardcastle, T and Kelly, K. 2010. baySeq: Empirical
-  Bayesian methods for identifying differential expression in sequence count
-  data. BMC Bioinformatics 11(1):422+. Relevant Web sites 5.
-  http://bioinfo.cipf.es/noiseq%
+    Next-generation sequencing (NGS) technologies are revolutionizing genome
+  research, and in particular, their application to transcriptomics (RNA-seq)
+  is increasingly being used for gene expression profiling as a replacement for
+  microarrays. However, the properties of RNA-seq data have not been yet fully
+  established, and additional research is needed for understanding how these
+  data respond to differential expression analysis. In this work, we set out to
+  gain insights into the characteristics of RNA-seq data analysis by studying
+  an important parameter of this technology: the sequencing depth. We have
+  analyzed how sequencing depth affects the detection of transcripts and their
+  identification as differentially expressed, looking at aspects such as
+  transcript biotype, length, expression level, and fold-change. We have
+  evaluated different algorithms available for the analysis of RNA-seq and
+  proposed a novel approach—NOISeq—that differs from existing methods in
+  that it is data-adaptive and nonparametric. Our results reveal that most
+  existing methodologies suffer from a strong dependency on sequencing depth
+  for their differential expression calls and that this results in a
+  considerable number of false positives that increases as the number of reads
+  grows. In contrast, our proposed method models the noise distribution from
+  the actual data, can therefore better adapt to the size of the data set, and
+  is more effective in controlling the rate of false discoveries. This work
+  discusses the true potential of RNA-seq for studying regulation at low
+  expression ranges, the noise within RNA-seq data, and the issue of
+  replication.%
     }
     \verb{doi}
-    \verb 10.14806/ej.17.B.265
+    \verb 10.1101/gr.124321.111
     \endverb
-    \field{isbn}{1023-4144}
-    \field{issn}{2226-6089}
-    \field{number}{B}
-    \field{pages}{18}
-    \field{title}{{NOIseq: a RNA-seq differential expression method robust for
-  sequencing depth biases}}
-    \verb{url}
-    \verb http://journal.embnet.org/index.php/embnetjournal/article/view/265
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
     \endverb
-    \field{volume}{17}
-    \field{journaltitle}{EMBnet.journal}
-    \field{year}{2012}
+    \field{isbn}{1549-5469 (Electronic)$\backslash$n1088-9051 (Linking)}
+    \field{issn}{10889051}
+    \field{title}{{Differential expression in RNA-seq: A matter of depth}}
+    \field{journaltitle}{Genome Research}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Tarazona2015}{article}{}
+    \name{author}{7}{}{%
+      {{hash=TS}{%
+         family={Tarazona},
+         familyi={T\bibinitperiod},
+         given={Sonia},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FTP}{%
+         family={Furi{\'{o}}-Tar{\'{i}}},
+         familyi={F\bibinitperiod-T\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Turr{\`{a}}},
+         familyi={T\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={{Di Pietro}},
+         familyi={D\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NMJ}{%
+         family={Nueda},
+         familyi={N\bibinitperiod},
+         given={Mar{\'{i}}a\bibnamedelima Jos{\'{e}}},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Ferrer},
+         familyi={F\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Conesa},
+         familyi={C\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TS+1}
+    \strng{fullhash}{TSFTPTDDANMJFACA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As the use of RNA-seq has popularized, there is an increasing consciousness
+  of the importance of experimental design, bias removal, accurate
+  quantification and control of false positives for proper data analysis. We
+  introduce the NOISeq R-package for quality control and analysis of count
+  data. We show how the available diagnostic tools can be used to monitor
+  quality issues, make pre-processing decisions and improve analysis. We
+  demonstrate that the non-parametric NOISeqBIO efficiently controls false
+  discoveries in experiments with biological replication and outperforms
+  state-of-the-art methods. NOISeq is a comprehensive resource that meets
+  current needs for robust data-aware analysis of RNA-seq differential
+  expression.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkv711
+    \endverb
+    \field{isbn}{1362-4962 (Electronic)$\backslash$r0305-1048 (Linking)}
+    \field{issn}{13624962}
+    \field{title}{{Data quality aware analysis of differential expression in
+  RNA-seq with NOISeq R/Bioc package}}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2015}
   \endentry
 
   \entry{Risso2014h}{article}{}
@@ -4057,15 +4060,15 @@
     \endverb
     \field{volume}{32}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Risso et al. - 2014 - Normalization of RNA-seq data using factor a
-    \verb nalysis of control genes or samples (RUVSeq).pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Risso et al. - 2014 - Normalization of RNA-seq data using factor an
+    \verb alysis of control genes or samples (RUVSeq).pdf:pdf
     \endverb
     \field{journaltitle}{Nature Biotechnology}
     \field{year}{2014}
   \endentry
 
-  \entry{Costa-Silva2017}{misc}{}
+  \entry{Costa-Silva2017}{article}{}
     \name{author}{3}{}{%
       {{hash=CSJ}{%
          family={Costa-Silva},
@@ -4114,7 +4117,6 @@
   different methods can produce more suitable results. The consensus option is
   also included for use in the available software.%
     }
-    \field{booktitle}{PLoS ONE}
     \verb{doi}
     \verb 10.1371/journal.pone.0190152
     \endverb
@@ -4125,6 +4127,7 @@
     \field{issn}{19326203}
     \field{title}{{RNA-Seq differential expression analysis: An extended review
   and a software tool}}
+    \field{journaltitle}{PLoS ONE}
     \field{eprinttype}{arXiv}
     \field{year}{2017}
   \endentry
@@ -4407,6 +4410,150 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Yu2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YG}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Guangchuang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WLG}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Li-Gen},
+         giveni={L\bibinitperiod-G\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Yanyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HQY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Qing-Yu},
+         giveni={Q\bibinitperiod-Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YG+1}
+    \strng{fullhash}{YGWLGHYHQY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Increasing quantitative data generated from transcriptomics and proteomics
+  require integrative strategies for analysis. Here, we present an R package,
+  clusterProfiler that automates the process of biological-term classification
+  and the enrichment analysis of gene clusters. The analysis module and
+  visualization module were combined into a reusable workflow. Currently,
+  clusterProfiler supports three species, including humans, mice, and yeast.
+  Methods provided in this package can be easily extended to other species and
+  ontologies. The clusterProfiler package is released under Artistic-2.0
+  License within Bioconductor project. The source code and vignette are freely
+  available at
+  http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html.%
+    }
+    \verb{doi}
+    \verb 10.1089/omi.2011.0118
+    \endverb
+    \field{isbn}{1557-8100 (Electronic)$\backslash$r1536-2310 (Linking)}
+    \field{issn}{1536-2310}
+    \field{number}{5}
+    \field{pages}{284\bibrangedash 287}
+    \field{title}{{clusterProfiler: an R Package for Comparing Biological
+  Themes Among Gene Clusters}}
+    \verb{url}
+    \verb http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118
+    \endverb
+    \field{volume}{16}
+    \field{journaltitle}{OMICS: A Journal of Integrative Biology}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Reimand2016}{article}{}
+    \name{author}{7}{}{%
+      {{hash=RJ}{%
+         family={Reimand},
+         familyi={R\bibinitperiod},
+         given={J{\"{u}}ri},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Arak},
+         familyi={A\bibinitperiod},
+         given={Tambet},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Adler},
+         familyi={A\bibinitperiod},
+         given={Priit},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kolberg},
+         familyi={K\bibinitperiod},
+         given={Liis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Reisberg},
+         familyi={R\bibinitperiod},
+         given={Sulev},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Peterson},
+         familyi={P\bibinitperiod},
+         given={Hedi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vilo},
+         familyi={V\bibinitperiod},
+         given={Jaak},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ+1}
+    \strng{fullhash}{RJATAPKLRSPHVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Functional enrichment analysis is a key step in interpreting gene lists
+  discovered in diverse high-throughput experiments. g:Profiler studies flat
+  and ranked gene lists and finds statistically significant Gene Ontology
+  terms, pathways and other gene function related terms. Translation of
+  hundreds of gene identifiers is another core feature of g:Profiler. Since its
+  first publication in 2007, our web server has become a popular tool of choice
+  among basic and translational researchers. Timeliness is a major advantage of
+  g:Profiler as genome and pathway information is synchronized with the Ensembl
+  database in quarterly updates. g:Profiler supports 213 species including
+  mammals and other vertebrates, plants, insects and fungi. The 2016 update of
+  g:Profiler introduces several novel features. We have added further
+  functional datasets to interpret gene lists, including transcription factor
+  binding site predictions, Mendelian disease annotations, information about
+  protein expression and complexes and gene mappings of human genetic
+  polymorphisms. Besides the interactive web interface, g:Profiler can be
+  accessed in computational pipelines using our R package, Python interface and
+  BioJS component. g:Profiler is freely available at
+  http://biit.cs.ut.ee/gprofiler/.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkw199
+    \endverb
+    \field{isbn}{13624962 (Electronic)}
+    \field{issn}{13624962}
+    \field{number}{W1}
+    \field{pages}{W83\bibrangedash W89}
+    \field{title}{{g:Profiler-a web server for functional interpretation of
+  gene lists (2016 update)}}
+    \field{volume}{44}
+    \field{journaltitle}{Nucleic acids research}
+    \field{year}{2016}
+  \endentry
+
   \entry{Carlson2018}{misc}{}
     \name{author}{1}{}{%
       {{hash=CM}{%
@@ -4525,11 +4672,11 @@
     \list{publisher}{1}{%
       {BMC Bioinformatics}%
     }
-    \keyw{Animals,DNA, Complementary,DNA, Complementary: genetics,Gene
-  Expression Profiling,Gene Expression Profiling:
-  methods,Genome,Genomics,Genomics: methods,Mice,Mice, Inbred C57BL,Mice,
-  Inbred DBA,RNA, Messenger,RNA, Messenger: metabolism,Sequence Analysis,
-  RNA,Software,differential expression,next generation sequencing,ngs,rna-seq}
+    \keyw{Animals,Complementary,Complementary: genetics,DNA,Gene Expression
+  Profiling,Gene Expression Profiling: methods,Genome,Genomics,Genomics:
+  methods,Inbred C57BL,Inbred DBA,Messenger,Messenger:
+  metabolism,Mice,RNA,Sequence Analysis,Software,differential expression,next
+  generation sequencing,ngs,rna-seq}
     \strng{namehash}{SCDM1}
     \strng{fullhash}{SCDM1}
     \field{labelnamesource}{author}
@@ -4545,16 +4692,15 @@
   increase rapidly. To exploit the possibilities and address the challenges
   posed by this relatively new type of data, a number of software packages have
   been developed especially for differential expression analysis of RNA-seq
-  data.$\backslash$n$\backslash$nRESULTS: We conducted an extensive comparison
-  of eleven methods for differential expression analysis of RNA-seq data. All
-  methods are freely available within the R framework and take as input a
-  matrix of counts, i.e. the number of reads mapping to each genomic feature of
-  interest in each of a number of samples. We evaluate the methods based on
-  both simulated data and real RNA-seq
-  data.$\backslash$n$\backslash$nCONCLUSIONS: Very small sample sizes, which
-  are still common in RNA-seq experiments, impose problems for all evaluated
-  methods and any results obtained under such conditions should be interpreted
-  with caution. For larger sample sizes, the methods combining a
+  data. RESULTS: We conducted an extensive comparison of eleven methods for
+  differential expression analysis of RNA-seq data. All methods are freely
+  available within the R framework and take as input a matrix of counts, i.e.
+  the number of reads mapping to each genomic feature of interest in each of a
+  number of samples. We evaluate the methods based on both simulated data and
+  real RNA-seq data. CONCLUSIONS: Very small sample sizes, which are still
+  common in RNA-seq experiments, impose problems for all evaluated methods and
+  any results obtained under such conditions should be interpreted with
+  caution. For larger sample sizes, the methods combining a
   variance-stabilizing transformation with the 'limma' method for differential
   expression analysis perform well under many different conditions, as does the
   nonparametric SAMseq method.%
@@ -4573,9 +4719,9 @@
     \endverb
     \field{volume}{14}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Soneson, Delorenzi - 2013 - A comparison of methods for differenti
-    \verb al expression analysis of RNA-seq data.pdf:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Soneson, Delorenzi - 2013 - A comparison of methods for differentia
+    \verb l expression analysis of RNA-seq data.pdf:pdf
     \endverb
     \field{journaltitle}{BMC bioinformatics}
     \field{year}{2013}
@@ -4652,6 +4798,58 @@
     \field{journaltitle}{BMC Bioinformatics}
     \field{eprinttype}{arXiv}
     \field{year}{2010}
+  \endentry
+
+  \entry{Benjamini1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BY}{%
+         family={Benjamini},
+         familyi={B\bibinitperiod},
+         given={Yoav},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hochberg},
+         familyi={H\bibinitperiod},
+         given={Yosef},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{BONFERRONI-TYPE PROCEDURES,FAMILYWISE ERROR RATE,MULTIPLE-COMPARISON
+  PROCEDURES,p-VALUES}
+    \strng{namehash}{BYHY1}
+    \strng{fullhash}{BYHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The common approach to the multiplicity problem calls for controlling the
+  familywise error rate (FWER). This approach, though, has faults, and we point
+  out a few. A different approach to problems of multiple significance testing
+  is presented. It calls for controlling the expected proportion of falsely
+  rejected hypotheses-the false discovery rate. This error rate is equivalent
+  to the FWER when all hypotheses are true but is smaller otherwise. Therefore,
+  in problems where the control of the false discovery rate rather than that of
+  the FWER is desired, there is potential for a gain in power. A simple
+  sequential Bonferroni-type procedure is proved to control the false discovery
+  rate for independent test statistics, and a simulation study shows that the
+  gain in power is substantial. The use of the new procedure and the
+  appropriateness of the criterion are illustrated with examples.%
+    }
+    \verb{doi}
+    \verb 10.2307/2346101
+    \endverb
+    \verb{eprint}
+    \verb 95/57289
+    \endverb
+    \field{isbn}{1023072346}
+    \field{issn}{00359246}
+    \field{title}{{Controlling the false discovery rate: a practical and
+  powerful approach to multiple testing}}
+    \field{journaltitle}{Journal of the Royal Statistical Society. Series B
+  (Methodological)}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{0035-9246}
+    \field{year}{1995}
   \endentry
 
   \entry{Yeh2016}{article}{}
@@ -5586,10 +5784,10 @@
     \field{title}{{A comprehensive evaluation of normalization methods for
   Illumina high-throughput RNA sequencing data analysis}}
     \verb{file}
-    \verb :home/dario/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-    \verb ed/Dillies et al. - 2013 - A comprehensive evaluation of normalizatio
-    \verb n methods for Illumina high-throughput RNA sequencing data analysis.p
-    \verb df:pdf
+    \verb :Users/inzirio/Library/Application Support/Mendeley Desktop/Downloade
+    \verb d/Dillies et al. - 2013 - A comprehensive evaluation of normalization
+    \verb  methods for Illumina high-throughput RNA sequencing data analysis(2)
+    \verb .pdf:pdf
     \endverb
     \field{journaltitle}{Briefings in Bioinformatics}
     \field{year}{2013}
@@ -5663,58 +5861,6 @@
     \field{year}{2012}
   \endentry
 
-  \entry{Benjamini1995}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BY}{%
-         family={Benjamini},
-         familyi={B\bibinitperiod},
-         given={Yoav},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=HY}{%
-         family={Hochberg},
-         familyi={H\bibinitperiod},
-         given={Yosef},
-         giveni={Y\bibinitperiod},
-      }}%
-    }
-    \keyw{BONFERRONI-TYPE PROCEDURES,FAMILYWISE ERROR RATE,MULTIPLE-COMPARISON
-  PROCEDURES,p-VALUES}
-    \strng{namehash}{BYHY1}
-    \strng{fullhash}{BYHY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The common approach to the multiplicity problem calls for controlling the
-  familywise error rate (FWER). This approach, though, has faults, and we point
-  out a few. A different approach to problems of multiple significance testing
-  is presented. It calls for controlling the expected proportion of falsely
-  rejected hypotheses-the false discovery rate. This error rate is equivalent
-  to the FWER when all hypotheses are true but is smaller otherwise. Therefore,
-  in problems where the control of the false discovery rate rather than that of
-  the FWER is desired, there is potential for a gain in power. A simple
-  sequential Bonferroni-type procedure is proved to control the false discovery
-  rate for independent test statistics, and a simulation study shows that the
-  gain in power is substantial. The use of the new procedure and the
-  appropriateness of the criterion are illustrated with examples.%
-    }
-    \verb{doi}
-    \verb 10.2307/2346101
-    \endverb
-    \verb{eprint}
-    \verb 95/57289
-    \endverb
-    \field{isbn}{1023072346}
-    \field{issn}{00359246}
-    \field{title}{{Controlling the false discovery rate: a practical and
-  powerful approach to multiple testing}}
-    \field{journaltitle}{Journal of the Royal Statistical Society. Series B
-  (Methodological)}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{0035-9246}
-    \field{year}{1995}
-  \endentry
-
   \entry{Kluyver2016}{incollection}{}
     \name{author}{1}{}{%
       {{hash=TJDT}{%
@@ -5756,7 +5902,7 @@
     \field{year}{2016}
   \endentry
 
-  \entry{Blankenberg2010}{misc}{}
+  \entry{Blankenberg2010}{article}{}
     \name{author}{8}{}{%
       {{hash=BD}{%
          family={Blankenberg},
@@ -5827,7 +5973,6 @@
   informatics or programming expertise to perform complex large-scale analysis
   with just a Web browser.%
     }
-    \field{booktitle}{Current Protocols in Molecular Biology}
     \verb{doi}
     \verb 10.1002/0471142727.mb1910s89
     \endverb
@@ -5839,6 +5984,7 @@
     \field{number}{SUPPL. 89}
     \field{title}{{Galaxy: A web-based genome analysis tool for
   experimentalists}}
+    \field{journaltitle}{Current Protocols in Molecular Biology}
     \field{eprinttype}{arXiv}
     \field{year}{2010}
   \endentry
@@ -6110,7 +6256,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Leisch2002a}{incollection}{}
+  \entry{Leisch2002a}{article}{}
     \name{author}{1}{}{%
       {{hash=LF}{%
          family={Leisch},
@@ -6133,13 +6279,13 @@
   automatically updated if data or analysis change, which allows for truly
   reproducible research.%
     }
-    \field{booktitle}{Compstat}
     \verb{doi}
     \verb 10.1007/978-3-642-57489-4_89
     \endverb
     \field{isbn}{3790815179 9783790815177}
     \field{title}{{Sweave: Dynamic Generation of Statistical Reports Using
   Literate Data Analysis}}
+    \field{journaltitle}{Compstat}
     \field{year}{2002}
   \endentry
 
@@ -6310,7 +6456,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Poplawski2016}{misc}{}
+  \entry{Poplawski2016}{article}{}
     \name{author}{6}{}{%
       {{hash=PA}{%
          family={Poplawski},
@@ -6373,7 +6519,6 @@
   potential benefits compared with command line tools, leaving room for future
   improvement of interfaces.%
     }
-    \field{booktitle}{Briefings in Bioinformatics}
     \verb{doi}
     \verb 10.1093/bib/bbv036
     \endverb
@@ -6384,6 +6529,7 @@
     \field{title}{{Systematically evaluating interfaces for RNA-seq analysis
   from a life scientist perspective}}
     \field{volume}{17}
+    \field{journaltitle}{Briefings in Bioinformatics}
     \field{year}{2016}
   \endentry
 
@@ -6425,27 +6571,1434 @@
     \field{year}{2007}
   \endentry
 
-  \entry{tcga2013a}{misc}{}
-    \name{author}{1}{}{%
+  \entry{TCGA2008}{article}{}
+    \name{author}{232}{}{%
       {{hash=T}{%
-         family={{The Cancer Genoma Atlas}},
+         family={TCGA},
          familyi={T\bibinitperiod},
       }}%
+      {{hash=MR}{%
+         family={McLendon},
+         familyi={M\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Friedman},
+         familyi={F\bibinitperiod},
+         given={Allan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bigner},
+         familyi={B\bibinitperiod},
+         given={Darrell},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VEG}{%
+         family={{Van Meir}},
+         familyi={V\bibinitperiod},
+         given={Erwin\bibnamedelima G.},
+         giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BDJ}{%
+         family={Brat},
+         familyi={B\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={{M. Mastrogianakis}},
+         familyi={M\bibinitperiod},
+         given={Gena},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OJJ}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Jeffrey\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Mikkelsen},
+         familyi={M\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lehman},
+         familyi={L\bibinitperiod},
+         given={Norman},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Aldape},
+         familyi={A\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AWK}{%
+         family={{Alfred Yung}},
+         familyi={A\bibinitperiod},
+         given={W.\bibnamedelima K.},
+         giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Bogler},
+         familyi={B\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={VandenBerg},
+         familyi={V\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Berger},
+         familyi={B\bibinitperiod},
+         given={Mitchel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Prados},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Muzny},
+         familyi={M\bibinitperiod},
+         given={Donna},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Margaret},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Scherer},
+         familyi={S\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sabo},
+         familyi={S\bibinitperiod},
+         given={Aniko},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nazareth},
+         familyi={N\bibinitperiod},
+         given={Lynn},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Lora},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Otis},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yiming},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RY}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Yanru},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Alvi},
+         familyi={A\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Jiqiang},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hawes},
+         familyi={H\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jhangiani},
+         familyi={J\bibinitperiod},
+         given={Shalini},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={{San Lucas}},
+         familyi={S\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kovar},
+         familyi={K\bibinitperiod},
+         given={Christie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cree},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dinh},
+         familyi={D\bibinitperiod},
+         given={Huyen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Santibanez},
+         familyi={S\bibinitperiod},
+         given={Jireh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JV}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Vandita},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GGML}{%
+         family={Gonzalez-Garay},
+         familyi={G\bibinitperiod-G\bibinitperiod},
+         given={Manuel\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Christopher\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Milosavljevic},
+         familyi={M\bibinitperiod},
+         given={Aleksandar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Donehower},
+         familyi={D\bibinitperiod},
+         given={Larry},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WDA}{%
+         family={Wheeler},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GRA}{%
+         family={Gibbs},
+         familyi={G\bibinitperiod},
+         given={Richard\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Cibulskis},
+         familyi={C\bibinitperiod},
+         given={Kristian},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sougnez},
+         familyi={S\bibinitperiod},
+         given={Carrie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fennell},
+         familyi={F\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mahan},
+         familyi={M\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Ziaugra},
+         familyi={Z\bibinitperiod},
+         given={Liuda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OR}{%
+         family={Onofrio},
+         familyi={O\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bloom},
+         familyi={B\bibinitperiod},
+         given={Toby},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Nicol},
+         familyi={N\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Ardlie},
+         familyi={A\bibinitperiod},
+         given={Kristin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Baldwin},
+         familyi={B\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gabriel},
+         familyi={G\bibinitperiod},
+         given={Stacey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LES}{%
+         family={Lander},
+         familyi={L\bibinitperiod},
+         given={Eric\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FRS}{%
+         family={Fulton},
+         familyi={F\bibinitperiod},
+         given={Robert\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MMD}{%
+         family={McLellan},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wallis},
+         familyi={W\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LDE}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Xiaoqi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fulton},
+         familyi={F\bibinitperiod},
+         given={Lucinda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KDC}{%
+         family={Koboldt},
+         familyi={K\bibinitperiod},
+         given={Daniel\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WMC}{%
+         family={Wendl},
+         familyi={W\bibinitperiod},
+         given={Michael\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Rick},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Yuzhu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Ling},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OJR}{%
+         family={Osborne},
+         familyi={O\bibinitperiod},
+         given={John\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DSBH}{%
+         family={Dunford-Shore},
+         familyi={D\bibinitperiod-S\bibinitperiod},
+         given={Brian\bibnamedelima H.},
+         giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MTL}{%
+         family={Miner},
+         familyi={M\bibinitperiod},
+         given={Tracie\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Delehaunty},
+         familyi={D\bibinitperiod},
+         given={Kim},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Markovic},
+         familyi={M\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Swift},
+         familyi={S\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Courtney},
+         familyi={C\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Pohl},
+         familyi={P\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hawkins},
+         familyi={H\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leong},
+         familyi={L\bibinitperiod},
+         given={Shin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Haipek},
+         familyi={H\bibinitperiod},
+         given={Carrie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Heather},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wiechert},
+         familyi={W\bibinitperiod},
+         given={Maddy},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VT}{%
+         family={Vickery},
+         familyi={V\bibinitperiod},
+         given={Tammi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Sacha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DDJ}{%
+         family={Dooling},
+         familyi={D\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chinwalla},
+         familyi={C\bibinitperiod},
+         given={Asif},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WGM}{%
+         family={Weinstock},
+         familyi={W\bibinitperiod},
+         given={George\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MER}{%
+         family={Mardis},
+         familyi={M\bibinitperiod},
+         given={Elaine\bibnamedelima R.},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WRK}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Getz},
+         familyi={G\bibinitperiod},
+         given={Gad},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Winckler},
+         familyi={W\bibinitperiod},
+         given={Wendy},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=VRGW}{%
+         family={Verhaak},
+         familyi={V\bibinitperiod},
+         given={Roel G.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+      {{hash=LMS}{%
+         family={Lawrence},
+         familyi={L\bibinitperiod},
+         given={Michael\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={O'Kelly},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Alexe},
+         familyi={A\bibinitperiod},
+         given={Gabriele},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Beroukhim},
+         familyi={B\bibinitperiod},
+         given={Rameen},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Carter},
+         familyi={C\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chiang},
+         familyi={C\bibinitperiod},
+         given={Derek},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gould},
+         familyi={G\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Supriya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Korn},
+         familyi={K\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Mermel},
+         familyi={M\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mesirov},
+         familyi={M\bibinitperiod},
+         given={Jill},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Monti},
+         familyi={M\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Huy},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parkin},
+         familyi={P\bibinitperiod},
+         given={Melissa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Stransky},
+         familyi={S\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WBA}{%
+         family={Weir},
+         familyi={W\bibinitperiod},
+         given={Barbara\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Garraway},
+         familyi={G\bibinitperiod},
+         given={Levi},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Golub},
+         familyi={G\bibinitperiod},
+         given={Todd},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Meyerson},
+         familyi={M\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chin},
+         familyi={C\bibinitperiod},
+         given={Lynda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Protopopov},
+         familyi={P\bibinitperiod},
+         given={Alexei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jianhua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Perna},
+         familyi={P\bibinitperiod},
+         given={Ilana},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Aronson},
+         familyi={A\bibinitperiod},
+         given={Sandy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Sathiamoorthy},
+         familyi={S\bibinitperiod},
+         given={Narayan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Georgia},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WWR}{%
+         family={Wiedemeyer},
+         familyi={W\bibinitperiod},
+         given={W.\bibnamedelima Ruprecht},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Hyunsoo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={{Won Kong}},
+         familyi={W\bibinitperiod},
+         given={Sek},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xiao},
+         familyi={X\bibinitperiod},
+         given={Yonghong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KIS}{%
+         family={Kohane},
+         familyi={K\bibinitperiod},
+         given={Isaac\bibnamedelima S.},
+         giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Seidman},
+         familyi={S\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PPJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kucherlapati},
+         familyi={K\bibinitperiod},
+         given={Raju},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LPW}{%
+         family={Laird},
+         familyi={L\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cope},
+         familyi={C\bibinitperiod},
+         given={Leslie},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HJG}{%
+         family={Herman},
+         familyi={H\bibinitperiod},
+         given={James\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WDJ}{%
+         family={Weisenberger},
+         familyi={W\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={{Van Den Berg}},
+         familyi={V\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={{Van Neste}},
+         familyi={V\bibinitperiod},
+         given={Leander},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={{Mi Yi}},
+         familyi={M\bibinitperiod},
+         given={Joo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SKE}{%
+         family={Schuebel},
+         familyi={S\bibinitperiod},
+         given={Kornel\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BSB}{%
+         family={Baylin},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=ADM}{%
+         family={Absher},
+         familyi={A\bibinitperiod},
+         given={Devin\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LJZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jun\bibnamedelima Z.},
+         giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Southwick},
+         familyi={S\bibinitperiod},
+         given={Audrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Brady},
+         familyi={B\bibinitperiod},
+         given={Shannon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Amita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Tisha},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sherlock},
+         familyi={S\bibinitperiod},
+         given={Gavin},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BJD}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={James\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={Myers},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SPT}{%
+         family={Spellman},
+         familyi={S\bibinitperiod},
+         given={Paul\bibnamedelima T.},
+         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Purdom},
+         familyi={P\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JLR}{%
+         family={Jakkula},
+         familyi={J\bibinitperiod},
+         given={Lakshmi\bibnamedelima R.},
+         giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LAV}{%
+         family={Lapuk},
+         familyi={L\bibinitperiod},
+         given={Anna\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Marr},
+         familyi={M\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dorton},
+         familyi={D\bibinitperiod},
+         given={Shannon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={{Gi Choi}},
+         familyi={G\bibinitperiod},
+         given={Yoon},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Ju},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ray},
+         familyi={R\bibinitperiod},
+         given={Amrita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WV}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Victoria},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Durinck},
+         familyi={D\bibinitperiod},
+         given={Steffen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WNJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Nicholas\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Vranizan},
+         familyi={V\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Vivian},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={{Van Name}},
+         familyi={V\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FGV}{%
+         family={Fontenay},
+         familyi={F\bibinitperiod},
+         given={Gerald\bibnamedelima V.},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ngai},
+         familyi={N\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJG}{%
+         family={Conboy},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Parvin},
+         familyi={P\bibinitperiod},
+         given={Bahram},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FHS}{%
+         family={Feiler},
+         familyi={F\bibinitperiod},
+         given={Heidi\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=STP}{%
+         family={Speed},
+         familyi={S\bibinitperiod},
+         given={Terence\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GJW}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Joe\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Brennan},
+         familyi={B\bibinitperiod},
+         given={Cameron},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SND}{%
+         family={Socci},
+         familyi={S\bibinitperiod},
+         given={Nicholas\bibnamedelima D.},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Olshen},
+         familyi={O\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TBS}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Barry\bibnamedelima S.},
+         giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lash},
+         familyi={L\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Schultz},
+         familyi={S\bibinitperiod},
+         given={Nikolaus},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Reva},
+         familyi={R\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Antipin},
+         familyi={A\bibinitperiod},
+         given={Yevgeniy},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stukalov},
+         familyi={S\bibinitperiod},
+         given={Alexey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cerami},
+         familyi={C\bibinitperiod},
+         given={Ethan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=QW}{%
+         family={{Qing Wang}},
+         familyi={Q\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=QLX}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Li-Xuan},
+         giveni={L\bibinitperiod-X\bibinitperiod},
+      }}%
+      {{hash=SVE}{%
+         family={Seshan},
+         familyi={S\bibinitperiod},
+         given={Venkatraman\bibnamedelima E.},
+         giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Villafania},
+         familyi={V\bibinitperiod},
+         given={Liliana},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cavatore},
+         familyi={C\bibinitperiod},
+         given={Magali},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Borsu},
+         familyi={B\bibinitperiod},
+         given={Laetitia},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Viale},
+         familyi={V\bibinitperiod},
+         given={Agnes},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gerald},
+         familyi={G\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sander},
+         familyi={S\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Ladanyi},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PCM}{%
+         family={Perou},
+         familyi={P\bibinitperiod},
+         given={Charles\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={{Neil Hayes}},
+         familyi={N\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TMD}{%
+         family={Topal},
+         familyi={T\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HKA}{%
+         family={Hoadley},
+         familyi={H\bibinitperiod},
+         given={Katherine\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=QY}{%
+         family={Qi},
+         familyi={Q\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Balu},
+         familyi={B\bibinitperiod},
+         given={Sai},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Junyuan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Penny},
+         familyi={P\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bittner},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Shelton},
+         familyi={S\bibinitperiod},
+         given={Troy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lenkiewicz},
+         familyi={L\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Beasley},
+         familyi={B\bibinitperiod},
+         given={Debbie},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sanders},
+         familyi={S\bibinitperiod},
+         given={Sheri},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kahn},
+         familyi={K\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sfeir},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Nassau},
+         familyi={N\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Larry},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={Hickey},
+         familyi={H\bibinitperiod},
+         given={Erin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jinghui},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WJN}{%
+         family={Weinstein},
+         familyi={W\bibinitperiod},
+         given={John\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Barker},
+         familyi={B\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GDS}{%
+         family={Gerhard},
+         familyi={G\bibinitperiod},
+         given={Daniela\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vockley},
+         familyi={V\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Compton},
+         familyi={C\bibinitperiod},
+         given={Carolyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vaught},
+         familyi={V\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fielding},
+         familyi={F\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FML}{%
+         family={Ferguson},
+         familyi={F\bibinitperiod},
+         given={Martin\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schaefer},
+         familyi={S\bibinitperiod},
+         given={Carl},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Madhavan},
+         familyi={M\bibinitperiod},
+         given={Subhashree},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BKH}{%
+         family={Buetow},
+         familyi={B\bibinitperiod},
+         given={Kenneth\bibnamedelima H.},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Good},
+         familyi={G\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guyer},
+         familyi={G\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OB}{%
+         family={Ozenberger},
+         familyi={O\bibinitperiod},
+         given={Brad},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Peterson},
+         familyi={P\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Thomson},
+         familyi={T\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{T+1}
+  \strng{fullhash}{TMRFABDVEGBDJMGOJJMTLNAKAWKBOVSBMPMMDMMSSSANLLLHOZYRYAOYJHAJSFGSAKCCADHSJJVGGMLMCAMADLWDAGRACKSCFTMSWJZLORBTNRAKBJGSLESDLFRSMMDWJLDESXARFLCKKDCWMCMRTYLLOJRDSBHMTLDKMCSGCWPCASHALSHCSHWMVTSSDDJCAWGMMERWRKGGWWVRGWLMSOMRJAGBRCSCDGJGSKJMCMJMSNHPMRMSNWBAGL}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The Cancer Genome Atlas (TCGA) is a comprehensive and coordinated effort to
-  accelerate our understanding of the molecular basis of cancer through the
-  application of genome analysis technologies, including large-scale genome
-  sequencing.%
+    Human cancer cells typically harbour multiple chromosomal aberrations,
+  nucleotide substitutions and epigenetic modifications that drive malignant
+  transformation. The Cancer Genome Atlas (TCGA) pilot project aims to assess
+  the value of large-scale multi-dimensional analysis of these molecular
+  characteristics in human cancer and to provide the data rapidly to the
+  research community. Here we report the interim integrative analysis of DNA
+  copy number, gene expression and DNA methylation aberrations in 206
+  glioblastomas--the most common type of adult brain cancer--and nucleotide
+  sequence aberrations in 91 of the 206 glioblastomas. This analysis provides
+  new insights into the roles of ERBB2, NF1 and TP53, uncovers frequent
+  mutations of the phosphatidylinositol-3-OH kinase regulatory subunit gene
+  PIK3R1, and provides a network view of the pathways altered in the
+  development of glioblastoma. Furthermore, integration of mutation, DNA
+  methylation and clinical treatment data reveals a link between MGMT promoter
+  methylation and a hypermutator phenotype consequent to mismatch repair
+  deficiency in treated glioblastomas, an observation with potential clinical
+  implications. Together, these findings establish the feasibility and power of
+  TCGA, demonstrating that it can rapidly expand knowledge of the molecular
+  basis of cancer.%
     }
-    \field{booktitle}{National Cancer Institute (NCI) and National Human Genome
-  Research Institute (NHGRI)}
-    \field{title}{{TCGA}}
-    \field{year}{2013}
+    \verb{doi}
+    \verb 10.1038/nature07385
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{0028-0836}
+    \field{title}{{Comprehensive genomic characterization defines human
+  glioblastoma genes and core pathways}}
+    \field{journaltitle}{Nature}
+    \field{year}{2008}
   \endentry
 
   \entry{Pedersen}{misc}{}
@@ -7188,150 +8741,6 @@
   topology to gene network}}
     \field{volume}{13}
     \field{journaltitle}{BMC Bioinformatics}
-    \field{year}{2012}
-  \endentry
-
-  \entry{Reimand2016}{article}{}
-    \name{author}{7}{}{%
-      {{hash=RJ}{%
-         family={Reimand},
-         familyi={R\bibinitperiod},
-         given={J{\"{u}}ri},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AT}{%
-         family={Arak},
-         familyi={A\bibinitperiod},
-         given={Tambet},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=AP}{%
-         family={Adler},
-         familyi={A\bibinitperiod},
-         given={Priit},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=KL}{%
-         family={Kolberg},
-         familyi={K\bibinitperiod},
-         given={Liis},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Reisberg},
-         familyi={R\bibinitperiod},
-         given={Sulev},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=PH}{%
-         family={Peterson},
-         familyi={P\bibinitperiod},
-         given={Hedi},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=VJ}{%
-         family={Vilo},
-         familyi={V\bibinitperiod},
-         given={Jaak},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RJ+1}
-    \strng{fullhash}{RJATAPKLRSPHVJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Functional enrichment analysis is a key step in interpreting gene lists
-  discovered in diverse high-throughput experiments. g:Profiler studies flat
-  and ranked gene lists and finds statistically significant Gene Ontology
-  terms, pathways and other gene function related terms. Translation of
-  hundreds of gene identifiers is another core feature of g:Profiler. Since its
-  first publication in 2007, our web server has become a popular tool of choice
-  among basic and translational researchers. Timeliness is a major advantage of
-  g:Profiler as genome and pathway information is synchronized with the Ensembl
-  database in quarterly updates. g:Profiler supports 213 species including
-  mammals and other vertebrates, plants, insects and fungi. The 2016 update of
-  g:Profiler introduces several novel features. We have added further
-  functional datasets to interpret gene lists, including transcription factor
-  binding site predictions, Mendelian disease annotations, information about
-  protein expression and complexes and gene mappings of human genetic
-  polymorphisms. Besides the interactive web interface, g:Profiler can be
-  accessed in computational pipelines using our R package, Python interface and
-  BioJS component. g:Profiler is freely available at
-  http://biit.cs.ut.ee/gprofiler/.%
-    }
-    \verb{doi}
-    \verb 10.1093/nar/gkw199
-    \endverb
-    \field{isbn}{13624962 (Electronic)}
-    \field{issn}{13624962}
-    \field{number}{W1}
-    \field{pages}{W83\bibrangedash W89}
-    \field{title}{{g:Profiler-a web server for functional interpretation of
-  gene lists (2016 update)}}
-    \field{volume}{44}
-    \field{journaltitle}{Nucleic acids research}
-    \field{year}{2016}
-  \endentry
-
-  \entry{Yu2012}{article}{}
-    \name{author}{4}{}{%
-      {{hash=YG}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Guangchuang},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=WLG}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Li-Gen},
-         giveni={L\bibinitperiod-G\bibinitperiod},
-      }}%
-      {{hash=HY}{%
-         family={Han},
-         familyi={H\bibinitperiod},
-         given={Yanyan},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=HQY}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={Qing-Yu},
-         giveni={Q\bibinitperiod-Y\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{YG+1}
-    \strng{fullhash}{YGWLGHYHQY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Increasing quantitative data generated from transcriptomics and proteomics
-  require integrative strategies for analysis. Here, we present an R package,
-  clusterProfiler that automates the process of biological-term classification
-  and the enrichment analysis of gene clusters. The analysis module and
-  visualization module were combined into a reusable workflow. Currently,
-  clusterProfiler supports three species, including humans, mice, and yeast.
-  Methods provided in this package can be easily extended to other species and
-  ontologies. The clusterProfiler package is released under Artistic-2.0
-  License within Bioconductor project. The source code and vignette are freely
-  available at
-  http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html.%
-    }
-    \verb{doi}
-    \verb 10.1089/omi.2011.0118
-    \endverb
-    \field{isbn}{1557-8100 (Electronic)$\backslash$r1536-2310 (Linking)}
-    \field{issn}{1536-2310}
-    \field{number}{5}
-    \field{pages}{284\bibrangedash 287}
-    \field{title}{{clusterProfiler: an R Package for Comparing Biological
-  Themes Among Gene Clusters}}
-    \verb{url}
-    \verb http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118
-    \endverb
-    \field{volume}{16}
-    \field{journaltitle}{OMICS: A Journal of Integrative Biology}
     \field{year}{2012}
   \endentry
 

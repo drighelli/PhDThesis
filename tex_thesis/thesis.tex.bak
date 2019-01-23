@@ -80,7 +80,7 @@
     basicstyle=\small\ttfamily,
     numbers=left,
 	stepnumber=1,
-    keywordstyle=\color{blue},
+    keywordstyle=\color{black},
     commentstyle=\color{teal},
    	backgroundcolor=\color{white},
    	breaklines=true,
@@ -109,7 +109,7 @@
 
 \usepackage[multiple]{footmisc}
 
-\usepackage[backend=bibtex8,style=nature]{biblatex} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[backend=bibtex8,style=nature, maxbibnames=99]{biblatex} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addbibresource{bibs/PhDThesisBib.bib}
 \DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
 \DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
@@ -259,7 +259,7 @@ Add acknowledgements here
 \setstretch{1.5}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Introduction}
+\chapter{Introduction} \label{sec:introchap}
 \input{sections/introduction.tex}
 \section{Biological Background} \label{sec:bioback}
 \input{sections/intro/bio_background.tex}

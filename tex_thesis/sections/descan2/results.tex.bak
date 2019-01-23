@@ -19,7 +19,7 @@ We downloaded the data from \gls{geo} database \cite{Edgar2002, Barrett2013} wit
 \subsubsection{Peaks Detection}
 
 In order to detect open chromatin regions, we run our peak caller, cutting the genome in bins of 50bp and using running windows of minimum 50bp and maximum 1000bp.
-In this a way, we are able to detect not just broad peaks, but also smaller peaks.
+In this way, we are able to detect not just broad peaks, but also smaller peaks.
 
 To be confident with our results we run \gls{descan} and \textit{MACS2}  \cite{Zhang2008} on the same samples, and (as shown in figure \ref{fig:des2m2peaks}) looking to the numbers \gls{descan} always find more peaks than \textit{MACS2}.
 This can be due to a major accuracy gave by \textit{MACS2} on the reliability of the detected peaks, while our method finds more peaks, but, at this stage, still preserving false positive regions.
@@ -124,13 +124,13 @@ Highlighting that even if a normalization is applied, once reduced the false pos
 While figure \ref{fig:normalizationsfull}, representing the "full dataset", shows that \textit{upper-quantile}, by itself is not able to linearly detect any amount of \glspl{der}.
 When using \textit{RUVSeq}, the \glspl{der} detection depends on the parameter used (figures \ref{fig:normalizationsnull}, \ref{fig:normalizationsfull} are made using k equal to 1 and 4, for \textit{RUVSeq} normalization).
 While, the \textit{full-quantile}, even when used alone is able to detect a good amount of \glspl{der}.
-But each normalization, when combined with \textit{RUV-Seq}, seems to affect the data in a way that overdetect the number of \glspl{der}. 
+But each normalization, when combined with \textit{RUV-Seq}, seems to affect the data in a way that overestimates the number of \glspl{der}. 
 In particular, even the \textit{Upper quartile}, which doesn't detect any signal by itself, is able to detect the highest amount of \glspl{der} when combined with \textit{RUV-Seq}.
-%When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themself seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
+%When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themselves seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
 
-Even if these normalization methods show good performances with this type of epignomic data, our investigations suggest that more testing is required, and maybe an ad-hoc normalization method for these data has to be developed.
+Even if these normalization methods show good performances with this type of epigenomics data, our investigations suggest that more testing is required, and maybe an ad-hoc normalization method for these data has to be developed.
 
-The left panel represent the "null dataset" highlighting that portion of \glspl{der} due to randomness/bias. Indeed, any kid of normalization produces almost the same trend, underlying that \textit{full quantile}, even if combined with \textit{RUV-Seq} still not reduces the bias.
+The left panel represents the "null dataset" highlighting that portion of \glspl{der} due to randomness/bias. Indeed, any kind of normalization produces almost the same trend, underlying that \textit{full quantile}, even if combined with \textit{RUV-Seq} still not reduces the bias.
 While \textit{upper quartile} preserves oscillations when using 7/8 samples.
 The one which seems to well interpret the data, producing a good compromise between bias and signal, is RUV-Seq.
 Indeed, it preserves a gradually downhill of the \gls{der} without totally flatten the signal.
@@ -144,7 +144,7 @@ Indeed, it preserves a gradually downhill of the \gls{der} without totally flatt
 %\end{figure}
 \subsubsection{Differential Enrichment of Peaks}
 
-To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2012}.
+To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2011, Tarazona2015}.
 
 \begin{figure}[H]
 \centering
@@ -155,7 +155,7 @@ To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as 
 \end{figure}
 
 In this case, we decided to use \textit{edgeR} package, because of its wide range of  available statistical approaches and the possibility to better tune the design of the experiment. 
-Indeed, because we used the RUV-Seq normalized counts with \lstinline!k! parameter set to 4, we modeled the experimental design with the \lstinline!model.matrix! function, adding to our model not only the experimental conditions, but also the \textit{RUV-Seq} estimated factors.
+Indeed, because we used the \textit{RUVSeq} normalized counts with \lstinline!k! parameter set to 4, we modelled the experimental design with the \lstinline!model.matrix! function, adding to our model not only the experimental conditions, but also the \textit{RUV-Seq} estimated factors.
 Then we used the resulted design to estimate the dispersion and fit a Quasi-Likelihood test, as defined in edgeR\cite{Robinson2009}.
  
 \begin{figure}[H]
@@ -171,17 +171,17 @@ Red dots highlight the regions with a \gls{fdr}\cite{Benjamini1995} lower than 0
 
 \subsubsection{Peaks Integration}
 
-The next task is to integrate the obtained results with other omic data types, as RNA-Seq. 
+The next task is to integrate the obtained results with other omic data types, as \textit{RNA-seq}. 
 Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \glspl{deg} resulting from the analysis of RNA-Seq.
 
-For the differential expression of the RNA-Seq data we firstly quantified the signal with the \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
-Then we filtered lowly expressed genes with the \textit{proportion} test  as implemented in \textit{NOISeq} package, and applied the \lstinline!noiseq! method for differential expression.
+For the differential expression of the \textit{RNA-seq} data, we first quantified the signal with the \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
+Then we filtered lowly expressed genes with the \textit{proportion} test as implemented in \textit{NOISeq} package, and applied the \lstinline!noiseq! method for differential expression.
 
 We used the resulting significant \glspl{deg} (with posterior probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.
 Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}, producing a total of 430 annotated peaks.
 Realizing the plot with \textit{ggplot2} combined with \textit{plotly} library it is possible to enhance the names of the genes with a tooltip.
 
-Then, to obtain a secon level of data integration, we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
+Then, to obtain a seconf level of data integration, we used the annotated genes to do functional annotation on \gls{go} \cite{GeneOntologyConsortium2004, GeneOntologyConsortium2015} and Reactome pathways, which showed several interesting results for the neuronal regulation.
 
 %\textbf{Insert tables for the functional results, to discuss with Davide/Lucia}
 

@@ -16,21 +16,21 @@ Once we collected all required samples, we can either start analyzing each omics
 Depending on the number of collected samples we can choose from different methodologies to apply, if we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
 Otherwise, when having a high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c, Rohart2017, Argelaguet2018}.
 
-In order to account for these kinds of studies, inside \gls{igro} we are implementing several aspects and interfaces to help and guide the user to achieve integrated results.
+In order to account for these kind of studies, inside \gls{igro} we are implementing several aspects and interfaces to help and guide the user to achieve integrated results.
 
 \subsection{The main interface}
 \gls{igro} is a web platform fully developed in R with aid of Shiny libraries, combining the power of the R statistical instrument with HTML5/javascript flexibility.
 
 Shiny apps are typically designed for small applications, allowing a very easy and versatile way for developing and releasing them.
 The basic structure of a shiny app is based on two main entities, the \gls{sui} and the \gls{ss}.
-The first one includes all the aesthetic components which the user interact with, while the \gls{ss} processes all the computations.
+The first one includes all the aesthetic components which the user interacts with, while the \gls{ss} processes all the computations.
 
 Natively, shiny apps support only one server, but when the needs grow up and multiple interfaces are needed the things become more complicated. 
 
 Our case is composed of a high number of methodologies for Multiple-omics problem solving and required a more complex implementation.
-To account our problematic, we choose to build \gls{igro} as self-containing modules, by using recently born shiny modules technology \footnote{\url{https://shiny.rstudio.com/articles/modules.html}}.
-In such a way, the main shiny app can be shredded in multiple "mini apps", each one with its own \gls{sui} and \gls{ss}.
-This approach is totally invisible to the final user but helps the developer for the maintainability and the extensibility of the entire tool.
+To account our problematic, we choose to build \gls{igro} as self-containing modules, by using recently born shiny modules technology\footnote{\url{https://shiny.rstudio.com/articles/modules.html}}.
+In such a way, the main shiny app can be shredded into multiple "mini apps", each one with its own \gls{sui} and \gls{ss}.
+This approach is totally invisible to the final user, but helps the developer for the maintainability and the extensibility of the entire tool.
 Indeed, when future needs arise for the implementation of novel functionalities, it is necessary just to implement a novel module.
 
 Our tool presents itself with an upper menu of main topics organized by main scopes. 
@@ -45,14 +45,14 @@ In order to well set up the parameters for each functionality, an additional sid
 \label{fig:integrhomain}
 \end{figure}
 
-Once the user had set up the required parameters and used the section button, the results are shown in graphical or table format in the main part of the interface.
+Once the user set up the required parameters and pressed the section button, the parameters are processed and the results are shown in graphical or table format in the main part of the interface.
 
 We decided to implement \gls{igro} as a design file based software.
 Because of the high number of samples needed for the data analysis, the user needs to specify several variables describing each sample.
 This is useful for defining samples belonging to the same condition, and to specify which is the omics for each sample, and some additional describing variables.
 The design file information will be used during all the following steps of the analysis.
 
-Before to proceed to data analysis, it is mandatory for the user to set up the project with a dedicated interface.
+Before to proceed to the data analysis, it is mandatory for the user to set up the project with a dedicated interface.
 The user has to upload the design file which describes the information related to its samples.
 Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the condition of each sample, while others are optional as the tissue or the run id. 
 It is also possible to manually edit the design file directly from the interface (figure \ref{fig:integrhodesign}).
@@ -65,7 +65,8 @@ Even if there are alternative packages, such as \textit{shinyFiles} \cite{Peders
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/design.png}
-\caption[\gls{igro} design interface]{A screenshot of the project design \gls{igro} interface.}
+\caption[\gls{igro} design interface]{The project design \gls{igro} interface. The user has to insert a name for the project and to load a design file.
+The design file can be edited through the interface itself.}
 \label{fig:integrhodesign}
 \end{figure}
 
@@ -78,7 +79,7 @@ Using the project interface, \gls{igro} creates inside the working directory (re
 \label{fig:integrhotree}
 \end{figure}
 
-In particular, we designed a \lstinline!R6ProjectClass!, which stores all the paths represented inside the figure \ref{fig:integrhotree}
+In particular, we designed a \lstinline!R6ProjectClass!, which stores all the paths represented inside the figure \ref{fig:integrhotree}.
 This allows fast access to the files stored in each folder, that will be processed specifically for each selected interface.
 
 
@@ -90,11 +91,11 @@ Actually, \gls{igro} methodologies have been organized in a way that the user ca
 
 In particular, we defined specific interfaces for \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq} data, providing additional interfaces for their integration, such as \textit{functional enrichment} and \textit{gene-peak} annotations.
 
-Moreover, through the \lstinline!graphics! interface the user have the possibility to between a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, \textit{etckeggmap}, etc.
+Moreover, through the \lstinline!graphics! interface the user have the possibility to between a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, \textit{keggmap}, etc.
 
-Inside \gls{igro}, we take from granted that every omics data type is already mapped on a reference genome, producing \gls{bam} files for every sample the user wants to investigate.
+Inside \gls{igro}, we take from granted that every omics data type is already mapped on a reference genome, with already available \gls{bam} files for every sample the user wants to investigate.
 
-Figure \ref{fig:integrhopackscheme} illustrates a schematic representation of implemented packages inside \gls{igro}.
+Figure \ref{fig:integrhopackscheme} shows a schematic representation of implemented packages inside \gls{igro}.
 The upper part shows the single-omics packages used for the analysis of \textit{RNA-seq}, \textit{ChIP-seq} and \textit{ATAC-seq}, while the lower part refers to the multi-omics integration, showing the packages used for \textit{functional analysis} and \textit{peak-gene annotations}.
 
 \begin{figure}[h]
@@ -102,20 +103,20 @@ The upper part shows the single-omics packages used for the analysis of \textit{
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/integrho_pack_scheme.pdf}
 \caption[\gls{igro} packages scheme]{A schematical representation of packages included inside \gls{igro} web-platform.
 The upper part shows the packages for the the single-omics analysis, while the lower part shows the packages for the multi-omics analysis.}
-\label{fig:integrhopackascheme}
+\label{fig:integrhopackscheme}
 \end{figure}
 
 %It implements not only the methodologies reported inside \textit{ticorser} for \textit{RNA-Seq} and \textit{DEScan2} for \textit{ATAC-Seq}, but implements also methodologies for \textit{ChIP-Seq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
 \subsubsection{RNA-seq} \label{sec:integrhorna}
-For \textit{RNA-seq} we chose multiples methods for allowing the user to obtain an good overview of this omics analysis, focusing on \textit{Differential Expression} aspect.
+For \textit{RNA-seq} we chose multiples methods for allowing the user to obtain a good overview of this omics analysis, focusing on \textit{Differential Expression} aspect.
 In such a way, the user have several methodologies for accounting for a complete \textit{RNA-seq} pipeline (refer to \ref{sec:rnaseq} section for a typical \textit{RNA-seq} pipeline description).
 
 
 %{\setlength{\parindent}{0cm}\textbf{Features Quantification}}
 
 When working with \textit{RNA-seq} data it is really important to quantify the reads contained inside the \gls{bam} files associating them to genomic features.
-To do that it is necessary a file with the genomic features description, typically a \gls{gtf} file (defined in \ref{sec:ticorseresults} section) describing the genomic coordinates for each feature (genes, transcripts etc.).
+To do that, it is necessary a file with the genomic features description, typically a \gls{gtf} file (defined in \ref{sec:ticorseresults} section) describing the genomic coordinates for each feature (genes, transcripts etc.).
 
 To account for genomic feature quantification, the user has to select the \lstinline!Quantify Counts! interface, designed for \lstinline!featureCounts! of \lstinline!Rsubread! R/Bioconductor package function \cite{Liao2014} appears.
 The  \gls{bam} file paths for the \textit{RNA-seq} data are automatically selected from the design matrix loaded during the project creation phase.
@@ -131,16 +132,16 @@ At the end of the processing, the resulting count matrix is presented in the mai
 
 When working with \textit{RNA-seq} data, several features are too low expressed to be kept, because their expression will affect the further analysis, leading to biased results.
 When selecting the \lstinline!Filter Counts! the designed interface automatically loads the counts files inside the \lstinline!IntegrHO/project_name/counts!, otherwise allowing, with a \lstinline!fileInput! widget, to chose another count matrix file.
-It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2012}.
+It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2011, Tarazona2015}.
 
 The filtered-in features need to be normalized in order to be compared across multiple conditions.
-Also, in this case, a not proper data normalization can head to misleading results.
+Also in this case, a not proper data normalization can head to misleading results.
 
 The same type of interface built for the filtering step is loaded when the \lstinline!Normalize Counts! menu voice is selected.
 Three different normalization methods can be selected, the \textit{Trimmed Mean of M-values} \cite{Robinson2010}, the \textit{Upper Quartile} and the \textit{Full Quantile}.
 
 Additionally, a main aspect of \textit{RNA-seq} data analysis is to account for ''unwanted factors'' (batch effects) that, very often, affect the data.
-This noises are part of the data, because reflecting batch, library preparation, and other nuisance effects.
+This noises are part of the data because reflecting batch, library preparation, and other nuisance effects.
 
 When selecting the \lstinline!Batch Effect! section there will be the possibility to apply the \textit{RUVs} or \textit{RUVg} methods from \textit{RUVSeq} R/Bioconductor package \cite{Risso2014h}.
 Moreover, when selecting one of this methods, an additional file can be loaded, in order to upload an optional list of negative control genes.
@@ -174,7 +175,6 @@ The dedicated interface automatically shows a \lstinline!tabsetPanel! of 3 diffe
 
 \subsubsection{ChIP-seq} \label{sec:integrhochip}
 \textit{ChIP-seq} is a very common technique to investigate multiple epigenetic factors, the sequencing technique by itself identifies chromatin regions where specific proteins bind on.
-Here we consider that
 Considering to have multiple \gls{bam} samples of \textit{ChIP-seq} data, we constructed specific interfaces for peak calling and \glspl{dbs} detection.
 Also in this case, we are focusing on the problem of detecting how the signal differs between multiple biological conditions.
 We refer to \glspl{dbs} because of the nature of the biological data, coming it from proteins binding specific regions of the chromatin.
@@ -187,7 +187,7 @@ We underline that a \textit{ChIP-seq} experiment is ''protein specific'', becaus
 For the \textbf{peak calling}, because of the lack of specific methods starting from \gls{bam} files in R, we implemented a dedicated interface for \textit{csaw} \cite{Lun2015} peak caller, which allows quantification for both broad and narrow peaks, typically resulting from \gls{hm} and \gls{tf} \textit{ChIP-seq} data.
 
 Firstly, it is possible to select the design matrix (stored inside \lstinline!IntegrHO/project_name/design! folder) and the column specifying the experiment.
-In such a way, \gls{igro} is able to pick up the \gls{bam} filenames associated to the \textit{CHiP-seq} experiments by itself.
+In such a way, \gls{igro} is able to pick up the \gls{bam} filenames associated to the \textit{ChIP-seq} experiments by itself.
 
 Afterwards, the interface enables the specification of several parameters useful for the \lstinline!windowCounts! method of \textit{csaw} R/Bioconductor package.
 The method constructs a count matrix where the rows indicate the detected windows of length \lstinline!window width! and the columns indicate samples.
@@ -237,8 +237,7 @@ Also in this case, we took advantages of the count matrix form to apply the same
 \subsubsection{Integration} \label{sec:integrhointegration}
 The previously studied omics, even if not so many, already give the possibility to construct an integrated view of multiple cellular aspects.
 
-For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples.
-We already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
+For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples, we already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
 Moreover, we can look at how the gene expression has been influenced by these chromatin accession mechanisms.
 
 To account even for simple integration problems like this one, we implemented functionalities for the \textbf{peak-gene annotation} of \glspl{der}/\glspl{dbs} with \glspl{deg} using \textit{ChIPpeakAnno}.
@@ -248,10 +247,10 @@ Additionally, an \lstinline!annotation file! is required to retrieve the genomic
 In alternative, a list of \glspl{deg} can be selected.
 Other relevant parameters, such as the gene \lstinline!feature!  or the \lstinline!max distance! between the peaks and the genes, are needed for the right working of \lstinline!annotatePeakInBatch! function, defined inside the \lstinline!ChIPpeakAnno! R/Bioconductor package.
 
-After that the server side computed the results, they are showed with two plots organized in two panels of a \lstinline!tabsetPanel! widget. 
-A \textit{pie chart} showing the percentage of detected features organized on their distance, and table of annotated regions with corresponding genes.
+When the results are computed by the server side, they are showed with two plots organized in two panels of a \lstinline!tabsetPanel! widget. 
+A \textit{pie chart} showing the percentage of detected features organized on their distance, and a table of annotated regions with corresponding genes.
 
-Finally, a \gls{tsv} file with annotated peaks is saved inside the  \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! folder, while the volcano plot, in \gls{html} format, is saved into the \lstinline!IntegrHO/project_name/results/plot! folder.
+Finally, a \gls{tsv} file, within annotated peaks, is saved inside the  \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! folder, while the volcano plot, in \gls{html} format, is saved into the \lstinline!IntegrHO/project_name/results/plot! folder.
 
 Another kind of integration is given by \textbf{functional annotation} analysis, where list of genes (annotated or resulting from differential experession analysis) can be used to detect cellular functional behaviours, thanks to databases born to annotate multiple gene contributing to specific cellular mechanisms (called pathways or gene ontology terms).
 
@@ -259,12 +258,12 @@ In order to interrogate these databases, several methodologies for functional an
 The underlying idea of them is to use a list of genes to see which of them mostly \textit{up-regulate}/\textit{down-regulate} annotated cellular functional mechanisms
 
 To account for this integration aspect we developed one interface for allowing the user to choose between two methods \textit{gProfiler} \cite{Reimand2016} and \textit{clusterProfiler} \cite{Yu2012}.
-Both methodologies allow to investigate multiple databases, for pathways \textit{KEGG} and \textit{REACTOME} and for Gene Ontology we give the possibility to choose between \gls{gobp}, \gls{gomf} and \gls{gocc}.
+Both methodologies allow to investigate multiple databases, for pathways \textit{KEGG} and \textit{REACTOME}, while for Gene Ontology we give the possibility to choose between \gls{gobp}, \gls{gomf} and \gls{gocc}.
 
 The interface automatically loads the file inside the \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! and \lstinline!IntegrHO/project_name/results/tables/DE_genes! folders, giving the possibility to select the number corresponding to the column within the gene list.
 
-In order to choose the method to apply a \lstinline!selectInput! shiny widget gives the possibility to choose between the \textit{clusterProfiler} and the \textit{gProfiler} methods.
+In order to choose the method to apply, a \lstinline!selectInput! shiny widget gives the possibility to choose between the \textit{clusterProfiler} and the \textit{gProfiler} methods.
 Moreover, the user has to select the type of functional annotation to do (pathway or Gene Ontology) and the database to use.
 
-At the end of computations \gls{igro} will present the table of the results in the main interface and will store them into the  \lstinline!IntegrHO/project_name/results/tables/functional! folder.
+At the end of computations, \gls{igro} will present the table of the results in the main interface and will store them into the  \lstinline!IntegrHO/project_name/results/tables/functional! folder.
 

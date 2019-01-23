@@ -1,4 +1,4 @@
-The most difficult part when using a \gls{gui} is to keep track the executed functionalities during the analysis.
+The most difficult part while using a \gls{gui} is keeping track the executed functionalities during the analysis.
 To face this need we equipped \gls{igro} of a \gls{rr} hidden layer (with aid of \textit{easyReporting} package) able to trace all executed code by the user.
 
 In combination with a system of \gls{cdf}, \gls{igro} stores code chunks and the input/output data of each analysis step inside an \gls{rmd} file.
@@ -14,15 +14,16 @@ In combination with a system of \gls{cdf}, \gls{igro} stores code chunks and the
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.9\linewidth]{img/integrho/rr_2.png}
-  \caption{The report compiled and enriched with manually inserted comments.}
+  \caption{The report compiled and enriched with manually inserted comments throught the interface showed in the (a) panel.}
   \label{fig:integrhorr2}
 \end{subfigure}
 \caption[\gls{igro} report editing]{The reproducible research with \gls{igro}.}
 \label{fig:integrhorr}
 \end{figure}
 
-The auto-produced \gls{rmd} file as it is, it's not useful to show to third-parties, it needs to be enriched with natural language comments,  that's why we built a specific interface enabling the user to edit the automatically produced \gls{rmd} file and to compile it on the fly (see sub-figure \ref{fig:integrhorr1}).
+The auto-produced \gls{rmd} file as it is, it's not usable to be showed to third-parties, because it needs to be enriched with natural language comments.
+To account for this need, we built a specific interface enabling the user to edit the automatically produced \gls{rmd} file and to compile it on the fly (see sub-figure \ref{fig:integrhorr1}).
 
-The enriched output report can be produced in \gls{html} (sub-figure \ref{fig:integrhorr2}) or \gls{pdf} formats, in order to be easily attached as supplementary material of a published article, facilitating the reproducibility of the analysis to a third party user.
+The enriched output report can be produced in \gls{html} (sub-figure \ref{fig:integrhorr2}) or \gls{pdf} formats, in order to be easily attached as supplementary material of a published article, facilitating the reproducibility of the analysis to third-party users.
 
-Furthermore, thanks to the \gls{cdf} system, each code chunk is not dependent from on previous ones, enabling the final user to add/remove code chunks.
+Furthermore, thanks to the \gls{cdf} system, each code chunk is not dependent on previous ones, enabling the final user to add/remove multiple code chunks.

@@ -28,11 +28,10 @@ To face such limits, we noticed the growing interest by part of the scientific c
 This interest is led by multiple motivations, such as the need to analyze data very fast or the lack of time in learning programming languages and terminal-line based tools.
 
 Several interface-based tools \cite{Poplawski2016} have been proposed during last years but too often they are oriented to analyze singular-omics (such as \textit{RNASeqGUI} \cite{russo2015advantages}).
-However, in many cases s
-or when designed for multi-omics, they are pipeline oriented. 
+However, in many cases such tools are organized as rigid pipelines, rather than interactive environments.
 
-In this chapter we introduce \gls{igro}, our web-based platform for multi-omics data analysis and integration,  in a \gls{rr} spirit.
-First, it describes the outstanding idea of the software, describing the general interface and then the available methods for the omics data analysis and their integration.
+In this chapter we introduce \gls{igro}, our web-based platform for multi-omics data analysis and integration, built in a \gls{rr} spirit.
+%First, it describes the outstanding idea of the software, describing the general interface and then the available methods for the omics data analysis and their integration.
 
 
 %

@@ -15,13 +15,13 @@ Our \textit{boxplot} is organized in group colours accordingly to the time-point
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/boxplot_example.png}
-\caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each boxplot represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles.}
+\caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each box represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles and outliers.}
 \label{fig:ticorserboxplot}
 \end{figure}
 
 Each box is divided into two main parts, with an outgoing segment from each side. 
 The horizontal upper and lower lines of the box represent the first and third quartile, while the middle horizontal rule represents the median.
-The upper and lower part of the segments represent the minimum and maximum values of the sample distribution.
+The upper and lower part of the segments, in case of absence of outliers, represent the minimum and maximum values of the sample distribution.
 
 Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for colouring the samples thanks to the \lstinline!colorColname! parameter. 
 
@@ -102,7 +102,7 @@ Indeed, using the \lstinline!plotKeggmap! function enables to plot a \textit{keg
 
 \begin{figure}[H]
 \includegraphics[width=12cm, keepaspectratio]{img/ticorser/keggmap_example.png}
-\caption[ticorser keggmap]{add description}
+\caption[ticorser keggmap]{A KEGG-map representation for the \textit{Calcium Signaling pathway}. The contributing genes are represented in boxes. Arrows represent the effect of each gene on others. The coloured genes tipically come from a differential expression experiment, showing the expression in log Fold Change.}
 \label{fig:ticorserkeggmap}
 \centering
 \end{figure}

@@ -65,7 +65,8 @@ Even if there are alternative packages, such as \textit{shinyFiles} \cite{Peders
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/design.png}
-\caption[\gls{igro} design interface]{A screenshot of the project design \gls{igro} interface.}
+\caption[\gls{igro} design interface]{The project design \gls{igro} interface. The user has to insert a name for the project and to load a design file.
+The design file can be edited through the interface itself.}
 \label{fig:integrhodesign}
 \end{figure}
 
@@ -131,7 +132,7 @@ At the end of the processing, the resulting count matrix is presented in the mai
 
 When working with \textit{RNA-seq} data, several features are too low expressed to be kept, because their expression will affect the further analysis, leading to biased results.
 When selecting the \lstinline!Filter Counts! the designed interface automatically loads the counts files inside the \lstinline!IntegrHO/project_name/counts!, otherwise allowing, with a \lstinline!fileInput! widget, to chose another count matrix file.
-It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2012}.
+It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2011, Tarazona2015}.
 
 The filtered-in features need to be normalized in order to be compared across multiple conditions.
 Also in this case, a not proper data normalization can head to misleading results.
@@ -236,8 +237,7 @@ Also in this case, we took advantages of the count matrix form to apply the same
 \subsubsection{Integration} \label{sec:integrhointegration}
 The previously studied omics, even if not so many, already give the possibility to construct an integrated view of multiple cellular aspects.
 
-For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples.
-We already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
+For example, if we are able to collect samples of \textit{ChIP-seq} for an \gls{hm} involved into the chromatin accessibility, and \textit{ATAC-seq} samples with \textit{RNA-seq} samples, we already are able to understand which regions of the genome are influenced by that  specific \gls{hm}, obtaining a crossed inspection with resulting region of \textit{ATAC-seq}.
 Moreover, we can look at how the gene expression has been influenced by these chromatin accession mechanisms.
 
 To account even for simple integration problems like this one, we implemented functionalities for the \textbf{peak-gene annotation} of \glspl{der}/\glspl{dbs} with \glspl{deg} using \textit{ChIPpeakAnno}.
@@ -247,10 +247,10 @@ Additionally, an \lstinline!annotation file! is required to retrieve the genomic
 In alternative, a list of \glspl{deg} can be selected.
 Other relevant parameters, such as the gene \lstinline!feature!  or the \lstinline!max distance! between the peaks and the genes, are needed for the right working of \lstinline!annotatePeakInBatch! function, defined inside the \lstinline!ChIPpeakAnno! R/Bioconductor package.
 
-After that the server side computed the results, they are showed with two plots organized in two panels of a \lstinline!tabsetPanel! widget. 
-A \textit{pie chart} showing the percentage of detected features organized on their distance, and table of annotated regions with corresponding genes.
+When the results are computed by the server side, they are showed with two plots organized in two panels of a \lstinline!tabsetPanel! widget. 
+A \textit{pie chart} showing the percentage of detected features organized on their distance, and a table of annotated regions with corresponding genes.
 
-Finally, a \gls{tsv} file with annotated peaks is saved inside the  \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! folder, while the volcano plot, in \gls{html} format, is saved into the \lstinline!IntegrHO/project_name/results/plot! folder.
+Finally, a \gls{tsv} file, within annotated peaks, is saved inside the  \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! folder, while the volcano plot, in \gls{html} format, is saved into the \lstinline!IntegrHO/project_name/results/plot! folder.
 
 Another kind of integration is given by \textbf{functional annotation} analysis, where list of genes (annotated or resulting from differential experession analysis) can be used to detect cellular functional behaviours, thanks to databases born to annotate multiple gene contributing to specific cellular mechanisms (called pathways or gene ontology terms).
 
@@ -258,12 +258,12 @@ In order to interrogate these databases, several methodologies for functional an
 The underlying idea of them is to use a list of genes to see which of them mostly \textit{up-regulate}/\textit{down-regulate} annotated cellular functional mechanisms
 
 To account for this integration aspect we developed one interface for allowing the user to choose between two methods \textit{gProfiler} \cite{Reimand2016} and \textit{clusterProfiler} \cite{Yu2012}.
-Both methodologies allow to investigate multiple databases, for pathways \textit{KEGG} and \textit{REACTOME} and for Gene Ontology we give the possibility to choose between \gls{gobp}, \gls{gomf} and \gls{gocc}.
+Both methodologies allow to investigate multiple databases, for pathways \textit{KEGG} and \textit{REACTOME}, while for Gene Ontology we give the possibility to choose between \gls{gobp}, \gls{gomf} and \gls{gocc}.
 
 The interface automatically loads the file inside the \lstinline!IntegrHO/project_name/results/tables/annotated_peaks! and \lstinline!IntegrHO/project_name/results/tables/DE_genes! folders, giving the possibility to select the number corresponding to the column within the gene list.
 
-In order to choose the method to apply a \lstinline!selectInput! shiny widget gives the possibility to choose between the \textit{clusterProfiler} and the \textit{gProfiler} methods.
+In order to choose the method to apply, a \lstinline!selectInput! shiny widget gives the possibility to choose between the \textit{clusterProfiler} and the \textit{gProfiler} methods.
 Moreover, the user has to select the type of functional annotation to do (pathway or Gene Ontology) and the database to use.
 
-At the end of computations \gls{igro} will present the table of the results in the main interface and will store them into the  \lstinline!IntegrHO/project_name/results/tables/functional! folder.
+At the end of computations, \gls{igro} will present the table of the results in the main interface and will store them into the  \lstinline!IntegrHO/project_name/results/tables/functional! folder.
 

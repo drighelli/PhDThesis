@@ -1,12 +1,29 @@
-\gls{tic} offers multiple additional features to help the user during the differential enrichment analysis of time-course \textit{RNA-seq} data.
+\gls{tic} offers multiple additional features to support the user during the differential expression analysis of time-course \textit{RNA-seq} data.
 
 \subsubsection{Gene quantification}
 
-A fundamental aspect during \textit{RNA-seq} analysis is the quantification of the features (genes).
-To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from samples mapping files, using the \lstinline!countBamFilesFeatureCounts! function with the aim to guide and facilitate this operation to the user.
+A fundamental aspect during \textit{RNA-seq} analysis is the features (genes) quantification.
+To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from \gls{bam} files, using the \lstinline!countBamFilesFeatureCounts! function, in order to guide and facilitate this operation to the user.
 
-The feature is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
-The user can give as input a list of \textit{BAM} files and a \gls{gtf} file, choosing  the \lstinline!gtf.attr.type! and \lstinline!gtf.feat.type! to quantify the samples expression on its needs.
+The function is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
+
+In order to be able to quantify for the transcription features, the user has to give as input a list of \gls{bam} files and a \gls{gtf} file.
+The first ones are tipically one file per sample, containing all the reads previously mapped to a reference genome, while the \gls{gtf} file describes all the features of the specific organism of interest. 
+
+Moreover, by properly choosing  the \lstinline!gtf.attr.type! and \lstinline!gtf.feat.type! the user can define, respectively, the attribute type (i.e. \textit{gene\_id}) and the type of feature (i.e. \textit{exon}) to quantify, taking in mind that these values must be equal to the ones present into the \gls{gtf} file.
+
+At the end of the processing, the \lstinline!countBamFilesFeatureCounts! function returns a matrix with the \textit{attributes/features} on the rows and the samples  on the columns (named with the same name of the \gls{bam} files).
+Each cell of this matrix contains the expression value of the feature for the sample represented by that column.
+
+More formally, each row $i$ represents a specific feature, while each column $j$ represents a specific sample.
+The cell $c_{ij}$ contains the number of reads assigned to the $i-th$ feature for the $j-th$ sample.
+
+\subsubsection{Functional Analysis}
+
+
+In order to obtain a first level of integration we implemented functions for the functional analysis, a process where lists of \glspl{deg} are used together with 
+
+
 
 \subsubsection{Results Comparison}
 
@@ -19,8 +36,8 @@ To afford this aim these functions take as input the gene lists to compare and a
 
 The \gls{tic} package exports multiple functions for the gene names manipulation. 
 Indeed, it is very common the need to convert \glspl{deg} list from a specific identifier to another.
-We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! which convert a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor package for \textit{Human, Mouse} and \textit{Rat}.
-Additionally, it's possible to easily attach the resulting list to a \textit{dataframe}, by using the \lstinline!attachGeneColumnToDf! function, which takes care of adding a new column within the mapped identifiers in the right places of the original \textit{dataframe}.
+We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! useful for converting a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor package for \textit{Human, Mouse} and \textit{Rat}.
+Additionally, it is possible to easily attach the resulting list to a \textit{dataframe}, by using the \lstinline!attachGeneColumnToDf! function, which takes care of adding a new column within the mapped identifiers in the right places of the original \textit{dataframe}.
 
 \subsubsection{Input/Output File Handling}
 
