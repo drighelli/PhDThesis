@@ -1,4 +1,4 @@
-The Peak Caller (defined by the \lstinline!findPeaks! function) takes as input a set of alignment files (BAM \cite{Li2009} or BED format) with the code identifier of the reference genome (i.e. \textit{mm10} for Mus Musculus version 10) and several additional parameters, useful for the peak detection setup.
+The Peak Caller (defined by the \lstinline!findPeaks! function) takes as input a set of alignment files (BAM \cite{Li2009} or BED format) with the code identifier for the reference genome (i.e. \textit{mm10} for Mus Musculus version 10) and several additional parameters, useful for the peak detection setup.
 
 The alignment data are stored as an object of class \textit{GenomicRangesList} \cite{Lawrence2013}, where each element represents a file. 
 In order to facilitate the parallelization of the computations over the chromosomes, the list is re-arranged as a chromosome list of \textit{GenomicRangesList}, where each element represents the file containing just the \textit{GenomicRanges} of the specific chromosome (see section \ref{sec:descan2addfeat} for a detailed description of this procedure).

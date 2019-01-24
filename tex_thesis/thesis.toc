@@ -41,44 +41,44 @@
 \contentsline {subsubsection}{Features quantification}{53}{section*.41}
 \contentsline {subsubsection}{The design matrix}{54}{section*.42}
 \contentsline {subsubsection}{Filtering \& Normalization}{55}{section*.44}
-\contentsline {subsubsection}{Differential Expression}{58}{section*.48}
+\contentsline {subsubsection}{Differential Expression}{59}{section*.48}
 \contentsline {subsubsection}{Functional Enrichment Analysis}{64}{section*.55}
 \contentsline {section}{\numberline {2.5}Discussions}{68}{section.2.5}
-\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2: DEScan2}{69}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{70}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{70}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{71}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{72}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{73}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Additional Features}{73}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Case Study}{74}{section.3.3}
-\contentsline {subsubsection}{Data Description and Preprocessing}{74}{section*.61}
-\contentsline {subsubsection}{Peaks Detection}{75}{section*.63}
-\contentsline {subsubsection}{Removing Unwanted Peaks}{77}{section*.66}
-\contentsline {subsubsection}{Quantifying Peaks}{78}{section*.68}
-\contentsline {subsubsection}{Peaks Normalization}{79}{section*.70}
-\contentsline {subsubsection}{Differential Enrichment of Peaks}{82}{section*.73}
-\contentsline {subsubsection}{Peaks Integration}{83}{section*.76}
-\contentsline {section}{\numberline {3.4}Discussions}{84}{section.3.4}
-\contentsline {chapter}{\numberline {4}A reproducible computational research tool: the R6 Class easyReporting}{85}{chapter.4}
-\contentsline {section}{\numberline {4.1}The idea of Reproducible Research}{86}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{87}{section.4.2}
-\contentsline {subsubsection}{General Description and Initialization}{88}{section*.78}
-\contentsline {subsubsection}{Class Methods}{89}{section*.80}
-\contentsline {section}{\numberline {4.3}Usage}{90}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discussions}{94}{section.4.4}
-\contentsline {chapter}{\numberline {5}Integration of High-Throughtput Omics data: IntegrHO}{97}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{98}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methods}{99}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The main interface}{100}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{104}{subsection.5.2.2}
-\contentsline {subsubsection}{RNA-seq}{106}{section*.87}
-\contentsline {subsubsection}{ChIP-seq}{108}{section*.88}
-\contentsline {subsubsection}{ATAC-seq}{109}{section*.89}
-\contentsline {subsubsection}{Integration}{110}{section*.90}
-\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{112}{section.5.3}
-\contentsline {section}{\numberline {5.4}Discussions}{113}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions}{115}{chapter.6}
-\contentsline {chapter}{\numberline {7}Bibliography}{117}{chapter.7}
-\contentsline {chapter}{List of Figures}{133}{chapter.7}
-\contentsline {chapter}{List of Tables}{137}{chapter.7}
+\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2: DEScan2}{71}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{72}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{72}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{73}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{74}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{75}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Additional Features}{75}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Case Study}{76}{section.3.3}
+\contentsline {subsubsection}{Data Description and Preprocessing}{76}{section*.61}
+\contentsline {subsubsection}{Peaks Detection}{77}{section*.63}
+\contentsline {subsubsection}{Removing Unwanted Peaks}{79}{section*.66}
+\contentsline {subsubsection}{Quantifying Peaks}{80}{section*.68}
+\contentsline {subsubsection}{Peaks Normalization}{81}{section*.70}
+\contentsline {subsubsection}{Differential Enrichment of Peaks}{84}{section*.73}
+\contentsline {subsubsection}{Peaks Integration}{85}{section*.76}
+\contentsline {section}{\numberline {3.4}Discussions}{86}{section.3.4}
+\contentsline {chapter}{\numberline {4}A reproducible computational research tool: the R6 Class easyReporting}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}The idea of Reproducible Research}{88}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{89}{section.4.2}
+\contentsline {subsubsection}{General Description and Initialization}{90}{section*.78}
+\contentsline {subsubsection}{Class Methods}{91}{section*.80}
+\contentsline {section}{\numberline {4.3}Usage}{92}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussions}{96}{section.4.4}
+\contentsline {chapter}{\numberline {5}Integration of High-Throughtput Omics data: IntegrHO}{99}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{100}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{101}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The main interface}{102}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{106}{subsection.5.2.2}
+\contentsline {subsubsection}{RNA-seq}{108}{section*.87}
+\contentsline {subsubsection}{ChIP-seq}{110}{section*.88}
+\contentsline {subsubsection}{ATAC-seq}{111}{section*.89}
+\contentsline {subsubsection}{Integration}{112}{section*.90}
+\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{114}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussions}{115}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions}{117}{chapter.6}
+\contentsline {chapter}{\numberline {7}Bibliography}{119}{chapter.7}
+\contentsline {chapter}{List of Figures}{135}{chapter.7}
+\contentsline {chapter}{List of Tables}{139}{chapter.7}

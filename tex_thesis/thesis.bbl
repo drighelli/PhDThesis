@@ -4656,9 +4656,10 @@
 
   \entry{Soneson2013d}{article}{}
     \name{author}{2}{}{%
-      {{hash=SC}{%
-         family={Soneson},
-         familyi={S\bibinitperiod},
+      {{hash=AC}{%
+         family={{A comparison of methods for differential expression analysis
+  of RNA-seq data.Soneson}},
+         familyi={A\bibinitperiod},
          given={Charlotte},
          giveni={C\bibinitperiod},
       }}%
@@ -4677,8 +4678,8 @@
   methods,Inbred C57BL,Inbred DBA,Messenger,Messenger:
   metabolism,Mice,RNA,Sequence Analysis,Software,differential expression,next
   generation sequencing,ngs,rna-seq}
-    \strng{namehash}{SCDM1}
-    \strng{fullhash}{SCDM1}
+    \strng{namehash}{ACDM1}
+    \strng{fullhash}{ACDM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%

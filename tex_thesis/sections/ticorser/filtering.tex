@@ -10,4 +10,4 @@ The \textit{proportion} test performs the homonym test on the counts, filtering 
 
 The \textit{Wilcoxon} test filters out all those genes with a median equal to $0$.
 
-Finally, the \textit{quantile} method enables to filter out all those genes which express the counts mean between all the samples higher than the \lstinline!quantile.threshold! argument (default is $99\%$).
+Finally, the \textit{quantile} method takes as input the \lstinline!quantile.threshold! argument (default is $1%$) and filters out all those genes which express the between-samples counts mean lower than this threshold.

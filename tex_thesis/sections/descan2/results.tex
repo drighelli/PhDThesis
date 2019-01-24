@@ -89,7 +89,7 @@ In order to preserve the information associated to the peaks, \gls{descan} produ
 
 Before detecting \glspl{der}, it is a good practice to normalize the data.
 This is especially needed when working with neuroscience data, where many possible sources of technical and biological noise can confound the analysis \cite{Peixoto2015}.
-The nature of the data, in count format, makes it possible to apply several well known RNA-Seq normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-Seq}, etc \cite{Risso2014h, Dillies2013}.
+The nature of the data, in count format, makes it possible to apply several well known \textit{RNA-seq} normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-seq}, etc \cite{Risso2014h, Dillies2013}.
 To filter out false positives, but preserving enough signal at the same time, we fixed the peaks score threshold to 20.
 
 In order to compare the effects of normalizations we had to do differential enrichment of the conditions using \textit{edgeR} (see next section for further details).
@@ -98,7 +98,7 @@ While the \textit{upper-quartile} normalization affects the data in a way that m
 
 Figure \ref{fig:normalizationsfull} summarizes this concept very well, highlighting a relation between the number of \glspl{der} (y-axis) and the minumum number of samples (x-axis) used for aligning the peaks during the \gls{descan} filtering/aligning step.
 
-To better compare the normalization effects, we created a \textit{null dataset} of 8 samples, by shuffling the original dataset samples as combinations of conditions took in pairs.
+To better compare the normalization effects, we created a \textit{null dataset} of 8 samples, by fixing the conditions in pairs (i.e. s1c1, s2c1, s1c2, s2c2, s3c1, s4c1, s3c2, s4c2). 
 The detection of \glspl{der} has been performed on each combination ($18$) of shuffled samples and then taking the median of the results.
 
 \begin{figure}[H]
@@ -129,11 +129,6 @@ In particular, even the \textit{Upper quartile}, which doesn't detect any signal
 %When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themselves seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
 
 Even if these normalization methods show good performances with this type of epigenomics data, our investigations suggest that more testing is required, and maybe an ad-hoc normalization method for these data has to be developed.
-
-The left panel represents the "null dataset" highlighting that portion of \glspl{der} due to randomness/bias. Indeed, any kind of normalization produces almost the same trend, underlying that \textit{full quantile}, even if combined with \textit{RUV-Seq} still not reduces the bias.
-While \textit{upper quartile} preserves oscillations when using 7/8 samples.
-The one which seems to well interpret the data, producing a good compromise between bias and signal, is RUV-Seq.
-Indeed, it preserves a gradually downhill of the \gls{der} without totally flatten the signal.
 
 %\begin{figure}[H]
 %\centering
@@ -175,7 +170,7 @@ The next task is to integrate the obtained results with other omic data types, a
 Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \glspl{deg} resulting from the analysis of RNA-Seq.
 
 For the differential expression of the \textit{RNA-seq} data, we first quantified the signal with the \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
-Then we filtered lowly expressed genes with the \textit{proportion} test as implemented in \textit{NOISeq} package, and applied the \lstinline!noiseq! method for differential expression.
+Then we filtered lowly expressed genes with the \textit{proportion} test as implemented in \textit{NOISeq} package, and applied the \lstinline!edgeR! method for differential expression.
 
 We used the resulting significant \glspl{deg} (with posterior probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.
 Figure 	\ref{fig:depeakdegenessdescan} illustrates with green circles the peaks with an annotated gene with distance lower than 10000bp from the gene \gls{tss}, producing a total of 430 annotated peaks.
