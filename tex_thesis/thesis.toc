@@ -79,6 +79,6 @@
 \contentsline {section}{\numberline {5.3}Reproducible Computational Research}{116}{section.5.3}
 \contentsline {section}{\numberline {5.4}Discussions}{117}{section.5.4}
 \contentsline {chapter}{\numberline {6}Conclusions}{119}{chapter.6}
-\contentsline {chapter}{\numberline {7}Bibliography}{121}{chapter.7}
-\contentsline {chapter}{List of Figures}{137}{chapter.7}
-\contentsline {chapter}{List of Tables}{141}{chapter.7}
+\contentsline {chapter}{\numberline {7}Bibliography}{123}{chapter.7}
+\contentsline {chapter}{List of Figures}{139}{chapter.7}
+\contentsline {chapter}{List of Tables}{143}{chapter.7}

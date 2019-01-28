@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  28 JAN 2019 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  28 JAN 2019 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1393,916 +1393,1258 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 LaTeX Warning: Unused global option(s):
     [intoc,bibliograph=totoc,index=totoc,BCOR10mm].
 
-(./thesis.aux
-! Undefined control sequence.
-l.22 \abx@aux@sortscheme
-                        {none}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \abx@aux@sortscheme{n
-                          one}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.23 \abx@aux@refcontext
-                        {none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./abstract.aux) (./acronym.tex.aux)
-! Undefined control sequence.
-l.64 \abx@aux@cite
-                  {Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.65 \abx@aux@segm
-                  {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.67 \abx@aux@cite
-                  {Frommer1992}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 \abx@aux@segm
-                  {0}{0}{Frommer1992}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.70 \abx@aux@cite
-                  {Buenrostro2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.71 \abx@aux@segm
-                  {0}{0}{Buenrostro2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.73 \abx@aux@cite
-                  {Wang2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.74 \abx@aux@segm
-                  {0}{0}{Wang2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.76 \abx@aux@cite
-                  {VanBerkum2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.77 \abx@aux@segm
-                  {0}{0}{VanBerkum2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.79 \abx@aux@cite
-                  {Andrews2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.80 \abx@aux@segm
-                  {0}{0}{Andrews2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.82 \abx@aux@cite
-                  {Langmead2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.83 \abx@aux@segm
-                  {0}{0}{Langmead2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.85 \abx@aux@cite
-                  {Langmead2012}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.86 \abx@aux@segm
-                  {0}{0}{Langmead2012}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.88 \abx@aux@cite
-                  {Li2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.89 \abx@aux@segm
-                  {0}{0}{Li2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.91 \abx@aux@cite
-                  {Li2009b}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.92 \abx@aux@segm
-                  {0}{0}{Li2009b}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.94 \abx@aux@cite
-                  {Krueger2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.95 \abx@aux@segm
-                  {0}{0}{Krueger2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 \abx@aux@cite
-                  {Dobin2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.98 \abx@aux@segm
-                  {0}{0}{Dobin2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.100 \abx@aux@cite
-                   {Kim2015}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.101 \abx@aux@segm
-                   {0}{0}{Kim2015}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.103 \abx@aux@cite
-                   {Kim2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.104 \abx@aux@segm
-                   {0}{0}{Kim2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.106 \abx@aux@cite
-                   {Li2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.107 \abx@aux@segm
-                   {0}{0}{Li2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.109 \abx@aux@segm
-                   {0}{0}{Li2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.111 \abx@aux@cite
-                   {Li2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.112 \abx@aux@segm
-                   {0}{0}{Li2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.114 \abx@aux@cite
-                   {Morgan}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.115 \abx@aux@segm
-                   {0}{0}{Morgan}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.119 \abx@aux@cite
-                   {Thermes2014}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.120 \abx@aux@segm
-                   {0}{0}{Thermes2014}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.122 \abx@aux@segm
-                   {0}{0}{Wang2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.124 \abx@aux@cite
-                   {Costa2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.125 \abx@aux@segm
-                   {0}{0}{Costa2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.127 \abx@aux@cite
-                   {Ozsolak2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.128 \abx@aux@segm
-                   {0}{0}{Ozsolak2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.130 \abx@aux@cite
-                   {Costa2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.131 \abx@aux@segm
-                   {0}{0}{Costa2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.133 \abx@aux@cite
-                   {Trapnell2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.134 \abx@aux@segm
-                   {0}{0}{Trapnell2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.136 \abx@aux@cite
-                   {Roberts2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.137 \abx@aux@segm
-                   {0}{0}{Roberts2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.139 \abx@aux@cite
-                   {Roberts2011a}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.140 \abx@aux@segm
-                   {0}{0}{Roberts2011a}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.142 \abx@aux@cite
-                   {Trapnell2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.143 \abx@aux@segm
-                   {0}{0}{Trapnell2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.145 \abx@aux@segm
-                   {0}{0}{Wang2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.147 \abx@aux@segm
-                   {0}{0}{Wang2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.151 \abx@aux@cite
-                   {Pepke2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.152 \abx@aux@segm
-                   {0}{0}{Pepke2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154 \abx@aux@cite
-                   {Oshlack2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.155 \abx@aux@segm
-                   {0}{0}{Oshlack2010}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.157 \abx@aux@cite
-                   {russo2015advantages}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.158 \abx@aux@segm
-                   {0}{0}{russo2015advantages}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.160 \abx@aux@cite
-                   {RussoRighelli2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.161 \abx@aux@segm
-                   {0}{0}{RussoRighelli2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.163 \abx@aux@segm
-                   {0}{0}{RussoRighelli2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.169 \abx@aux@segm
-                   {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.171 \abx@aux@segm
-                   {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.173 \abx@aux@segm
-                   {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.179 \abx@aux@segm
-                   {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.181 \abx@aux@segm
-                   {0}{0}{Park2009}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.183 \abx@aux@cite
-                   {Giresi2007}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.184 \abx@aux@segm
-                   {0}{0}{Giresi2007}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.186 \abx@aux@cite
-                   {Winter2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.187 \abx@aux@segm
-                   {0}{0}{Winter2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.189 \abx@aux@segm
-                   {0}{0}{Buenrostro2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+(./thesis.aux (./abstract.aux) (./acronym.tex.aux)
 
 LaTeX Warning: Label `fig:chipseqexp' multiply defined.
 
-! Undefined control sequence.
-l.193 \abx@aux@segm
-                   {0}{0}{Buenrostro2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.195 \abx@aux@segm
-                   {0}{0}{Buenrostro2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Label `sec:reprres' multiply defined.
 
-! Undefined control sequence.
-l.197 \abx@aux@cite
-                   {Wei2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+)
+\openout1 = `thesis.aux'.
 
-! Undefined control sequence.
-l.198 \abx@aux@segm
-                   {0}{0}{Wei2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 148.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 148.
 
-! Undefined control sequence.
-l.200 \abx@aux@cite
-                   {righelli2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 148.
 
-! Undefined control sequence.
-l.201 \abx@aux@segm
-                   {0}{0}{righelli2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.203 \abx@aux@cite
-                   {Koberstein2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 
-! Undefined control sequence.
-l.204 \abx@aux@segm
-                   {0}{0}{Koberstein2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count411
+\scratchdimen=\dimen265
+\scratchbox=\box88
+\nofMPsegments=\count412
+\nofMParguments=\count413
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count414
+\MPscratchDim=\dimen266
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-! Undefined control sequence.
-l.206 \abx@aux@cite
-                   {Ou2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
-! Undefined control sequence.
-l.207 \abx@aux@segm
-                   {0}{0}{Ou2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
 
-! Undefined control sequence.
-l.213 \abx@aux@cite
-                   {Angelini2014c}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count417
+\AtBeginShipoutBox=\box89
+Package atbegshi Info: Package `crop' patched.
+Package hyperref Info: Link coloring OFF on input line 148.
 
-! Undefined control sequence.
-l.214 \abx@aux@segm
-                   {0}{0}{Angelini2014c}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-! Undefined control sequence.
-l.216 \abx@aux@segm
-                   {0}{0}{Angelini2014c}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count418
+)
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
 
-! Undefined control sequence.
-l.222 \abx@aux@cite
-                   {Rohart2017}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write6
+\openout6 = `thesis.out'.
 
-! Undefined control sequence.
-l.223 \abx@aux@segm
-                   {0}{0}{Rohart2017}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.225 \abx@aux@cite
-                   {Argelaguet2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
+ic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+)
+Package crop Info: requested driver: `' on input line 148.
+Package crop Info: detected driver: `pdftex' on input line 148.
+Package crop Info: using `pdftex' graphics driver on input line 148.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout3 = `thesis-blx.bib'.
 
-! Undefined control sequence.
-l.226 \abx@aux@segm
-                   {0}{0}{Argelaguet2018}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
 
-! Undefined control sequence.
-l.228 \abx@aux@cite
-                   {Jia2017}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(./thesis.bbl
 
-! Undefined control sequence.
-l.229 \abx@aux@segm
-                   {0}{0}{Jia2017}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Wang2009':
+(biblatex)                - Invalid format of field 'month'.
 
-! Undefined control sequence.
-l.231 \abx@aux@cite
-                   {Meng2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.232 \abx@aux@segm
-                   {0}{0}{Meng2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'righelli2018':
+(biblatex)                - Invalid format of field 'month'.
 
-! Undefined control sequence.
-l.234 \abx@aux@cite
-                   {Karolchik2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.235 \abx@aux@segm
-                   {0}{0}{Karolchik2011}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Lawrence2013':
+(biblatex)                - Invalid format of field 'month'.
 
-! Undefined control sequence.
-l.237 \abx@aux@cite
-                   {Robinson2011}
-(That makes 100 errors; please try again.) 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Knuth1984a':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 148.
+Package biblatex Info: Reference segment=0 on input line 148.
+\c__siunitx_mathsf_int=\count419
+LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+zavm on input line 148.
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
+File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
+)
+\c__siunitx_mathtt_int=\count420
+
+<img/logoUnisa.png, id=326, 441.65pt x 441.65pt>
+File: img/logoUnisa.png Graphic file (type png)
+ <use img/logoUnisa.png>
+Package pdftex.def Info: img/logoUnisa.png used on input line 162.
+(pdftex.def)             Requested size: 88.32843pt x 88.32843pt.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+\openout4 = `thesis.ist'.
+
+ <./img/logoUnisa.png>]
+[2
+
+] <img/alice1.jpg, id=339, 263.5446pt x 340.51215pt>
+File: img/alice1.jpg Graphic file (type jpg)
+ <use img/alice1.jpg>
+Package pdftex.def Info: img/alice1.jpg used on input line 229.
+(pdftex.def)             Requested size: 142.26378pt x 183.81667pt.
+
+[3 <./img/alice1.jpg>] [4
+
+] [5] [6
+
+]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex) [7
+
+] [8] (./thesis.toc
+[9
+
+
+]
+Overfull \hbox (11.34784pt too wide) in paragraph at lines 63--63
+ [] [][]\T1/cmr/bx/n/10 A re-pro-du-cible com-pu-ta-tional re-search tool: the 
+R6 Class easyRe- 
+ []
+
+)
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
+
+ [10]
+\openout2 = `acronym.tex.aux'.
+
+
+No file acronym.tex.tex.
+Chapter 1.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 262.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 262.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(./sections/introduction.tex) (./sections/intro/bio_background.tex [11
+
+
+
+
+]
+<img/intro/cell.png, id=438, 1007.765pt x 560.0925pt>
+File: img/intro/cell.png Graphic file (type png)
+ <use img/intro/cell.png>
+Package pdftex.def Info: img/intro/cell.png used on input line 16.
+(pdftex.def)             Requested size: 284.52756pt x 158.13242pt.
+
+<img/intro/dna1.png, id=443, 256.96pt x 380.42125pt>
+File: img/intro/dna1.png Graphic file (type png)
+ <use img/intro/dna1.png>
+Package pdftex.def Info: img/intro/dna1.png used on input line 37.
+(pdftex.def)             Requested size: 142.26378pt x 210.61966pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 45.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+) [12 <./img/intro/cell.png>] <img/intro/gene_chrom.png, id=461, 1505.625pt x 1
+134.2375pt>
+File: img/intro/gene_chrom.png Graphic file (type png)
+
+<use img/intro/gene_chrom.png>
+Package pdftex.def Info: img/intro/gene_chrom.png used on input line 51.
+(pdftex.def)             Requested size: 227.62204pt x 171.46092pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./img/intro/dna1.png>] <img/intro/hm.png, id=479, 473.77pt x 473.77pt>
+File: img/intro/hm.png Graphic file (type png)
+
+<use img/intro/hm.png>
+Package pdftex.def Info: img/intro/hm.png used on input line 77.
+(pdftex.def)             Requested size: 227.62204pt x 227.61665pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./img/intro/gene_chrom.png>]) (./sections/intro/seqs.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./img/intro/hm.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+[16]) (./sections/intro/rna.tex
+<img/intro/rna-seq.png, id=556, 1021.8175pt x 806.01125pt>
+File: img/intro/rna-seq.png Graphic file (type png)
+
+<use img/intro/rna-seq.png>
+Package pdftex.def Info: img/intro/rna-seq.png used on input line 15.
+(pdftex.def)             Requested size: 256.0748pt x 201.98196pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+<img/intro/rnaseqgui1.pdf, id=577, 2328.7pt x 4717.625pt>
+File: img/intro/rnaseqgui1.pdf Graphic file (type pdf)
+
+<use img/intro/rnaseqgui1.pdf>
+Package pdftex.def Info: img/intro/rnaseqgui1.pdf used on input line 37.
+(pdftex.def)             Requested size: 227.62204pt x 461.06436pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./img/intro/rna-seq.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./img/intro/rnaseqgui1.pdf>]) (./sections/intro/chip.tex
+<img/intro/chip.png, id=624, 631.35875pt x 760.8425pt>
+File: img/intro/chip.png Graphic file (type png)
+
+<use img/intro/chip.png>
+Package pdftex.def Info: img/intro/chip.png used on input line 11.
+(pdftex.def)             Requested size: 227.62204pt x 274.30942pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+[21 <./img/intro/chip.png>]
+<img/intro/peak_call.png, id=649, 423.5825pt x 668.4975pt>
+File: img/intro/peak_call.png Graphic file (type png)
+
+<use img/intro/peak_call.png>
+Package pdftex.def Info: img/intro/peak_call.png used on input line 26.
+(pdftex.def)             Requested size: 227.62204pt x 359.22879pt.
+) (./sections/intro/atac.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./img/intro/peak_call.png>] <img/intro/atac.png, id=666, 476.78125pt x 22
+7.85126pt>
+File: img/intro/atac.png Graphic file (type png)
+
+<use img/intro/atac.png>
+Package pdftex.def Info: img/intro/atac.png used on input line 8.
+(pdftex.def)             Requested size: 256.0748pt x 122.38422pt.
+ [23 <./img/intro/atac.png>])
+(./sections/intro/integration.tex
+<img/intro/multiomicsex.png, id=690, 685.05937pt x 790.45313pt>
+File: img/intro/multiomicsex.png Graphic file (type png)
+
+<use img/intro/multiomicsex.png>
+Package pdftex.def Info: img/intro/multiomicsex.png used on input line 5.
+(pdftex.def)             Requested size: 256.0748pt x 295.47841pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+<img/intro/cameras.png, id=707, 387.3672pt x 161.403pt>
+File: img/intro/cameras.png Graphic file (type png)
+
+<use img/intro/cameras.png>
+Package pdftex.def Info: img/intro/cameras.png used on input line 19.
+(pdftex.def)             Requested size: 227.62204pt x 94.84274pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <./img/intro/multiomicsex.png>]
+<img/intro/funnell.pdf, id=726, 5028.7875pt x 4617.25pt>
+File: img/intro/funnell.pdf Graphic file (type pdf)
+
+<use img/intro/funnell.pdf>
+Package pdftex.def Info: img/intro/funnell.pdf used on input line 39.
+(pdftex.def)             Requested size: 227.62204pt x 208.965pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26 <./img/intro/cameras.png>]) [27 <./img/intro/funnell.pdf>]
+(./sections/intro/reprres.tex
+<img/intro/rr_scheme.png, id=822, 518.93875pt x 364.36125pt>
+File: img/intro/rr_scheme.png Graphic file (type png)
+
+<use img/intro/rr_scheme.png>
+Package pdftex.def Info: img/intro/rr_scheme.png used on input line 16.
+(pdftex.def)             Requested size: 270.30118pt x 189.79695pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+(./sections/intro/workaim.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./img/intro/rr_scheme.png>] [30]) [31] [32
+
+]
+Chapter 2.
+(./sections/ticorser/general.tex) (./sections/ticorser/intro.tex [33])
+(./sections/ticorser/intromethods.tex
+<img/ticorser/main_flow.pdf, id=882, 601.28638pt x 678.37442pt>
+File: img/ticorser/main_flow.pdf Graphic file (type pdf)
+
+<use img/ticorser/main_flow.pdf>
+Package pdftex.def Info: img/ticorser/main_flow.pdf used on input line 10.
+(pdftex.def)             Requested size: 227.62204pt x 256.8016pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34]) (./sections/ticorser/filtering.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./img/ticorser/main_flow.pdf>]) (./sections/ticorser/normalization.tex
+Overfull \hbox (0.69702pt too wide) in paragraph at lines 8--9
+[]\T1/cmr/m/n/10 Moreover, it is pos-sible to ap-ply a batch ef-fect re-moval n
+or-mal-iz-a-tion method,
+ []
+
+[36]) (./sections/ticorser/demethods.tex [37]
+<img/ticorser/de/trends/trend_LRT.pdf, id=971, 716.6775pt x 554.07pt>
+File: img/ticorser/de/trends/trend_LRT.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/trends/trend_LRT.pdf>
+Package pdftex.def Info: img/ticorser/de/trends/trend_LRT.pdf used on input lin
+e 25.
+(pdftex.def)             Requested size: 345.0pt x 266.72838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<img/ticorser/de/trends/trend_t.pdf, id=985, 716.6775pt x 554.07pt>
+File: img/ticorser/de/trends/trend_t.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/trends/trend_t.pdf>
+Package pdftex.def Info: img/ticorser/de/trends/trend_t.pdf used on input line 
+41.
+(pdftex.def)             Requested size: 345.0pt x 266.72838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./img/ticorser/de/trends/trend_LRT.pdf>]
+
+LaTeX Warning: Reference `fig:ticlrtnotint' on page 40 undefined on input line 
+50.
+
+<img/ticorser/de/trends/trend_noint.pdf, id=1003, 716.6775pt x 554.07pt>
+File: img/ticorser/de/trends/trend_noint.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/trends/trend_noint.pdf>
+Package pdftex.def Info: img/ticorser/de/trends/trend_noint.pdf used on input l
+ine 58.
+(pdftex.def)             Requested size: 345.0pt x 266.72838pt.
+
+Underfull \vbox (badness 4096) has occurred while \output is active []
+
+ [40 <./img/ticorser/de/trends/trend_t.pdf>]
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [41 <./img/ticorser/de/trends/trend_noint.pdf>]) (./sections/ticorser/plots.te
+x [42]
+<img/ticorser/boxplot_example.png, id=1045, 1187.43625pt x 1154.3125pt>
+File: img/ticorser/boxplot_example.png Graphic file (type png)
+
+<use img/ticorser/boxplot_example.png>
+Package pdftex.def Info: img/ticorser/boxplot_example.png used on input line 17
+.
+(pdftex.def)             Requested size: 284.52756pt x 276.58272pt.
+ [43 <./img/ticorser/boxplot_example.png>] <img/ticorser/pca_example.png, id=10
+58, 1205.50375pt x 1210.5225pt>
+File: img/ticorser/pca_example.png Graphic file (type png)
+
+<use img/ticorser/pca_example.png>
+Package pdftex.def Info: img/ticorser/pca_example.png used on input line 34.
+(pdftex.def)             Requested size: 345.0pt x 346.42477pt.
+ [44 <./img/ticorser/pca_example.png>]
+<img/ticorser/pcas.png, id=1071, 881.2925pt x 587.19376pt>
+File: img/ticorser/pcas.png Graphic file (type png)
+
+<use img/ticorser/pcas.png>
+Package pdftex.def Info: img/ticorser/pcas.png used on input line 48.
+(pdftex.def)             Requested size: 345.0pt x 229.86479pt.
+ [45 <./img/ticorser/pcas.png>]
+<img/ticorser/volcano_example.png, id=1088, 882.29625pt x 856.19875pt>
+File: img/ticorser/volcano_example.png Graphic file (type png)
+
+<use img/ticorser/volcano_example.png>
+Package pdftex.def Info: img/ticorser/volcano_example.png used on input line 67
+.
+(pdftex.def)             Requested size: 284.52756pt x 276.10565pt.
+
+<img/ticorser/maplot.pdf, id=1092, 596.95016pt x 599.84097pt>
+File: img/ticorser/maplot.pdf Graphic file (type pdf)
+
+<use img/ticorser/maplot.pdf>
+Package pdftex.def Info: img/ticorser/maplot.pdf used on input line 78.
+(pdftex.def)             Requested size: 284.52756pt x 285.90677pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./img/ticorser/volcano_example.png>]
+<img/ticorser/gene_trend.png, id=1103, 382.42876pt x 271.76532pt>
+File: img/ticorser/gene_trend.png Graphic file (type png)
+
+<use img/ticorser/gene_trend.png>
+Package pdftex.def Info: img/ticorser/gene_trend.png used on input line 91.
+(pdftex.def)             Requested size: 284.52756pt x 202.20209pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./img/ticorser/maplot.pdf>]
+<img/ticorser/keggmap_example.png, id=1121, 1428.33624pt x 981.6675pt>
+File: img/ticorser/keggmap_example.png Graphic file (type png)
+
+<use img/ticorser/keggmap_example.png>
+Package pdftex.def Info: img/ticorser/keggmap_example.png used on input line 10
+4.
+(pdftex.def)             Requested size: 341.43306pt x 234.66133pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./img/ticorser/gene_trend.png (PNG copy)>]) (./sections/ticorser/addfeat.
+tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+Overfull \hbox (37.23709pt too wide) in paragraph at lines 8--9
+\T1/cmr/m/it/10 Rsub-read \T1/cmr/m/n/10 R/-Biocon-ductor pack-age [[]67[]], ha
+rd cod-ing some para-met-ers as []
+ []
+
+[49 <./img/ticorser/keggmap_example.png>] [50]
+Overfull \hbox (36.93637pt too wide) in paragraph at lines 48--52
+\T1/cmr/m/n/10 iden-ti-fier to an-other. We de-veloped [][][][] and []
+ []
+
+
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+ [51])
+(./sections/ticorser/results.tex
+<img/ticorser/dataset.pdf, id=1182, 634.37pt x 634.37pt>
+File: img/ticorser/dataset.pdf Graphic file (type pdf)
+
+<use img/ticorser/dataset.pdf>
+Package pdftex.def Info: img/ticorser/dataset.pdf used on input line 8.
+(pdftex.def)             Requested size: 345.0pt x 345.01334pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 16.
+
+
+Overfull \hbox (26.5939pt too wide) in paragraph at lines 17--18
+[][]\T1/cmr/m/it/10 ticorser[] \T1/cmr/m/n/10 gives the pos-sib-il-ity to quant
+ify the gene ex-pres-sion by us-ing the []
+ []
+
+
+Overfull \hbox (52.52792pt too wide) in paragraph at lines 17--18
+[][][] \T1/cmr/m/n/10 method of the [][][][] R/-Biocon-ductor pack-age, by us-i
+ng the []
+ []
+
+[53 <./img/ticorser/dataset.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+<img/ticorser/filtering/panel1.pdf, id=1261, 1013.7875pt x 938.50626pt>
+File: img/ticorser/filtering/panel1.pdf Graphic file (type pdf)
+
+<use img/ticorser/filtering/panel1.pdf>
+Package pdftex.def Info: img/ticorser/filtering/panel1.pdf used on input line 7
+9.
+(pdftex.def)             Requested size: 341.43306pt x 316.0663pt.
+ [55]
+<img/ticorser/normalizing/boxplots/all_boxes.pdf, id=1276, 1028.84375pt x 1013.
+7875pt>
+File: img/ticorser/normalizing/boxplots/all_boxes.pdf Graphic file (type pdf)
+ <use img/ticorser/normalizing/boxplots/all_boxes.pdf>
+Package pdftex.def Info: img/ticorser/normalizing/boxplots/all_boxes.pdf used o
+n input line 93.
+(pdftex.def)             Requested size: 341.43306pt x 336.43816pt.
+ [56 <./img/ticorser/filtering/panel1.pdf>]
+<img/ticorser/normalizing/pca/all_pca.pdf, id=1354, 1028.84375pt x 1028.84375pt
+>
+File: img/ticorser/normalizing/pca/all_pca.pdf Graphic file (type pdf)
+ <use img/ticorser/normalizing/pca/all_pca.pdf>
+Package pdftex.def Info: img/ticorser/normalizing/pca/all_pca.pdf used on input
+ line 105.
+(pdftex.def)             Requested size: 341.43306pt x 341.43475pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./img/ticorser/normalizing/boxplots/all_boxes.pdf>] [58 <./img/ticorser/n
+ormalizing/pca/all_pca.pdf>] [59]
+<img/ticorser/de/volcma.pdf, id=1525, 1204.5pt x 602.25pt>
+File: img/ticorser/de/volcma.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/volcma.pdf>
+Package pdftex.def Info: img/ticorser/de/volcma.pdf used on input line 158.
+(pdftex.def)             Requested size: 345.0pt x 172.49765pt.
+
+<img/ticorser/de/venn3.pdf, id=1530, 481.8pt x 546.04pt>
+File: img/ticorser/de/venn3.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/venn3.pdf>
+Package pdftex.def Info: img/ticorser/de/venn3.pdf used on input line 168.
+(pdftex.def)             Requested size: 345.00635pt x 391.0072pt.
+
+Underfull \vbox (badness 6125) has occurred while \output is active []
+
+ [60 <./img/ticorser/de/volcma.pdf>]
+<img/ticorser/de/trends/trends.pdf, id=1796, 2107.875pt x 1736.4875pt>
+File: img/ticorser/de/trends/trends.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/trends/trends.pdf>
+Package pdftex.def Info: img/ticorser/de/trends/trends.pdf used on input line 1
+80.
+(pdftex.def)             Requested size: 345.0pt x 284.20287pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./img/ticorser/de/venn3.pdf>] [62 <./img/ticorser/de/trends/trends.pdf>]
+<img/ticorser/de/singleTP/venn.pdf, id=1871, 722.7pt x 722.7pt>
+File: img/ticorser/de/singleTP/venn.pdf Graphic file (type pdf)
+
+<use img/ticorser/de/singleTP/venn.pdf>
+Package pdftex.def Info: img/ticorser/de/singleTP/venn.pdf used on input line 2
+22.
+(pdftex.def)             Requested size: 284.52756pt x 284.53154pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+Overfull \hbox (34.15686pt too wide) in paragraph at lines 234--236
+[]\T1/cmr/m/n/10 In or-der to per-form path-way ana-lysis with \T1/cmr/m/it/10 
+GPro-filer \T1/cmr/m/n/10 we used []
+ []
+
+[64 <./img/ticorser/de/singleTP/venn.pdf>]
+<img/ticorser/functional/net_kegg.pdf, id=1905, 505.89pt x 505.89pt>
+File: img/ticorser/functional/net_kegg.pdf Graphic file (type pdf)
+
+<use img/ticorser/functional/net_kegg.pdf>
+Package pdftex.def Info: img/ticorser/functional/net_kegg.pdf used on input lin
+e 239.
+(pdftex.def)             Requested size: 345.0pt x 345.00414pt.
+
+<img/ticorser/functional/mf_hier.pdf, id=1910, 505.89pt x 505.89pt>
+File: img/ticorser/functional/mf_hier.pdf Graphic file (type pdf)
+
+<use img/ticorser/functional/mf_hier.pdf>
+Package pdftex.def Info: img/ticorser/functional/mf_hier.pdf used on input line
+ 251.
+(pdftex.def)             Requested size: 345.0pt x 345.00414pt.
+ [65 <./img/ticorser/functional/net_kegg.pdf>]
+<img/ticorser/functional/alzheimer.png, id=1935, 1102.1175pt x 910.40125pt>
+File: img/ticorser/functional/alzheimer.png Graphic file (type png)
+
+<use img/ticorser/functional/alzheimer.png>
+Package pdftex.def Info: img/ticorser/functional/alzheimer.png used on input li
+ne 264.
+(pdftex.def)             Requested size: 345.0pt x 284.98589pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./img/ticorser/functional/mf_hier.pdf>]
+<img/ticorser/functional/parkinson.png, id=1951, 1570.86874pt x 979.66pt>
+File: img/ticorser/functional/parkinson.png Graphic file (type png)
+
+<use img/ticorser/functional/parkinson.png>
+Package pdftex.def Info: img/ticorser/functional/parkinson.png used on input li
+ne 271.
+(pdftex.def)             Requested size: 345.0pt x 215.15216pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67 <./img/ticorser/functional/alzheimer.png>]) (./sections/ticorser/conclusio
+ns.tex
+[68 <./img/ticorser/functional/parkinson.png>]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [69])
+[70]
+Chapter 3.
+(./sections/descan2/general.tex) (./sections/descan2/intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71
+
+])
+(./sections/descan2/methods.tex
+<img/descan2/flow.png, id=2009, 550.055pt x 572.1375pt>
+File: img/descan2/flow.png Graphic file (type png)
+
+<use img/descan2/flow.png>
+Package pdftex.def Info: img/descan2/flow.png used on input line 8.
+(pdftex.def)             Requested size: 227.62204pt x 236.7604pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+(./sections/descan2/peakcall.tex [73 <./img/descan2/flow.png>])
+(./sections/descan2/peakfilt.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74])
+(./sections/descan2/peakcount.tex [75]) (./sections/descan2/addfeat.tex)
+[76] (./sections/descan2/results.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+<img/descan2/dataset.png, id=2063, 716.4366pt x 334.851pt>
+File: img/descan2/dataset.png Graphic file (type png)
+
+<use img/descan2/dataset.png>
+Package pdftex.def Info: img/descan2/dataset.png used on input line 11.
+(pdftex.def)             Requested size: 345.0pt x 161.25291pt.
+ [77 <./img/descan2/dataset.png>]
+<img/descan2/d2m2_peaks_number.png, id=2083, 1262.7175pt x 1003.75pt>
+File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
+
+<use img/descan2/d2m2_peaks_number.png>
+Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 2
+8.
+(pdftex.def)             Requested size: 345.0pt x 274.24779pt.
+ [78 <./img/descan2/d2m2_peaks_number.png>] <img/descan2/peaks.png, id=2100, 68
+0.3016pt x 262.581pt>
+File: img/descan2/peaks.png Graphic file (type png)
+
+<use img/descan2/peaks.png>
+Package pdftex.def Info: img/descan2/peaks.png used on input line 38.
+(pdftex.def)             Requested size: 345.0pt x 133.16528pt.
+
+<img/descan2/filtering_m2_d2.png, id=2107, 2569.6pt x 1419.3025pt>
+File: img/descan2/filtering_m2_d2.png Graphic file (type png)
+
+<use img/descan2/filtering_m2_d2.png>
+Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 59.
+
+(pdftex.def)             Requested size: 345.0pt x 190.55804pt.
+ [79 <./img/descan2/peaks.png>]
+<img/descan2/counts.png, id=2124, 286.671pt x 211.5102pt>
+File: img/descan2/counts.png Graphic file (type png)
+
+<use img/descan2/counts.png>
+Package pdftex.def Info: img/descan2/counts.png used on input line 79.
+(pdftex.def)             Requested size: 200.66832pt x 148.05612pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80 <./img/descan2/filtering_m2_d2.png>]
+Overfull \hbox (5.27924pt too wide) in paragraph at lines 99--100
+[]\T1/cmr/m/n/10 Figure []3.3.7[] sum-mar-izes this concept very well, high-lig
+ht-ing a re-la-tion between
+ []
+
+[81 <./img/descan2/counts.png>]
+<img/descan2/null_dataset_final.pdf, id=2152, 711.65875pt x 767.86874pt>
+File: img/descan2/null_dataset_final.pdf Graphic file (type pdf)
+
+<use img/descan2/null_dataset_final.pdf>
+Package pdftex.def Info: img/descan2/null_dataset_final.pdf used on input line 
+106.
+(pdftex.def)             Requested size: 345.0pt x 372.24014pt.
+
+<img/descan2/full_final.pdf, id=2157, 807.015pt x 767.86874pt>
+File: img/descan2/full_final.pdf Graphic file (type pdf)
+
+<use img/descan2/full_final.pdf>
+Package pdftex.def Info: img/descan2/full_final.pdf used on input line 118.
+(pdftex.def)             Requested size: 345.0pt x 328.2673pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./img/descan2/null_dataset_final.pdf>]
+<img/descan2/DE_peaks.png, id=2190, 986.18437pt x 858.20625pt>
+File: img/descan2/DE_peaks.png Graphic file (type png)
+
+<use img/descan2/DE_peaks.png>
+Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 146.
+(pdftex.def)             Requested size: 345.0pt x 300.23264pt.
+ [83 <./img/descan2/full_final.pdf>]
+<img/descan2/Annotated_depeaks_degenes.png, id=2211, 1380.15625pt x 1208.515pt>
+File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
+<use img/descan2/Annotated_depeaks_degenes.png>
+Package pdftex.def Info: img/descan2/Annotated_depeaks_degenes.png used on inpu
+t line 158.
+(pdftex.def)             Requested size: 345.0pt x 302.09113pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./img/descan2/DE_peaks.png (PNG copy)>] [85 <./img/descan2/Annotated_depe
+aks_degenes.png>]) (./sections/descan2/conclusions.tex [86]
+Overfull \hbox (0.8025pt too wide) in paragraph at lines 12--13
+[]\T1/cmr/m/n/10 Despite these im-prove-ments, [][]\T1/cmr/m/it/10 DES-can2[]\T
+1/cmr/m/n/10 , from this pre-lim-in-ary res-ults, already
+ []
+
+) [87] [88
+
+]
+Chapter 4.
+(./sections/rr/introchap.tex)
+Overfull \hbox (5.11261pt too wide) in paragraph at lines 14--329
+[]\T1/cmr/m/n/10 The tool is ac-cess-ible at the fol-low-ing link: []$\T1/cmtt/
+m/n/10 https : / / github . com / drighelli /
+ []
+
+(./sections/rr/intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+<img/rr/scheme.pdf, id=2282, 9104.88588pt x 4552.43803pt>
+File: img/rr/scheme.pdf Graphic file (type pdf)
+
+<use img/rr/scheme.pdf>
+Package pdftex.def Info: img/rr/scheme.pdf used on input line 10.
+(pdftex.def)             Requested size: 345.0pt x 172.48041pt.
+
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 20.86551pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90 <./img/rr/scheme.pdf>]) (./sections/rr/methods.tex [91]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 9.
+
+<img/rr/knitropts.png, id=2414, 1666.225pt x 1219.55624pt>
+File: img/rr/knitropts.png Graphic file (type png)
+
+<use img/rr/knitropts.png>
+Package pdftex.def Info: img/rr/knitropts.png used on input line 23.
+(pdftex.def)             Requested size: 345.0pt x 252.50424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Overfull \hbox (38.6802pt too wide) in paragraph at lines 36--38
+[][][][] \T1/cmr/m/n/10 or [][][][], and fi-nally clos-ing the [][]CC[] with []
+
+ []
+
+
+Overfull \hbox (1.16803pt too wide) in paragraph at lines 41--43
+[]\T1/cmr/m/n/10 Otherwise it is pos-sible to cre-ate an en-tire [][]CC[] just 
+with []
+ []
+
+) [93 <./img/rr/knitropts.png>] (./sections/rr/usage.tex [94] [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+Overfull \hbox (7.9997pt too wide) in paragraph at lines 102--104
+[]\T1/cmr/m/n/10 Finally, the re-port in [][]Hy-per-text Mark-down Lan-guage (H
+TML)[] format provides
+ []
+
+<img/rr/report.png, id=2525, 937.5025pt x 765.86125pt>
+File: img/rr/report.png Graphic file (type png)
+ <use img/rr/report.png>
+Package pdftex.def Info: img/rr/report.png used on input line 106.
+(pdftex.def)             Requested size: 345.0pt x 281.83334pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+(./sections/rr/future.tex [98 <./img/rr/report.png>]) [99] [100
+
+]
+Chapter 5.
+(./sections/integrho/general.tex) (./sections/integrho/intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+<img/integrho/integrho_scheme.pdf, id=2587, 1024.29674pt x 597.50829pt>
+File: img/integrho/integrho_scheme.pdf Graphic file (type pdf)
+
+<use img/integrho/integrho_scheme.pdf>
+Package pdftex.def Info: img/integrho/integrho_scheme.pdf used on input line 25
+.
+(pdftex.def)             Requested size: 345.0pt x 201.24463pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102])
+(./sections/integrho/methods.tex [103 <./img/integrho/integrho_scheme.pdf>]
+[104] <img/integrho/interface.png, id=2716, 1096.095pt x 800.9925pt>
+File: img/integrho/interface.png Graphic file (type png)
+
+<use img/integrho/interface.png>
+Package pdftex.def Info: img/integrho/interface.png used on input line 43.
+(pdftex.def)             Requested size: 345.0pt x 252.11841pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+[106 <./img/integrho/interface.png>]
+<img/integrho/design.png, id=2738, 1088.56688pt x 499.8675pt>
+File: img/integrho/design.png Graphic file (type png)
+
+<use img/integrho/design.png>
+Package pdftex.def Info: img/integrho/design.png used on input line 67.
+(pdftex.def)             Requested size: 345.0pt x 158.42014pt.
+
+<img/integrho/project_folder.pdf, id=2743, 1555.8125pt x 1304.875pt>
+File: img/integrho/project_folder.pdf Graphic file (type pdf)
+
+<use img/integrho/project_folder.pdf>
+Package pdftex.def Info: img/integrho/project_folder.pdf used on input line 77.
+
+(pdftex.def)             Requested size: 345.0pt x 289.34322pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107 <./img/integrho/design.png>]
+Overfull \hbox (2.99202pt too wide) in paragraph at lines 92--93
+[]\T1/cmr/m/n/10 In par-tic-u-lar, we defined spe-cific in-ter-faces for \T1/cm
+r/m/it/10 RNA-seq\T1/cmr/m/n/10 , \T1/cmr/m/it/10 ChIP-seq \T1/cmr/m/n/10 and \
+T1/cmr/m/it/10 ATAC-
+ []
+
+[108 <./img/integrho/project_folder.pdf>]
+<img/integrho/integrho_pack_scheme.pdf, id=2789, 2358.8125pt x 1856.9375pt>
+File: img/integrho/integrho_pack_scheme.pdf Graphic file (type pdf)
+
+<use img/integrho/integrho_pack_scheme.pdf>
+Package pdftex.def Info: img/integrho/integrho_pack_scheme.pdf used on input li
+ne 103.
+(pdftex.def)             Requested size: 345.0pt x 271.58664pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109 <./img/integrho/integrho_pack_scheme.pdf>] [110]
+
+LaTeX Warning: Citation 'Tarazona2012' on page 111 undefined on input line 167.
+
+
+
+Overfull \hbox (7.80064pt too wide) in paragraph at lines 167--168
+[]\T1/cmr/m/n/10 We se-lec-ted four dif-fer-ent meth-ods im-ple-men-ted in-side
+ \T1/cmr/m/it/10 edgeR\T1/cmr/m/n/10 , \T1/cmr/m/it/10 DESeq2\T1/cmr/m/n/10 , \
+T1/cmr/m/it/10 NOISeq
+ []
+
+[111] [112] [113] [114] [115]) (./sections/integrho/reprres.tex
+<img/integrho/rr_1.png, id=2919, 1161.33875pt x 776.9025pt>
+File: img/integrho/rr_1.png Graphic file (type png)
+
+<use img/integrho/rr_1.png>
+Package pdftex.def Info: img/integrho/rr_1.png used on input line 10.
+(pdftex.def)             Requested size: 155.24895pt x 103.84596pt.
+
+<img/integrho/rr_2.png, id=2922, 954.56625pt x 1053.9375pt>
+File: img/integrho/rr_2.png Graphic file (type png)
+
+<use img/integrho/rr_2.png>
+Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
+(pdftex.def)             Requested size: 155.24895pt x 171.3995pt.
+) (./sections/integrho/conclusions.tex
+Underfull \vbox (badness 5475) has occurred while \output is active []
+
+ [116])
+[117 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] [118]
+Chapter 6.
+(./sections/conclusions.tex
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [119
+
+])
+[120] [121] [122
+
+]
+Chapter 7.
+[123] [124] [125] [126]
+Overfull \hbox (0.38191pt too wide) in paragraph at lines 378--378
+[]\T1/cmr/m/n/10 Robinson, J. T., Thor-valdsdót-tir, H., Winck-ler, W., Guttman
+, M., Lander,
+ []
+
+
+Overfull \hbox (0.56094pt too wide) in paragraph at lines 378--378
+\T1/cmr/m/n/10 plor-a-tion. \T1/cmr/m/it/10 Brief-ings in Bioin-form-at-ics \T1
+/cmr/bx/n/10 14, \T1/cmr/m/n/10 178^^U192. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 :
+ 14675463 (2013). 
+ []
+
+[127]
+Overfull \hbox (4.0894pt too wide) in paragraph at lines 378--378
+\T1/cmr/m/n/10 lines: Forensic bioin-form-at-ics and re-pro-du-cible re-search 
+in high-throughput
+ []
+
+[128]
+Overfull \hbox (0.22667pt too wide) in paragraph at lines 378--378
+\T1/cmr/m/n/10 form-at-ics re-source. \T1/cmr/m/it/10 Nuc-leic Acids Re-search.
+ \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 1362-4962. doi:[]$\T1/cmtt/m/n/10 10 . 10
+93 /
+ []
+
+
+Overfull \hbox (2.60838pt too wide) in paragraph at lines 378--378
+\T1/cmr/m/it/10 Nuc-leic acids re-search. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 
+1362-4962. doi:[]$\T1/cmtt/m/n/10 10 . 1093 / nar / gku1179$[] \T1/cmr/m/n/10 (
+2015). 
+ []
+
+[129] [130] [131] [132]
+Overfull \hbox (3.69116pt too wide) in paragraph at lines 378--378
+[]\T1/cmr/m/n/10 Thomas Kluyver, Ben-jamin Ragan-Kelley, Fernando Pérez, Brian 
+Granger,
+ []
+
+[133] [134] [135] [136]
+No file thesis.acr.
+[137
+
+] [138
+
+] (./thesis.lof [139
+
+]
+Overfull \hbox (2.55492pt too wide) detected at line 28
+\T1/cmr/m/n/10 2.2.10 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 29
+\T1/cmr/m/n/10 2.2.11 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 39
+\T1/cmr/m/n/10 2.4.10 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 40
+\T1/cmr/m/n/10 2.4.11 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 41
+\T1/cmr/m/n/10 2.4.12 
+ []
+
+[140])
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
+
+ [141] [142
+
+] (./thesis.lot)
+\tf@lot=\write9
+\openout9 = `thesis.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+ [143
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+ (./thesis.aux (./abstract.aux)
+(./acronym.tex.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3F92D0DA2140D6ACB8746136596DA1CB;12624.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ )
+(\end occurred when \iftrue on line 148 was incomplete) 
 Here is how much of TeX's memory you used:
- 34220 strings out of 494835
- 588512 string characters out of 6178234
- 931080 words of memory out of 5000000
- 37126 multiletter control sequences out of 15000+600000
- 4403 words of font info for 15 fonts, out of 8000000 for 9000
+ 37904 strings out of 494835
+ 650086 string characters out of 6178234
+ 1034306 words of memory out of 5000000
+ 39967 multiletter control sequences out of 15000+600000
+ 31621 words of font info for 75 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 46i,1n,72p,10379b,1462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,77p,10379b,3172s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): n
+ame{glo:pdf} has been referenced but does not exist, replaced by a fixed one
 
-!  ==> Fatal error occurred, no output PDF file produced!
+pdfTeX warning (dest): name{glo:dbs} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:ss} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:sui} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tcga} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:igro} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:html} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:cdf} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:rmd} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:gui} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:cc} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:der} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:mm10} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:geo} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tsv} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:mle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:descan} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:glm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:gobp} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gocc} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:gomf} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:sci} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:fdr} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:go} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:gtf} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:pc} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:pca} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:lrt} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:cov} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:cpm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:deg} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tc} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:tic} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:rr} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:igv} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:utr} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tss} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:tf} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:hm} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:cdna} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mrna} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:bam} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:ngs} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:rna} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:dna} has been referenced but does not exist, re
+placed by a fixed one
+
+ </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/dar
+io/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/dario/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/dario/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ectt1000.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm0800.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+ti0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600p
+k> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/d
+ario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/dario/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/dario/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/base/8r.enc} </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.
+600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </ho
+me/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/dario/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/dario/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/dario/.texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/tex
+mf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/te
+x-gyre/qhvr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on thesis.pdf (143 pages, 55513244 bytes).
+PDF statistics:
+ 4220 PDF objects out of 4296 (max. 8388607)
+ 2491 compressed objects within 25 object streams
+ 522 named destinations out of 1000 (max. 500000)
+ 939 words of extra memory for PDF output out of 10000 (max. 10000000)
+
