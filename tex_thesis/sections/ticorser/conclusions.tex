@@ -2,22 +2,22 @@ We presented \gls{tic}, an R command line tool for easy and fast analysis of tim
 
 Our tool offers several already published methods for \textit{RNA-seq} analysis in order to catch the gene expression differences between multiple biological conditions, focusing on \gls{tc} experiments, but also allowing the comparisons at a single time point.
 The selected methodologies are some of the mostly used for the \gls{tc} \textit{RNA-seq} differential expression experiments (\textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}), while the choice of the filtering methods is due to the lack of methodologies and packages offering this methodology.
-At the same time, we collected multiple methodologies for counts normalization, in order to give the possibility to compare their effects on the data and, consequently, choose the one which better interprets the dataset.
+At the same time, we collected multiple approaches for counts normalization, in order to give the possibility to compare their effects on the data and, consequently, choose the one which better interprets the dataset.
 Finally, for the functional enrichment analysis we selected two already published tools (\textit{clusterProfiler}, \textit{gProfiler}) which offers the possibility to visualize the results with ad-hoc defined plots.
 
-While the package allows to compare different methodologies to well discriminate between multiple conditions at a single time point, it'd be a good practice also to compare results coming from multiple methodologies when working with \gls{tc} data.
-A good candidate for this aim could be the \textit{nextMASigPro} R/Bioconductor package which takes advantage of the \gls{glm} with Negative Binomial distribution.
-This method, despite other implemented ones, allows to detect all \glspl{deg} showing any kind of differences between the conditions across all the time points.
-And, as suggested by the authors is a good norm to cluster the genes to better understand which is their singular behaviour.
+While the package allows to compare different methodologies to well discriminate between multiple conditions at a single time point, it would be also a good practice to compare the results coming from multiple methodologies when working with \gls{tc} data.
+A good candidate to this aim could be the \textit{nextMASigPro} R/Bioconductor package which takes advantage of the \gls{glm} with Negative Binomial distribution.
+This method, despite other implemented ones, allows the detection of all \glspl{deg} showing any kind of differences between the conditions across all the time points.
+And, as suggested by the authors, it is a good norm to cluster the genes to better understand which are their singular behaviours.
 
 \gls{tic} is not a collection of already computed methods, indeed, the tool take in charge of several aspects during the analysis, which are tipically left to the final user, even if this one is not so confident with this kind of methodologies.
-\gls{tic} has been designed in a way that the user can apply several different methodologies for filtering, normalization, differential expression, etc, without taking care about the different input and output data that each of this methodology requires.
+\gls{tic} has been designed in a way that the user can apply several different methodologies for filtering, normalization, differential expression, etc., without taking care about the different input and output data that each of this methodology requires.
 The main aspect the user need to take care is to well define the experimental design matrix, useful for the proper working with the \gls{tic} functions.
 
-Once, properly defined the design matrix and became familiar with \gls{tic} instruments, every user can easily perform a complete pipeline in a couple of hours (excluding the quantification step, that can be time demanding.
+Once the design matrix is properly defined and once the final user became familiar with \gls{tic} instruments, every user can easily perform a complete pipeline in a couple of hours (excluding the quantification step, that can be time demanding).
 
 To conclude, \gls{tic}, with its ad-hoc designed pipeline, is a useful instrument for analyzing \gls{tc} \textit{RNA-seq} data, offering multiple methodologies for quantification, filtering, normalization, differential expression and functional analysis.
-Moreover, it offers a set of multiple plots for each step of the analysis, which helps the user to inspect the data and the results.
+Moreover, it offers a set of multiple plots for each step of the analysis, helping the user to inspect the data and the results.
 Moreover, most of the visualization functionalities allows the user to plot them in interactive mode, giving the possibility to visualize additional information while navigating the plot with the mouse.
 
 At our knowledge, \gls{tic} is the first pipeline which enables the analysis of \gls{tc} \textit{RNA-seq} data, giving the possibility to compare multiple methodologies and offering multiple visualization tools for the data exploration.

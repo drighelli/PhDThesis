@@ -1,0 +1,34 @@
+Multiple omics data information extraction became always more complex with the evolution of sequencing techniques and with the consequent development of methodologies for their analysis and integration.
+With this thesis work, we focused on the development of novel strategies for several problems related to multiple omics sequencing data information extraction.
+
+Firstly, we approached the most studied problem of genomic, the transcriptomic, by focusing on time-course \textit{RNA-seq} data.
+Time-course \textit{RNA-seq} data experiments are very common when investigating multiple biological conditions across time, in order to explore the mostly affected biological phenomena due to an evolution of a drug treatment, or to a tissue injury, etc.
+Despite the wide use of this kind of experiments, even if several methods have been proposed for their analysis, there still are too few tools fully dedicated to these specific omic data experiments.
+Guided by our experience in time-course \textit{RNA-seq} data analysis, we tried to implement, into a unique solution named \textit{ticorser}, multiple approaches and features useful to investigate this omic data type.
+
+Indeed, with this instrument we propose a complete pipeline for the time-course data analysis, presenting also ad-hoc designed approaches for this type of data visualization at different levels.
+Additionally, allowing a first integration level with functional annotation and also for their visualization.
+
+\textbf{Da mettere in generale}
+Because a standard has not been reached yet, it is not straightforward to work with multiple already published bioinformatics instruments, implemented by so many different authors.
+Each tool has its own data structures needing dedicated data preprocessing and subsequently assembling, even if the starting 
+
+made by many different authors
+\textbf{fine}
+
+
+Indeed, thanks to the case study it is possible to understand the multiple difficulties that tipically are encountered during a tipical analysis.
+Starting from the filtering methodology to apply to 
+
+showing, with a case study, how to apply the methodologies and the difficulties for a complete \textit{RNA-seq} analysis.
+
+
+Afterwards, we focused on \textit{ATAC-seq} technology, an emerging technique for open chromatin region detection, which still needs appropriate solutions for its analysis.
+To address the lack of methodologies with this data we presented \textit{DEScan2}, an R/Bioconductor package allowing detection of open chromatin regions, and we proposed a possible workflow for the detection of \glspl{der} and their integration with \textit{RNA-seq} data.
+
+Due to the difficulty of keeping track even during single omic analysis, we presented \textit{easyReporting}, a possible approach to the Reproducible Research inside R.
+A tool which helps not only software developers to include \gls{rr} layers inside their tools, but also non-expert R analysts to easily produce reports for their analysis.
+
+Finally, to speed up and help also non-expert users to analyze multiple omics data, we presented \gls{igro}, a web graphical user interface for the analysis of omics data.
+Combining the flexibility of a point-and-click approach with the power of R/Bioconductor statistical approaches for the omics data analysis.
+Moreover, thanks to the Reproducible Research layer it allows to keep track of all the steps performed during the analysis, and with aid of dedicated interface to live edit the enriched report.

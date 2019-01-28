@@ -5862,6 +5862,62 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Lun2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LAT}{%
+         family={Lun},
+         familyi={L\bibinitperiod},
+         given={Aaron\bibnamedelima T.L.},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SGK}{%
+         family={Smyth},
+         familyi={S\bibinitperiod},
+         given={Gordon\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LATSGK1}
+    \strng{fullhash}{LATSGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Chromatin immunoprecipitation with massively parallel sequencing (ChIP-seq)
+  is widely used to identify binding sites for a target protein in the genome.
+  An important scientific application is to identify changes in protein binding
+  between different treatment conditions, i.e. to detect differential binding.
+  This can reveal potential mechanisms through which changes in binding may
+  contribute to the treatment effect. The csaw package provides a framework for
+  the de novo detection of differentially bound genomic regions. It uses a
+  window-based strategy to summarize read counts across the genome. It exploits
+  existing statistical software to test for significant differences in each
+  window. Finally, it clusters windows into regions for output and controls the
+  false discovery rate properly over all detected regions. The csaw package can
+  handle arbitrarily complex experimental designs involving biological
+  replicates. It can be applied to both transcription factor and histone mark
+  datasets, and, more generally, to any type of sequencing data measuring
+  genomic coverage. csaw performs favorably against existing methods for de
+  novo DB analyses on both simulated and real data. csaw is implemented as a R
+  software package and is freely available from the open-source Bioconductor
+  project.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkv1191
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{9780874216561}
+    \field{issn}{13624962}
+    \field{number}{5}
+    \field{title}{{Csaw: A Bioconductor package for differential binding
+  analysis of ChIP-seq data using sliding windows}}
+    \field{volume}{44}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
+  \endentry
+
   \entry{Kluyver2016}{incollection}{}
     \name{author}{1}{}{%
       {{hash=TJDT}{%
@@ -8299,62 +8355,6 @@
     \field{journaltitle}{Genome Biology}
     \field{eprinttype}{arXiv}
     \field{year}{2010}
-  \endentry
-
-  \entry{Lun2015}{article}{}
-    \name{author}{2}{}{%
-      {{hash=LAT}{%
-         family={Lun},
-         familyi={L\bibinitperiod},
-         given={Aaron\bibnamedelima T.L.},
-         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=SGK}{%
-         family={Smyth},
-         familyi={S\bibinitperiod},
-         given={Gordon\bibnamedelima K.},
-         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LATSGK1}
-    \strng{fullhash}{LATSGK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Chromatin immunoprecipitation with massively parallel sequencing (ChIP-seq)
-  is widely used to identify binding sites for a target protein in the genome.
-  An important scientific application is to identify changes in protein binding
-  between different treatment conditions, i.e. to detect differential binding.
-  This can reveal potential mechanisms through which changes in binding may
-  contribute to the treatment effect. The csaw package provides a framework for
-  the de novo detection of differentially bound genomic regions. It uses a
-  window-based strategy to summarize read counts across the genome. It exploits
-  existing statistical software to test for significant differences in each
-  window. Finally, it clusters windows into regions for output and controls the
-  false discovery rate properly over all detected regions. The csaw package can
-  handle arbitrarily complex experimental designs involving biological
-  replicates. It can be applied to both transcription factor and histone mark
-  datasets, and, more generally, to any type of sequencing data measuring
-  genomic coverage. csaw performs favorably against existing methods for de
-  novo DB analyses on both simulated and real data. csaw is implemented as a R
-  software package and is freely available from the open-source Bioconductor
-  project.%
-    }
-    \verb{doi}
-    \verb 10.1093/nar/gkv1191
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1011.1669v3
-    \endverb
-    \field{isbn}{9780874216561}
-    \field{issn}{13624962}
-    \field{number}{5}
-    \field{title}{{Csaw: A Bioconductor package for differential binding
-  analysis of ChIP-seq data using sliding windows}}
-    \field{volume}{44}
-    \field{journaltitle}{Nucleic Acids Research}
-    \field{eprinttype}{arXiv}
-    \field{year}{2015}
   \endentry
 
   \entry{Ross-Innes2012}{article}{}

@@ -1,7 +1,0 @@
-This chapter provides all the needed aspects to understand the context of this thesis work, motivates its contents and describes the main contributions.
-%highlighting, moreover, which are the the proposed goals of it.
-%explains some basic information useful to understand the context where this thesis work has been developed.
-
-In particular, it starts from describing some basic biological aspects and how it is possible to study some cellular behaviours from multiple points of view, using different sequencing techniques and how to integrate them.
-Moreover, it discuss the importance of keeping trace of the computational processes involved in the information extraction, known as ''reproducible research''.
-

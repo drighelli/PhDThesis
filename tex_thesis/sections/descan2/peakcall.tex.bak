@@ -1,16 +1,16 @@
-The Peak Caller (defined by the \lstinline!findPeaks! function) takes as input a set of alignment files (BAM \cite{Li2009} or BED format) with the code identifier of the reference genome (i.e. \textit{mm10} for Mus Musculus version 10) and several additional parameters, useful for the peak detection setup.
+The Peak Caller (defined by the \lstinline!findPeaks! function) takes as input a set of alignment files (BAM \cite{Li2009} or BED format) with the code identifier for the reference genome (i.e. \textit{mm10} for Mus Musculus version 10) and several additional parameters, useful for the peak detection setup.
 
 The alignment data are stored as an object of class \textit{GenomicRangesList} \cite{Lawrence2013}, where each element represents a file. 
 In order to facilitate the parallelization of the computations over the chromosomes, the list is re-arranged as a chromosome list of \textit{GenomicRangesList}, where each element represents the file containing just the \textit{GenomicRanges} of the specific chromosome (see section \ref{sec:descan2addfeat} for a detailed description of this procedure).
 
-For each element of this data structure, the algorithm firstly divides each chromosome in bins of \lstinline!binSize! parameter length (the default value is 50bp) and then computes the reads coverage of the bins with moving scan windows, spanning from \lstinline!minWin! to \lstinline!maxWin! parameters of \lstinline!binSize! interval.
+For each element of this data structure, the algorithm firstly divides each chromosome into bins of \lstinline!binSize! parameter length (the default value is 50bp) and then computes the reads coverage of the bins with moving scan windows, spanning from \lstinline!minWin! to \lstinline!maxWin! parameters of \lstinline!binSize! interval.
 
-In order to be able to catch narrow and broad peaks, the algorithm computes the coverage also using windows of two different lengths, that can be defined with \lstinline!minCompWinWidth! and \lstinline!maxCompWinWidth! (defaults values are 5000bp and 10000bp) parameters, computing a matrix of \textit{n} bins and \textit{p} windows.
+In order to be able to catch narrow and broad peaks, the algorithm computes the coverage also using windows of two different lengths, that can be defined with \lstinline!minCompWinWidth! and \lstinline!maxCompWinWidth! (defaults values are 5000bp and 10000bp) parameters, computing a matrix of $n$ bins and $p$ windows.
 %\textit{\textbf{for real this part is to construct a sort of background of the signal, to compare the smaller windows to - ask to davide?}}
 
-The coverage matrix is useful to merge contiguous regions and to compute a score for each of them, applying a \gls{mle}, assuming a Poisson distribution of the coverage across the windows.
+The coverage matrix is useful to merge contiguous regions and to compute a score for each of them, applying a \gls{mle}, assuming a \textit{Poisson} distribution of the coverage across the windows.
 
-Formalizing: assuming that each window is distributed as a Poisson random variable, we assume to observe the \textit{n} coverages as an IID sequence $X_n$. Thus, the probability mass function is described as:
+Formalizing: assuming that each window is distributed as a \textit{Poisson} random variable, we assume to observe the $n$ coverages as an IID sequence $X_n$. Thus, the probability mass function is described as:
 
 \[ p(x_i) = \frac{\lambda^{x_i}}{{x_i!}} exp(-\lambda)\]
 
@@ -19,6 +19,10 @@ Where the integer nature of the data support the Poisson distribution as the set
 \[\hat{\lambda}_n=\frac{1}{n}\sum_{i=1}^{n}x_i\]
 
 Which corresponds to the sample mean of the \textit{n} observations in the sample.
+
+define z-score
+
+Peaks are defined by an iterative algorithm which detect the maximum z-score, between all the windows, at each step, and then detects all the contigs bins with a not 0 value, across all the windows.
 
 
 
