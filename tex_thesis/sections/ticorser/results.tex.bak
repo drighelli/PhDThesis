@@ -84,7 +84,7 @@ The first panel shows the row counts with low expressed genes, while the other b
 \end{figure}
 
 Moreover, looking at the \textit{Wilcoxon} test, it is more conservative, because it preserves $17039$ features, respect to the \textit{Proportion} test and \gls{cpm}, that preserves, respectively, $14122$ and $14171$ features.
-We decided to use the count matrix filtered with \textit{Proportion} test and \lstinline!cpm=1!.  
+Because of the high numerosity of our samples but low number of replicates are present for each condition, we decided to use the count matrix filtered with \textit{Proportion} test and \lstinline!cpm=1!.
 
 In order to improve the results for the differential expression analysis, it is crucial to correct for between-sample distributional differences in read counts.
 To compare the differences of normalized data we decided to use not only the boxplots for the samples, as shown in  figure \ref{fig:ticorsernormalizingbox}, but also the \gls{pca} representation, enabling us to understand which normalization better removes the biases from the samples by clustering the samples of the same group (figure \ref{fig:ticorsernormalizingpca}).
@@ -98,7 +98,7 @@ The first panel shows the row counts with low expressed genes, while the other b
 \end{figure}
 
 Figure \ref{fig:ticorsernormalizingbox} perfectly shows different effects of each normalization type on count data.  
-In fact, we can see that while \textit{Upper quartile} aligns all the samples on the third percentile leaving the medians not aligned, the \textit{Full quantile} applies a stronger effect, which totally aligns the samples, not only on the third percentile but also the medians as such as the all the upper distributed outliers.
+In fact, we can see that while \textit{Upper quartile} aligns all the samples on the third percentile leaving the medians not aligned, the \textit{Full quantile} applies a stronger effect, which totally aligns the samples, not only on the third percentile but also the medians as such as all the upper distributed outliers.
 At the same time, the \textit{TMM} aligns the samples, but in a not so stringent way, well interpreting and leaving the variability of each sample.
 
 \begin{figure}[H]
@@ -112,6 +112,8 @@ The first panel shows the clustering of row samples, while the other boxes show 
 As already mentioned a boxplot data inspection could not be enough to determine which normalization method is better working on the data. 
 Indeed, when looking at \textit{PCAs} for normalized counts (figure \ref{fig:ticorsernormalizingpca}) the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate treated and untreated samples, but still preserving some variability inside each group.
 While \textit{Full quantile}, even if it is able to help to discriminate the treated and untreated groups, it smashes too much the variability inside untreated samples.
+
+Even if the \textit{TMM} and the \textit{Upper quartile} normalizations seem to affect the data in the same manner, we decided to choose for our further analysis the \textit{Upper quartile} normalized count matrix, because, looking at the \textit{PCA} it seems to better discriminate between the conditions.
 
 \subsubsection{Differential Expression}
 Once the data are well normalized, in order to be able to well discriminate between the groups, simply by changing our design matrix with only the interesting samples, we can focus on the differential expression step.
@@ -227,20 +229,22 @@ The tool automatically stores the results in the \lstinline!output.folder! creat
 
 \subsubsection{Functional Enrichment Analysis}
 
-For the Functional Analysis \gls{tic} has a set of functions helping to perform it with \textit{GProfiler} and \textit{ClusterProfiler} tools.
+For the Functional Analysis \gls{tic} has a set of functions helping to perform it with \textit{GProfiler} and \textit{ClusterProfiler} tools \cite{Yu2012, Reimand2016}.
 
 In order to perform pathway analysis with \textit{GProfiler} we used \lstinline!enrichPathwayGProfiler! function, twice, one for the \textit{Reactome} database and one for the \textit{KEGG} database enrichment.
-Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on KEGG database but is able to produce a graphical representation of the network of the pathways (see figure \ref{fig:ticorserpathmap}).
+Then, we performed the same analysis with \textit{ClusterProfiler} by using the \lstinline!enrichKEGGFunction!, which performs only on \textit{KEGG} database but is able to produce a graphical representation of the network of the pathways (see figure \ref{fig:ticorserpathmap}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/functional/net_kegg.pdf}
-\caption[ticorser pathway network]{A network representation of the kegg results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
+\caption[ticorser pathway network]{A network representation of the \textit{KEGG} results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
 \label{fig:ticorserpathmap}
 \end{figure}
 
-On the other hand, to perform a Gene Ontology functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
+On the other hand, to perform a \gls{go} functional enrichment analysis we use \lstinline!enrichGOGProfiler! three times, one for each class of the \lstinline!ontology!, \lstinline!CC! for Cellular Components, \lstinline!BP! for Biological Processes and \lstinline!MF! for Molecular Functions.
 Analogously, we use \lstinline!enrichGOFunction! for performing the same analysis with \textit{ClusterProfiler}, which produces not only the table of the results but also a tree for the Gene Ontology terms significative in our dataset. (see figure \ref{fig:ticorsergo}).
+
+Because the data used for this analysis have not been yet published, we do not publish the results obtained with \textit{clusterProfiler} and \textit{gProfiler}, but we show some relevant plots useful for illustrating the obtained results.
 
 \begin{figure}[H]
 \centering

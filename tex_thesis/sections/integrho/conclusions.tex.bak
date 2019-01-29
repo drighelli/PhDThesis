@@ -1,12 +1,17 @@
-We presented \gls{igro}, a web-platform for multi-omics data analysis, integration and visualization, tracing each step performed by the user by storing input/output data produced and saving executed data inside an \gls{rmd} file, which can be edited and compiled through the interface itself.
+We presented \gls{igro}, a web-platform for multi-omics data analysis, integration and visualization, tracing each step performed by the user by storing input/output data produced and saving executed data inside an \gls{rmd} file.
 
-\gls{igro} is a module-based software allowing easy expandability with other methodologies by implementing additional shiny modules.
-Indeed, a platform as \gls{igro} can be extended with several functionalities, but in particular we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
+\gls{igro} takes advantage of several already-published tools for single omics data analysis and their integration, making it difficult to find a unified way to work with so many different data types and tools for their processing.
+Indeed, even if some approaches have been proposed in last years, a global standard has not been reached yet, leaving the developers to operate as they better prefer.
 
-Moreover, to allow the user to account for better quality analysis of \textit{ChIP-seq} data, we are working on novel interfaces for the normalization and on methodologies for accounting for the right normalization to use.
+At the same time, working with R statistical programming language makes it difficult the choise of a good library for graphical interfaces.
+Shiny seems to be a good choise at the beginning, when working with small applications, but once that the application grows if become always more difficult to maintain the modularity and to pass the data across multiple modules.
 
-Additionally, \gls{igro} at the moment traces the code and stores the input/output data into caching database files, in order to construct an \gls{rmd} file live editable from a dedicated interface.
+In order to maintain the modularity \gls{igro} implements the Shiny modules, allowing it to be extended with additional functionalities. but in particular we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
+
+Moreover, to allow the user to account for better quality analysis of \textit{ChIP-seq} data, we are working on novel interfaces for the normalization and on methodologies for accounting for the right normalization to use \cite{Angelini2015}.
+
+Additionally, \gls{igro} traces the code and stores the input/output data into caching database files, in order to construct an \gls{rmd} file, which is live editable from a dedicated interface.
 To improve \gls{igro} \gls{rr} layer we would like to implement additional methodologies, such as the graph construction of executed modules, in such a way the user will have also a graphical representation of the final enriched document, that can be presented as a graphical abstract of the analysis.
 
 In general, at the moment \gls{igro} allows to deeply investigate single-omics data and, at the same time, it allows for an integration at functional analysis and a peak-gene annotation levels, offering various modules for data viasualization.
-But, in order to promote a wider overview of integration methodologies,it still needs some work to do.
+But, in order to promote a wider overview of integration methodologies, it still needs some work to do.

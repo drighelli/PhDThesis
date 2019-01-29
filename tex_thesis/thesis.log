@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  28 JAN 2019 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  29 JAN 2019 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2348,16 +2348,19 @@ Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
 ) (./sections/integrho/conclusions.tex
 Underfull \vbox (badness 5475) has occurred while \output is active []
 
- [116])
-[117 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] [118]
+ [116]
+[117 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>]) [118]
 Chapter 6.
 (./sections/conclusions.tex
-Underfull \vbox (badness 1033) has occurred while \output is active []
+Underfull \vbox (badness 3492) has occurred while \output is active []
 
  [119
 
-])
-[120] [121] [122
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120])
+[121] [122
 
 ]
 Chapter 7.
@@ -2641,10 +2644,10 @@ mf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/te
 x-gyre/qhvr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (143 pages, 55513244 bytes).
+Output written on thesis.pdf (143 pages, 55515907 bytes).
 PDF statistics:
- 4220 PDF objects out of 4296 (max. 8388607)
- 2491 compressed objects within 25 object streams
+ 4221 PDF objects out of 4296 (max. 8388607)
+ 2492 compressed objects within 25 object streams
  522 named destinations out of 1000 (max. 500000)
  939 words of extra memory for PDF output out of 10000 (max. 10000000)
 
