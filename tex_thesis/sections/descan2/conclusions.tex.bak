@@ -1,8 +1,13 @@
-In the lack of methodologies for open chromatin region detection and analysis, we developed a novel approach which, compared with very well known tools as \textit{MACS2}, seems to be competitive in the detection of the signal.
+In the lack of methodologies for open chromatin region detection and their analysis, we developed a novel approach which, compared with very well known tools as \textit{MACS2}, seems to be competitive in the detection of the signal.
 
-We demonstrated to be able to catch not only wide signal, but also narrow regions across the samples. 
-And with our filtering/aligning step we  demonstrated to be able to keep relevant signl producing data structures as \textit{SummarizedExperiment} which are candidates to become standards in the biological data analysis.
-With our 3-steps analysis we puts our tool at the top of a pipeline for open chromatin regions data analysis, proposing also a possible candidate for a standard analysis of this data type.
+\gls{descan} demonstrated to be able to catch not only wide signals but also narrow regions across the samples. 
+And with our filtering/aligning step we demonstrated to be able to keep relevant signal producing data structures as \textit{SummarizedExperiment} which are candidates to become standards in the biological data analysis.
+With our 3-steps analysis, we put our tool at the top of a pipeline for open chromatin regions data analysis, proposing also a possible candidate for a standard analysis of this data type.
 
-In the next future we plan to check if other distributions, as \textit{Negative Binomial}, fit better this kind of data and to improve our filtering/aligning step with additional probabilistic methodology.
+The presented case study showed the capability of \gls{descan} to be competitive in the detection, definition and filtering signal, but still more comparisons and improvements are needed.
+
+Indeed, in order to validate our obtained results, we plan to compare them with other similar already published approaches, such as \textit{csaw} \cite{Lun2015}, which peak caller, starting from a set of \gls{bam} files, constructs a count matrix of the detected peaks in the samples.
+Moreover, to better test our peak caller, we plan to check if other distributions, as \textit{Negative Binomial}, fit better this kind of data and, additionally, in order to improve our filtering/aligning step we want to apply additional probabilistic methodologies, taking into account the experimental design.
+
+Despite these improvements, \gls{descan}, from these preliminary results, already seems to be a powerful and intuitive instrument for \textit{ATAC-seq} signal detection at the top of a more sophisticated analysis pipeline.
 

@@ -2,12 +2,12 @@ Multiple omics data information extraction became always more complex with the e
 With this thesis work, we focused on the development of novel strategies for several problems related to multiple omics sequencing data information extraction.
 
 Starting from approaching the most studied problem of genomic, the transcriptomic, we focused on time-course \textit{RNA-seq} data.
-Time-course \textit{RNA-seq} data experiments are very common when investigating multiple biological conditions across the time, in order to explore the mostly affected biological phenomena due to an evolution of a drug treatment, or to a tissue injury, etc.
+Time-course \textit{RNA-seq} data experiments are very common when investigating multiple biological conditions across the time, in order to explore the most affected biological phenomena due to an evolution of drug treatment, or to a tissue injury, etc.
 Despite the wide use of this kind of experiments, even if several methods have been proposed for their analysis, there still are too few tools fully dedicated to these specific omic data experiments.
 Guided by our experience in time-course \textit{RNA-seq} data analysis, we tried to implement, into a unique solution named \textit{ticorser}, multiple approaches and features useful to investigate this omic data type.
 Indeed, with this instrument we propose a complete pipeline for time-course \textit{RNA-seq} data analysis, presenting also ad-hoc designed approaches for their visualization at different levels.
 Additionally, allowing a first integration level with functional annotation and also for their visualization.
-Indeed, thanks to the proposed case study it is possible to understand multiple difficulties that tipically are encountered during a tipical time-course \textit{RNA-seq} analysis.
+Indeed, thanks to the proposed case study it is possible to understand multiple difficulties that typically are encountered during a typical time-course \textit{RNA-seq} analysis.
 
 Afterwards, when moved on the \textit{ATAC-seq} technology, an emerging technique for open chromatin region detection, we noticed that this omic still needs appropriate solutions for its analysis.
 To address the lack of methodologies with this data, we implemented \textit{DEScan2}, an R/Bioconductor package allowing the detection of open chromatin regions.
@@ -23,21 +23,21 @@ This tool is in the form of an R6 class which helps not only software developers
 Even with the most simplified instruments, analysing omics data can be very difficult and time demanding, in particular for non-expert users.
 In order to speed up and help also novice users to analyze multiple omics data, we presented \gls{igro}, a web graphical user interface for the analysis of omics data.
 Combining the flexibility of a point-and-click approach with the power of R/Bioconductor statistical approaches for the omics data analysis we proposed a novel graphical user interface for multiple omics data analysis and integration.
-Despite others approaches for the multiple omics data analysis, \gls{igro} is not pipeline oriented, leaving to the user maximum flexibility during the analysis and integration processes, enabling him/her to spread across the functionalities.
+Despite other approaches for the multiple omics data analysis, \gls{igro} is not pipeline oriented, leaving to the user maximum flexibility during the analysis and integration processes, enabling him/her to spread across the functionalities.
 In order to keep track of the performed analysis steps, \gls{igro} has been equipped of a Reproducible Research layer which registers all the code and the processed data.
 Moreover, it enables to live edit the final report with aid of dedicated interface.
 
-By developing so many different solutions it emerges that each already published approach for the data analysis proposes its own data structures and methodologies, making it difficult to process the same data across multiple tools.
+By developing so many different solutions taking advantage of so many already published tools, it emerges that each already published approach for the data analysis proposes its own data structures and methodologies, making it difficult to process the same data across multiple tools.
 Indeed, it is not for everyone to work with multiple already published bioinformatics instruments, implemented by so many different authors.
 Each tool has its own data structures needing dedicated data preprocessing and subsequently assembling, even if the starting data type is the same (such as a count matrix).
 The same idea has to be imagined with the final output of each step.
-For example when using a method for testing the differences between multiple biological condition, independently by the used method, it starts by a count matrix and produces a differential expression matrix (or a dataframe).
+For example, when using a method for testing the differences between multiple biological conditions, independently by the used method, it starts by a count matrix and produces a differential expression matrix (or a dataframe).
 But, at the moment, each tool produces its own final data structure, with its own variables that are related to the adopted statistics to obtain the final results.
 
-With our instruments, we tried not only to facilitate the use of so many different instruments, but also to mask different implementation problems due to different authors, by producing each time the same typology of data structure.
+With our instruments, we tried not only to facilitate the use of so many different instruments but also to mask different implementation problems due to different authors, by producing each time the same typology of data structure.
 In such a way, the final user, whatever is his/her background should be able to easily interpret the results.
 
-Despite the efforts of the bioinformatics community, a global standard has not been reached yet, highlighting that the road is still long to be covered in order to allow to as many people as possible to work and integrate multiple omics data and discover novel biological facts.
+Despite the efforts of the bioinformatics community, a global standard has not been reached yet, highlighting that the road is still long to be covered in order to allow as many people as possible to work and integrate multiple omics data and discover novel biological facts.
 
 
 

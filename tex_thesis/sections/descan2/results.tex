@@ -89,7 +89,7 @@ In order to preserve the information associated to the peaks, \gls{descan} produ
 
 Before detecting \glspl{der}, it is a good practice to normalize the data.
 This is especially needed when working with neuroscience data, where many possible sources of technical and biological noise can confound the analysis \cite{Peixoto2015}.
-The nature of the data, in count format, makes it possible to apply several well known \textit{RNA-seq} normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-seq}, etc \cite{Risso2014h, Dillies2013}.
+The nature of the data, as discrete numbers, makes it possible to apply several well known \textit{RNA-seq} normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-seq}, etc \cite{Risso2014h, Dillies2013}.
 To filter out false positives, but preserving enough signal at the same time, we fixed the peaks score threshold to 20.
 
 In order to compare the effects of normalizations we had to do differential enrichment of the conditions using \textit{edgeR} (see next section for further details).
@@ -124,8 +124,8 @@ Highlighting that even if a normalization is applied, once reduced the false pos
 While figure \ref{fig:normalizationsfull}, representing the "full dataset", shows that \textit{upper-quantile}, by itself is not able to linearly detect any amount of \glspl{der}.
 When using \textit{RUVSeq}, the \glspl{der} detection depends on the parameter used (figures \ref{fig:normalizationsnull}, \ref{fig:normalizationsfull} are made using k equal to 1 and 4, for \textit{RUVSeq} normalization).
 While, the \textit{full-quantile}, even when used alone is able to detect a good amount of \glspl{der}.
-But each normalization, when combined with \textit{RUV-Seq}, seems to affect the data in a way that overestimates the number of \glspl{der}. 
-In particular, even the \textit{Upper quartile}, which doesn't detect any signal by itself, is able to detect the highest amount of \glspl{der} when combined with \textit{RUV-Seq}.
+But each normalization, when combined with \textit{RUVSeq}, seems to affect the data in a way that overestimates the number of \glspl{der}. 
+In particular, even the \textit{Upper quartile}, which doesn't detect any signal by itself, is able to detect the highest amount of \glspl{der} when combined with \textit{RUVSeq}.
 %When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themselves seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
 
 Even if these normalization methods show good performances with this type of epigenomics data, our investigations suggest that more testing is required, and maybe an ad-hoc normalization method for these data has to be developed.
