@@ -17,11 +17,11 @@
 \contentsline {section}{\numberline {1.5}Aim of the Work}{34}{section.1.5}
 \contentsline {chapter}{\numberline {2}Time Course RNA-seq analyzer: ticorser}{37}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{37}{section.2.1}
-\contentsline {section}{\numberline {2.2}Methods}{39}{section.2.2}
+\contentsline {section}{\numberline {2.2}Methods}{38}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Filtering low counts}{40}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Data Normalization}{41}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Data Normalization}{40}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Differential Expression}{42}{subsection.2.2.3}
-\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT\_TC}}{43}{section*.16}
+\contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT\_TC}}{42}{section*.16}
 \contentsline {subsubsection}{Time-Course DE Method 2 - \textit {LRT\_T}}{44}{section*.18}
 \contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{46}{section*.20}
 \contentsline {subsubsection}{Time-Course DE Method - \textit {Wald}}{47}{section*.22}
@@ -48,18 +48,18 @@
 \contentsline {section}{\numberline {3.1}Introduction}{90}{section.3.1}
 \contentsline {section}{\numberline {3.2}Methods}{91}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Peak Caller}{92}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{93}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{94}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Additional Features}{95}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Case Study}{96}{section.3.3}
-\contentsline {subsubsection}{Data Description and Preprocessing}{96}{section*.61}
-\contentsline {subsubsection}{Peaks Detection}{97}{section*.63}
-\contentsline {subsubsection}{Removing Unwanted Peaks}{99}{section*.66}
+\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{94}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{95}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Additional Features}{96}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Case Study}{97}{section.3.3}
+\contentsline {subsubsection}{Data Description and Preprocessing}{97}{section*.61}
+\contentsline {subsubsection}{Peaks Detection}{98}{section*.63}
+\contentsline {subsubsection}{Removing Unwanted Peaks}{100}{section*.66}
 \contentsline {subsubsection}{Quantifying Peaks}{101}{section*.68}
 \contentsline {subsubsection}{Peaks Normalization}{102}{section*.70}
-\contentsline {subsubsection}{Differential Enrichment of Peaks}{105}{section*.73}
-\contentsline {subsubsection}{Peaks Integration}{108}{section*.76}
-\contentsline {section}{\numberline {3.4}Discussions}{108}{section.3.4}
+\contentsline {subsubsection}{Differential Enrichment of Peaks}{106}{section*.73}
+\contentsline {subsubsection}{Peaks Integration}{109}{section*.76}
+\contentsline {section}{\numberline {3.4}Discussions}{109}{section.3.4}
 \contentsline {chapter}{\numberline {4}A reproducible computational research tool: the R6 Class easyReporting}{111}{chapter.4}
 \contentsline {section}{\numberline {4.1}The idea of Reproducible Research}{112}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{114}{section.4.2}
@@ -72,9 +72,9 @@
 \contentsline {section}{\numberline {5.2}Methods}{128}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}The main interface}{130}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{135}{subsection.5.2.2}
-\contentsline {subsubsection}{RNA-seq}{136}{section*.87}
-\contentsline {subsubsection}{ChIP-seq}{140}{section*.88}
-\contentsline {subsubsection}{ATAC-seq}{142}{section*.89}
+\contentsline {subsubsection}{\gls {rnaseq}}{136}{section*.87}
+\contentsline {subsubsection}{\gls {chipseq}}{140}{section*.88}
+\contentsline {subsubsection}{\gls {atacseq}}{142}{section*.89}
 \contentsline {subsubsection}{Integration}{143}{section*.90}
 \contentsline {section}{\numberline {5.3}Reproducible Computational Research}{145}{section.5.3}
 \contentsline {section}{\numberline {5.4}Discussions}{147}{section.5.4}

@@ -1,13 +1,13 @@
-Low expressed genes in \textit{RNA-seq} data, always affect the detection of \glspl{deg} \cite{Sha2015} influencing final results.
+Low expressed genes in \gls{rnaseq} data always affect the detection of \glspl{deg} \cite{Sha2015} influencing final results.
 
 In order to address this task, \gls{tic} offers multiple statistical methods for low expressed genes filtering. 
 The \lstinline!filterLowCounts! method is partially based on the \lstinline!filtered.data!  function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2011, Tarazona2015}. 
 The method gives the possibility to apply four different filtering methods, the \gls{cpm}, the \textit{proportion} and the \textit{Wilcoxon} tests and an our-defined method named \textit{quantile}.
 
-The \gls{cpm} filters out all those genes with a mean expression between the samples lesser than the \lstinline!cpm! parameter threshold and, at the same time, a \gls{cov} higher that the \lstinline!cv.percentage! parameter in all the samples.
+The \gls{cpm} filters out all those genes with a mean expression between the samples lesser than the \lstinline!cpm! parameter threshold and, at the same time, a \gls{cov} higher than the \lstinline!cv.percentage! parameter in all the samples.
 
-The \textit{proportion} test performs the homonym test on the counts, filtering out all those features with a relative expression equal to $cpm/10^6$.
+The \textit{proportion} test performs its homonym test on the counts, filtering out all those features with a relative expression equal to $cpm/10^6$.
 
 The \textit{Wilcoxon} test filters out all those genes with a median equal to $0$.
 
-Finally, the \textit{quantile} method takes as input the \lstinline!quantile.threshold! argument (default is $1\%$) and filters out all those genes which express the between-samples counts mean lower than this threshold.
+Finally, the \textit{quantile} method takes as input the \lstinline!quantile.threshold! argument (default is $1\%$) and filters out all those genes expressing the between-samples counts mean lower than this threshold.

@@ -1,4 +1,4 @@
-During \textit{RNA-seq} data analysis, it is almost mandatory to explore the data during each step of the analysis, in order to understand which is the best method to apply for, at each analysis step and to be more confident with produced results. 
+During \gls{rnaseq} data analysis, it is almost mandatory to explore the data during each step of the analysis, in order to understand which is the best method to apply for, at each analysis step and to be more confident with produced results. 
 
 At this scope, we equipped \gls{tic} of several useful graphics and plots to be used at each analysis step.
 
@@ -25,7 +25,7 @@ The upper and lower part of the segments, in case of absence of outliers, repres
 
 Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for colouring the samples thanks to the \lstinline!colorColname! parameter. 
 
-Due to the very high dimensionality of \textit{RNA-seq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
+Due to the very high dimensionality of \gls{rnaseq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
 There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
 
 

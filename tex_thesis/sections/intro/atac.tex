@@ -1,12 +1,12 @@
 The chromatin packaging of the genome plays a fundamental role in the gene regulation of eukaryotic individuals.
-To study this aspect of the \gls{dna}, several technologies have been developed, such as \textit{FAIRE-seq} \cite{Giresi2007}, \textit{DNase-seq} \cite{Winter2013}, \textit{ATAC-seq} \cite{Buenrostro2013}, etc.
+To study this aspect of the \gls{dna}, several technologies have been developed, such as \gls{faireseq} \cite{Giresi2007}, \gls{dnaseseq} \cite{Winter2013}, \gls{atacseq} \cite{Buenrostro2013}, etc.
 
-\textit{ATAC-seq} among the others is having a growing interest and diffusion during last years, because it offers comparable results to the \textit{DNASE-seq} with less biological material and less library preparation time.
+\gls{atacseq} among the others is having a growing interest and diffusion during last years, because it offers comparable results to the \gls{dnaseseq} with less biological material and less library preparation time.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=9cm,keepaspectratio]{img/intro/atac.png}
-\caption[ATAC-seq experiment]{\textit{ATAC-seq } library preparation uses \textit{Tn5} transposome natural predisposition to link and cut the \gls{dna}. In so doing, it provides \gls{dna} sequences that can be easily amplified and sequenced to be mapped and processed \cite{Buenrostro2013}.}
+\caption[\gls{atacseq} experiment]{\gls{atacseq} library preparation uses \textit{Tn5} transposome natural predisposition to link and cut the \gls{dna}. In so doing, it provides \gls{dna} sequences that can be easily amplified and sequenced to be mapped and processed \cite{Buenrostro2013}.}
 \label{fig:atacseqexp}
 \end{figure}
 
@@ -14,7 +14,7 @@ The library preparation adopts a hyperactive \textit{Tn5} transposase, modified 
 The technology exploits the \textit{Tn5} capability of integrating itself into active regulatory elements.
 
 After \textit{Tn5} tagmentation, the resulting segments can be amplified and sequenced, producing sequences to map on a reference genome.
-There is no standard analysis reached for the \textit{ATAC-seq} analysis, but, inspired by the \textit{ChIP-seq} analysis, the resulting reads, typically, are processed with tools (peak callers) for quantifying their amplification, producing, for each detected open chromatin region, a feature: the peak (generally with an associated score) \cite{Wei2018}.
+There is no standard analysis reached for the \gls{atacseq} analysis, but, inspired by the \gls{chipseq} analysis, the resulting reads, typically, are processed with tools (peak callers) for quantifying their amplification, producing, for each detected open chromatin region, a feature: the peak (generally with an associated score) \cite{Wei2018}.
 
 Depending on the used tool, the peaks can be represented in different data structures, but their representation is typically given by the genomic coordinates; chromosome, starting and ending point of the region, the \gls{dna} strand where the region lies, and additional attributes such as a score, a number of samples on which the regions have been detected, etc.
 

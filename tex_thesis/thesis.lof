@@ -6,11 +6,11 @@
 \contentsline {figure}{\numberline {1.1.2}{\ignorespaces the \gls {dna}}}{14}{figure.caption.3}
 \contentsline {figure}{\numberline {1.1.3}{\ignorespaces Gene Chromosome relation}}{15}{figure.caption.4}
 \contentsline {figure}{\numberline {1.1.4}{\ignorespaces Histon modification}}{16}{figure.caption.5}
-\contentsline {figure}{\numberline {1.2.1}{\ignorespaces RNA-seq experiment}}{20}{figure.caption.6}
-\contentsline {figure}{\numberline {1.2.2}{\ignorespaces RNA-seq pipeline}}{21}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2.3}{\ignorespaces ChIP-seq experiment}}{23}{figure.caption.8}
-\contentsline {figure}{\numberline {1.2.4}{\ignorespaces ChIP-seq peak detection}}{25}{figure.caption.9}
-\contentsline {figure}{\numberline {1.2.5}{\ignorespaces ATAC-seq experiment}}{26}{figure.caption.10}
+\contentsline {figure}{\numberline {1.2.1}{\ignorespaces \gls {rnaseq} experiment}}{20}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2.2}{\ignorespaces \gls {rnaseq} pipeline}}{21}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2.3}{\ignorespaces \gls {chipseq} experiment}}{23}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2.4}{\ignorespaces \gls {chipseq} peak detection}}{25}{figure.caption.9}
+\contentsline {figure}{\numberline {1.2.5}{\ignorespaces \gls {atacseq} experiment}}{26}{figure.caption.10}
 \contentsline {figure}{\numberline {1.3.1}{\ignorespaces Multi-Omics Representation}}{28}{figure.caption.11}
 \contentsline {figure}{\numberline {1.3.2}{\ignorespaces Integration cameras}}{29}{figure.caption.12}
 \contentsline {figure}{\numberline {1.3.3}{\ignorespaces Integration Funnell}}{30}{figure.caption.13}
@@ -40,16 +40,16 @@
 \contentsline {figure}{\numberline {2.4.12}{\ignorespaces ticorser parkinson keggmap}}{84}{figure.caption.59}
 \contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{87}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{91}{figure.caption.60}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{97}{figure.caption.62}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{98}{figure.caption.64}
-\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{99}{figure.caption.65}
-\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{100}{figure.caption.67}
-\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{101}{figure.caption.69}
-\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{103}{figure.caption.71}
-\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{104}{figure.caption.72}
-\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{106}{figure.caption.74}
-\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{107}{figure.caption.75}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{92}{figure.caption.60}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{98}{figure.caption.62}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{99}{figure.caption.64}
+\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{100}{figure.caption.65}
+\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{101}{figure.caption.67}
+\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{102}{figure.caption.69}
+\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{104}{figure.caption.71}
+\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{105}{figure.caption.72}
+\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{107}{figure.caption.74}
+\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{108}{figure.caption.75}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1.1}{\ignorespaces Reproducible Research illustration}}{113}{figure.caption.77}
 \contentsline {figure}{\numberline {4.2.1}{\ignorespaces knitr options}}{116}{figure.caption.79}

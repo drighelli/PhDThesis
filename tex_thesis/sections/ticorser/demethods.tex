@@ -1,14 +1,12 @@
-To investigate differences between multiple conditions, \gls{tic} offers three different ways of analyzing \gls{tc} RNA-Seq data, depending on the biological question under investigation.
+Depending on the biological questions under investigation, to test differences between multiple conditions, \gls{tic} offers three different ways of analyzing \gls{tc} \gls{rnaseq} data and three methodologies for analyzing different biological conditions at single time point.
 
-Moreover, \gls{tic} offers three different ways of analyzing different biological conditions at single time point.
+To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages: \textit{DESeq2} \cite{Love2014}; \textit{edgeR} \cite{Robinson2009} and \textit{NOISeq} \cite{Tarazona2011, Tarazona2015}.
 
-To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages, \textit{DESeq2} \cite{Love2014}; \textit{edgeR} \cite{Robinson2009}; \textit{NOISeq} \cite{Tarazona2011, Tarazona2015}.
-
-Exception made for \textit{NOISeq}, all the selected methods model the \textit{RNA-seq} data counts for each gene as independent Negative Binomial distributions, which has been demonstrated \cite{Robinson2007} to be better suited for this data type.
-At the same time, each of them differs for the statistical test implemented, while approaching the biological question under investigation.
+Exception made for \textit{NOISeq}, all the selected methods model the \gls{rnaseq} data counts for each gene as independent Negative Binomial distributions, which has been demonstrated \cite{Robinson2007} to be better suited for this data type.
+At the same time, each of them differs for the statistical test implemented while approaching the biological question under investigation.
 In particular, the \textit{NOISeq} method is based on a non-parametric approach, which implies that it doesn't assume any probability distribution.
 
-In the following sections, we first present the Time-Course methods and then the methods for single time point gene differentiation.
+In the following sections, we first present the \gls{tc} methods and then the methods for single time point gene differentiation.
 
 \subsubsection{Time-Course DE Method 1 - \textit{LRT\_TC}}
 The first method (\textit{LRT\_TC}) uses a \gls{lrt} to compare two different models in order to extract all those \glspl{deg} that invert their expression between the conditions across all the time points.

@@ -1,8 +1,8 @@
-\gls{tic} offers multiple additional features to support the user during the differential expression analysis of time-course \textit{RNA-seq} data.
+\gls{tic} offers multiple additional features to support the user during the differential expression analysis of time-course \gls{rnaseq} data.
 
 \subsubsection{Gene quantification}
 
-A fundamental aspect during \textit{RNA-seq} analysis is the features (genes) quantification.
+A fundamental aspect during \gls{rnaseq} analysis is the features (genes) quantification.
 To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from \gls{bam} files, using the \lstinline!countBamFilesFeatureCounts! function, in order to guide and facilitate this operation to the user.
 
 The function is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.

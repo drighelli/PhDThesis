@@ -1,19 +1,19 @@
 Since the beginning of modern biology, gene expression is part of the central dogma of molecular biology.
 Of course, during the decades some aspects have changed, but the \gls{rna} transcripts still have very high relevance.
-Nowadays, \textit{RNA-seq} \cite{Thermes2014, Wang2009, Costa2010, Ozsolak2011} is the most widely used technology to understand gene related regulatory mechanisms in response to stress conditions or drug treatments and progressions of several diseases \cite{Costa2013}.
+Nowadays, \gls{rnaseq} \cite{Thermes2014, Wang2009, Costa2010, Ozsolak2011} is the most widely used technology to understand gene related regulatory mechanisms in response to stress conditions or drug treatments and progressions of several diseases \cite{Costa2013}.
 
-The main aim of \textit{RNA-seq} experiment is to highlight which genes are increasingly (\textit{up-regulated}) or decreasingly (\textit{down-regulated}) altered when comparing two or more conditions at a specific instant in time or in subsequent time points (time-course experiment), in order to identify the biological mechanisms regulating such changes.
+The main aim of \gls{rnaseq} experiment is to highlight which genes are increasingly (\textit{up-regulated}) or decreasingly (\textit{down-regulated}) altered when comparing two or more conditions at a specific instant in time or in subsequent time points (time-course experiment), in order to identify the biological mechanisms regulating such changes.
 
-However, \textit{RNA-seq} also offers the possiblity to identify and investigate isoforms abundance \cite{Trapnell2010, Roberts2011, Roberts2011a, Trapnell2013}.
+However, \gls{rnaseq} also offers the possiblity to identify and investigate isoforms abundance \cite{Trapnell2010, Roberts2011, Roberts2011a, Trapnell2013}.
 Although, such aspect will not be further treated in this thesis.
 
-The general idea underlying the library preparation of an \textit{RNA-seq} experiment can be viewed as the conversion of long \glspl{mrna} segments in \gls{cdna} fragments with \gls{rna} or \gls{dna} fragmentation. 
+The general idea underlying the library preparation of an \gls{rnaseq} experiment can be viewed as the conversion of long \glspl{mrna} segments in \gls{cdna} fragments with \gls{rna} or \gls{dna} fragmentation. 
 To each sequence, an adapter for the sequencer is added and a short read is obtained with high-throughput sequencing technology (Figure \ref{fig:rnaseqexp}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/rna-seq.png}
-\caption[RNA-seq experiment]{Representation of an RNA-seq experiment. 
+\caption[\gls{rnaseq} experiment]{Representation of an \gls{rnaseq} experiment. 
 The messanger RNA (mRNA) is converted into complementary DNA (cDNA) or RNA fragments, to be linked to short sequencing adaptors.
 Producing sequencing reads via high-throughput technology.
 The resulting reads are aligned to a reference genome or transcriptome, to be classified as exonic, junction or poly(A) end-reads.
@@ -23,19 +23,19 @@ The resulting reads are aligned to a reference genome or transcriptome, to be cl
 
 Afterwards, the so-obtained reads need to be analyzed with several tools, depending on the particular question the researcher is interested in \cite{Pepke2009, Oshlack2010}.
 
-% Due to the widespread of  \textit{RNA-seq} technology the bioinformatics community contributed with several methods for its analysis. 
+% Due to the widespread of  \gls{rnaseq} technology the bioinformatics community contributed with several methods for its analysis. 
 % Indeed, when working with this data the number of already developed and available methods is so high that for a non-expert user is really easy to understand where to start.
 
 
 In particular we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. 
-Figure \ref{fig:rnaseqan} shows a pipeline we designed for the \textit{RNASeqGUI} \cite{russo2015advantages} software for \textit{RNA-seq} data analysis.
+Figure \ref{fig:rnaseqan} shows a pipeline we designed for the \textit{RNASeqGUI} \cite{russo2015advantages} software for \gls{rnaseq} data analysis.
 After the alignment of the reads on a species's reference genome, the software allows for the quantification of mapped reads producing a count matrix of the samples (on the columns) and the genes related features (on the rows), typically the identifiers depend on the annotation database used by the analyzer.
 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/rnaseqgui1.pdf}
-\caption[RNA-seq pipeline]{A representation of \textit{RNA-seq} analysis pipeline, as implemented in \textit{RNASeqGUI}, a graphical user interface for \textit{RNA-seq} data analysis (Image from \cite{RussoRighelli2016}).
+\caption[\gls{rnaseq} pipeline]{A representation of \gls{rnaseq} analysis pipeline, as implemented in \textit{RNASeqGUI}, a graphical user interface for \gls{rnaseq} data analysis (Image from \cite{RussoRighelli2016}).
 \gls{bam} files can be explored and their contained reads can be used to quantify the expression of genomic features.
 Afterwards, it is possible to filter low expressed features and to normalize the resulting ones, in order to lower the noise that can affect further results.
 Subsequently, it is possible to analyze the data to inspect the differential expression of the genes between multiple conditions.

@@ -17,3 +17,4 @@ rm *.glo
 rm *.gls 
 rm *.ist 
 rm *.out
+rm *.bak

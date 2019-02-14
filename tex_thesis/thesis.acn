@@ -1,3 +1,8 @@
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{13}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{13}
@@ -21,15 +26,28 @@
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{NGS?\glossentry{ngs}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{MeDIP-seq?\glossentry{medipseq}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{NGS?\glossentry{ngs}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{mRNA?\glossentry{mrna}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{cDNA?\glossentry{cdna}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{22}
@@ -37,7 +55,9 @@
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{23}
@@ -45,23 +65,41 @@
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{FAIRE-seq?\glossentry{faireseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{DNase-seq?\glossentry{dnaseseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{DNase-seq?\glossentry{dnaseseq}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{UTR?\glossentry{utr}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{IGV?\glossentry{igv}|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{32}
@@ -73,31 +111,55 @@
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{NGS?\glossentry{ngs}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{RNA?\glossentry{rna}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{CPM?\glossentry{cpm}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{CPM?\glossentry{cpm}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{COV?\glossentry{cov}|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{42}
 \glossaryentry{TC?\glossentry{tc}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{LRT?\glossentry{lrt}|setentrycounter[]{page}\glsnumberformat}{42}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{44}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{44}
@@ -116,10 +178,12 @@
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{48}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{48}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{48}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{52}
@@ -137,6 +201,8 @@
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{58}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{58}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{59}
@@ -161,6 +227,7 @@
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{61}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{SCI?\glossentry{sci}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{64}
 \glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{64}
@@ -211,26 +278,43 @@
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{83}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{84}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{84}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{84}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{84}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{84}
 \glossaryentry{GLM?\glossentry{glm}|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{86}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{86}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{86}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{86}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{86}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{87}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Sono-seq?\glossentry{sonoseq}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Sono-seq?\glossentry{sonoseq}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{90}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{90}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{90}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{91}
-\glossaryentry{MLE?\glossentry{mle}|setentrycounter[]{page}\glsnumberformat}{92}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{92}
 \glossaryentry{MLE?\glossentry{mle}|setentrycounter[]{page}\glsnumberformat}{93}
-\glossaryentry{tsv?\glossentry{tsv}|setentrycounter[]{page}\glsnumberformat}{93}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{95}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{95}
+\glossaryentry{MLE?\glossentry{mle}|setentrycounter[]{page}\glsnumberformat}{93}
+\glossaryentry{tsv?\glossentry{tsv}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{96}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{96}
-\glossaryentry{GEO?\glossentry{geo}|setentrycounter[]{page}\glsnumberformat}{97}
-\glossaryentry{mm10?\glossentry{mm10}|setentrycounter[]{page}\glsnumberformat}{97}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{98}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{98}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{96}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{97}
+\glossaryentry{GEO?\glossentry{geo}|setentrycounter[]{page}\glsnumberformat}{98}
+\glossaryentry{mm10?\glossentry{mm10}|setentrycounter[]{page}\glsnumberformat}{98}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{98}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{98}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{99}
@@ -238,44 +322,53 @@
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{99}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{100}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{100}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{100}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{100}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{101}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{101}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{102}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{102}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{102}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{102}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{102}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{102}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{102}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{102}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{103}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{103}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{103}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{103}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{104}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{104}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{104}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{105}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{105}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{105}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{105}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{106}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{106}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{106}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{106}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{106}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{107}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{107}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{107}
-\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{107}
-\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{107}
-\glossaryentry{FDR?\glossentry{fdr}|setentrycounter[]{page}\glsnumberformat}{107}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{108}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{108}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{108}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{108}
-\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{108}
-\glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{108}
-\glossaryentry{GO?\glossentry{go}|setentrycounter[]{page}\glsnumberformat}{108}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{109}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{109}
-\glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{109}
-\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{108}
+\glossaryentry{FDR?\glossentry{fdr}|setentrycounter[]{page}\glsnumberformat}{108}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{TSS?\glossentry{tss}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{GO?\glossentry{go}|setentrycounter[]{page}\glsnumberformat}{109}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{110}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{110}
+\glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{110}
+\glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{110}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{110}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{111}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{111}
 \glossaryentry{CC?\glossentry{cc}|setentrycounter[]{page}\glsnumberformat}{112}
@@ -283,6 +376,7 @@
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{113}
 \glossaryentry{GUI?\glossentry{gui}|setentrycounter[]{page}\glsnumberformat}{113}
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{113}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{113}
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{114}
 \glossaryentry{CDF?\glossentry{cdf}|setentrycounter[]{page}\glsnumberformat}{114}
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{114}
@@ -317,7 +411,11 @@
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{128}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{128}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{128}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{129}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{129}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{129}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{129}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{129}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{130}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{130}
 \glossaryentry{SUI?\glossentry{sui}|setentrycounter[]{page}\glsnumberformat}{130}
@@ -336,37 +434,71 @@
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{135}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{135}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{136}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{136}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{136}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{136}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{137}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{137}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{137}
 \glossaryentry{GTF?\glossentry{gtf}|setentrycounter[]{page}\glsnumberformat}{137}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{138}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{138}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{138}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{139}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{139}
 \glossaryentry{tsv?\glossentry{tsv}|setentrycounter[]{page}\glsnumberformat}{139}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{139}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{140}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{140}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{140}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{140}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{140}
 \glossaryentry{DBS?\glossentry{dbs}|setentrycounter[]{page}\glsnumberformat}{140}
 \glossaryentry{DBS?\glossentry{dbs}|setentrycounter[]{page}\glsnumberformat}{140}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{140}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{140}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{TF?\glossentry{tf}|setentrycounter[]{page}\glsnumberformat}{141}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{BAM?\glossentry{bam}|setentrycounter[]{page}\glsnumberformat}{141}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{tsv?\glossentry{tsv}|setentrycounter[]{page}\glsnumberformat}{141}
 \glossaryentry{DBS?\glossentry{dbs}|setentrycounter[]{page}\glsnumberformat}{141}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{141}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{142}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{142}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{142}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{142}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{142}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{143}
 \glossaryentry{\textit {DEScan2}?\glossentry{descan}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{143}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{143}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{143}
 \glossaryentry{HM?\glossentry{hm}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{143}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{144}
 \glossaryentry{DBS?\glossentry{dbs}|setentrycounter[]{page}\glsnumberformat}{144}
 \glossaryentry{DEG?\glossentry{deg}|setentrycounter[]{page}\glsnumberformat}{144}
@@ -384,9 +516,9 @@
 \glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{CDF?\glossentry{cdf}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{145}
-\glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{146}
+\glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{HTML?\glossentry{html}|setentrycounter[]{page}\glsnumberformat}{146}
@@ -396,17 +528,33 @@
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{RMD?\glossentry{rmd}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{RR?\glossentry{rr}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{150}
 \glossaryentry{DER?\glossentry{der}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{150}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{151}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{151}
 \glossaryentry{\textit {IntegrHO}?\glossentry{igro}|setentrycounter[]{page}\glsnumberformat}{151}
 \glossaryentry{DNA?\glossentry{dna}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{RNA-seq?\glossentry{rnaseq}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{ChIP-seq?\glossentry{chipseq}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{ATAC-seq?\glossentry{atacseq}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{174}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{174}
 \glossaryentry{\textit {ticorser}?\glossentry{tic}|setentrycounter[]{page}\glsnumberformat}{174}
 \glossaryentry{PCA?\glossentry{pca}|setentrycounter[]{page}\glsnumberformat}{174}

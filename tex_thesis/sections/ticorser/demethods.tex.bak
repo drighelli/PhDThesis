@@ -1,10 +1,9 @@
-To investigate differences between multiple conditions, \gls{tic} offers three different ways of analyzing \gls{tc} RNA-Seq data, depending on the biological question under investigation.
-
+Depending on the biological question under investigation, in order to investigate differences between multiple conditions, \gls{tic} offers three different ways of analyzing \gls{tc} \gls{rnaseq} data, 
 Moreover, \gls{tic} offers three different ways of analyzing different biological conditions at single time point.
 
 To do so, we took advantage of some of the mostly used and well-performing \cite{Costa-Silva2017} R/Bioconductor packages, \textit{DESeq2} \cite{Love2014}; \textit{edgeR} \cite{Robinson2009}; \textit{NOISeq} \cite{Tarazona2011, Tarazona2015}.
 
-Exception made for \textit{NOISeq}, all the selected methods model the \textit{RNA-seq} data counts for each gene as independent Negative Binomial distributions, which has been demonstrated \cite{Robinson2007} to be better suited for this data type.
+Exception made for \textit{NOISeq}, all the selected methods model the \gls{rnaseq} data counts for each gene as independent Negative Binomial distributions, which has been demonstrated \cite{Robinson2007} to be better suited for this data type.
 At the same time, each of them differs for the statistical test implemented, while approaching the biological question under investigation.
 In particular, the \textit{NOISeq} method is based on a non-parametric approach, which implies that it doesn't assume any probability distribution.
 
@@ -91,10 +90,7 @@ While when using \textit{DESeq2} for this specific case we choose the \textit{Wa
 
 The \textit{NOISeq} package offers the possibility to discriminate between \textit{biological} and \textit{technical} replicates, computing a posterior probability in both cases, but applying different hypothesis tests.
 In case of \textit{technical} replicates, the \textit{NOISeq} method has to be applied, considering that it requires the full count matrix, within low expressed genes, in order to be able to properly estimate the data distribution.
-While when biological replicates are available it is more 
-
-It is important to apply the right method if the biological dataset presents biological 
-
+While when biological replicates are available it is more indicated to apply \textit{NOISeqBio}, which requires at least 3 replicates per condition.
 
 
 

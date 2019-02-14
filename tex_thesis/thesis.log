@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  14 FEB 2019 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  14 FEB 2019 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1663,12 +1663,17 @@ File: img/intro/hm.png Graphic file (type png)
  <use img/intro/hm.png>
 Package pdftex.def Info: img/intro/hm.png used on input line 76.
 (pdftex.def)             Requested size: 227.62204pt x 227.61665pt.
- [16 <./img/intro/hm.png>]) (./sections/intro/seqs.tex [17]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+ [16 <./img/intro/hm.png>]) (./sections/intro/seqs.tex
+Overfull \hbox (8.09897pt too wide) in paragraph at lines 3--5
+\T1/cmr/m/n/10 seq) or glsbsseq [[]2[]]), chro-matin ac-cess-ib-il-ity (e.g. []
+As-say for Transposase-Accessible
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+[17]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) [18]
+) [18])
 (./sections/intro/rna.tex
 <img/intro/rna-seq.png, id=531, 1021.8175pt x 806.01125pt>
 File: img/intro/rna-seq.png Graphic file (type png)
@@ -1676,9 +1681,6 @@ File: img/intro/rna-seq.png Graphic file (type png)
 <use img/intro/rna-seq.png>
 Package pdftex.def Info: img/intro/rna-seq.png used on input line 15.
 (pdftex.def)             Requested size: 256.0748pt x 201.98196pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [19]
 <img/intro/rnaseqgui1.pdf, id=549, 2328.7pt x 4717.625pt>
 File: img/intro/rnaseqgui1.pdf Graphic file (type pdf)
@@ -1730,7 +1732,7 @@ File: img/intro/multiomicsex.png Graphic file (type png)
 Package pdftex.def Info: img/intro/multiomicsex.png used on input line 5.
 (pdftex.def)             Requested size: 256.0748pt x 295.47841pt.
 
-Underfull \vbox (badness 8113) has occurred while \output is active []
+Underfull \vbox (badness 1675) has occurred while \output is active []
 
  [27]
 <img/intro/cameras.png, id=641, 387.3672pt x 161.403pt>
@@ -1770,10 +1772,7 @@ Chapter 2.
 (./sections/ticorser/general.tex) (./sections/ticorser/intro.tex [37
 
 ])
-(./sections/ticorser/intromethods.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
+(./sections/ticorser/intromethods.tex [38]
 <img/ticorser/main_flow.pdf, id=802, 601.28638pt x 678.37442pt>
 File: img/ticorser/main_flow.pdf Graphic file (type pdf)
 
@@ -1784,33 +1783,23 @@ Package pdftex.def Info: img/ticorser/main_flow.pdf used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (6.00485pt too wide) in paragraph at lines 19--20
-\T1/cmr/m/n/10 en-ables []Ribo-Nuc-leic Acid (RNA) ex-pres-sion quan-ti-fic-a-t
-ion through []
- []
-
-[39]) (./sections/ticorser/filtering.tex)
-(./sections/ticorser/normalization.tex
+) (./sections/ticorser/filtering.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-Overfull \hbox (0.69702pt too wide) in paragraph at lines 8--9
+ [39])
+(./sections/ticorser/normalization.tex [40]
+Overfull \hbox (0.69702pt too wide) in paragraph at lines 9--10
 []\T1/cmr/m/n/10 Moreover, it is pos-sible to ap-ply a batch ef-fect re-moval n
 or-mal-iz-a-tion method,
  []
 
-
-Underfull \vbox (badness 1668) has occurred while \output is active []
-
- [41])
-(./sections/ticorser/demethods.tex [42]
-<img/ticorser/de/trends/trend_LRT.pdf, id=849, 716.6775pt x 554.07pt>
+) [41] (./sections/ticorser/demethods.tex [42]
+<img/ticorser/de/trends/trend_LRT.pdf, id=850, 716.6775pt x 554.07pt>
 File: img/ticorser/de/trends/trend_LRT.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/trends/trend_LRT.pdf>
 Package pdftex.def Info: img/ticorser/de/trends/trend_LRT.pdf used on input lin
-e 25.
+e 23.
 (pdftex.def)             Requested size: 345.0pt x 266.72838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1822,12 +1811,12 @@ File: img/ticorser/de/trends/trend_t.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/trends/trend_t.pdf>
 Package pdftex.def Info: img/ticorser/de/trends/trend_t.pdf used on input line 
-41.
+39.
 (pdftex.def)             Requested size: 345.0pt x 266.72838pt.
 
 
 LaTeX Warning: Reference `fig:ticlrtnotint' on page 45 undefined on input line 
-50.
+48.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1838,7 +1827,7 @@ File: img/ticorser/de/trends/trend_noint.pdf Graphic file (type pdf)
 
 <use img/ticorser/de/trends/trend_noint.pdf>
 Package pdftex.def Info: img/ticorser/de/trends/trend_noint.pdf used on input l
-ine 58.
+ine 56.
 (pdftex.def)             Requested size: 345.0pt x 266.72838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1937,12 +1926,18 @@ rd cod-ing some para-met-ers as []
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
  [59]
-[60]
+Underfull \vbox (badness 2680) has occurred while \output is active []
+
+ [60]
 Overfull \hbox (36.93637pt too wide) in paragraph at lines 48--52
 \T1/cmr/m/n/10 iden-ti-fier to an-other. We de-veloped [][][][] and []
  []
 
-[61]) (./sections/ticorser/results.tex
+
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+ [61])
+(./sections/ticorser/results.tex
 <img/ticorser/dataset.pdf, id=1002, 634.37pt x 634.37pt>
 File: img/ticorser/dataset.pdf Graphic file (type pdf)
 
@@ -2113,62 +2108,67 @@ File: img/descan2/flow.png Graphic file (type png)
 <use img/descan2/flow.png>
 Package pdftex.def Info: img/descan2/flow.png used on input line 8.
 (pdftex.def)             Requested size: 227.62204pt x 236.7604pt.
-) (./sections/descan2/peakcall.tex [91 <./img/descan2/flow.png>]
-Underfull \vbox (badness 1668) has occurred while \output is active []
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92])
-(./sections/descan2/peakfilt.tex [93]) (./sections/descan2/peakcount.tex
-[94]) (./sections/descan2/addfeat.tex [95]) (./sections/descan2/results.tex
+ [91]
+(./sections/descan2/peakcall.tex [92 <./img/descan2/flow.png>] [93])
+(./sections/descan2/peakfilt.tex [94]) (./sections/descan2/peakcount.tex)
+[95] (./sections/descan2/addfeat.tex) [96] (./sections/descan2/results.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
-[96] <img/descan2/dataset.png, id=1835, 716.4366pt x 334.851pt>
+<img/descan2/dataset.png, id=1834, 716.4366pt x 334.851pt>
 File: img/descan2/dataset.png Graphic file (type png)
 
 <use img/descan2/dataset.png>
 Package pdftex.def Info: img/descan2/dataset.png used on input line 11.
 (pdftex.def)             Requested size: 345.0pt x 161.25291pt.
- [97 <./img/descan2/dataset.png>]
-<img/descan2/d2m2_peaks_number.png, id=1853, 1262.7175pt x 1003.75pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+<img/descan2/d2m2_peaks_number.png, id=1850, 1262.7175pt x 1003.75pt>
 File: img/descan2/d2m2_peaks_number.png Graphic file (type png)
 
 <use img/descan2/d2m2_peaks_number.png>
 Package pdftex.def Info: img/descan2/d2m2_peaks_number.png used on input line 2
 8.
 (pdftex.def)             Requested size: 345.0pt x 274.24779pt.
- [98 <./img/descan2/d2m2_peaks_number.png>] <img/descan2/peaks.png, id=1862, 68
-0.3016pt x 262.581pt>
+ [98 <./img/descan2/dataset.png>]
+[99 <./img/descan2/d2m2_peaks_number.png>]
+<img/descan2/peaks.png, id=1867, 680.3016pt x 262.581pt>
 File: img/descan2/peaks.png Graphic file (type png)
 
 <use img/descan2/peaks.png>
 Package pdftex.def Info: img/descan2/peaks.png used on input line 38.
 (pdftex.def)             Requested size: 345.0pt x 133.16528pt.
- [99 <./img/descan2/peaks.png>]
-<img/descan2/filtering_m2_d2.png, id=1873, 2569.6pt x 1419.3025pt>
+
+<img/descan2/filtering_m2_d2.png, id=1871, 2569.6pt x 1419.3025pt>
 File: img/descan2/filtering_m2_d2.png Graphic file (type png)
 
 <use img/descan2/filtering_m2_d2.png>
 Package pdftex.def Info: img/descan2/filtering_m2_d2.png used on input line 59.
 
 (pdftex.def)             Requested size: 345.0pt x 190.55804pt.
- [100 <./img/descan2/filtering_m2_d2.png>] <img/descan2/counts.png, id=1879, 28
-6.671pt x 211.5102pt>
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [100 <./img/descan2/peaks.png>] [101 <./img/descan2/filtering_m2_d2.png>]
+<img/descan2/counts.png, id=1883, 286.671pt x 211.5102pt>
 File: img/descan2/counts.png Graphic file (type png)
 
 <use img/descan2/counts.png>
 Package pdftex.def Info: img/descan2/counts.png used on input line 79.
 (pdftex.def)             Requested size: 200.66832pt x 148.05612pt.
-
-Underfull \vbox (badness 1577) has occurred while \output is active []
-
- [101 <./img/descan2/counts.png>]
+ [102 <./img/descan2/counts.png>]
 Overfull \hbox (5.27924pt too wide) in paragraph at lines 99--100
 []\T1/cmr/m/n/10 Figure []3.3.7[] sum-mar-izes this concept very well, high-lig
 ht-ing a re-la-tion between
  []
 
-<img/descan2/null_dataset_final.pdf, id=1891, 711.65875pt x 767.86874pt>
+<img/descan2/null_dataset_final.pdf, id=1895, 711.65875pt x 767.86874pt>
 File: img/descan2/null_dataset_final.pdf Graphic file (type pdf)
 
 <use img/descan2/null_dataset_final.pdf>
@@ -2178,16 +2178,16 @@ Package pdftex.def Info: img/descan2/null_dataset_final.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
-<img/descan2/full_final.pdf, id=1899, 807.015pt x 767.86874pt>
+ [103]
+<img/descan2/full_final.pdf, id=1904, 807.015pt x 767.86874pt>
 File: img/descan2/full_final.pdf Graphic file (type pdf)
 
 <use img/descan2/full_final.pdf>
 Package pdftex.def Info: img/descan2/full_final.pdf used on input line 118.
 (pdftex.def)             Requested size: 345.0pt x 328.2673pt.
- [103 <./img/descan2/null_dataset_final.pdf>]
-[104 <./img/descan2/full_final.pdf>]
-<img/descan2/DE_peaks.png, id=1940, 986.18437pt x 858.20625pt>
+ [104 <./img/descan2/null_dataset_final.pdf>]
+[105 <./img/descan2/full_final.pdf>]
+<img/descan2/DE_peaks.png, id=1944, 986.18437pt x 858.20625pt>
 File: img/descan2/DE_peaks.png Graphic file (type png)
 
 <use img/descan2/DE_peaks.png>
@@ -2196,8 +2196,8 @@ Package pdftex.def Info: img/descan2/DE_peaks.png used on input line 146.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105]
-<img/descan2/Annotated_depeaks_degenes.png, id=1947, 1380.15625pt x 1208.515pt>
+ [106]
+<img/descan2/Annotated_depeaks_degenes.png, id=1951, 1380.15625pt x 1208.515pt>
 File: img/descan2/Annotated_depeaks_degenes.png Graphic file (type png)
 <use img/descan2/Annotated_depeaks_degenes.png>
 Package pdftex.def Info: img/descan2/Annotated_depeaks_degenes.png used on inpu
@@ -2206,20 +2206,18 @@ t line 158.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106 <./img/descan2/DE_peaks.png (PNG copy)>]
+ [107 <./img/descan2/DE_peaks.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107 <./img/descan2/Annotated_depeaks_degenes.png>]) (./sections/descan2/concl
+ [108 <./img/descan2/Annotated_depeaks_degenes.png>]) (./sections/descan2/concl
 usions.tex
-[108]
+[109]
 Overfull \hbox (6.91212pt too wide) in paragraph at lines 12--13
 []\T1/cmr/m/n/10 Despite these im-prove-ments, []\T1/cmr/m/it/10 DES-can2\T1/cm
 r/m/n/10 , from these pre-lim-in-ary res-ults, already
  []
 
-) [109] [110
-
-]
+) [110]
 Chapter 4.
 (./sections/rr/introchap.tex)
 Overfull \hbox (5.11261pt too wide) in paragraph at lines 14--332
@@ -2227,7 +2225,9 @@ Overfull \hbox (5.11261pt too wide) in paragraph at lines 14--332
 m/n/10 https : / / github . com / drighelli /
  []
 
-[111] (./sections/rr/intro.tex
+[111
+
+] (./sections/rr/intro.tex
 <img/rr/scheme.pdf, id=1993, 9104.88588pt x 4552.43803pt>
 File: img/rr/scheme.pdf Graphic file (type pdf)
 
@@ -2346,12 +2346,6 @@ Package pdftex.def Info: img/integrho/project_folder.pdf used on input line 77.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [134 <./img/integrho/design.png>] [135 <./img/integrho/project_folder.pdf>]
-Overfull \hbox (2.99202pt too wide) in paragraph at lines 92--93
-[]\T1/cmr/m/n/10 In par-tic-u-lar, we defined spe-cific in-ter-faces for \T1/cm
-r/m/it/10 RNA-seq\T1/cmr/m/n/10 , \T1/cmr/m/it/10 ChIP-seq \T1/cmr/m/n/10 and \
-T1/cmr/m/it/10 ATAC-
- []
-
 <img/integrho/integrho_pack_scheme.pdf, id=2446, 2358.8125pt x 1856.9375pt>
 File: img/integrho/integrho_pack_scheme.pdf Graphic file (type pdf)
 
@@ -2363,8 +2357,12 @@ ne 103.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 111.
+
 [136]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3758) has occurred while \output is active []
 
  [137 <./img/integrho/integrho_pack_scheme.pdf>] [138] [139]
 
@@ -2378,22 +2376,31 @@ Overfull \hbox (7.80064pt too wide) in paragraph at lines 167--168
 T1/cmr/m/it/10 NOISeq
  []
 
-[140] [141] [142] [143] [144]) (./sections/integrho/reprres.tex
-<img/integrho/rr_1.png, id=2534, 1161.33875pt x 776.9025pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 176.
+
+[140] [141]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 212.
+
+[142] [143] [144]) (./sections/integrho/reprres.tex [145]
+<img/integrho/rr_1.png, id=2539, 1161.33875pt x 776.9025pt>
 File: img/integrho/rr_1.png Graphic file (type png)
 
 <use img/integrho/rr_1.png>
 Package pdftex.def Info: img/integrho/rr_1.png used on input line 10.
 (pdftex.def)             Requested size: 155.24895pt x 103.84596pt.
 
-<img/integrho/rr_2.png, id=2535, 954.56625pt x 1053.9375pt>
+<img/integrho/rr_2.png, id=2540, 954.56625pt x 1053.9375pt>
 File: img/integrho/rr_2.png Graphic file (type png)
 
 <use img/integrho/rr_2.png>
 Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
 (pdftex.def)             Requested size: 155.24895pt x 171.3995pt.
- [145]) (./sections/integrho/conclusions.tex
-[146 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] [147]) [148]
+) [146 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] (./sections/integrh
+o/conclusions.tex [147]) [148]
 Chapter 6.
 (./sections/conclusions.tex [149
 
@@ -2500,7 +2507,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3F92D0DA2140D6ACB8746136596DA1CB;12624.
+(rerunfilecheck)             Checksum: 2AB7A216E54474E3F596A6E2F5FC46BB;12609.
 
 
 LaTeX Warning: There were undefined references.
@@ -2519,10 +2526,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
  )
 (\end occurred when \iftrue on line 151 was incomplete) 
 Here is how much of TeX's memory you used:
- 37891 strings out of 494835
- 650009 string characters out of 6178234
- 1031348 words of memory out of 5000000
- 39964 multiletter control sequences out of 15000+600000
+ 38131 strings out of 494835
+ 654393 string characters out of 6178234
+ 1035716 words of memory out of 5000000
+ 40204 multiletter control sequences out of 15000+600000
  31621 words of font info for 75 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  46i,12n,77p,10379b,3174s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2554,10 +2561,10 @@ x-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (177 pages, 55534292 bytes).
+Output written on thesis.pdf (177 pages, 55533369 bytes).
 PDF statistics:
- 3817 PDF objects out of 4296 (max. 8388607)
- 2122 compressed objects within 22 object streams
+ 3819 PDF objects out of 4296 (max. 8388607)
+ 2124 compressed objects within 22 object streams
  511 named destinations out of 1000 (max. 500000)
  939 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,7 @@
-Normalization is a fundamental aspect in \textit{RNA-seq} data analysis, especially when a comparison between different biological conditions is aimed to highlight the major differences.
+Normalization is a fundamental aspect in \gls{rnaseq} data analysis, especially when a comparison between different biological conditions is aimed to highlight the major differences.
 
-For this reason \gls{tic} is particularly focused on this aspect. Indeed, through the \lstinline!normalizeData! function \gls{tic} provides five different normalization methods, where the user doesn't have to take care of any particular additional information, except for the normalization method.
+For this reason \gls{tic} is equipped with multiple methodologies to deal with this analysis step. 
+Indeed, through the \lstinline!normalizeData! function \gls{tic} provides five different normalization methods, where the user doesn't have to take care of any particular additional information, except for the normalization method.
 Thanks to the design matrix based system, the method allows to automatically subset the data only to the relevant factors the user want to normalize.
 
 The function offers the possibility to normalize the data with \textit{Full quantile}, \textit{Upper quartile} and \textit{Trimmed Mean of M-values}, setting the \lstinline!norm.type! parameter to \textit{fqua}, \textit{uqua} or \textit{tmm}.
