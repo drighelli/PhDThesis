@@ -38,9 +38,11 @@
 \newacronym[firstplural=Transcription Factors (TFs), plural=TFs]{tf}{TF}{Transcription Factor}
 \newacronym{sui}{SUI}{Shiny User Interface}
 \newacronym{ss}{SS}{Shiny Server}
-\newacronym[firstplural=Differential Binding Sites (DBSs)plural=DBSs]{dbs}{DBS}{Differential Binding Site}
+\newacronym[firstplural=Differential Binding Sites (DBSs), plural=DBSs]{dbs}{DBS}{Differential Binding Site}
 \newacronym{bam}{BAM}{Binary Alignment Map}
 \newacronym{tcga}{TCGA}{The Cancer Genome Atlas} 
 \newacronym{gomf}{MF}{Molecular Function}
 \newacronym{gocc}{CC}{Cellular Component}
 \newacronym{gobp}{BP}{Biological Process}
+\newacronym{rnaseq}{RNA-seq}{RNA Sequencing}
+\newacronym{rnaseq}{RNA-seq}{RNA Sequencing}

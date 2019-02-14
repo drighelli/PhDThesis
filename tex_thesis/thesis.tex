@@ -1,4 +1,4 @@
-\documentclass[a4paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
+\documentclass[b5paper, oneside, british, intoc, bibliograph=totoc, index=totoc, BCOR10mm, twoside, openright]{book}
 \usepackage[LGR,T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 \usepackage{inputenc}
@@ -27,6 +27,9 @@
 %\include{acronym.tex}
 
 \usepackage[export]{adjustbox}
+
+\usepackage[acronym, nomain]{glossaries}
+\preto\chapter{\glsresetall}
 
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
@@ -141,7 +144,7 @@
 
 %\setlength\parindent{10pt}
 
-\usepackage[acronym, nomain]{glossaries}
+
 \makeglossaries
 \loadglsentries{acronyms.tex}
 

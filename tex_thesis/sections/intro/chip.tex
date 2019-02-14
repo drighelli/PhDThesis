@@ -1,4 +1,4 @@
-As previously mentioned, epigenetic marks are a fundamental aspect of the cellular biological processes. 
+As previously mentioned (section \ref{sec:chromatin}), epigenetic marks are a fundamental aspect of the cellular biological processes. 
 Indeed, their state influences not only gene accession but also the regulation of gene expression.
 
 Some relevant aspects are \glspl{hm} and \glspl{tf}, the first ones are related to transcriptional activation/inactivation, chromosome packaging, and \gls{dna} damaging/repairing, the second ones (\glspl{tf}), also named as sequence-specific \gls{dna}-binding factor, are proteins that control the transcription of genetic information by binding specific sequences of \gls{dna}.
@@ -17,8 +17,8 @@ After the \gls{dna} purification, the genetic matherial is linked to specific ad
 The library preparation consists into locking biological processes with formaldehyde and then cutting the chromatin into small fragments with sonication.
 Afterwards, a specific antibody for the interested protein is used to immunoprecipitate the \gls{dna}-protein complex, in order to be purified and, after amplification, to be sequenced.
 
-When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP because, even if the library preparation it's the same (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different in methodologies used because of the different signal produced by them.
-Indeed, after read mapping on a reference genome, reads need to be processed with methodologies for the protein-binding regions detection, that are typically called \textit{Peak Callers}.
+When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP experiments because, even if the library preparation is the same (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different on used methodologies because of different signal produced by them.
+Indeed, after read mapping on a reference genome, the reads need to be processed with methodologies for the protein-binding regions detection, that are typically called \textit{Peak Callers}.
 After the peak calling process it is possible to highlight that the \gls{tf} signals (peaks) are more narrowed respect to the ones detected for \gls{hm}, leading to develop different methodologies for investigating further aspects for each one of these \textit{ChIP-seq} signals.
 
 \begin{figure}[H]
@@ -29,7 +29,7 @@ In such a way it is possible to identificate a unified peak combining the profil
 \label{fig:chipseqexp}
 \end{figure}
 
-Subsequently to the peak detection, several aspects can be investigated about the signal, such as the identification of motifs related to the peaks, or the genes associated with the regions detected, and, when other omics are available (e.g. RNA-seq), it is interesting to associate the expressed features (e.g. genes) and doing functional enrichment analysis. 
+Subsequently, after the peak detection, several aspects can be investigated about the signal, such as the identification of peaks related motifs, or the associated genes with detected regions, and, when other omics are available (e.g. \textit{RNA-seq}), it is interesting to associate the expressed features (e.g. genes) and doing functional enrichment analysis.
 
 
 

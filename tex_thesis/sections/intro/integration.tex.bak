@@ -3,25 +3,29 @@ All above-mentioned sequencing techniques are aimed to investigate only one cell
 \begin{figure}[H]
 \centering
 \includegraphics[width=9cm, keepaspectratio]{img/intro/multiomicsex.png}
-\caption[Multi-Omics Representation]{An example of different omics coming from the same biological representation. (adapted from \cite{Angelini2014c})}
+\caption[Multi-Omics Representation]{An example of different omics coming from the same biological experimental conditions. 
+An \glspl{hm} (such as \textit{Acetylation}) can have inhibited the accession to bind specific nucleosomes, because already occupied by specific \glspl{tf}, inhibiting, in such a way, the expression of those genes present in that particular portion of the chromatin (upper part).
+To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm} and one for the \gls{tf}) to study singularly each epigenomics factors and the gene expression (lower part) \cite{Angelini2014c}.}
 \label{fig:omics}
 \end{figure}
 
 Indeed, we can imagine each omics as a camera in a multi-view camera system pointed on a building from different points of view.
 Each device takes snapshots of the building from different angles, but the information is still fragmented.
-In order to reconstruct a 3D model of the building, we need to put each device snapshots together.
+In order to reconstruct a 3D model of the building, we need to put all the snapshots coming from different devices together.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/cameras.png}
-\caption[Integration cameras]{An illustrative exaple of a multi-view camera system pointed on a building.}
+\caption[Integration cameras]{An illustrative exaple of a multi-view camera system pointed on a building.
+Each omics can be represented by a different camera pointed on the same building. 
+The final snapshots can be integrated to reconstruct the building, which represents the cellular behaviour.}
 \label{fig:cameras}
 \end{figure}
 
-The same idea can be adapted to the sequencing techniques, we need to integrate the information coming from different omics in order reconstruct (and understand) how multiple mechanisms orchestrate the cellular behaviour.
+The same idea can be adapted to the sequencing techniques, we need to integrate the information coming from different omics in order to reconstruct (and understand) how multiple mechanisms orchestrate the cellular behaviour.
 
 Indeed, we can imagine a typical combination of epigenomics factors affecting the chromatin in order to influence the transcription of one or more genes.
-An \glspl{hm} (such as \textit{Acetylation}) can have inhibited the accession to bind specific nucleosomes, because already occupied by specific \glspl{tf}, inhibiting, in such a way, the expression of those genes present in that particular portion of the chromatin (upper part of figure \ref{fig:omics}).
+An \gls{hm} (such as \textit{Acetylation}) can have inhibited the accession to bind specific nucleosomes, because already occupied by specific \glspl{tf}, inhibiting, in such a way, the expression of those genes present in that particular portion of the chromatin (upper part of figure \ref{fig:omics}).
 To investigate these processes, we can perform multiple experiments of \textit{RNA-seq} and \textit{ChIP-seq} (one for the \gls{hm} and one for the \textit{tf}) to study singularly each epigenomics factors and the gene expression (lower part of figure \ref{fig:omics}). 
 
 As figure \ref{fig:funnell} outlines, multi-omics data integration can be made at different levels, by graphical exploration, by functional annotation, by network fusion and by dimensionality reduction.
@@ -33,6 +37,10 @@ The second main approach needs a high number of samples to analyze all the omics
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/intro/funnell.pdf}
 \caption[Integration Funnell]{A schematic representation of multi-omic data integration levels.
+Graphical exploration can be used to visualize data coming from different sources (e.g. \textit{RNA-seq} and \textit{ChIP-seq}) using specific tools designed at this scope.
+Functional annotation integration combines analysis results (such as relevant lists of genes) with publicly available databases to detect functional responses.
+Network fusion techniques are used when a high number of data samples is available or when having multiple-omics data types coming from the same patients.
+Also dimensionality reduction techniques require several samples to be able to obtain relevant and reliable results.
 }
 \label{fig:funnell}
 \end{figure}

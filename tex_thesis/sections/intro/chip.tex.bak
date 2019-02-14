@@ -1,10 +1,9 @@
-As previously mentioned, epigenetic marks are fundamental aspects of the cellular biological processes. 
+As previously mentioned (section \ref{sec:chromatin}), epigenetic marks are a fundamental aspect of the cellular biological processes. 
 Indeed, their state influences not only gene accession but also the regulation of gene expression.
 
-Some relevant aspects are \glspl{hm} and \glspl{tf}, the first ones are related to transcriptional activation/inactivation, chromosome packaging, and \gls{dna} damage/repair.
-While \glspl{tf}, also named as sequence-specific \gls{dna}-binding factor, are proteins that control the transcription of genetic information by binding specific sequences of \gls{dna}.
+Some relevant aspects are \glspl{hm} and \glspl{tf}, the first ones are related to transcriptional activation/inactivation, chromosome packaging, and \gls{dna} damaging/repairing, the second ones (\glspl{tf}), also named as sequence-specific \gls{dna}-binding factor, are proteins that control the transcription of genetic information by binding specific sequences of \gls{dna}.
 
-To investigate these epigenetic aspects nowadays is mainly used the Chromatin ImmunoPrecipitation sequencing (\textit{ChIP-seq}) technique \cite{Park2009}.
+To investigate these epigenetic aspects, the mostly used sequncing technology is the Chromatin ImmunoPrecipitation sequencing (\textit{ChIP-seq}) \cite{Park2009}.
 This technique allows to use antibodies for selected proteins or nucleosomes, which enriches for specific \gls{dna} sequences bounded to these proteins/nucleosomes.
 
 \begin{figure}[H]
@@ -15,7 +14,7 @@ After the \gls{dna} purification, the genetic matherial is linked to specific ad
 \label{fig:chipseqexp}
 \end{figure}
 
-The library preparation consists into lock biological processes with formaldehyde and then cutting the chromatin into small fragments with sonication.
+The library preparation consists into locking biological processes with formaldehyde and then cutting the chromatin into small fragments with sonication.
 Afterwards, a specific antibody for the interested protein is used to immunoprecipitate the \gls{dna}-protein complex, in order to be purified and, after amplification, to be sequenced.
 
 When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP because, even if the library preparation it's the same (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different in methodologies used because of the different signal produced by them.
