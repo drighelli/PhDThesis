@@ -1,15 +1,15 @@
-We presented \textit{easyReporting}, an R package enabling the implementation of \gls{rr} using \textit{rmarkdown} language scripting, without any knowledge of it.
+We presented \textit{easyReporting}, an R package enabling the implementation of \gls{rr} using rmarkdown language scripting, without any knowledge of it.
 
 Despite other  previously proposed solutions \cite{Napolitano2013, Napolitano2017}, that always require too much commitment by the final user, potentially bringing him/her to totally renounce to include \gls{rr} inside the scripts, our approach is versatile and easy to be implemented, leaving maximum freedom to the final developer/analyzer, automatically creating and storing an \textit{rmarkdown} document, and providing also methods for its compilation.
 
 It gives the possibility to obtain reproducible results and to publish better findings, increasing the scientific publications transparency by improving the knowledge transfer, and to support the methodologies integrity also into the scientific labs, where people can change position through the years.
 
 On the other hand, the \textit{easyReporting} package, even if useful and easy to handle, can be improved with several additional functionalities.
-While it is really important to generate an \textit{rmarkdown} file, it could be useful to introduce methods for its file editing. 
+While it is really important to generate an rmarkdown file, it could be useful to introduce methods for its file editing. 
 Indeed, if an analyst or a final user, wants to correct an analysis, by changing an already inserted \gls{cc}, he/she could have the possibility to do this, by editing that specific \gls{cc} or by overwriting it.
 A possible approach to do this could be to trace the \glspl{cc}, with a dedicated data structure, while inserting them, and give the possibility to the user to access them with specific class methods.
 
-At the same time, even if the \textit{rmarkdown} options enable the user to store the input/output data with \lstinline!cache! option, it could be better to provide caching methods, in order to give higher manageability of the data, storing them inside caching database files, as also reported in figure \ref{fig:rrscheme}.
+At the same time, even if the rmarkdown options enable the user to store the input/output data with \lstinline!cache! option, it could be better to provide caching methods, in order to give higher manageability of the data, storing them inside caching database files, as also reported in figure \ref{fig:rrscheme}.
 Additionally, a caching store system (such as BiocFileCache\footnote{\url{https://bioconductor.org/packages/release/bioc/html/BiocFileCache.html}}) could produce caching database files, easily shareable through the Internet or as supplementary data of a publication.
 
 In order to provide a graphical representation of an entire analysis, it could be useful to equip \textit{easyReporting} with methods for graph construction.

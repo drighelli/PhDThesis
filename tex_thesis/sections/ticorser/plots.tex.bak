@@ -1,16 +1,16 @@
-During \textit{RNA-seq} data analysis, it is almost mandatory to explore the data during each step of the analysis, in order to understand which is the best method to apply for, at each analysis step and to be more confident with produced results. 
+During \gls{rnaseq} data analysis, it is almost mandatory to explore the data during each step of the analysis.
+This is relevant to understand which is the best method to apply at each analysis step and to be more confident with produced results. 
 
 At this scope, we equipped \gls{tic} of several useful graphics and plots to be used at each analysis step.
-
-Each of them, except when otherwise declared, with aim of \textit{plotly} library, enables to convert the plot in an interactive \textit{HTML} plot, useful to inspect additional attributes with the mouse pointer.
+Each of them, except when otherwise declared, with aid of \textit{plotly} library, enables to convert the plot in an interactive \gls{html} plot, useful to inspect additional attributes using the mouse pointer.
 
 \subsubsection{Exploration Plots on Counts}
-As already mentioned (section \ref{sec:ticorsernormalization}), the normalization phase critically affects the final results in terms of \glspl{deg} detected.
+As already mentioned (see section \ref{sec:ticorsernormalization}), the normalization phase critically affects the final results in terms of \glspl{deg} detected.
 That's why it is always a good norm to understand how the applied transformations are influencing the features quantification. 
-To address this need we implemented two plots, the \textit{Boxplot} and the \gls{pca}.
+To address this need we implemented two plots, the Boxplot and the \gls{pca}.
 
-The \textit{boxplot} is a graphical representation of the distribution of the samples. 
-Our \textit{boxplot} is organized in group colours accordingly to the time-point each sample belongs to (figure \ref{fig:ticorserboxplot}).
+The boxplot is a graphical representation of the distribution of the samples. 
+Our boxplot is organized in group colours accordingly to the time-point each sample belongs to (figure \ref{fig:ticorserboxplot}).
 
 \begin{figure}[H]
 \centering
@@ -25,33 +25,32 @@ The upper and lower part of the segments, in case of absence of outliers, repres
 
 Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, describing the data counts, which gives the possibility to select the column to use for colouring the samples thanks to the \lstinline!colorColname! parameter. 
 
-Due to the very high dimensionality of \textit{RNA-seq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
-There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm, keepaspectratio]{img/ticorser/pca_example.png}
+\caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
+\label{fig:ticorserpca}
+\end{figure}
 
+Due to the very high dimensionality of \gls{rnaseq} data, it is widely considered common sense to apply \gls{pca} dimensionality reduction technique to visualize the data, limiting their representation to 2 or 3 dimensions.
+There are several packages allowing to apply a \gls{pca} transformation, but we choose to implement it in the \lstinline!PlotPCAPlotlyFunction! function, by using the \lstinline!prcomp! from the \textit{stats} package.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/pca_example.png}
-\caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
-\label{fig:ticorserpca}
-
+\includegraphics[width=10cm, keepaspectratio]{img/ticorser/pcas.png}
+\caption[ticorser pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
+\label{fig:ticorserpcas}
 \end{figure}
-
 
 The user just needs to give the \lstinline!counts.data.frame! and the \lstinline!design.data.frame! by specifying the column name where to find the samples groups.
 In such a way, the function will compute and plot the \gls{pca}, colouring the samples according to the groups identified by the chosen column.
 It is also possible to specify the \glspl{pc} to plot with \lstinline!xPCA! and \lstinline!yPCA!, where x and y indicate respectively the x-axis and y-axis.
 Moreover, by setting the \lstinline!ellipse.flag! argument to \lstinline!TRUE!  the function will show the ellipses surrounding each sample group, each one describing the variance of the groups.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/pcas.png}
-\caption[ticorser pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
-\label{fig:ticorserpcas}
-\end{figure}
+In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one component at the same time (figure \ref{fig:ticorserpcas}).
+By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pc.list! argument.
 
-In order to plot more than one \glspl{pc}, \gls{tic} allows to plot more than one comparison between them at the same time (figure \ref{fig:ticorserpcas}).
-By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare more than two \glspl{pc} at the same time, simply by using the \lstinline!pca.list! argument.
+
 
 
 \subsubsection{DE Results Plots}

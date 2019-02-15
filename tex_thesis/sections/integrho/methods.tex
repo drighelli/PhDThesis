@@ -1,7 +1,7 @@
 Roughly speaking, when working with multiple omics data, the integration phase requires that the data used for this step are ''connected'' between the different omics.
 
 For example, if we want to investigate the epigenetic marks involved in the regulation of the gene expression of a particular disease, we need to collect data from \gls{chipseq} and \gls{rnaseq} experiments under the same experimental conditions.
-To do that, we need to collect as many samples as possible for each omics (because as higher is the number of samples as higher will be the power for estimating good results) to evaluate a certain number of variables/features (i.s. gene expression, methylation, \gls{tf}, etc.) for each sample.
+To do that, we need to collect as many samples as possible for each omics (because as higher is the number of samples as higher will be the power for estimating good results) to evaluate a certain number of variables/features (i.e. gene expression, methylation, \gls{tf}, etc.) for each sample.
 
 Moreover, when investigating multiple conditions, we need multiple replicates for each condition, in order to be able to well estimate and remove biases affecting the experiment and distinguish technical or biological variability as well as other sources of variation.
 %(Biostatisticians typically say that the number of replicates must never be lower than 3, indeed some statistical methods cannot work properly with a number of replicates lower than this.)
@@ -10,11 +10,12 @@ To summarize, when working with multi-omics data, we need to collect samples of 
 Moreover, to understand multiple mechanisms affected by the disease we need to collect multiple omics for each biological aspect (i.e. \gls{chipseq} and \gls{rnaseq}).
 Additionally, for each omics, we need to collect multiple samples for each condition (i.e. healthy and tumor).
 Therefore, typically multi-omics datasets consist in a bunch of short reads files (each of them corresponding to a specific sample in specific conditions). 
-After some preprocessing (alignment, qunatification, etc.) results are combined in omics specific matrices $X_k$ with  $k=1,...,m$, where m denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples and $p_k$ the number of variable osserved on the specific omics.
+After some preprocessing (alignment, qunatification, etc.) results are combined in omics specific matrices $X_k$ with  $k=1,...,m$, where m denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples and $p_k$ the number of observed variables on the specific omics.
 
 Once we collected all required samples, we can either start analyzing each omics individually and/or integrating them to better understand the cellular behaviours involved in the studied disease.
-Depending on the number of collected samples we can choose from different methodologies to apply, if we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
-Otherwise, when having a high number of samples we can work use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c, Rohart2017, Argelaguet2018}.
+Depending on the number of collected samples, we can choose from different methodologies to apply.
+If we have few numbers of samples, we can decide to work on single omics analysis and then to integrate the results.
+Otherwise, when having a high number of samples we can use deeper statistical methodologies, such as network fusion techniques for constructing multiple levels regulatory networks \cite{Angelini2014c, Rohart2017, Argelaguet2018}.
 
 In order to account for these kind of studies, inside \gls{igro} we are implementing several aspects and interfaces to help and guide the user to achieve integrated results.
 
@@ -27,7 +28,7 @@ The first one includes all the aesthetic components which the user interacts wit
 
 Natively, shiny apps support only one server, but when the needs grow up and multiple interfaces are needed the things become more complicated. 
 
-Our case is composed of a high number of methodologies for Multiple-omics problem solving and required a more complex implementation.
+Our case is composed of a high number of methodologies for multiple-omics problem solving and required a more complex implementation.
 To account our problematic, we choose to build \gls{igro} as self-containing modules, by using recently born shiny modules technology\footnote{\url{https://shiny.rstudio.com/articles/modules.html}}.
 In such a way, the main shiny app can be shredded into multiple "mini apps", each one with its own \gls{sui} and \gls{ss}.
 This approach is totally invisible to the final user, but helps the developer for the maintainability and the extensibility of the entire tool.
@@ -38,7 +39,7 @@ For each of these topics, a sub-menu with specific functionalities is available.
 When additional functionalities are available, they appear in a left side menu.
 In order to well set up the parameters for each functionality, an additional side menu is presented with the parameters and their possible values for the right setup (figure \ref{fig:integrhomain} shows a general representation of the main interface).
 
-\begin{figure}[H]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/interface.png}
 \caption[\gls{igro} main interface]{\gls{igro} main interface description. A main menu in the upper part is presented with all the available main functionalities, and a left side menu is presented with additional functionalities (in blue). Red part indicates the settings for each functionality within the parameter setup. While in green results in table or graphical form are presented.}
@@ -54,7 +55,7 @@ The design file information will be used during all the following steps of the a
 
 Before to proceed to the data analysis, it is mandatory for the user to set up the project with a dedicated interface.
 The user has to upload the design file which describes the information related to its samples.
-Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the condition of each sample, while others are optional as the tissue or the run id. 
+Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the conditions of each sample, while others are optional as the tissue or the run id. 
 It is also possible to manually edit the design file directly from the interface (figure \ref{fig:integrhodesign}).
 
 The choice of using a mandatory variable describing the path of  \gls{bam} filenames is due to a \textit{Shiny} library limitation. 
@@ -62,7 +63,7 @@ Because of its ''UI-server'' structure, shiny applications, when using a \lstinl
 But this aspect becomes really problematic when a file can reach several gigabytes of memory on disk, as one or more \gls{bam} files can.
 Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choose for this workaround solution.
 
-\begin{figure}[H]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/design.png}
 \caption[\gls{igro} design interface]{The project design \gls{igro} interface. The user has to insert a name for the project and to load a design file.
@@ -72,7 +73,7 @@ The design file can be edited through the interface itself.}
 
 Using the project interface, \gls{igro} creates inside the working directory (returned by the \lstinline!getwd()! function) a dedicated folder with all the required sub-folders and stores all the basic information of the project into an ad-hoc designed \lstinline!R6ProjectClass!, which is re-used during the whole session to speed up the configuration of each step of the analysis (Figure \ref{fig:integrhotree} shows a representation of a typical folder tree produced for a project).
 
-\begin{figure}[H]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/project_folder.pdf}
 \caption[\gls{igro} folder tree]{A schematical representation of \gls{igro} project folder tree.}
@@ -85,7 +86,7 @@ This allows fast access to the files stored in each folder, that will be process
 
 \subsection{Available Methodologies}
 
-Unlike tools as Galaxy \cite{Hillman-Jackson2012} and Taverna \cite{Wolstencroft2013}, focused on analysis workflows, \gls{igro} gives to the user high freedom of interaction, reporting all performed steps in a human-readable \textit{HTML} report.
+Unlike tools as Galaxy \cite{Hillman-Jackson2012} and Taverna \cite{Wolstencroft2013}, focused on analysis workflows, \gls{igro} gives to the user high freedom of interaction, reporting all performed steps in a human-readable \gls{html} report.
  
 Actually, \gls{igro} methodologies have been organized in a way that the user can analyze every single omics, and afterwards, combine the results to obtain an integrated view of them.
 
@@ -98,7 +99,7 @@ Inside \gls{igro}, we take from granted that every omics data type is already ma
 Figure \ref{fig:integrhopackscheme} shows a schematic representation of implemented packages inside \gls{igro}.
 The upper part shows the single-omics packages used for the analysis of \gls{rnaseq}, \gls{chipseq} and \gls{atacseq}, while the lower part refers to the multi-omics integration, showing the packages used for \textit{functional analysis} and \textit{peak-gene annotations}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/integrho/integrho_pack_scheme.pdf}
 \caption[\gls{igro} packages scheme]{A schematical representation of packages included inside \gls{igro} web-platform.

@@ -327,7 +327,7 @@ Add acknowledgements here
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{A reproducible computational research tool: the R6 Class easyReporting}
+\chapter{A reproducible research tool: the R6 Class easyReporting}
 \input{sections/rr/introchap.tex}
 \section{The idea of Reproducible Research}
 \input{sections/rr/intro.tex}

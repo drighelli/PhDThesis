@@ -23,62 +23,62 @@
 \contentsline {subsection}{\numberline {2.2.3}Differential Expression}{42}{subsection.2.2.3}
 \contentsline {subsubsection}{Time-Course DE Method 1 - \textit {LRT\_TC}}{42}{section*.16}
 \contentsline {subsubsection}{Time-Course DE Method 2 - \textit {LRT\_T}}{44}{section*.18}
-\contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{46}{section*.20}
+\contentsline {subsubsection}{Time-Course DE Method 3 - \textit {LRT\_NOInteraction}}{45}{section*.20}
 \contentsline {subsubsection}{Time-Course DE Method - \textit {Wald}}{47}{section*.22}
-\contentsline {subsubsection}{Single DE Methods}{48}{section*.23}
-\contentsline {subsection}{\numberline {2.2.4}Data Visualization}{49}{subsection.2.2.4}
-\contentsline {subsubsection}{Exploration Plots on Counts}{49}{section*.24}
-\contentsline {subsubsection}{DE Results Plots}{54}{section*.28}
-\contentsline {subsubsection}{Gene Profiles plot}{56}{section*.31}
-\contentsline {subsubsection}{KEGG-Maps}{57}{section*.33}
-\contentsline {section}{\numberline {2.3}Additional Features}{58}{section.2.3}
-\contentsline {subsubsection}{Gene quantification}{59}{section*.35}
-\contentsline {subsubsection}{Functional Analysis}{60}{section*.36}
-\contentsline {subsubsection}{Results Comparison}{61}{section*.37}
-\contentsline {subsubsection}{Gene Identifiers Conversion}{61}{section*.38}
-\contentsline {subsubsection}{Input/Output File Handling}{62}{section*.39}
-\contentsline {section}{\numberline {2.4}Case Study}{62}{section.2.4}
-\contentsline {subsubsection}{Features quantification}{64}{section*.41}
-\contentsline {subsubsection}{The design matrix}{64}{section*.42}
-\contentsline {subsubsection}{Filtering \& Normalization}{65}{section*.44}
-\contentsline {subsubsection}{Differential Expression}{71}{section*.48}
-\contentsline {subsubsection}{Functional Enrichment Analysis}{79}{section*.55}
-\contentsline {section}{\numberline {2.5}Discussions}{84}{section.2.5}
-\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2: DEScan2}{89}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{90}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{91}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{92}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{94}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{95}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Additional Features}{96}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Case Study}{97}{section.3.3}
-\contentsline {subsubsection}{Data Description and Preprocessing}{97}{section*.61}
-\contentsline {subsubsection}{Peaks Detection}{98}{section*.63}
-\contentsline {subsubsection}{Removing Unwanted Peaks}{100}{section*.66}
-\contentsline {subsubsection}{Quantifying Peaks}{101}{section*.68}
-\contentsline {subsubsection}{Peaks Normalization}{102}{section*.70}
-\contentsline {subsubsection}{Differential Enrichment of Peaks}{106}{section*.73}
-\contentsline {subsubsection}{Peaks Integration}{109}{section*.76}
-\contentsline {section}{\numberline {3.4}Discussions}{109}{section.3.4}
-\contentsline {chapter}{\numberline {4}A reproducible computational research tool: the R6 Class easyReporting}{111}{chapter.4}
-\contentsline {section}{\numberline {4.1}The idea of Reproducible Research}{112}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{114}{section.4.2}
-\contentsline {subsubsection}{General Description and Initialization}{115}{section*.78}
-\contentsline {subsubsection}{Class Methods}{116}{section*.80}
-\contentsline {section}{\numberline {4.3}Usage}{117}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discussions}{122}{section.4.4}
-\contentsline {chapter}{\numberline {5}Integration of High-Throughtput Omics data: IntegrHO}{125}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{126}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methods}{128}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The main interface}{130}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{135}{subsection.5.2.2}
-\contentsline {subsubsection}{\gls {rnaseq}}{136}{section*.87}
-\contentsline {subsubsection}{\gls {chipseq}}{140}{section*.88}
-\contentsline {subsubsection}{\gls {atacseq}}{142}{section*.89}
-\contentsline {subsubsection}{Integration}{143}{section*.90}
-\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{145}{section.5.3}
-\contentsline {section}{\numberline {5.4}Discussions}{147}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions}{149}{chapter.6}
-\contentsline {chapter}{\numberline {7}Bibliography}{153}{chapter.7}
-\contentsline {chapter}{List of Figures}{173}{chapter.7}
-\contentsline {chapter}{List of Tables}{177}{chapter.7}
+\contentsline {subsubsection}{Single DE Methods}{47}{section*.23}
+\contentsline {subsection}{\numberline {2.2.4}Data Visualization}{48}{subsection.2.2.4}
+\contentsline {subsubsection}{Exploration Plots on Counts}{48}{section*.24}
+\contentsline {subsubsection}{DE Results Plots}{52}{section*.28}
+\contentsline {subsubsection}{Gene Profiles plot}{54}{section*.31}
+\contentsline {subsubsection}{KEGG-Maps}{55}{section*.33}
+\contentsline {section}{\numberline {2.3}Additional Features}{56}{section.2.3}
+\contentsline {subsubsection}{Gene quantification}{57}{section*.35}
+\contentsline {subsubsection}{Functional Analysis}{58}{section*.36}
+\contentsline {subsubsection}{Results Comparison}{59}{section*.37}
+\contentsline {subsubsection}{Gene Identifiers Conversion}{59}{section*.38}
+\contentsline {subsubsection}{Input/Output File Handling}{60}{section*.39}
+\contentsline {section}{\numberline {2.4}Case Study}{60}{section.2.4}
+\contentsline {subsubsection}{Features quantification}{62}{section*.41}
+\contentsline {subsubsection}{The design matrix}{62}{section*.42}
+\contentsline {subsubsection}{Filtering \& Normalization}{63}{section*.44}
+\contentsline {subsubsection}{Differential Expression}{69}{section*.48}
+\contentsline {subsubsection}{Functional Enrichment Analysis}{77}{section*.55}
+\contentsline {section}{\numberline {2.5}Discussions}{82}{section.2.5}
+\contentsline {chapter}{\numberline {3}Differential Enriched Scan 2: DEScan2}{87}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{88}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{89}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Peak Caller}{90}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Peak Filtering and Alignment}{92}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Counting Peaks}{93}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Additional Features}{94}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Case Study}{95}{section.3.3}
+\contentsline {subsubsection}{Data Description and Preprocessing}{95}{section*.61}
+\contentsline {subsubsection}{Peaks Detection}{96}{section*.63}
+\contentsline {subsubsection}{Removing Unwanted Peaks}{98}{section*.66}
+\contentsline {subsubsection}{Quantifying Peaks}{99}{section*.68}
+\contentsline {subsubsection}{Peaks Normalization}{100}{section*.70}
+\contentsline {subsubsection}{Differential Enrichment of Peaks}{104}{section*.73}
+\contentsline {subsubsection}{Peaks Integration}{107}{section*.76}
+\contentsline {section}{\numberline {3.4}Discussions}{107}{section.3.4}
+\contentsline {chapter}{\numberline {4}A reproducible research tool: the R6 Class easyReporting}{109}{chapter.4}
+\contentsline {section}{\numberline {4.1}The idea of Reproducible Research}{110}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{112}{section.4.2}
+\contentsline {subsubsection}{General Description and Initialization}{112}{section*.78}
+\contentsline {subsubsection}{Class Methods}{114}{section*.80}
+\contentsline {section}{\numberline {4.3}Usage}{115}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussions}{120}{section.4.4}
+\contentsline {chapter}{\numberline {5}Integration of High-Throughtput Omics data: IntegrHO}{123}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{124}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{125}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The main interface}{128}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Available Methodologies}{131}{subsection.5.2.2}
+\contentsline {subsubsection}{\gls {rnaseq}}{134}{section*.87}
+\contentsline {subsubsection}{\gls {chipseq}}{137}{section*.88}
+\contentsline {subsubsection}{\gls {atacseq}}{139}{section*.89}
+\contentsline {subsubsection}{Integration}{140}{section*.90}
+\contentsline {section}{\numberline {5.3}Reproducible Computational Research}{142}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussions}{143}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions}{145}{chapter.6}
+\contentsline {chapter}{\numberline {7}Bibliography}{149}{chapter.7}
+\contentsline {chapter}{List of Figures}{169}{chapter.7}
+\contentsline {chapter}{List of Tables}{173}{chapter.7}

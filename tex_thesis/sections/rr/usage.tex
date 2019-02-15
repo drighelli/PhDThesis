@@ -2,7 +2,7 @@ Here we report an example script where a general illustration of the \textit{eas
 
 As already mentioned, the class allows to report not only the \gls{cc}, but also to add personal titles and personal comments, enhancing the knowledge transfer between the ''back-side'' (the analyst/developer) and the ''front-side'' (the reader) users.
 Note that ''back-side'' and ''front-side'' can also be the data analyst and the collaborators, respectively.
-
+\\
 \begin{lstlisting}
 ## Creating report file with default options on global document
 rd <- easyreporting$new(filenamepath="./project_report", title="example_report", author=c("Dario Righelli"))
@@ -29,27 +29,22 @@ rd$mkdCodeChunkEnd()
 rd$mkdCodeChunkSt(optionsList=optList, source.files.list=c("R/cachingFunctions.R", "R/cachingFunctions.R"))
 rd$mkdCodeChunkEnd()
 
-
 rd$mkdCodeChunkComplete(message="a <- 1\nb <- 2\nc <- a+b\n print(c)")
-
 
 ## Otherwise I can make a direct call with all the code chunk and the comment in one call
 optList <- makeOptionsList(includeFlag=TRUE, cacheFlag=TRUE)
 
-rd$mkdCodeChunkCommented(commentMsg="This is the comment of the following code chunk",
-                    message="a <- 1\nb <- 2\n(c <- a+b)",
-                    optionsList=optList,
-                    source.files.list=NULL)
+rd$mkdCodeChunkCommented(commentMsg="This is the comment of the following code chunk", message="a <- 1\nb <- 2\n(c <- a+b)", optionsList=optList, source.files.list=NULL)
 
 ## finally I can directly compile my report
 rd$compile()
 \end{lstlisting}
- 
-The previous R script leads to automatically produce the following \textit{rmarkdown} file, where it is possible to see at rows 13 and 23 two titles at different levels.
-And additionally, starting from row 15 a describing paragraph, representing the additional comments that can be added to provide additional explanations to the following \gls{cc}.
+
+The previous R script leads to automatically produce the following rmarkdown file, where it is possible to see at rows 13 and 23 two titles at different levels.
+And additionally, starting from row 15, a describing paragraph representing the additional comments that can be added to provide additional explanations to the following \gls{cc}.
+\\
 
 \begin{lstlisting}
-
 ---
     title: "example_report"
     author: "Dario Righelli"
@@ -62,18 +57,15 @@ knitr::opts_chunk$set(eval=TRUE, echo=TRUE, warning=FALSE, message=FALSE, includ
 ```
 
 # First Level Title
-
 Here I'm writing a simple paragraph useful to describe my code chunk
 
 ```{r eval=TRUE, echo=TRUE, warning=FALSE, message=FALSE, include=TRUE, cache=TRUE}
-
 variable <- `variable`
 print(variable)
 
 ```
 ## Second Level Title
 ```{r eval=TRUE, echo=TRUE, warning=FALSE, message=FALSE, include=TRUE, cache=TRUE}
-
 ```
 
 ```{r eval=TRUE, echo=TRUE, warning=FALSE, message=FALSE, include=TRUE, cache=TRUE}
@@ -97,14 +89,15 @@ b <- 2
 ```
 \end{lstlisting}
 
-Thanks to the \lstinline!rd$compile()! command inside the first script, it automatically produces the final \textit{HTML} \textit{report} illustrated in figure \ref{fig:rrreport}.
+Thanks to the \lstinline!rd$compile()! command inside the first script, it automatically produces the final \gls{html} report illustrated in figure \ref{fig:rrreport}.
 
-Finally, the report in \gls{html} format provides a human readable document, where all the \gls{cc} are highlithed in grey, and the results in white.
-Titles and comments are in plain text, highlighting the natural language format of a self-explaining document.
-
-\begin{figure}[H]
+\begin{figure}[ht]
 \includegraphics[width=\textwidth, keepaspectratio]{img/rr/report.png}
 \caption[html report]{An example of HTML report produced with \textit{easyReporting} R package.}
 \label{fig:rrreport}
 \centering
 \end{figure}
+
+Finally, the report in \gls{html} format provides a human readable document, where all the \gls{cc} are highlithed in grey, and the results in white.
+Titles and comments are in plain text, highlighting the natural language format of a self-explaining document.
+
