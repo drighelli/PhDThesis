@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  18 FEB 2019 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  19 FEB 2019 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,6 +1622,9 @@ File: img/intro/cell.png Graphic file (type png)
  <use img/intro/cell.png>
 Package pdftex.def Info: img/intro/cell.png used on input line 16.
 (pdftex.def)             Requested size: 345.0pt x 191.74506pt.
+
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
 LaTeX Font Info:    Try loading font information for T1+phv on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1655,21 +1658,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <img/intro/hm.png, id=468, 473.77pt x 473.77pt>
 File: img/intro/hm.png Graphic file (type png)
  <use img/intro/hm.png>
-Package pdftex.def Info: img/intro/hm.png used on input line 76.
+Package pdftex.def Info: img/intro/hm.png used on input line 79.
 (pdftex.def)             Requested size: 227.62204pt x 227.61665pt.
- [16 <./img/intro/hm.png>]) (./sections/intro/seqs.tex
-Overfull \hbox (8.09897pt too wide) in paragraph at lines 3--5
-\T1/cmr/m/n/10 seq) or glsbsseq [[]2[]]), chro-matin ac-cess-ib-il-ity (e.g. []
-As-say for Transposase-Accessible
- []
-
-[17]
+ [16 <./img/intro/hm.png>]) (./sections/intro/seqs.tex [17]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [18])
 (./sections/intro/rna.tex
-<img/intro/rna-seq.png, id=530, 1021.8175pt x 806.01125pt>
+<img/intro/rna-seq.png, id=527, 1021.8175pt x 806.01125pt>
 File: img/intro/rna-seq.png Graphic file (type png)
 
 <use img/intro/rna-seq.png>
@@ -2523,7 +2521,7 @@ x-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (173 pages, 55559044 bytes).
+Output written on thesis.pdf (173 pages, 55558860 bytes).
 PDF statistics:
  3785 PDF objects out of 4296 (max. 8388607)
  2096 compressed objects within 21 object streams
