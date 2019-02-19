@@ -27,6 +27,8 @@ Moreover, it is clear that as soon as the analysis becomes more complex, and dif
 To face such limits, we noticed the growing interest by part of the scientific community in using interactive and user friendly software.
 This interest is led by multiple motivations, such as the need to analyze data very fast or the lack of time in learning programming languages and terminal-line based tools.
 
+The different types of data analysists, either expert bioinformaticians or expert experimental biologists,  
+
 Several interface-based tools \cite{Poplawski2016} have been proposed during last years but too often they were oriented to analyze singular-omics (such as \textit{RNASeqGUI} \cite{russo2015advantages}).
 However, in many cases such tools are organized as rigid pipelines, rather than interactive environments.
 

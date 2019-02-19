@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  15 FEB 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  18 FEB 2019 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2187,4 +2187,346 @@ t line 158.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [105 <./img/descan2/DE_peaks.png (PNG copy)>]
-Unde
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106 <./img/descan2/Annotated_depeaks_degenes.png>]) (./sections/descan2/concl
+usions.tex
+[107]
+Overfull \hbox (6.91212pt too wide) in paragraph at lines 12--13
+[]\T1/cmr/m/n/10 Despite these im-prove-ments, []\T1/cmr/m/it/10 DES-can2\T1/cm
+r/m/n/10 , from these pre-lim-in-ary res-ults, already
+ []
+
+) [108]
+Chapter 4.
+(./sections/rr/introchap.tex) (./sections/rr/intro.tex
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
+ [109
+
+]
+<img/rr/scheme.pdf, id=1984, 9104.88588pt x 4552.43803pt>
+File: img/rr/scheme.pdf Graphic file (type pdf)
+
+<use img/rr/scheme.pdf>
+Package pdftex.def Info: img/rr/scheme.pdf used on input line 8.
+(pdftex.def)             Requested size: 284.52756pt x 142.26334pt.
+ [110]
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [111 <./img/rr/scheme.pdf>]) (./sections/rr/methods.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 9.
+
+[112] <img/rr/knitropts.png, id=2099, 1666.225pt x 1219.55624pt>
+File: img/rr/knitropts.png Graphic file (type png)
+
+<use img/rr/knitropts.png>
+Package pdftex.def Info: img/rr/knitropts.png used on input line 20.
+(pdftex.def)             Requested size: 345.0pt x 252.50424pt.
+ [113 <./img/rr/knitropts.png>]
+Overfull \hbox (1.16803pt too wide) in paragraph at lines 40--42
+[]\T1/cmr/m/n/10 Otherwise it is pos-sible to cre-ate an en-tire []CC just with
+ []
+ []
+
+) (./sections/rr/usage.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
+
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+ [116]
+[117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+<img/rr/report.png, id=2207, 937.5025pt x 765.86125pt>
+File: img/rr/report.png Graphic file (type png)
+ <use img/rr/report.png>
+Package pdftex.def Info: img/rr/report.png used on input line 95.
+(pdftex.def)             Requested size: 345.0pt x 281.83334pt.
+) (./sections/rr/future.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119 <./img/rr/report.png>]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [120])
+[121] [122
+
+]
+Chapter 5.
+(./sections/integrho/general.tex
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+ [123])
+(./sections/integrho/intro.tex [124]
+<img/integrho/integrho_scheme.pdf, id=2249, 1024.29674pt x 597.50829pt>
+File: img/integrho/integrho_scheme.pdf Graphic file (type pdf)
+
+<use img/integrho/integrho_scheme.pdf>
+Package pdftex.def Info: img/integrho/integrho_scheme.pdf used on input line 25
+.
+(pdftex.def)             Requested size: 345.0pt x 201.24463pt.
+) (./sections/integrho/methods.tex
+[125]
+Underfull \vbox (badness 5817) has occurred while \output is active []
+
+ [126 <./img/integrho/integrho_scheme.pdf>] [127]
+<img/integrho/interface.png, id=2363, 1096.095pt x 800.9925pt>
+File: img/integrho/interface.png Graphic file (type png)
+
+<use img/integrho/interface.png>
+Package pdftex.def Info: img/integrho/interface.png used on input line 48.
+(pdftex.def)             Requested size: 345.0pt x 252.11841pt.
+ [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129 <./img/integrho/interface.png>]
+<img/integrho/design.png, id=2377, 1088.56688pt x 499.8675pt>
+File: img/integrho/design.png Graphic file (type png)
+
+<use img/integrho/design.png>
+Package pdftex.def Info: img/integrho/design.png used on input line 72.
+(pdftex.def)             Requested size: 345.0pt x 158.42014pt.
+
+<img/integrho/project_folder.pdf, id=2379, 1555.8125pt x 1304.875pt>
+File: img/integrho/project_folder.pdf Graphic file (type pdf)
+
+<use img/integrho/project_folder.pdf>
+Package pdftex.def Info: img/integrho/project_folder.pdf used on input line 82.
+
+(pdftex.def)             Requested size: 345.0pt x 289.34322pt.
+ [130 <./img/integrho/design.png>]
+[131 <./img/integrho/project_folder.pdf>]
+<img/integrho/integrho_pack_scheme.pdf, id=2418, 2358.8125pt x 1856.9375pt>
+File: img/integrho/integrho_pack_scheme.pdf Graphic file (type pdf)
+
+<use img/integrho/integrho_pack_scheme.pdf>
+Package pdftex.def Info: img/integrho/integrho_pack_scheme.pdf used on input li
+ne 108.
+(pdftex.def)             Requested size: 345.0pt x 271.58664pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 116.
+
+[132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133 <./img/integrho/integrho_pack_scheme.pdf>] [134] [135]
+
+LaTeX Warning: Citation 'Tarazona2012' on page 136 undefined on input line 172.
+
+
+
+Overfull \hbox (7.80064pt too wide) in paragraph at lines 172--173
+[]\T1/cmr/m/n/10 We se-lec-ted four dif-fer-ent meth-ods im-ple-men-ted in-side
+ \T1/cmr/m/it/10 edgeR\T1/cmr/m/n/10 , \T1/cmr/m/it/10 DESeq2\T1/cmr/m/n/10 , \
+T1/cmr/m/it/10 NOISeq
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 181.
+
+[136] [137]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 217.
+
+[138] [139] [140]) (./sections/integrho/reprres.tex [141]
+<img/integrho/rr_1.png, id=2510, 1161.33875pt x 776.9025pt>
+File: img/integrho/rr_1.png Graphic file (type png)
+
+<use img/integrho/rr_1.png>
+Package pdftex.def Info: img/integrho/rr_1.png used on input line 10.
+(pdftex.def)             Requested size: 155.24895pt x 103.84596pt.
+
+<img/integrho/rr_2.png, id=2511, 954.56625pt x 1053.9375pt>
+File: img/integrho/rr_2.png Graphic file (type png)
+
+<use img/integrho/rr_2.png>
+Package pdftex.def Info: img/integrho/rr_2.png used on input line 16.
+(pdftex.def)             Requested size: 155.24895pt x 171.3995pt.
+) [142 <./img/integrho/rr_1.png> <./img/integrho/rr_2.png>] (./sections/integrh
+o/conclusions.tex [143]) [144]
+Chapter 6.
+(./sections/conclusions.tex [145
+
+]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [146]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [147])
+[148]
+Chapter 7.
+[149
+
+] [150] [151] [152] [153] [154]
+Overfull \hbox (0.38191pt too wide) in paragraph at lines 381--381
+[]\T1/cmr/m/n/10 Robinson, J. T., Thor-valdsdót-tir, H., Winck-ler, W., Guttman
+, M., Lander,
+ []
+
+
+Overfull \hbox (0.56094pt too wide) in paragraph at lines 381--381
+\T1/cmr/m/n/10 plor-a-tion. \T1/cmr/m/it/10 Brief-ings in Bioin-form-at-ics \T1
+/cmr/bx/n/10 14, \T1/cmr/m/n/10 178^^U192. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 :
+ 14675463 (2013). 
+ []
+
+
+Overfull \hbox (4.0894pt too wide) in paragraph at lines 381--381
+\T1/cmr/m/n/10 lines: Forensic bioin-form-at-ics and re-pro-du-cible re-search 
+in high-throughput
+ []
+
+[155] [156]
+Overfull \hbox (0.22667pt too wide) in paragraph at lines 381--381
+\T1/cmr/m/n/10 form-at-ics re-source. \T1/cmr/m/it/10 Nuc-leic Acids Re-search.
+ \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 1362-4962. doi:[]$\T1/cmtt/m/n/10 10 . 10
+93 /
+ []
+
+
+Overfull \hbox (2.60838pt too wide) in paragraph at lines 381--381
+\T1/cmr/m/it/10 Nuc-leic acids re-search. \T1/cmr/m/sc/10 issn\T1/cmr/m/n/10 : 
+1362-4962. doi:[]$\T1/cmtt/m/n/10 10 . 1093 / nar / gku1179$[] \T1/cmr/m/n/10 (
+2015). 
+ []
+
+[157] [158] [159] [160] [161]
+Overfull \hbox (3.69116pt too wide) in paragraph at lines 381--381
+[]\T1/cmr/m/n/10 Thomas Kluyver, Ben-jamin Ragan-Kelley, Fernando Pérez, Brian 
+Granger,
+ []
+
+[162] [163] [164] [165] [166
+
+]
+No file thesis.acr.
+[167] [168
+
+] (./thesis.lof [169
+
+]
+Overfull \hbox (2.55492pt too wide) detected at line 27
+\T1/cmr/m/n/10 2.2.10 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 28
+\T1/cmr/m/n/10 2.2.11 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 38
+\T1/cmr/m/n/10 2.4.10 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 39
+\T1/cmr/m/n/10 2.4.11 
+ []
+
+
+Overfull \hbox (2.55492pt too wide) detected at line 40
+\T1/cmr/m/n/10 2.4.12 
+ []
+
+[170])
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
+
+ [171] [172
+
+] (./thesis.lot)
+\tf@lot=\write9
+\openout9 = `thesis.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+ [173
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
+ (./thesis.aux (./abstract.aux)
+(./acronym.tex.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 88E2D444E05CA7FFDB7130906202E618;12536.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ )
+(\end occurred when \iftrue on line 151 was incomplete) 
+Here is how much of TeX's memory you used:
+ 38118 strings out of 494835
+ 654225 string characters out of 6178234
+ 1036597 words of memory out of 5000000
+ 40204 multiletter control sequences out of 15000+600000
+ 31621 words of font info for 75 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 46i,12n,77p,10379b,3174s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/dario/.texmf-var
+/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/dario/.texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbi1000.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ectt0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt
+1000.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk>
+ </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk> </home/dar
+io/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/dario/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/dario/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm0700.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm0900.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home
+/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/dario/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/dario/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/dario/.texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecti1000.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1200.600pk> </home/dario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.
+600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type1/public/te
+x-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb>
+Output written on thesis.pdf (173 pages, 55559044 bytes).
+PDF statistics:
+ 3785 PDF objects out of 4296 (max. 8388607)
+ 2096 compressed objects within 21 object streams
+ 498 named destinations out of 1000 (max. 500000)
+ 939 words of extra memory for PDF output out of 10000 (max. 10000000)
+
