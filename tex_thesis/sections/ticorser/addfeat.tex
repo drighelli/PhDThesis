@@ -1,11 +1,11 @@
-\gls{tic} offers multiple additional features to support the user during the differential expression analysis of time-course \gls{rnaseq} data.
+\Gls{tic} offers multiple additional features to support the user during the differential expression analysis of time-course \gls{rnaseq} data.
 
 \subsubsection{Gene quantification}
 
 A fundamental aspect during \gls{rnaseq} analysis is the features (genes) quantification.
 To account for this, \gls{tic} give the possibility to quantify the gene expression, starting from \gls{bam} files, using the \lstinline!countBamFilesFeatureCounts! function, in order to guide and facilitate this operation to the user.
 
-The function is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
+The function is based on the \lstinline!featureCounts! method available through the \textit{Rsubread} R/Bioconductor package \cite{Liao2013}, hard coding some parameters, such as \lstinline!useMetafeatures! to \lstinline!TRUE! and \lstinline!allowMultiOverlap! to \lstinline!FALSE!.
 
 In order to be able to quantify for the transcription features, the user has to give as input a list of \gls{bam} files and a \gls{gtf} file.
 The first ones are tipically one file per sample, containing all the reads previously mapped to a reference genome, while the \gls{gtf} file describes all the features of the specific organism of interest. 
@@ -16,22 +16,22 @@ At the end of the processing, the \lstinline!countBamFilesFeatureCounts! functio
 Each cell of this matrix contains the expression value of the feature for the sample represented by that column.
 
 More formally, each row $i$ represents a specific feature, while each column $j$ represents a specific sample.
-The cell $c_{ij}$ contains the number of reads assigned to the $i-th$ feature for the $j-th$ sample.
+The cell $c_{ij}$ contains the number of reads assigned to the \textit{i-th} feature for the \textit{j-th} sample.
 
 \subsubsection{Functional Analysis}
 
-In order to obtain a first level of integration we implemented functions for the functional analysis, a process where lists of \glspl{deg} are used to understand the cellular mechanisms affected by the gene expression during the biological experiment.
+In order to obtain a first level of integration, we implemented functions for the functional analysis, a process where lists of \glspl{deg} are used to understand the cellular mechanisms affected by the gene expression during the biological experiment.
 
-We selected tools for the functional enrichment that collects databases for \gls{go} and for Pathway analysis. 
+We selected tools for the functional enrichment using multiple databases for \gls{go} and for Pathway analysis. 
 In particular, we chose the \textit{clusterProfiler} and \textit{gProfiler} R/Bioconductor packages \cite{Yu2012, Reimand2016}.
 While the choice of \textit{gProfiler} has been made for the updated databases used during the enrichment analysis, the selection of \textit{clusterProfiler} came out for the multiple plots it offers to visualize the results, even if it doesn't have the mostly updated databases for the \gls{go} and for the \textit{pathways}.
 
-The underlying idea of both methods is the same, they take a list of relevant genes (\glspl{deg} in our case) and check an hypergeometric test \gls{go} terms and pathways of publicly available datasets.
+The underlying idea of both methods is the same, they take a list of relevant genes (\glspl{deg} in our case) and perform an hypergeometric test for \gls{go} terms and pathways of publicly available datasets.
 For the multiple testing correction \textit{clusterPofiler} implements \gls{fdr}, while the \textit{gProfiler} package implements its own method for the correction.
 
 We designed the \lstinline!enrichKEGGFunction! and the \lstinline!enrichGOFunction! functions for testing the \textit{KEGG} pathways and the \gls{go} with \textit{clusterProfiler}.
-Moreover, the first function, automatically generates the network of pathways, while the second one saves an hierarchical tree of the enriched \gls{go} terms.
-While, for using the \textit{gProfiler} package we implemented the 
+Moreover, the first function automatically generates the network of pathways, while the second one saves an hierarchical tree of the enriched \gls{go} terms.
+While, for the \textit{gProfiler} package usage, we implemented the 
 \lstinline!enrichPathwayGProfiler! and the \lstinline!enrichGOGProfiler! functions for performing functional enrichment on pathways and \gls{go} databases.
 
 In order to facilitate the functional enrichment to the user, we designed the \lstinline!enrichSuited! function, which takes as input the \gls{tic} \lstinline!de.gene.list! to perform not only the pathway analysis, but also the \gls{go} enrichment both with \textit{clusterProfiler} and \textit{gProfiler}.
@@ -40,13 +40,14 @@ In order to facilitate the functional enrichment to the user, we designed the \l
 
 Usually, during a differential expression analysis, it is pretty common to have the need to compare multiple \glspl{deg} results list.
 In order to facilitate this need we developed three different functions for \textit{Venn} diagrams, \lstinline!Venn2de!, \lstinline!Venn3de! and \lstinline!Venn4de!, respectively for two, three and four lists.
-During this process, it is often required not just to show the graphical plot, but it's most important to show the gene lists resulting from the intersections and disjunctions of the Venns.
-To afford this aim these functions take as input the gene lists to compare and automatically store output file lists within the resulting lists of all the areas of the produced Venns.
+During this process, it is often required not just to show the graphical plot, but it is relevant to detect the resulting gene lists from intersections and disjunctions of the Venns.
+To achieve this objective, these functions take as input the gene lists to compare and automatically store output file lists within the resulting lists of all the areas of the produced Venns.
 
 \subsubsection{Gene Identifiers Conversion}
 
 The \gls{tic} package exports multiple functions for the gene names manipulation. 
 Indeed, it is very common the need to convert \glspl{deg} list from a specific identifier to another.
+
 We developed \lstinline!convertGenesViaMouseDb! and \lstinline!convertGenesViaBiomart! useful for converting a \glspl{deg} list using the \textit{org.Mm.eg.db} \cite{Carlson2018} for \textit{Mouse} and using the \textit{biomaRt} R/Bioconductor package for \textit{Human, Mouse} and \textit{Rat}.
 Additionally, it is possible to easily attach the resulting list to a \textit{dataframe}, by using the \lstinline!attachGeneColumnToDf! function, which takes care of adding a new column within the mapped identifiers in the right places of the original \textit{dataframe}.
 
@@ -54,7 +55,7 @@ Additionally, it is possible to easily attach the resulting list to a \textit{da
 
 To speed up the reading and writing of input/output files, \gls{tic} offers two main functions, \lstinline!readDataFrameFromTSV! and \lstinline!writeDataFrameAsTSV!.
 
-In the first case, there is only one mandatory parameter, the \lstinline!file.name.path!, even if gives the possibility to change the classical parameters as \lstinline!row.names.col, headed.flag, sep, quote.char!.
+In the first case, there is only one mandatory parameter, the \lstinline!file.name.path!, even if gives the possibility to change the classical parameters as \lstinline!row.names.col!, \lstinline!headed.flag!, \lstinline!sep!, \lstinline!quote.char!.
 
 While in the second case the function requires the \lstinline!data.frame.to.save! and the \lstinline!file.name.path! where to store the object. 
 Also, in this case, it is possible to set the classical parameters as \lstinline!col.names! and \lstinline!row.names!.

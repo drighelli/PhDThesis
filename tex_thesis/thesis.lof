@@ -16,50 +16,50 @@
 \contentsline {figure}{\numberline {1.3.3}{\ignorespaces Integration Funnell}}{30}{figure.caption.13}
 \contentsline {figure}{\numberline {1.4.1}{\ignorespaces RR generic scheme}}{33}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.2.2}{\ignorespaces \gls {tic} LRT\_TC trend}}{43}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2.3}{\ignorespaces \gls {tic} LRT\_T trend}}{45}{figure.caption.19}
-\contentsline {figure}{\numberline {2.2.4}{\ignorespaces \gls {tic} LRT\_NOInteraction trend}}{46}{figure.caption.21}
-\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser boxplot}}{49}{figure.caption.25}
-\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser pca}}{50}{figure.caption.26}
-\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser pca}}{51}{figure.caption.27}
-\contentsline {figure}{\numberline {2.2.8}{\ignorespaces ticorser volcano}}{53}{figure.caption.29}
-\contentsline {figure}{\numberline {2.2.9}{\ignorespaces ticorser MAplot}}{54}{figure.caption.30}
-\contentsline {figure}{\numberline {2.2.10}{\ignorespaces ticorser gene profile}}{55}{figure.caption.32}
-\contentsline {figure}{\numberline {2.2.11}{\ignorespaces ticorser keggmap}}{56}{figure.caption.34}
-\contentsline {figure}{\numberline {2.4.1}{\ignorespaces ticorser dataset}}{61}{figure.caption.40}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{40}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces \gls {tic} LRT\_TC trend}}{45}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2.3}{\ignorespaces \gls {tic} LRT\_T trend}}{46}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2.4}{\ignorespaces \gls {tic} LRT\_NOInteraction trend}}{47}{figure.caption.21}
+\contentsline {figure}{\numberline {2.2.5}{\ignorespaces ticorser boxplot}}{50}{figure.caption.25}
+\contentsline {figure}{\numberline {2.2.6}{\ignorespaces ticorser pca}}{51}{figure.caption.26}
+\contentsline {figure}{\numberline {2.2.7}{\ignorespaces ticorser pca}}{52}{figure.caption.27}
+\contentsline {figure}{\numberline {2.2.8}{\ignorespaces ticorser volcano}}{54}{figure.caption.29}
+\contentsline {figure}{\numberline {2.2.9}{\ignorespaces ticorser MAplot}}{55}{figure.caption.30}
+\contentsline {figure}{\numberline {2.2.10}{\ignorespaces ticorser gene profile}}{56}{figure.caption.32}
+\contentsline {figure}{\numberline {2.2.11}{\ignorespaces ticorser keggmap}}{57}{figure.caption.34}
+\contentsline {figure}{\numberline {2.4.1}{\ignorespaces ticorser dataset}}{62}{figure.caption.40}
 \contentsline {figure}{\numberline {2.4.2}{\ignorespaces ticorser filtering methods}}{65}{figure.caption.45}
-\contentsline {figure}{\numberline {2.4.3}{\ignorespaces ticorser normalizing boxplots}}{67}{figure.caption.46}
+\contentsline {figure}{\numberline {2.4.3}{\ignorespaces ticorser normalizing boxplots}}{66}{figure.caption.46}
 \contentsline {figure}{\numberline {2.4.4}{\ignorespaces ticorser normalizing \gls {pca}}}{68}{figure.caption.47}
 \contentsline {figure}{\numberline {2.4.5}{\ignorespaces ticorser Volcano-MA plots}}{71}{figure.caption.50}
-\contentsline {figure}{\numberline {2.4.6}{\ignorespaces ticorser venn diagram}}{73}{figure.caption.51}
-\contentsline {figure}{\numberline {2.4.7}{\ignorespaces ticorser genes trends}}{74}{figure.caption.52}
-\contentsline {figure}{\numberline {2.4.8}{\ignorespaces ticorser venn diagram single time point}}{76}{figure.caption.54}
-\contentsline {figure}{\numberline {2.4.9}{\ignorespaces ticorser pathway network}}{78}{figure.caption.56}
-\contentsline {figure}{\numberline {2.4.10}{\ignorespaces ticorser hierarchial GO-terms}}{80}{figure.caption.57}
-\contentsline {figure}{\numberline {2.4.11}{\ignorespaces ticorser alzheimer keggmap}}{81}{figure.caption.58}
-\contentsline {figure}{\numberline {2.4.12}{\ignorespaces ticorser parkinson keggmap}}{82}{figure.caption.59}
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces ticorser mainflow}}{85}{figure.caption.15}
+\contentsline {figure}{\numberline {2.4.6}{\ignorespaces ticorser venn diagram}}{72}{figure.caption.51}
+\contentsline {figure}{\numberline {2.4.7}{\ignorespaces ticorser genes trends}}{73}{figure.caption.52}
+\contentsline {figure}{\numberline {2.4.8}{\ignorespaces ticorser venn diagram single time point}}{75}{figure.caption.54}
+\contentsline {figure}{\numberline {2.4.9}{\ignorespaces ticorser pathway network}}{77}{figure.caption.56}
+\contentsline {figure}{\numberline {2.4.10}{\ignorespaces ticorser hierarchial GO-terms}}{78}{figure.caption.57}
+\contentsline {figure}{\numberline {2.4.11}{\ignorespaces ticorser alzheimer keggmap}}{79}{figure.caption.58}
+\contentsline {figure}{\numberline {2.4.12}{\ignorespaces ticorser parkinson keggmap}}{80}{figure.caption.59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{90}{figure.caption.60}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{96}{figure.caption.62}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{97}{figure.caption.64}
-\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{98}{figure.caption.65}
-\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{99}{figure.caption.67}
-\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{100}{figure.caption.69}
-\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{102}{figure.caption.71}
-\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{103}{figure.caption.72}
-\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{105}{figure.caption.74}
-\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{106}{figure.caption.75}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces DEScan2 workflow}}{86}{figure.caption.60}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces DEScan2 dataset illustration}}{92}{figure.caption.62}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces The \gls {descan} and \textit {MACS2} peaks detection}}{93}{figure.caption.64}
+\contentsline {figure}{\numberline {3.3.3}{\ignorespaces \gls {descan} peaks detection}}{94}{figure.caption.65}
+\contentsline {figure}{\numberline {3.3.4}{\ignorespaces \gls {descan} and \textit {MACS2} filtering comparison}}{95}{figure.caption.67}
+\contentsline {figure}{\numberline {3.3.5}{\ignorespaces \gls {descan} counts illustration}}{96}{figure.caption.69}
+\contentsline {figure}{\numberline {3.3.6}{\ignorespaces Normalizations applied to null dataset}}{98}{figure.caption.71}
+\contentsline {figure}{\numberline {3.3.7}{\ignorespaces Normalizations applied to detected regions}}{99}{figure.caption.72}
+\contentsline {figure}{\numberline {3.3.8}{\ignorespaces Differential Enrichment Regions Volcano}}{101}{figure.caption.74}
+\contentsline {figure}{\numberline {3.3.9}{\ignorespaces Annotated Differential Enrichment Regions Volcano}}{102}{figure.caption.75}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1.1}{\ignorespaces Reproducible Research illustration}}{111}{figure.caption.77}
-\contentsline {figure}{\numberline {4.2.1}{\ignorespaces knitr options}}{113}{figure.caption.79}
-\contentsline {figure}{\numberline {4.3.1}{\ignorespaces html report}}{119}{figure.caption.81}
+\contentsline {figure}{\numberline {4.1.1}{\ignorespaces Reproducible Research illustration}}{107}{figure.caption.77}
+\contentsline {figure}{\numberline {4.2.1}{\ignorespaces knitr options}}{109}{figure.caption.79}
+\contentsline {figure}{\numberline {4.3.1}{\ignorespaces html report}}{115}{figure.caption.81}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1.1}{\ignorespaces \gls {igro} representation}}{126}{figure.caption.82}
-\contentsline {figure}{\numberline {5.2.1}{\ignorespaces \gls {igro} main interface}}{129}{figure.caption.83}
-\contentsline {figure}{\numberline {5.2.2}{\ignorespaces \gls {igro} design interface}}{130}{figure.caption.84}
-\contentsline {figure}{\numberline {5.2.3}{\ignorespaces \gls {igro} folder tree}}{131}{figure.caption.85}
-\contentsline {figure}{\numberline {5.2.4}{\ignorespaces \gls {igro} packages scheme}}{133}{figure.caption.86}
-\contentsline {figure}{\numberline {5.3.1}{\ignorespaces \gls {igro} report editing}}{142}{figure.caption.91}
+\contentsline {figure}{\numberline {5.1.1}{\ignorespaces \gls {igro} representation}}{122}{figure.caption.82}
+\contentsline {figure}{\numberline {5.2.1}{\ignorespaces \gls {igro} main interface}}{125}{figure.caption.83}
+\contentsline {figure}{\numberline {5.2.2}{\ignorespaces \gls {igro} design interface}}{126}{figure.caption.84}
+\contentsline {figure}{\numberline {5.2.3}{\ignorespaces \gls {igro} folder tree}}{127}{figure.caption.85}
+\contentsline {figure}{\numberline {5.2.4}{\ignorespaces \gls {igro} packages scheme}}{129}{figure.caption.86}
+\contentsline {figure}{\numberline {5.3.1}{\ignorespaces \gls {igro} report editing}}{138}{figure.caption.91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -54,10 +54,10 @@ By using the \lstinline!plotPCAMatrixPlotly! function it's possible to compare m
 
 
 \subsubsection{DE Results Plots}
-In order to inspect the results produced by so many different \textit{DE} methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MAPlot}.
+In order to inspect the results produced by DE methods, we implemented two kind of plots, the \textit{VolcanoPlot} and the \textit{MA-Plot}.
 
-Both our implemented methods take as input a \textit{DE} results data frame, automatically recognizing which method produced it, lightning, in such a way, the user load during the analysis.
-Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the volcano plot with a third colour (figure \ref{fig:ticorservolcano}).
+Both our implemented methods take as input a DE results data frame, automatically recognizing which method produced it, in order to speed up the user cares during the analysis.
+Moreover, it gives the possibility to add a list of positive control genes, in order to annotate them on the plot with a third colour (figure \ref{fig:ticorservolcano}).
 
 The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of each gene, in order to highlight the significant changes inside the data experiment.
 
@@ -68,8 +68,8 @@ The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of e
 \label{fig:ticorservolcano}
 \end{figure}
 
-The MA-Plot shows the relation between the two quantities useful to understand the differences between the measurements in two conditions.
-On the x-axis, there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference.
+The MA-Plot shows the relation between  two quantities useful to understand the differences between the measurements in two conditions.
+Indeed, on the x-axis, there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference control.
 It is not mandatory to have a DE-results dataframe to plot an MA-plot, but it's pretty useful to have it in order to highlight the distribution of the significant genes (figure \ref{fig:ticorsermaplot}).
  
 \begin{figure}[H]
@@ -81,9 +81,9 @@ It is not mandatory to have a DE-results dataframe to plot an MA-plot, but it's 
 
 
 \subsubsection{Gene Profiles plot}
-When working with time course data experiment, it is really useful to understand the trend of one or more genes across all the time points and of one condition in relation to the other.
+When working with time course data experiment, it is really useful to understand the trend of one or more genes across all the time points and the relation between the conditions.
 
-In order to highlight the gene expression of a gene across multiple time points and different conditions, we implemented the \lstinline!plotGeneProfile! function, which takes as input a count matrix, its linked design matrix and a gene name (figure \ref{fig:ticorsertrends}).
+In order to highlight the expression of a gene across multiple time points and different conditions, we implemented the \lstinline!plotGeneProfile! function, which takes as input a count matrix, its related design matrix and a gene name (figure \ref{fig:ticorsertrends}).
 
 \begin{figure}[H]
 \centering
@@ -94,10 +94,11 @@ In order to highlight the gene expression of a gene across multiple time points 
 
 
 \subsubsection{KEGG-Maps}
-Once detected \glspl{deg} it is really important to look for functional mechanisms regulated by up-regulated and down-regulated genes. 
+Once detected the \glspl{deg}, it is really important to inspect for functional mechanisms regulated by up and down-regulated genes. 
 
-\gls{tic} offers the possibility to plot \textit{keggmaps}\cite{Kanehisa2016} taking into account the $log_2(FC)$ of the genes involved in the graphical representation, through all the time points.
-Indeed, using the \lstinline!plotKeggmap! function enables to plot a \textit{keggmap}, using as input the counts and the design matrix, computing the $log_2(FC)$ at each time point, and showing it in the gene box inside the \textit{KEGG} map.
+\Gls{tic} offers the possibility to plot \textit{keggmaps} \cite{Kanehisa2016} taking into account the $log_2(FC)$ of the genes involved in the graphical representation, through all the time points.
+Indeed, using the \lstinline!plotKeggmap! function, the software enables to plot a keggmap, using as input the counts and the design matrix, computing the $log_2(FC)$ at each time point, and showing it in the gene box inside the \textit{KEGG} map.
+The color legend in the upper part of the figure indicates color associated to the up and down regulated genes.
 
 \begin{figure}[H]
 \includegraphics[width=12cm, keepaspectratio]{img/ticorser/keggmap_example.png}
