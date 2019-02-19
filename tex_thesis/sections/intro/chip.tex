@@ -17,9 +17,11 @@ After the \gls{dna} purification, the genetic matherial is linked to specific ad
 The library preparation consists into locking biological processes with formaldehyde and then cutting the chromatin into small fragments with sonication.
 Afterwards, a specific antibody for the interested protein is used to immunoprecipitate the \gls{dna}-protein complex, in order to be purified and, after amplification, to be sequenced.
 
-When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP experiments because, even if the library preparation is the same (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different on used methodologies because of different signal produced by them.
-Indeed, after read mapping on a reference genome, the reads need to be processed with methodologies for the protein-binding regions detection, that are typically called \textit{Peak Callers}.
-After the peak calling process it is possible to highlight that the \gls{tf} signals (peaks) are more narrowed respect to the ones detected for \gls{hm}, leading to develop different methodologies for investigating further aspects for each one of these \gls{chipseq} signals.
+When analyzing the data, it is relevant to distinguish between \gls{hm} and \gls{tf} ChIP experiments because, even if the library preparation is similar (it differs only for the antibody used, just because the proteins are different), the data analysis pipeline is different because of the different signal shapes.
+Indeed, after read mapping on a reference genome, the reads are
+%need to be 
+processed with methodologies for the protein-binding regions detection, known as \textit{Peak Callers}.
+After the peak calling process it is possible to highlight that the \gls{tf} signals (peaks) are more narrowed respect to the ones detected for \gls{hm}, leading to develop different methodologies for investigating further aspects for each one of these \gls{chipseq} signals, such as \textit{MACS} \cite{Zhang2008} and \textit{SICER} \cite{Zang2009}.
 
 \begin{figure}[H]
 \centering

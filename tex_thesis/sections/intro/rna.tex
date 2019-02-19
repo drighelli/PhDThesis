@@ -1,8 +1,8 @@
-Since the beginning of modern biology, gene expression is part of the central dogma of molecular biology.
+Since the beginning of modern biology, gene expression has been part of the central dogma of molecular biology.
 Of course, during the decades some aspects have changed, but the \gls{rna} transcripts still have very high relevance.
-Nowadays, \gls{rnaseq} \cite{Thermes2014, Wang2009, Costa2010, Ozsolak2011} is the most widely used technology to understand gene related regulatory mechanisms in response to stress conditions or drug treatments and progressions of several diseases \cite{Costa2013}.
+Nowadays, \gls{rnaseq} \cite{Thermes2014, Wang2009, Costa2010, Ozsolak2011} is one of the most widely used technologies to understand gene related regulatory mechanisms in response to stress conditions or drug treatments and progressions of several diseases \cite{Costa2013}.
 
-The main aim of \gls{rnaseq} experiment is to highlight which genes are increasingly (\textit{up-regulated}) or decreasingly (\textit{down-regulated}) altered when comparing two or more conditions at a specific instant in time or in subsequent time points (time-course experiment), in order to identify the biological mechanisms regulating such changes.
+The main aim of \gls{rnaseq} experiments is to highlight which genes are increasingly (\textit{up-regulated}) or decreasingly (\textit{down-regulated}) altered when comparing two or more conditions at a specific instant in time (steady-state experiment) or in subsequent time points (time-course experiment), in order to identify the biological mechanisms regulating such changes.
 
 However, \gls{rnaseq} also offers the possiblity to identify and investigate isoforms abundance \cite{Trapnell2010, Roberts2011, Roberts2011a, Trapnell2013}.
 Although, such aspect will not be further treated in this thesis.
@@ -27,9 +27,10 @@ Afterwards, the so-obtained reads need to be analyzed with several tools, depend
 % Indeed, when working with this data the number of already developed and available methods is so high that for a non-expert user is really easy to understand where to start.
 
 
-In particular we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. 
-Figure \ref{fig:rnaseqan} shows a pipeline we designed for the \textit{RNASeqGUI} \cite{russo2015advantages} software for \gls{rnaseq} data analysis.
-After the alignment of the reads on a species's reference genome, the software allows for the quantification of mapped reads producing a count matrix of the samples (on the columns) and the genes related features (on the rows), typically the identifiers depend on the annotation database used by the analyzer.
+In particular, we focused on differential gene expression in case of multiple biological conditions, due to stress, drug treatments, disease-specific, etc. 
+Figure \ref{fig:rnaseqan} shows a pipeline we designed for the \textit{RNASeqGUI} \cite{russo2015advantages} a well-known software for \gls{rnaseq} data analysis.
+After the alignment of the reads on a species's reference genome, the software allows for the quantification of mapped reads producing a count matrix $M \in \mathbb{R}$ of the $n$ samples (on the columns) and the $p$ genes related features (on the rows).
+Typically the identifiers (gene-names) depend on the annotation database used by the analyzer.
 
 
 \begin{figure}[H]
@@ -44,7 +45,9 @@ Finally the results can be graphically inspected and/or integrated with Gene Ont
 \label{fig:rnaseqan}
 \end{figure}
 
-The count matrix needs to be filtered from low expressed features and then normalized across the samples, to reduce specific bias for each sample.
-Then, depending on the experimental design (simple or complex), it is possible to choose between several methods for the detection of differential expression of the features between the conditions (see section \ref{sec:ticorsermethods}).
-Finally, the significant features can be integrated with databases of biological functionalities in order to detect the mostly influenced ones.
+The count matrix needs to be filtered to remove low expressed features and then normalized across the samples, to reduce specific bias for each sample.
+Then, depending on the experimental design (simple or complex), it is possible to choose between several hypothesis testing algorithms for detecting differentially expressed features (genes) between the conditions (see section \ref{sec:ticorsermethods}).
+Finally, it is possible to combine the identified features with the annotated information available inside external databases to detect altered pathways and biological functionalities.
+
+%the significant features can be integrated with databases of biological functionalities in order to detect the mostly influenced ones.
 
