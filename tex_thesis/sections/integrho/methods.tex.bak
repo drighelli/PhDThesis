@@ -30,17 +30,20 @@ Shiny apps are typically designed for small applications, allowing a very easy a
 The basic structure of a shiny app is based on two main entities, the \gls{sui} and the \gls{ss}.
 The first one includes all the aesthetic components which the user interacts with, while the \gls{ss} processes all the computations.
 
-Natively, shiny apps support only one server, but when the needs grow up and multiple interfaces are needed the things become more complicated. 
-
-Our case is composed of a high number of methodologies for multiple-omics problem solving and required a more complex implementation.
-To account our problematic, we choose to build \gls{igro} as self-containing modules, by using recently born shiny modules technology\footnote{\url{https://shiny.rstudio.com/articles/modules.html}}.
+Natively, shiny apps support only one server, limiting the implementation features when more sophisticated analysis are required, such those in multi-omics data analysis and integration.
+%but when the needs grow up and multiple interfaces are needed the things become more complicated. 
+%Indeed, Our case is composed of a high number of methodologies for multiple-omics problem solving and required a more complex implementation.
+Indeed, to account this problematic, Shiny libraries have been recently extended with the shiny modules technology\footnote{\url{https://shiny.rstudio.com/articles/modules.html}}, allowing us to build \gls{igro} as a combination of self-containing modules.
 In such a way, the main shiny app can be shredded into multiple "mini apps", each one with its own \gls{sui} and \gls{ss}.
 This approach is totally invisible to the final user, but helps the developer for the maintainability and the extensibility of the entire tool.
-Indeed, when future needs arise for the implementation of novel functionalities, it is necessary just to implement a novel module.
+Indeed, when future needs arise for the implementation of novel functionalities, it will be only necessary to add a novel module.
 
-Our tool presents itself with an upper menu of main topics organized by main scopes. 
-For each of these topics, a sub-menu with specific functionalities is available.
-When additional functionalities are available, they appear in a left side menu.
+The upper part of \gls{igro} interace displays a menu bar, which organizes the analytics features in main topics.
+Each topic contains a sub-menu within broad categories of functionalities.
+By accessing a specific category, the list of available functions is displayed on a left side menu.
+%Our tool presents itself with an upper menu of main topics organized by main scopes. 
+%For each of these topics, a sub-menu with specific functionalities is available.
+%When additional functionalities are available, they appear in a left side menu.
 In order to well set up the parameters for each functionality, an additional side menu is presented with the parameters and their possible values for the right setup (figure \ref{fig:integrhomain} shows a general representation of the main interface).
 
 \begin{figure}[ht]
@@ -52,20 +55,20 @@ In order to well set up the parameters for each functionality, an additional sid
 
 Once the user set up the required parameters and pressed the section button, the parameters are processed and the results are shown in graphical or table format in the main part of the interface.
 
-We decided to implement \gls{igro} as a design file based software.
-Because of the high number of samples needed for the data analysis, the user needs to specify several variables describing each sample.
-This is useful for defining samples belonging to the same condition, and to specify which is the omics for each sample, and some additional describing variables.
+%We decided to implement \gls{igro} as a design file based software.
+Before to proceed to the data analysis, it is mandatory for the user to set up the project with a dedicated interface.
+
+One of the key concepts in the implementation of \gls{igro} is the ''experimental design file'', which the user has to upload and, if needed, to manually edit directly from the interface (figure \ref{fig:integrhodesign}).
+%Because of the high number of samples needed for the data analysis, 
+In such file the user needs to specify several information describing each data file describing the under investigation experiment.
+This is useful for defining samples belonging to the same condition and to the same omics data type. Moreover, some additional describing variables are mandatory, such as the filename (with path) of the \gls{bam} files and the conditions of each sample, while others are optional as the tissue or the run id. 
 The design file information will be used during all the following steps of the analysis.
 
-Before to proceed to the data analysis, it is mandatory for the user to set up the project with a dedicated interface.
-The user has to upload the design file which describes the information related to its samples.
-Some of them are mandatory, such as the filename (with path) of the \gls{bam} files and the conditions of each sample, while others are optional as the tissue or the run id. 
-It is also possible to manually edit the design file directly from the interface (figure \ref{fig:integrhodesign}).
 
 The choice of using a mandatory variable describing the path of  \gls{bam} filenames is due to a \textit{Shiny} library limitation. 
 Because of its ''UI-server'' structure, shiny applications, when using a \lstinline!fileInput! widget, make a temporary copy of the selected file(s).
 But this aspect becomes really problematic when a file can reach several gigabytes of memory on disk, as one or more \gls{bam} files can.
-Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures, bringing us to choose for this workaround solution.
+Even if there are alternative packages, such as \textit{shinyFiles} \cite{Pedersen}, offering the possibility to solve the problem, they are not very well tested over multiple platform architectures. %bringing us to choose for this workaround solution.
 
 \begin{figure}[ht]
 \centering
@@ -96,9 +99,9 @@ Actually, \gls{igro} methodologies have been organized in a way that the user ca
 
 In particular, we defined specific interfaces for \gls{rnaseq}, \gls{chipseq} and \gls{atacseq} data, providing additional interfaces for their integration, such as \textit{functional enrichment} and \textit{gene-peak} annotations.
 
-Moreover, through the \lstinline!graphics! interface the user have the possibility to between a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, \textit{keggmap}, etc.
+Moreover, through the \lstinline!graphics! interface the user has the possibility to choose between a great variability of graphics, useful to explore data and results, both in pre-processing and post-processing phase, such as \textit{barplots}, \textit{correlation plots}, \textit{heatmap}, \textit{scatterplots}, \textit{keggmap}, etc.
 
-Inside \gls{igro}, we take from granted that every omics data type is already mapped on a reference genome, with already available \gls{bam} files for every sample the user wants to investigate.
+\Gls{igro} starts from already mapped samples, starting the omics analysis from already available \gls{bam} files for every sample the user wants to investigate.
 
 Figure \ref{fig:integrhopackscheme} shows a schematic representation of implemented packages inside \gls{igro}.
 The upper part shows the single-omics packages used for the analysis of \gls{rnaseq}, \gls{chipseq} and \gls{atacseq}, while the lower part refers to the multi-omics integration, showing the packages used for \textit{functional analysis} and \textit{peak-gene annotations}.
@@ -114,13 +117,13 @@ The upper part shows the packages for the the single-omics analysis, while the l
 %It implements not only the methodologies reported inside \textit{ticorser} for \gls{rnaseq} and \textit{DEScan2} for \gls{atacseq}, but implements also methodologies for \gls{chipseq} data analysis, complementing these aspects by providing functionalities for their integration at different levels, such as functional enrichment with Gene Ontology and Pathways and peaks-genes annotation.
 
 \subsubsection{\gls{rnaseq}} \label{sec:integrhorna}
-For \gls{rnaseq} we chose multiples methods for allowing the user to obtain a good overview of this omics analysis, focusing on \textit{Differential Expression} aspect.
-In such a way, the user have several methodologies for accounting for a complete \gls{rnaseq} pipeline (refer to \ref{sec:rnaseq} section for a typical \gls{rnaseq} pipeline description).
 
+For \gls{rnaseq} data analysis section we chose multiples methodologies in order to allow the user to have a good overview of the entire \textit{Differential Expression} analysis steps.
+In such a way, the user has several methodologies for accounting a complete \gls{rnaseq} pipeline (refer to \ref{sec:rnaseq} section for a typical \gls{rnaseq} pipeline description).
 
 %{\setlength{\parindent}{0cm}\textbf{Features Quantification}}
 
-When working with \gls{rnaseq} data it is really important to quantify the reads contained inside the \gls{bam} files associating them to genomic features.
+When working with \gls{rnaseq} data it is really important to quantify the reads contained inside \gls{bam} files associating them to genomic features.
 To do that, it is necessary a file with the genomic features description, typically a \gls{gtf} file (defined in \ref{sec:ticorseresults} section) describing the genomic coordinates for each feature (genes, transcripts etc.).
 
 To account for genomic feature quantification, the user has to select the \lstinline!Quantify Counts! interface, designed for \lstinline!featureCounts! of \lstinline!Rsubread! R/Bioconductor package function \cite{Liao2014} appears.
@@ -135,12 +138,12 @@ At the end of the processing, the resulting count matrix is presented in the mai
 
 %{\setlength{\parindent}{0cm}\textbf{Counts Filtering and Normalization}}
 
-When working with \gls{rnaseq} data, several features are too low expressed to be kept, because their expression will affect the further analysis, leading to biased results.
+When working with \gls{rnaseq} data, several features (genes) are lowly expressed, affecting the further analysis and leading to biased results.
 When selecting the \lstinline!Filter Counts! the designed interface automatically loads the counts files inside the \lstinline!IntegrHO/project_name/counts!, otherwise allowing, with a \lstinline!fileInput! widget, to chose another count matrix file.
 It is possible to switch between three different filtering methods (\textit{Proportion Test}, \textit{Wilcoxon Test}, \textit{CPM}), as defined inside the \lstinline!filtered.data! function of \textit{NOISeq} R/Bioconductor package \cite{Tarazona2011, Tarazona2015}.
 
 The filtered-in features need to be normalized in order to be compared across multiple conditions.
-Also in this case, a not proper data normalization can head to misleading results.
+Also in this case, a not proper data normalization can lead to misleading results.
 
 The same type of interface built for the filtering step is loaded when the \lstinline!Normalize Counts! menu voice is selected.
 Three different normalization methods can be selected, the \textit{Trimmed Mean of M-values} \cite{Robinson2010}, the \textit{Upper Quartile} and the \textit{Full Quantile}.
