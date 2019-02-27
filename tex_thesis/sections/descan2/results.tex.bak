@@ -1,11 +1,11 @@
 \subsubsection{Data Description and Preprocessing}
-\textit{ATAC-seq} is an emerging evoluted technique which enables to investigate the open chromatin regions at whole genome level.
+\gls{atacseq} is an emerging evoluted technique which enables to investigate the open chromatin regions at whole genome level.
 The capability of this technology has been demonstrated in the regulation of mouse brain activity under different conditions \cite{Su2017}.
 
-To illustrate the performances of \gls{descan} we chose a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using \textit{ATAC-seq} and \textit{RNA-seq} technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
+To illustrate the performances of \gls{descan} we chose a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using \gls{atacseq} and \gls{rnaseq} technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
 
-This dataset is organized in 62 samples of \textit{ATAC-seq} and \textit{RNA-seq}, extracted at four different time points (0, 1h, 4h, 24h), with four replicates at each time point.
-We chose to compare the differences between the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a potential \textit{ATAC-seq} workflow for Differential Enrichment, and how to integrate this data type with \textit{RNA-seq}. A general illustration of this dataset is represented in figure \ref{fig:atacdataset}.
+This dataset is organized in 62 samples of \gls{atacseq} and \gls{rnaseq}, extracted at four different time points (0, 1h, 4h, 24h), with four replicates at each time point.
+We chose to compare the differences between the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a potential \gls{atacseq} workflow for Differential Enrichment, and how to integrate this data type with \gls{rnaseq}. A general illustration of this dataset is represented in figure \ref{fig:atacdataset}.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth, keepaspectratio]{img/descan2/dataset.png}
@@ -67,12 +67,14 @@ Moreover, comparing the left and right panels, we notice the high difference in 
 Using \textit{MACS2} peaks the pooling highly reduces the number of detected peaks, even using a threshold as low as 5 on the score, showing that there are many peaks with a score lower than 5.
 While in the \gls{descan} case the curves representing the threshold equal to 5 and the threshold equal to 10 totally overlap, highlighting that the \gls{descan} peak caller produces scores higher than 10.
 
+Finally, in order to obtain a unique list of peaks, we choose a number of samples equal to 4 for the alignment step, which is a multiple of the total number of samples, in combination with a threshold of 10 for the peaks score filtering.
+
 %\textbf{MAGARI QUESTO CONFRONTO è DA EVITARE NON FILTRANDO CON IL NOSTRO METODO I PICCHI DI MACS2, NON SO!}
 
 \subsubsection{Quantifying Peaks}
 
 Afterwards, the filtered-in regions can be processed by \gls{descan} in order to obtain a count matrix with samples on the columns and peaks on the rows.
-This type of data structure is very versatile because it enables to perform several operations, like the \glspl{der} and the integration with other kinds of omics, as \textit{RNA-seq}.
+This type of data structure is very versatile because it enables to perform several operations, like the \glspl{der} and the integration with other kinds of omics, as \gls{rnaseq}.
 
 \begin{figure}[H]
 \centering
@@ -89,7 +91,7 @@ In order to preserve the information associated to the peaks, \gls{descan} produ
 
 Before detecting \glspl{der}, it is a good practice to normalize the data.
 This is especially needed when working with neuroscience data, where many possible sources of technical and biological noise can confound the analysis \cite{Peixoto2015}.
-The nature of the data, as discrete numbers, makes it possible to apply several well known \textit{RNA-seq} normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUV-seq}, etc \cite{Risso2014h, Dillies2013}.
+The nature of the data, as discrete numbers, makes it possible to apply several well known \gls{rnaseq} normalizations techniques, such as \textit{upper-quartile}, \textit{full-quantile}, \textit{RUVSeq}, etc \cite{Risso2014h, Dillies2013}.
 To filter out false positives, but preserving enough signal at the same time, we fixed the peaks score threshold to 20.
 
 In order to compare the effects of normalizations we had to do differential enrichment of the conditions using \textit{edgeR} (see next section for further details).
@@ -126,7 +128,7 @@ When using \textit{RUVSeq}, the \glspl{der} detection depends on the parameter u
 While, the \textit{full-quantile}, even when used alone is able to detect a good amount of \glspl{der}.
 But each normalization, when combined with \textit{RUVSeq}, seems to affect the data in a way that overestimates the number of \glspl{der}. 
 In particular, even the \textit{Upper quartile}, which doesn't detect any signal by itself, is able to detect the highest amount of \glspl{der} when combined with \textit{RUVSeq}.
-%When looking at the \textit{full-quantile} and \textit{RUV-Seq} by themselves seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
+%When looking at the \textit{full-quantile} and \texit{RUVSeq} by themselves seem to perform better than the other normalizations. The first one has a downhill almost linear, while the second one has a very fast downhill with a regrowth when the number of samples is higher.
 
 Even if these normalization methods show good performances with this type of epigenomics data, our investigations suggest that more testing is required, and maybe an ad-hoc normalization method for these data has to be developed.
 
@@ -139,7 +141,7 @@ Even if these normalization methods show good performances with this type of epi
 %\end{figure}
 \subsubsection{Differential Enrichment of Peaks}
 
-To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2011, Tarazona2015}.
+To estimate the \glspl{der}, any of the \gls{rnaseq} methods can be applied, such as \textit{DESeq2}, \textit{edgeR}, \textit{NOISeq}, etc \cite{Robinson2009, McCarthy2012, Tarazona2011, Tarazona2015}.
 
 \begin{figure}[H]
 \centering
@@ -150,7 +152,7 @@ To estimate the \glspl{der}, any of the RNA-Seq methods can be applied, such as 
 \end{figure}
 
 In this case, we decided to use \textit{edgeR} package, because of its wide range of  available statistical approaches and the possibility to better tune the design of the experiment. 
-Indeed, because we used the \textit{RUVSeq} normalized counts with \lstinline!k! parameter set to 4, we modelled the experimental design with the \lstinline!model.matrix! function, adding to our model not only the experimental conditions, but also the \textit{RUV-Seq} estimated factors.
+Indeed, because we used the \textit{RUVSeq} normalized counts with \lstinline!k! parameter set to 4, we modelled the experimental design with the \lstinline!model.matrix! function, adding to our model not only the experimental conditions, but also the \textit{RUVSeq} estimated factors.
 Then we used the resulted design to estimate the dispersion and fit a Quasi-Likelihood test, as defined in edgeR\cite{Robinson2009}.
  
 \begin{figure}[H]
@@ -166,10 +168,10 @@ Red dots highlight the regions with a \gls{fdr}\cite{Benjamini1995} lower than 0
 
 \subsubsection{Peaks Integration}
 
-The next task is to integrate the obtained results with other omic data types, as \textit{RNA-seq}. 
-Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \glspl{deg} resulting from the analysis of RNA-Seq.
+The next task is to integrate the obtained results with other omic data types, as \gls{rnaseq}. 
+Because of the low number of the samples, the easiest way to integrate the data is to annotate the \glspl{der} with \glspl{deg} resulting from the analysis of \gls{rnaseq}.
 
-For the differential expression of the \textit{RNA-seq} data, we first quantified the signal with the \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
+For the differential expression of the \gls{rnaseq} data, we first quantified the signal with the \lstinline!featureCounts! methods available in the \textit{Rsubread} \cite{Liao2013} R/Bioconductor package.
 Then we filtered lowly expressed genes with the \textit{proportion} test as implemented in \textit{NOISeq} package, and applied the \lstinline!edgeR! method for differential expression.
 
 We used the resulting significant \glspl{deg} (with posterior probability higher than 0.95) to annotate the peaks with \lstinline!annotatePeakInBatch! method of \textit{ChIPpeakAnno}.

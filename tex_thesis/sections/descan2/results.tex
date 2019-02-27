@@ -67,6 +67,8 @@ Moreover, comparing the left and right panels, we notice the high difference in 
 Using \textit{MACS2} peaks the pooling highly reduces the number of detected peaks, even using a threshold as low as 5 on the score, showing that there are many peaks with a score lower than 5.
 While in the \gls{descan} case the curves representing the threshold equal to 5 and the threshold equal to 10 totally overlap, highlighting that the \gls{descan} peak caller produces scores higher than 10.
 
+Finally, in order to obtain a unique list of peaks, we choose a number of samples equal to 4 for the alignment step, which is a multiple of the total number of samples, in combination with a threshold of 10 for the peaks score filtering.
+
 %\textbf{MAGARI QUESTO CONFRONTO è DA EVITARE NON FILTRANDO CON IL NOSTRO METODO I PICCHI DI MACS2, NON SO!}
 
 \subsubsection{Quantifying Peaks}

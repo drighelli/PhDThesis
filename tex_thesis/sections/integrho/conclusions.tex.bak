@@ -6,12 +6,12 @@ Indeed, even if some approaches have been proposed in last years, a global stand
 At the same time, working with R statistical programming language makes it difficult the choise of a good library for graphical interfaces.
 Shiny seems to be a good choise at the beginning, when working with small applications, but once that the application grows if become always more difficult to maintain the modularity and to pass the data across multiple modules.
 
-In order to maintain the modularity \gls{igro} implements the Shiny modules, allowing it to be extended with additional functionalities. but in particular we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
+In order to maintain the modularity \gls{igro} implements the Shiny modules, allowing it to be extended with additional functionalities. At the moment, we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
 
-Moreover, to allow the user to account for better quality analysis of \textit{ChIP-seq} data, we are working on novel interfaces for the normalization and on methodologies for accounting for the right normalization to use \cite{Angelini2015}.
+Moreover, to allow the user to account for better quality analysis of \gls{chipseq} data, we are working on novel interfaces for the normalization and on methodologies for accounting for the right normalization to use \cite{Angelini2015}.
 
 Additionally, \gls{igro} traces the code and stores the input/output data into caching database files, in order to construct an \gls{rmd} file, which is live editable from a dedicated interface.
 To improve \gls{igro} \gls{rr} layer we would like to implement additional methodologies, such as the graph construction of executed modules, in such a way the user will have also a graphical representation of the final enriched document, that can be presented as a graphical abstract of the analysis.
 
-In general, at the moment \gls{igro} allows to deeply investigate single-omics data and, at the same time, it allows for an integration at functional analysis and a peak-gene annotation levels, offering various modules for data viasualization.
+In general, at the moment \gls{igro} allows to deeply investigate single-omics data and, at the same time, it allows for an integration at functional analysis and a peak-gene annotation levels, offering various modules for data visualization.
 But, in order to promote a wider overview of integration methodologies, it still needs some work to do.

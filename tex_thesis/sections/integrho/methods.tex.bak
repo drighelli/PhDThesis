@@ -14,7 +14,7 @@ Roughly speaking, when working with multiple omics data, the integration phase r
 After some preprocessing (alignment, quantification, etc.) the results are combined in specific omics matrices $X_k$ with  $k=1,...,m$, where \textit{m} denotes the number of omics, such that $dim[X_k]=[n_k, p_k]$, where $n_k$ is the number of samples (such as patients, tissues, etc.) and $p_k$ the number of observed variables (features) on the specific omics.
 In particular, for each of the \textit{m} matrices it is possible to investigate different biological questions, depending on the nature and availability of the data.
 We can distinguish between the variable based analysis, where each matrix has the same varibles and differs on the samples, and the samples based analysis, where for the same samples across multiple omics we have different features.
-In the first case we can answer relevant common biological questions on the features (such as genes, genomic regions, etc.) across multiple omics, while in the second case we can answer biological questions related to samples
+In the first case we can answer relevant common biological questions on the features (such as genes, genomic regions, etc.) across multiple omics, while in the second case we can answer biological questions related to the samples observing different variables at each omics level.
 
 Once we collected all the required samples, we can either start analyzing each omics individually and/or integrating them to better understand the cellular behaviours involved in the studied disease.
 Depending on the number of collected samples, we can choose from different methodologies to apply.
@@ -233,7 +233,7 @@ Also, in this case, we gave the possibility to select for a multi-core computati
 
 The user can also select the \lstinline!peak score! threshold for filtering out the regions with a lower score than the threshold, and the \lstinline!samples threshold! for the alignment phase (see section \ref{sec:descan2filtering}).
 
-In order to better compare \gls{descan} results with similar methods, such as \textit{casw}, we preferred to include also the \gls{descan} filtering method inside the \textit{region detection} interface.
+In order to better compare \gls{descan} results with similar methods, such as \textit{csaw}, we preferred to include also the \gls{descan} filtering method inside the \textit{region detection} interface.
 In such a way, the presented output is a count matrix of detected regions (peaks) on the rows and samples on the columns.
 
 After the reconstruction of the signal, it is a good norm to normalize the data, in order to remove unwanted factors biasing the data leading to misleading results.
