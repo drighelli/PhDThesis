@@ -1,12 +1,12 @@
-We presented \gls{igro}, a web-platform for multi-omics data analysis, integration and visualization, tracing each step performed by the user by storing input/output data produced and saving executed data inside an \gls{rmd} file.
+We presented \gls{igro}, a web-platform for multi-omics data analysis, integration and visualization, tracing each performed step by the user by storing produced input/output data and saving the executed data inside an \gls{rmd} file.
 
 \gls{igro} takes advantage of several already-published tools for single omics data analysis and their integration, making it difficult to find a unified way to work with so many different data types and tools for their processing.
 Indeed, even if some approaches have been proposed in last years, a global standard has not been reached yet, leaving the developers to operate as they better prefer.
 
 At the same time, working with R statistical programming language makes it difficult the choise of a good library for graphical interfaces.
-Shiny seems to be a good choise at the beginning, when working with small applications, but once that the application grows if become always more difficult to maintain the modularity and to pass the data across multiple modules.
+Shiny seems to be a good choise at the beginning, when working with small applications, but once the application grows, it become always more difficult to maintain the modularity and to pass the data across multiple modules.
 
-In order to maintain the modularity \gls{igro} implements the Shiny modules, allowing it to be extended with additional functionalities. At the moment, we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
+In order to maintain the modularity, \gls{igro} implements the Shiny modules, allowing it to be extended with additional functionalities. At the moment, we are focusing on the implementation of methodologies for high-dimensionality samples integration methods, such as \textit{mixOmics} \cite{Rohart2017} and \textit{MoFa} \cite{Argelaguet2018}.
 
 Moreover, to allow the user to account for better quality analysis of \gls{chipseq} data, we are working on novel interfaces for the normalization and on methodologies for accounting for the right normalization to use \cite{Angelini2015}.
 
