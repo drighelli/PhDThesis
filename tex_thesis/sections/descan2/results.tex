@@ -2,17 +2,19 @@
 \gls{atacseq} is an emerging evoluted technique which enables to investigate the open chromatin regions at whole genome level.
 The capability of this technology has been demonstrated in the regulation of mouse brain activity under different conditions \cite{Su2017}.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm, keepaspectratio]{img/descan2/dataset.png}
+\caption[DEScan2 dataset illustration]{An illustration of our extraction of the GSE82015\cite{Su2017} dataset.}
+\label{fig:atacdataset}
+
+\end{figure}
+
 To illustrate the performances of \gls{descan} we chose a dataset \cite{Su2017} that describes in vivo adult mouse dentate granule neurons before and after synchronous neuronal activation using \gls{atacseq} and \gls{rnaseq} technologies (see sections \ref{sec:atacseq} and \ref{sec:rnaseq} for a description of these sequencing techniques).
 
 This dataset is organized in 62 samples of \gls{atacseq} and \gls{rnaseq}, extracted at four different time points (0, 1h, 4h, 24h), with four replicates at each time point.
 We chose to compare the differences between the first two stages, time 0 (E0) and 1 hour after neuronal induction (E1), in order to show a potential \gls{atacseq} workflow for Differential Enrichment, and how to integrate this data type with \gls{rnaseq}. A general illustration of this dataset is represented in figure \ref{fig:atacdataset}.
 
-\begin{figure}[H]
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/dataset.png}
-\caption[DEScan2 dataset illustration]{An illustration of our extraction of the GSE82015\cite{Su2017} dataset.}
-\label{fig:atacdataset}
-\centering
-\end{figure}
 
 We downloaded the data from \gls{geo} database \cite{Edgar2002, Barrett2013} with accession number GSE82015\footnote{\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82015}} and mapped the raw data using \textit{STAR} \cite{Dobin2013} with default parameter on \gls{mm10}.
 
@@ -25,20 +27,21 @@ To be confident with our results we run \gls{descan} and \textit{MACS2}  \cite{Z
 This can be due to a major accuracy gave by \textit{MACS2} on the reliability of the detected peaks, while our method finds more peaks, but, at this stage, still preserving false positive regions.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/d2m2_peaks_number.png}
-\caption[The \gls{descan} and \textit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
-\label{fig:des2m2peaks}
 \centering
+\includegraphics[width=12cm, keepaspectratio]{img/descan2/d2m2_peaks_number.png}
+\caption[The DEScan2 and \textit{MACS2} peaks detection]{A comparison of \gls{descan} and \textit{MACS2} detected peaks for each sample in the dataset.}
+\label{fig:des2m2peaks}
+
 \end{figure}
 
 To be more robust, we compared \gls{descan} detected peaks with the same validated regions (\textit{Arc}\footnote{https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARC} and \textit{Gabrr1}\footnote{https://www.genecards.org/cgi-bin/carddisp.pl?gene=GABRR1}) of the original work \cite{Su2017}.
 The lower part of figure \ref{fig:peaksdescan} shows the detected and validated regions (in blue and red) resulting differentially enriched between the E0 (in pink) and E1 (in green) conditions, while the upper part shows \gls{descan} filtered and aligned peaks (in blue) between the samples, highlighting a capability to catch not only the same regions of the published ones but also (gold circles) to be more accurate in the smaller peaks detection.
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/peaks.png}
-\caption[\gls{descan} peaks detection]{A comparison of \gls{descan} detected peaks with validated peaks in article \cite{Su2017}.}
-\label{fig:peaksdescan}
 \centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/peaks.png}
+\caption[DEScan2 peaks detection]{A comparison of \gls{descan} detected peaks with validated peaks in article \cite{Su2017}.}
+\label{fig:peaksdescan}
 \end{figure}
 
 \subsubsection{Removing Unwanted Peaks}
@@ -56,10 +59,11 @@ Highlighting a inverse relationship between the number of the peaks and the comb
 %\end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/filtering_m2_d2.png}
-\caption[\gls{descan} and \textit{MACS2} filtering comparison]{Filtering the detected regions with different thresholds on peak scores between \textit{MACS2} and \gls{descan}.}
-\label{fig:filteringdescanmacs2}
 \centering
+\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/filtering_m2_d2.png}
+\caption[DEScan2 and \textit{MACS2} filtering comparison]{Filtering the detected regions with different thresholds on peak scores between \textit{MACS2} and \gls{descan}.}
+\label{fig:filteringdescanmacs2}
+
 \end{figure}
 
 
@@ -69,7 +73,7 @@ While in the \gls{descan} case the curves representing the threshold equal to 5 
 
 Finally, in order to obtain a unique list of peaks, we choose a number of samples equal to 4 for the alignment step, which is a multiple of the total number of samples, in combination with a threshold of 10 for the peaks score filtering.
 
-%\textbf{MAGARI QUESTO CONFRONTO è DA EVITARE NON FILTRANDO CON IL NOSTRO METODO I PICCHI DI MACS2, NON SO!}
+
 
 \subsubsection{Quantifying Peaks}
 
@@ -79,7 +83,7 @@ This type of data structure is very versatile because it enables to perform seve
 \begin{figure}[H]
 \centering
 \includegraphics[scale=.7]{img/descan2/counts.png}
-\caption[\gls{descan} counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by \gls{descan}.}
+\caption[DEScan2 counts illustration]{An illustration of the \textit{SummarizedExperiment} data structure produced by \gls{descan}.}
 \label{fig:countsdescan}
 \centering
 \end{figure}
@@ -105,10 +109,10 @@ The detection of \glspl{der} has been performed on each combination ($18$) of sh
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/null_dataset_final.pdf}
+\includegraphics[width=8cm, keepaspectratio]{img/descan2/null_dataset_final.pdf}
 \caption[Normalizations applied to null dataset]{The figure shows the effects of different normalizations on a null dataset of epigenetic regions, putting in relation the \glspl{der} with the threshold on the samples used to align peaks.}
 \label{fig:normalizationsnull}
-\centering
+
 \end{figure}
 
 Figure \ref{fig:normalizationsnull} shows, as expected, no \gls{der} detection. 
@@ -117,10 +121,10 @@ Highlighting that even if a normalization is applied, once reduced the false pos
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/full_final.pdf}
+\includegraphics[width=8cm, keepaspectratio]{img/descan2/full_final.pdf}
 \caption[Normalizations applied to detected regions]{The figure shows the effects of different normalizations on a dataset of epigenetic regions, putting in relation the \glspl{der} with the threshold on the samples used to align peaks.}
 \label{fig:normalizationsfull}
-\centering
+
 \end{figure}
 
 While figure \ref{fig:normalizationsfull}, representing the "full dataset", shows that \textit{upper-quantile}, by itself is not able to linearly detect any amount of \glspl{der}.
@@ -145,10 +149,9 @@ To estimate the \glspl{der}, any of the \gls{rnaseq} methods can be applied, suc
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/DE_peaks.png}
-\caption[Differential Enrichment Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}.}
+\includegraphics[width=8cm, keepaspectratio]{img/descan2/DE_peaks.png}
+\caption[Differential Enriched Regions Volcano]{A volcano plot of Differential Enriched Regions. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}.}
 \label{fig:depeaksdescan}
-\centering
 \end{figure}
 
 In this case, we decided to use \textit{edgeR} package, because of its wide range of  available statistical approaches and the possibility to better tune the design of the experiment. 
@@ -157,10 +160,10 @@ Then we used the resulted design to estimate the dispersion and fit a Quasi-Like
  
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
+\includegraphics[width=8cm, keepaspectratio]{img/descan2/Annotated_depeaks_degenes.png}
 \caption[Annotated Differential Enrichment Regions Volcano]{A volcano plot of \glspl{der}. Blue dots represent the not significant \glspl{der}, while the red ones represent the significant \glspl{der}. Green circles highlights the peaks with a \gls{deg} annotated.}
 \label{fig:depeakdegenessdescan}
-\centering
+
 \end{figure}
 
 Figure \ref{fig:depeaksdescan} shows a volcano plot of \glspl{der} between E0 and E1 conditions.

@@ -6,7 +6,7 @@ The \gls{tic} pipeline, as described in figure \ref{fig:ticorserflow}, has been 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/dataset.pdf}
-\caption[ticorser dataset]{An illustrative example of the used dataset. Neurons of Cervical and Thoracic spinal cord injury have been extracted and sequenced at 4 different time points. Inside the table, for each tissue (Cervical/Thoracic) the number of samples for the treatments (upper line) and controls (lower line) are reported at each time point.}
+\caption[\gls{tic} dataset]{An illustrative example of the used dataset. Neurons of Cervical and Thoracic spinal cord injury have been extracted and sequenced at 4 different time points. Inside the table, for each tissue (Cervical/Thoracic) the number of samples for the treatments (upper line) and controls (lower line) are reported at each time point.}
 \label{fig:ticorserdataset}
 
 \end{figure}
@@ -74,7 +74,7 @@ But before normalizing it, because of the presence of several low expressing fea
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/filtering/panel1.pdf}
-\caption[ticorser filtering methods]{A comparison of how the filtering methods available in \gls{tic} affect the data.
+\caption[\gls{tic} filtering methods]{A comparison of how the filtering methods available in \gls{tic} affect the data.
 The first panel shows the row counts with low expressed genes, while the other boxes show the filtering effect on the samples.}
 \label{fig:ticorserfiltering}
 \end{figure}
@@ -90,7 +90,7 @@ Because of the high numerosity of our samples but low number of replicates are p
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/normalizing/boxplots/all_boxes.pdf}
-\caption[ticorser normalizing boxplots]{A comparison of how the normalization methods available in \gls{tic} affect the data.
+\caption[\gls{tic} normalizing boxplots]{A comparison of how the normalization methods available in \gls{tic} affect the data.
 The first panel shows the row counts with low expressed genes, while the other boxes show the filtering effect on the samples.}
 \label{fig:ticorsernormalizingbox}
 \end{figure}
@@ -106,15 +106,15 @@ As already mentioned a boxplot data inspection could not be enough to determine 
 Indeed, when looking at \glspl{pca} for normalized counts (figure \ref{fig:ticorsernormalizingpca}) the \textit{TMM} and the \textit{Upper quartile} normalizations are able to well discriminate treated and untreated samples, but still preserving some variability inside each group.
 While \textit{Full quantile}, even if it is able to help to discriminate the treated and untreated groups, it smashes too much the variability inside untreated samples.
 
+Even if the \textit{TMM} and the \textit{Upper quartile} normalizations seem to affect the data in the same manner, we decided to choose for our further analysis the \textit{Upper quartile} normalized count matrix, because, when looking at the \gls{pca}, it seems to better discriminate between the conditions.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/normalizing/pca/all_pca.pdf}
-\caption[ticorser normalizing \gls{pca}]{A comparison of how the normalizations methods available in \gls{tic} affect the data.
+\caption[\gls{tic} normalizing \gls{pca}]{A comparison of how the normalizations methods available in \gls{tic} affect the data.
 The first panel shows the clustering of row samples, while the other boxes show the normalization effect on the samples.}
 \label{fig:ticorsernormalizingpca}
 \end{figure}
-
-Even if the \textit{TMM} and the \textit{Upper quartile} normalizations seem to affect the data in the same manner, we decided to choose for our further analysis the \textit{Upper quartile} normalized count matrix, because, when looking at the \gls{pca}, it seems to better discriminate between the conditions.
 
 \subsubsection{Differential Expression}
 Once the data are well normalized, in order to be able to well discriminate between the groups, simply by changing our design matrix with only the interesting samples, we can focus on the differential expression step.
@@ -157,7 +157,7 @@ It is also possible to inspect the DE results by plotting a \textit{Volcano Plot
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth, keepaspectratio]{img/ticorser/de/volcma.pdf}
-\caption[ticorser Volcano-MA plots]{An inspection of the results using a volcano plot (on the left) and an MA-Plot (on the right).}
+\caption[\gls{tic} Volcano-MA plots]{An inspection of the results using a volcano plot (on the left) and an MA-Plot (on the right).}
 \label{fig:ticorservolcma}
 \centering
 \end{figure}
@@ -166,10 +166,11 @@ In order to better compare the results coming from different analysis and method
 Moreover, by setting the \lstinline!enrich.lists.flag! to \lstinline!TRUE!, the methods automatically start functional enrichment for both pathways (on \textit{Reactome} and \textit{KEGG} databases) and Gene Ontology (on \gls{gomf}, \gls{gocc} and \gls{gobp}), storing all the results in the specified \lstinline!output.folder! (refer to the next section for further details on Functional Enrichment Analysis).
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{img/ticorser/de/venn3.pdf}
-\caption[ticorser venn diagram]{A VENN diagram to compare the \glspl{deg} detected by the three different \gls{tc} methods of \gls{tic}.}
-\label{fig:ticorservenn}
 \centering
+\includegraphics[width=8cm,keepaspectratio]{img/ticorser/de/venn3.pdf}
+\caption[\gls{tic} Venn diagram]{A VENN diagram to compare the \glspl{deg} detected by the three different \gls{tc} methods of \gls{tic}.}
+\label{fig:ticorservenn}
+
 \end{figure}
 
 Depending on the biological question under investigation, it can be useful to identify the unique genes for each used method during the time course differential expression analysis, or the genes coming from their intersections.
@@ -179,7 +180,7 @@ By the usage of the \lstinline!PlotCountsAlongTimes! and by specifying the name 
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,keepaspectratio]{img/ticorser/de/trends/trends.pdf}
-\caption[ticorser genes trends]{Three different trends examples of genes detected with \gls{tic} \textit{DE} \gls{tc} methods.}
+\caption[\gls{tic} genes trends]{Three different trends examples of genes detected with \gls{tic} \textit{DE} \gls{tc} methods.}
 \label{fig:ticorsertrends}
 \centering
 \end{figure}
@@ -218,15 +219,17 @@ Figure \ref{fig:ticorsertpvenn} shows differences in the detection of \glspl{deg
 In particular, \lstinline!NOISeqBio! is really useful when working with biological replicates (like in this case), indeed it is able to detect much more \glspl{deg} than the other methods. 
 Indeed, when using \lstinline!NOISeq! on the same data, the \glspl{deg} are only 24, while \textit{DESeq2} is able to detect quite the same amount of genes.
 
+It is also possible to use one function, \lstinline!PerformDEAnalysis!, for applying the preferred method in the differential expression phase. 
+The tool automatically stores the results in the \lstinline!output.folder! creating an articulate, but intuitive, folder tree with all the results and the plots (Volcano and MA Plots), and performing functional enrichment analysis on the computed results, simply by setting the \lstinline!enrich.results.flag! to \lstinline!TRUE!.
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/de/singleTP/venn.pdf}
-\caption[ticorser venn diagram single time point]{A venn diagram for comparying results coming from different methods used for \gls{deg} detection.}
+\caption[\gls{tic} Venn diagram single time point]{A venn diagram for comparying results coming from different methods used for \gls{deg} detection.}
 \label{fig:ticorsertpvenn}
 \end{figure}
 
-It is also possible to use one function, \lstinline!PerformDEAnalysis!, for applying the preferred method in the differential expression phase. 
-The tool automatically stores the results in the \lstinline!output.folder! creating an articulate, but intuitive, folder tree with all the results and the plots (Volcano and MA Plots), and performing functional enrichment analysis on the computed results, simply by setting the \lstinline!enrich.results.flag! to \lstinline!TRUE!.
 
 \subsubsection{Functional Enrichment Analysis}
 
@@ -238,7 +241,7 @@ Then, we performed the same analysis with \textit{ClusterProfiler} by using the 
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/functional/net_kegg.pdf}
-\caption[ticorser pathway network]{A network representation of the \textit{KEGG} results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
+\caption[\gls{tic} pathway network]{A network representation of the \textit{KEGG} results obtained with \textit{clusterProfiler}package, by using \gls{tic}}
 \label{fig:ticorserpathmap}
 \end{figure}
 
@@ -250,7 +253,7 @@ Because the data used for this analysis have not been yet published, we do not p
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/functional/mf_hier.pdf}
-\caption[ticorser hierarchial GO-terms]{A hierarchical graphical representation of Molecular Function GO-terms obtained with \textit{clusterProfiler}, by using \gls{tic}.
+\caption[\gls{tic} hierarchial GO-terms]{A hierarchical graphical representation of Molecular Function GO-terms obtained with \textit{clusterProfiler}, by using \gls{tic}.
 Graphical colours, from red (most significant) to yellow (less significant) indicates the p-value significance of each GO-term. 
 Gray ones, are not significant at all.}
 \label{fig:ticorsergo}
@@ -263,14 +266,14 @@ Figure \ref{fig:ticorserparkinson} and \ref{fig:ticorseralzheimer} graphically s
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/functional/alzheimer.png}
-\caption[ticorser alzheimer keggmap]{A keggmap for Alzheimer disease. Each \gls{deg} is coloured depending on the log2(fc) of its expression. Moreover, for each highlighted gene, the box is divided in 4 "mini-boxes", one for each time point.}
+\caption[\gls{tic} Alzheimer keggmap]{A keggmap for Alzheimer disease. Each \gls{deg} is coloured depending on the log2(fc) of its expression. Moreover, for each highlighted gene, the box is divided in 4 "mini-boxes", one for each time point.}
 \label{fig:ticorseralzheimer}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/functional/parkinson.png}
-\caption[ticorser parkinson keggmap]{A keggmap for Parkinson disease. Each \gls{deg} is coloured depending on the log2(fc) of its expression. Moreover, for each highlighted gene, the box is divided in 4 "mini-boxes", one for each time point.}
+\caption[\gls{tic} Parkinson keggmap]{A keggmap for Parkinson disease. Each \gls{deg} is coloured depending on the log2(fc) of its expression. Moreover, for each highlighted gene, the box is divided in 4 "mini-boxes", one for each time point.}
 \label{fig:ticorserparkinson}
 \end{figure}
 

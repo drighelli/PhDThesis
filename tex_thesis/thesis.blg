@@ -1,15 +1,19 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acronym.tex.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -22,53 +26,53 @@ Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I didn't find a database entry for "Tarazona2012"
 Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--you've exceeded 250, the entry-string-size, for entry TCGA2008
-while executing--line 2513 of file biblatex.bst
+while executing--line 2630 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry TCGA2008
-while executing--line 2541 of file biblatex.bst
+while executing--line 2658 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 112 entries,
-            6047 wiz_defined-function locations,
-            2127 strings with 153752 characters,
-and the built_in function-call counts, 412882 in all, are:
-= -- 13075
-> -- 13941
+            6256 wiz_defined-function locations,
+            2176 strings with 154221 characters,
+and the built_in function-call counts, 1166790 in all, are:
+= -- 96076
+> -- 13935
 < -- 1904
-+ -- 5222
-- -- 6380
-* -- 42677
-:= -- 25998
++ -- 37102
+- -- 6382
+* -- 92275
+:= -- 142359
 add.period$ -- 0
 call.type$ -- 112
 change.case$ -- 8
-chr.to.int$ -- 38
+chr.to.int$ -- 34
 cite$ -- 222
-duplicate$ -- 50748
-empty$ -- 43628
-format.name$ -- 13860
-if$ -- 85663
+duplicate$ -- 126338
+empty$ -- 100766
+format.name$ -- 13069
+if$ -- 221629
 int.to.chr$ -- 0
 int.to.str$ -- 251
 missing$ -- 0
-newline$ -- 6347
+newline$ -- 7351
 num.names$ -- 4362
-pop$ -- 37612
+pop$ -- 44116
 preamble$ -- 1
-purify$ -- 1753
+purify$ -- 2541
 quote$ -- 0
-skip$ -- 21431
+skip$ -- 19068
 stack$ -- 0
-substring$ -- 3870
-swap$ -- 18720
-text.length$ -- 2665
+substring$ -- 181456
+swap$ -- 24093
+text.length$ -- 2663
 text.prefix$ -- 20
 top$ -- 1
-type$ -- 4244
+type$ -- 3796
 warning$ -- 0
-while$ -- 1895
+while$ -- 17620
 width$ -- 0
-write$ -- 6234
+write$ -- 7240
 (There were 3 warnings)

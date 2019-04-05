@@ -5,6 +5,16 @@ Overall, \gls{tic} offers the possibility to analyze data using different R/Bioc
 
 %\gls{tic} automatically implements a set of Reproducible Research functionalities to trace all the analysis steps selected by the user, generating a final report with both executed analysis code chunks and their produced results. Furthermore, \gls{tic} has been provided also of a caching system providing, for each analysis step, a caching database file within all the input and output processed data, useful, not only to speed up computations, but also to share data and results through the Internet.
 
+
+Starting the analysis of \gls{tc} \gls{rnaseq} data from \gls{bam} files, \gls{tic} enables \gls{rna} expression quantification through \lstinline!featureCounts! method \cite{Liao2014}, producing a count matrix of features per samples, which enables the \glspl{deg} detection with hypothesis statistical methods.
+
+As figure \ref{fig:ticorserflow} shows, this is a \textit{design file based} tool, where a file, that describes all the samples by several variables, chaperons the count matrix through all the analysis, simplifying, in such a way, the user interaction with all the available instruments.
+ 
+Particular attention is given to the normalization phase, providing the possibility not only to use several traditional normalization methods but also the methodologies for batch effect removal.
+
+In oder to inspect different approaches to analyze \gls{tc} data, \gls{tic} offers three different methodologies for analyzing \gls{tc} \gls{rnaseq} data, and four different methods to analyze different biological conditions at single time point level.
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=8cm, keepaspectratio]{img/ticorser/main_flow.pdf}
@@ -15,12 +25,3 @@ Once the data are comparable it is possible to perform a differential expression
 The results can be investigated for plotting, comparison or for functional enrichment.}
 \label{fig:ticorserflow}
 \end{figure}
-
-Starting the analysis of \gls{tc} \gls{rnaseq} data from \gls{bam} files, \gls{tic} enables \gls{rna} expression quantification through \lstinline!featureCounts! method \cite{Liao2014}, producing a count matrix of features per samples, which enables the \glspl{deg} detection with hypothesis statistical methods.
-
-As figure \ref{fig:ticorserflow} shows, this is a \textit{design file based} tool, where a file, that describes all the samples by several variables, chaperons the count matrix through all the analysis, simplifying, in such a way, the user interaction with all the available instruments.
- 
-Particular attention is given to the normalization phase, providing the possibility not only to use several traditional normalization methods but also the methodologies for batch effect removal.
-
-In oder to inspect different approaches to analyze \gls{tc} data, \gls{tic} offers three different methodologies for analyzing \gls{tc} \gls{rnaseq} data, and four different methods to analyze different biological conditions at single time point level.
-

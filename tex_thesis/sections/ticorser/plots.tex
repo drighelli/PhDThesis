@@ -15,7 +15,7 @@ Our boxplot is organized in group colours accordingly to the time-point each sam
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/boxplot_example.png}
-\caption[ticorser boxplot]{An example of interactive boxplot made with \gls{tic} package. Each box represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles and outliers.}
+\caption[\gls{tic} boxplot]{An example of interactive boxplot made with \gls{tic} package. Each box represents a specific sample, while each colour represents a specific time point. When passing the mouse over a boxplot it shows additional information about its quartiles and outliers.}
 \label{fig:ticorserboxplot}
 \end{figure}
 
@@ -28,7 +28,7 @@ Our \lstinline!plotBoxplotPlotly! function is based on the design matrix, descri
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/pca_example.png}
-\caption[ticorser pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
+\caption[\gls{tic} pca]{An example of interactive \gls{pca} made with \gls{tic} package. Each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
 \label{fig:ticorserpca}
 \end{figure}
 
@@ -38,7 +38,7 @@ There are several packages allowing to apply a \gls{pca} transformation, but we 
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/pcas.png}
-\caption[ticorser pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
+\caption[\gls{tic} pca]{An example of interactive matrix \gls{pca} made with \gls{tic} package. Each plot puts in relation two different Principal Components. While each dot represents a specific sample, while each colour represents a time point, each symbol represents a biological condition group. When passing the mouse over a dot it shows additional information about the selected sample, while from the legend it's possible to show/hide groups or ellipses.}
 \label{fig:ticorserpcas}
 \end{figure}
 
@@ -61,12 +61,6 @@ Moreover, it gives the possibility to add a list of positive control genes, in o
 
 The volcano plot shows the relation of $log_2(FC)$ with $log_{10}(p-value)$ of each gene, in order to highlight the significant changes inside the data experiment.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=10cm, keepaspectratio]{img/ticorser/volcano_example.png}
-\caption[ticorser volcano]{An example of interactive volcano plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlight the significance of the genes. In green, there are those genes coming from the positive control list. When passing the mouse over a dot it shows additional information about the selected gene.}
-\label{fig:ticorservolcano}
-\end{figure}
 
 The MA-Plot shows the relation between  two quantities useful to understand the differences between the measurements in two conditions.
 Indeed, on the x-axis, there is represented the $log_2(FC)$, where \textit{FC} is the fold change computed as the ratio of the treatment on the reference control.
@@ -74,21 +68,30 @@ It is not mandatory to have a DE-results dataframe to plot an MA-plot, but it's 
  
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm,keepaspectratio]{img/ticorser/maplot.pdf}
-\caption[ticorser MAplot]{An example of interactive MA-plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlights the significance of the genes. When passing the mouse over a dot it shows additional information about the selected gene.}
-\label{fig:ticorsermaplot}
+\includegraphics[width=10cm, keepaspectratio]{img/ticorser/volcano_example.png}
+\caption[\gls{tic} volcano]{An example of interactive volcano plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlight the significance of the genes. In green, there are those genes coming from the positive control list. When passing the mouse over a dot it shows additional information about the selected gene.}
+\label{fig:ticorservolcano}
 \end{figure}
 
 
 \subsubsection{Gene Profiles plot}
 When working with time course data experiment, it is really useful to understand the trend of one or more genes across all the time points and the relation between the conditions.
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm,keepaspectratio]{img/ticorser/maplot.pdf}
+\caption[\gls{tic} MAplot]{An example of interactive MA-plot made with \gls{tic} package. Each dot represents a gene, while blue and red colours highlights the significance of the genes. When passing the mouse over a dot it shows additional information about the selected gene.}
+\label{fig:ticorsermaplot}
+\end{figure}
+
+
 In order to highlight the expression of a gene across multiple time points and different conditions, we implemented the \lstinline!plotGeneProfile! function, which takes as input a count matrix, its related design matrix and a gene name (figure \ref{fig:ticorsertrends}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm, keepaspectratio]{img/ticorser/gene_trend.png}
-\caption[ticorser gene profile]{An example of interactive gene profile made with \gls{tic} package. Each dot represents the counts value of the gene in a sample. Colours identifies the conditions of the samples. The lines represent the gene trend over all time points.}
+\caption[\gls{tic} gene profile]{An example of interactive gene profile made with \gls{tic} package. Each dot represents the counts value of the gene in a sample. Colours identifies the conditions of the samples. The lines represent the gene trend over all time points.}
 \label{fig:ticorsergenetrend}
 \end{figure}
 
@@ -102,7 +105,7 @@ The color legend in the upper part of the figure indicates color associated to t
 
 \begin{figure}[H]
 \includegraphics[width=12cm, keepaspectratio]{img/ticorser/keggmap_example.png}
-\caption[ticorser keggmap]{A KEGG-map representation for the \textit{Calcium Signaling pathway}. The contributing genes are represented in boxes. Arrows represent the effect of each gene on others. The coloured genes tipically come from a differential expression experiment, showing the expression in log Fold Change.}
+\caption[\gls{tic} keggmap]{A KEGG-map representation for the \textit{Calcium Signaling pathway}. The contributing genes are represented in boxes. Arrows represent the effect of each gene on others. The coloured genes tipically come from a differential expression experiment, showing the expression in log Fold Change.}
 \label{fig:ticorserkeggmap}
 \centering
 \end{figure}
